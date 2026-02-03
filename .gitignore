@@ -214,3 +214,4 @@ models/
 tmp/
 traces_output/
 *.pkl
+config/api_key.json
