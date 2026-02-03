@@ -1,0 +1,16 @@
+{
+  "tmp_root": "/tmp/data",
+  "model_cache_dir": "./",
+  "default_embedding_model": "./models/Qwen/Qwen3-Embedding-0.6B",
+  "batch_size": 4,
+  "use_self_consistency": false,
+  "model": {
+    "EMBEDDING_MODEL": "text-embedding-3-large",
+    "GPT_MODEL": "deepseek-v3.2"
+  },
+  "chat_model": {
+    "provider": "openai",
+    "config_key": "deepseek-v3.2"
+  },
+  "python_env": "xxx"
+}

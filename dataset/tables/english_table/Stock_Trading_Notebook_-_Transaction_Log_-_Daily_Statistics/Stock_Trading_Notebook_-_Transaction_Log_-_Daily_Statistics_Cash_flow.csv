@@ -1,0 +1,7 @@
+Date,Time,Buy/Sell,Stock Code,Stock Name,Quantity,Cost Price,Transaction Price,Fee,Amount Change,Profit and Loss,Profit Margin
+2015/3/31,7:13 tt:34,Buy,2313,Rihai Communications,300,16.77,16.75,,,,
+2015/4/1,,Buy,2614,Mengfali,200,,20.2,5.0,,,
+2015/4/2,,Buy,2750,Longjin Pharmaceutical,100,,58.45,5.0,,,
+2015/4/3,,Buy,2652,Yangzi New Material,400,,23.8,5.0,,,
+2015/4/3,,Buy,2034,Meixinda,300,,27.7,5.0,,,
+2015/4/7,,Sell,2750,Longjin Pharmaceutical,-100,,67.65,-5.0,,,

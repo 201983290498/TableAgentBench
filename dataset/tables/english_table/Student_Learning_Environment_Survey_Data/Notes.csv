@@ -1,0 +1,33 @@
+﻿Tabs,Unnamed: 1
+Notes,Provides an overview of the data file.
+Access to Learning Resources,Provides state-level domain scores for Access to Learning Resources. 
+Sense of Belonging,Provides state-level domain scores for Sense of Belonging. 
+Opportunity to Learn,Provides state-level domain scores for Opportunity to Learn. 
+Self-Efficacy,Provides state-level domain scores for Self-Efficacy. 
+Career Connected Learning,Provides state-level domain scores for Career Connected Learning. 
+Well-Rounded Education,Provides state-level domain scores for Well-Rounded Education. 
+,
+,
+Data Fields,
+Grade,The enrolled grade of students.
+Domain,"The name of the domain that the score pertains to (e.g., Opportunity to Learn)."
+Area,"The name of the area that the score pertains to (e.g., English Language Arts). Not all scores have an area that they pertain to."
+Student Group,The name of the group of students who were included in the state domain score calculation.
+State Count,The number of students who were included in the state domain score calculation.
+State Domain Score,"The number that summarizes students' responses to a set of items on the SEED Survey, for the state overall. "
+,
+,
+Domain Scores,
+Calculations,"Scores have a possible range of 0-100. Lower scores indicate lower levels of a domain, and higher scores indicate higher levels. Scores are calculated by assigning a set of ‘response points’ to each item on the SEED survey. For example, if an item has four response options, the lowest option is assigned zero response points and the highest is assigned three (e.g., Strongly Disagree = 0, Disagree = 1, Agree = 2, Strongly Agree = 3). Response points for all items included in the score are summed together, divided by the total possible points, and multiplied by 100. In other words: Domain score = [sum of response points ÷ total points] × 100. Students are included in the calculation if they answered at least one item that contributes to the score. Skipped items are not included and are treated as missing."
+Additional Guidance,Refer to the Understanding SEED Domain Scores document (linked below) for additional guidance on how to interpret domain scores and for a complete list of which SEED items were included the scores.
+Understanding SEED Domain Scores,https://www.oregon.gov/ode/educator-resources/assessment/Documents/Understanding_SEED_Domain_Scores.pdf 
+,
+,
+Suppression Rules,
+Minimum N-size,"ODE suppresses domain scores if the count (i.e., the number of students who responded to at least one of the items included in the score) is n< 10. The count is reported as ""< 10"" and the score is reported as an asterisk (*)."
+Extreme Value Suppression,ODE suppresses domain scores that are <5 or >95. The scores are reported as “< 5” and “> 95”.
+,
+,
+Additional Notes & Resources,
+SEED Webpage,https://www.oregon.gov/ode/educator-resources/assessment/Pages/Student_Educational_Equity_Development_Survey.aspx
+Caution about Use and Interpretation,"180,076 students participated in the SEED Survey during the 2024-25 school year. This represents 47% percent of all eligible students enrolled on the first school day in May 2025. While participation is large relative to prior school years, it is not yet inclusive of all Oregon students, schools, or districts. The data are only inclusive of the students who had an opportunity to participate. Please use caution when using and interpreting the data."

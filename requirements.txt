@@ -1,0 +1,16 @@
+openai
+pandas
+numpy
+torch
+sentence-transformers
+modelscope
+scikit-learn
+tqdm
+xlrd
+huggingface_hub
+tenacity
+tiktoken
+scipy
+recognizers-text-suite
+emoji==1.7.0
+faiss-cpu

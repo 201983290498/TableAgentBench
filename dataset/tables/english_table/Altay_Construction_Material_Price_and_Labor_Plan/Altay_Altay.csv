@@ -1,0 +1,485 @@
+SerialNumber,MaterialNameandSpecificationModel,Unit:Yuan-Unit,Unit:Yuan-20142ndQuarterComprehensiveInformationPrice
+Steel,Steel,Steel,Steel
+1,Low carbon hot-rolled wire rod HPB300 Φ6.5,t,3290.0
+2,Low carbon hot-rolled wire rod HPB300 Φ8,t,3290.0
+3,Low carbon hot-rolled wire rod HPB300 Φ10,t,3290.0
+4,Low carbon hot-rolled wire rod HPB300 Φ12,t,3240.0
+5,Low carbon hot-rolled wire rod HPB300 Φ14,t,3240.0
+6,Low carbon hot rolled wire rod HPB300 Φ16,t,3240.0
+7,Hot-rolled plain round steel bar HPB300 Φ10,t,3400.0
+8,Hot-rolled plain round steel bar HPB300 Φ12,t,3350.0
+9,Hot-rolled plain round steel bar HPB300 Φ14,t,3350.0
+10,Hot-rolled plain round steel bar HPB300 Φ16,t,3350.0
+11,Hot-rolled plain round steel bar HPB300 Φ18,t,3500.0
+12,Hot-rolled plain round steel bar HPB300 Φ20,t,3500.0
+13,Hot-rolled plain round steel bar HPB300 Φ22,t,3500.0
+14,Hot-rolled ribbed steel bar HRB400E Φ10,t,3650.0
+15,Hot-rolled ribbed steel bar HRB400E Φ12,t,3600.0
+16,Hot-rolled ribbed steel bar HRB400E Φ14,t,3600.0
+17,Hot-rolled ribbed steel bar HRB400E Φ16,t,3350.0
+18,Hot-rolled ribbed steel bar HRB400E Φ18,t,3350.0
+19,Hot-rolled ribbed steel bar HRB400E Φ20,t,3350.0
+20,Hot-rolled ribbed steel bar HRB400E Φ22,t,3350.0
+21,Hot-rolled ribbed steel bar HRB400E Φ25,t,3350.0
+22,Hot-rolled ribbed steel bar HRB400E Φ28,t,3630.0
+23,Hot-rolled ribbed steel bar HRB400E Φ30,t,3630.0
+24,Hot-rolled ribbed steel bar HRB400E Φ32,t,3630.0
+25,Hot-rolled ribbed steel bar HRB400E Φ36 and above,t,3730.0
+26,Hot-rolled ribbed steel bar HRB500E Φ10,t,3900.0
+27,Hot-rolled ribbed steel bar HRB500E Φ12,t,3850.0
+28,Hot-rolled ribbed steel bar HRB500E Φ14,t,3850.0
+29,Hot-rolled ribbed steel bar HRB500E Φ16,t,3600.0
+30,Hot-rolled ribbed steel bar HRB500E Φ18,t,3600.0
+31,Hot-rolled ribbed steel bar HRB500E Φ20,t,3600.0
+32,Hot-rolled ribbed steel bar HRB500E Φ22,t,3600.0
+33,Hot-rolled ribbed steel bar HRB500E Φ25,t,3600.0
+34,Hot-rolled ribbed steel bar HRB500E Φ28,t,3880.0
+35,Hot-rolled ribbed steel bar HRB500E Φ30,t,3880.0
+36,Hot-rolled ribbed steel bar HRB500E Φ32,t,3880.0
+37,Hot-rolled ribbed steel bar HRB500E Φ36 and above,t,3980.0
+38,Ribbed steel bar wire rod HRB335E Φ8,t,3550.0
+39,Ribbed steel bar wire rod HRB335E Φ10-14,t,3550.0
+40,Ribbed steel bar wire rod HRB400E Φ8,t,3800.0
+41,Ribbed steel bar wire rod HRB400E Φ10-14,t,3800.0
+44,Cold-rolled ribbed steel bar Φ5,t,3350.0
+45,Cold-rolled ribbed steel bar Φ6,t,3350.0
+46,Cold-rolled ribbed steel bar Φ7,t,3350.0
+47,Cold-rolled ribbed steel bar Φ8,t,3350.0
+48,Cold-rolled ribbed steel bar Φ9,t,3450.0
+49,Cold-rolled ribbed steel bar Φ10,t,3450.0
+Sectional Materials,Sectional Materials,Sectional Materials,Sectional Materials
+50,Hot-rolled I-beam I20a,t,4500.0
+51,Hot-rolled I-beam I25a,t,4500.0
+52,Hot-rolled I-beam I28a,t,4500.0
+53,Hot-rolled channel steel Q235 5,t,4060.0
+54,Hot-rolled channel steel Q235 8,t,4060.0
+55,Hot-rolled channel steel Q235 10,t,4060.0
+56,Hot-rolled channel steel Q235 12.6,t,4060.0
+57,Hot-rolled channel steel Q235 16a,t,4060.0
+58,Hot-rolled channel steel Q235 20,t,4060.0
+59,Hot-rolled channel steel Q235 28a,t,4060.0
+60,Hot-rolled unequal angle steel Q235 63×40×4,t,4000.0
+61,Hot-rolled unequal angle steel Q235 75×50×6,t,4000.0
+62,Hot-rolled unequal angle steel Q235 80×50×6,t,4000.0
+63,Hot-rolled unequal angle steel Q235 90×56×6,t,4000.0
+64,Hot-rolled unequal angle steel Q235 100×60×10,t,4000.0
+65,Hot-rolled unequal angle steel Q235 100×63×6,t,4000.0
+66,Hot-rolled unequal angle steel Q235 100×63×8,t,4000.0
+67,Hot-rolled unequal angle steel Q235 100×63×10,t,4210.0
+68,Hot-rolled unequal angle steel Q235 100×75×10,t,4210.0
+69,Hot-rolled unequal angle steel Q235 100×80×6,t,4210.0
+70,Hot-rolled unequal angle steel Q235 100×80×7,t,4210.0
+71,Hot-rolled unequal angle steel Q235 110×70×6,t,4210.0
+72,Hot-rolled unequal angle steel Q235 110×70×8,t,4410.0
+73,Hot-rolled unequal angle steel Q235 125×80×7,t,4410.0
+74,Hot-rolled unequal angle steel Q235 125×80×8,t,4410.0
+75,Hot-rolled unequal angle steel Q235 125×80×10,t,4410.0
+76,Hot-rolled unequal angle steel Q235 140×90×10,t,4410.0
+77,Hot-rolled unequal angle steel Q235 140×90×12,t,4410.0
+78,Hot-rolled unequal angle steel Q235 160×100×10,t,4410.0
+79,Hot-rolled unequal angle steel Q235 160×100×12,t,4410.0
+80,Hot-rolled unequal angle steel Q235 180×110×10,t,4410.0
+81,Hot-rolled unequal angle steel Q235 180×110×12,t,4410.0
+82,Hot-rolled unequal angle steel Q235 200×125×12,t,4410.0
+83,Equal Angle Steel Hot Rolled Q235 20×3,t,3900.0
+84,Equal Angle Steel Hot Rolled Q235 25×3,t,3900.0
+85,Equal Angle Steel Hot Rolled Q235 25×4,t,3900.0
+86,Equal Angle Steel Hot Rolled Q235 30×3,t,3900.0
+87,Equal Angle Steel Hot Rolled Q235 30×4,t,3900.0
+88,Equal Angle Steel Hot Rolled Q235 32×4,t,3900.0
+89,Equal Angle Steel Hot Rolled Q235 32×6,t,3900.0
+90,Equal Angle Steel Hot Rolled Q235 35×4,t,3900.0
+91,Equal Angle Steel Hot Rolled Q235 36×4,t,3900.0
+92,Equal Angle Steel Hot Rolled Q235 40×3,t,3900.0
+93,Equal Angle Steel Hot Rolled Q235 40×4,t,3900.0
+94,Equal Angle Steel Hot Rolled Q235 40×5,t,3900.0
+95,Equal Angle Steel Hot Rolled Q235 45×4,t,3890.0
+96,Equal Angle Steel Q235 45×5,t,3890.0
+97,Equal Angle Steel Hot Rolled Q235 45×6,t,3890.0
+98,Equal Angle Steel Hot Rolled Q235 50×4,t,3890.0
+99,Equal Angle Steel Hot Rolled Q235 50×5,t,3890.0
+100,Equal Angle Steel Hot Rolled Q235 50×6,t,3890.0
+101,Equal Angle Steel Hot Rolled Q235 56×5,t,3870.0
+102,Equal Angle Steel Hot Rolled Q235 56×6,t,3870.0
+103,Equal Angle Steel Hot Rolled Q235 56×8,t,3870.0
+104,Equal Angle Steel Hot Rolled Q235 63×5,t,3860.0
+105,Equal Angle Steel Hot Rolled Q235 63×6,t,3860.0
+106,Equal Angle Steel Hot Rolled Q235 70×5,t,3860.0
+107,Equal Angle Steel Hot Rolled Q235 70×6,t,3860.0
+108,Equal Angle Steel Hot Rolled Q235 75×5,t,3860.0
+109,Equal Angle Steel Hot Rolled Q235 75×6,t,3860.0
+110,Equal Angle Steel Hot Rolled Q235 75×8,t,3860.0
+111,Equal Angle Steel Hot Rolled Q235 80×5,t,4060.0
+112,Equal Angle Steel Hot Rolled Q235 80×6,t,4060.0
+113,Equal Angle Steel Hot Rolled Q235 80×7,t,4060.0
+114,Equal Angle Steel Hot Rolled Q235 90×6,t,4060.0
+115,Equal Angle Steel Hot Rolled Q235 90×8,t,4060.0
+116,Equal Angle Steel Q235 90×10,t,4060.0
+117,Equal Angle Steel Hot Rolled Q235 100×7,t,4060.0
+118,Equal Angle Steel Q235 100×10,t,4060.0
+119,Equal Angle Steel Hot Rolled Q235 100×16,t,4060.0
+120,Equal Angle Steel Hot Rolled Q235 110×8,t,4060.0
+121,Equal Angle Steel Q235 125×14,t,4060.0
+122,Hot-rolled flat steel Q235 12×4,t,3880.0
+123,Hot-rolled flat steel Q235 14×3,t,3880.0
+124,Hot-rolled flat steel Q235 14×4,t,3880.0
+125,Hot-rolled flat steel Q235 14×5,t,3880.0
+126,Hot-rolled flat steel Q235 14×6,t,3880.0
+127,Hot-rolled flat steel Q235 16×4,t,3880.0
+128,Hot-rolled flat steel Q235 20×3,t,3880.0
+129,Hot-rolled flat steel Q235 20×4,t,3880.0
+130,Hot-rolled flat steel Q235 24×4,t,3880.0
+131,Hot-rolled flat steel Q235 25×3,t,3880.0
+132,Hot-rolled flat steel Q235 25×4,t,3880.0
+133,Hot-rolled flat steel Q235 25×5,t,3880.0
+134,Hot-rolled flat steel Q235 25×6,t,3880.0
+135,Hot-rolled flat steel Q235 30×3,t,3880.0
+136,Hot-rolled flat steel Q235 30×4,t,3880.0
+137,Hot-rolled flat steel Q235 30×5,t,3880.0
+138,Hot-rolled flat steel Q235 30×6,t,3880.0
+139,Hot-rolled flat steel Q235 32×4,t,3880.0
+140,Hot-rolled flat steel Q235 35×4,t,3880.0
+141,Hot-rolled flat steel Q235 36×6,t,3880.0
+142,Hot-rolled flat steel Q235 40×4,t,3880.0
+143,Hot-rolled flat steel Q235 40×5,t,3880.0
+144,Hot-rolled flat steel Q235 40×6,t,3880.0
+145,Hot-rolled flat steel Q235 45×4,t,3880.0
+146,Hot-rolled flat steel Q235 50×4,t,3880.0
+147,Hot-rolled flat steel Q235 50×5,t,3880.0
+148,Hot-rolled flat steel Q235 50×6,t,3880.0
+149,Hot-rolled flat steel Q235 60×6,t,3880.0
+150,Hot-rolled flat steel Q235 65×5,t,3880.0
+151,Hot-rolled flat steel Q235 70×4,t,3880.0
+152,Hot-rolled flat steel Q235 100×10,t,3880.0
+153,Cold-rolled plain steel plate Q235 δ1,t,4510.0
+154,Hot-rolled plain steel plate Q235 δ1.5,t,4160.0
+155,Hot-rolled plain steel plate Q235 δ2,t,3910.0
+156,Hot-rolled plain steel plate Q235 δ3,t,3960.0
+157,Hot-rolled plain steel plate Q235 δ4,t,3860.0
+158,Hot-rolled plain steel plate Q235 δ5,t,3860.0
+159,Hot-rolled plain steel plate Q235 δ6,t,3860.0
+160,Hot-rolled plain steel plate Q235 δ8,t,3860.0
+161,Hot-rolled plain steel plate Q235 δ10,t,3860.0
+162,Hot-rolled plain steel plate Q235 δ12,t,3860.0
+163,Hot-rolled plain steel plate Q235 δ14,t,3860.0
+164,Hot-rolled plain steel plate Q235 δ16,t,3860.0
+165,Hot-rolled plain steel plate Q235 δ18,t,3860.0
+166,Hot-rolled plain steel plate Q235 δ20,t,3860.0
+167,Hot-rolled plain steel plate Q235 δ24,t,3860.0
+168,Hot-rolled plain steel plate Q235 δ25,t,3860.0
+169,Hot-rolled plain steel plate Q235 δ28,t,4110.0
+170,Hot-rolled plain steel plate Q235 δ30,t,4110.0
+171,Hot-rolled plain steel plate Q235 δ35,t,4110.0
+172,Hot-rolled plain steel plate Q235 δ40,t,4160.0
+173,Hot-rolled plain steel plate Q235 δ42,t,4160.0
+174,Hot-rolled plain steel plate Q235 δ45,t,4160.0
+175,Hot-rolled plain steel plate Q235 δ50,t,4260.0
+176,Hot-rolled plain steel plate Q235 δ60,t,4260.0
+Cement,Cement,Cement,Cement
+177,Composite Portland Silicate Cement (R) 32.5,t,300.0
+178,Ordinary Portland Cement (R) 42.5,t,400.0
+179,Ordinary Portland Cement (R) 52.5,t,620.0
+Concrete,Concrete,Concrete,Concrete
+180,Commercial concrete C10 (pumpable),m3,340.0
+181,Commercial concrete C15 (pumpable),m3,360.0
+182,Commercial concrete C20 (pumpable),m3,380.0
+183,Commercial concrete C25 (pumpable),m3,400.0
+184,Commercial concrete C30 (pumpable),m3,420.0
+185,Commercial concrete C35 (pumpable),m3,445.0
+186,Commercial concrete C40 (pumpable),m3,470.0
+187,Commercial concrete C45 (pumpable),m3,495.0
+188,Commercial concrete C50 (pumpable),m3,510.0
+189,Commercial concrete C55 (pumpable),m3,540.0
+190,Commercial concrete C60 (pumpable),m3,570.0
+191,Asphalt concrete AC-13,t,472.0
+192,Asphalt concrete AC-16,t,443.0
+193,Asphalt concrete AC-20,t,412.0
+194,Asphalt concrete AC-25,t,378.0
+195,Modified asphalt concrete SMA-13 (with polyester or lignin),t,819.0
+196,Modified asphalt concrete SMA-16 (with polyester or lignin),t,766.0
+"Brick, Sand, Stone","Brick, Sand, Stone","Brick, Sand, Stone","Brick, Sand, Stone"
+197,Perforated Hollow Blocks with Pure Ceramsite,m3,250.0
+198,Autoclaved aerated concrete blocks,m3,250.0
+199,Perforated brick,thousand blocks,670.0
+200,Masonry Sand,m3,46.0
+201,Plastering Sand,m3,48.0
+202,gravel,m3,50.0
+203,Gravel 10mm,m3,50.0
+204,gravel less than 10mm,m3,50.0
+205,Gravel 20mm,m3,50.0
+206,gravel 20mm and below,m3,50.0
+207,Gravel 40mm,m3,48.0
+208,gravel 40mm and below,m3,48.0
+209,Crushed stone 5mm,m3,52.0
+210,Crushed stone 10mm,m3,52.0
+211,Crushed stone 15mm,m3,52.0
+212,Crushed stone 20mm,m3,52.0
+213,Crushed stone 25mm,m3,52.0
+214,Crushed stone 30mm,m3,52.0
+215,Crushed stone 40mm,m3,52.0
+216,Crushed stone 50mm,m3,52.0
+217,Crushed stone 60mm,m3,50.0
+218,Crushed stone 70mm,m3,50.0
+219,Stabilized soil 4.0%,t,75.0
+220,Stabilized soil 4.5%,t,77.0
+221,Stabilized soil 5.0%,t,80.0
+Windows and Doors,Windows and Doors,Windows and Doors,Windows and Doors
+222,60 Series Single Frame Double Glass PVC Steel Casement Window (White) (Note 1),m2,275.0
+223,60 Series Single Frame Double Glass PVC Casement Window (Colored),m2,296.0
+224,65 Series Single Frame Double Glass PVC Window (White),m2,317.0
+225,65 Series Single Frame Double Glass PVC Window (Colored),m2,338.0
+226,65 Series Single Frame Triple Glass PVC Flush Window (White),m2,348.0
+227,65 Series Single Frame Triple Glass PVC Flush Window (Colored),m2,370.0
+228,65 Series Single Frame Double Glazing Thermal Break Aluminum Alloy Hinged Window (Note 2),m2,575.0
+229,65 Series Single Frame Triple Glass Thermal Break Aluminum Alloy Hinged Window,m2,670.0
+230,65 Series Single Frame Double Glass Thermal Break Aluminum Alloy Hinged Door,m2,1161.0
+231,Ethylene Propylene Diene Monomer (EPDM) Rubber Strip,kg,23.0
+Insulation Material,Insulation Material,Insulation Material,Insulation Material
+232,"Flame Retardant B1 Grade Polystyrene Board, Dry Density ≥22% kg/m³",m3,463.0
+233,"Flame Retardant B1 Grade Extruded Polystyrene Board, Dry Density ≥32% kg/m³",m3,790.0
+235,Polymer cement powder for thermal insulation bonding mortar ≥2.5%,t,1735.0
+236,Polymer cementitious mortar for thermal insulation with polymer adhesive powder ≥2.5%,t,1790.0
+Waterproofing Materials,Waterproofing Materials,Waterproofing Materials,Waterproofing Materials
+237,Self-adhesive polymer modified bitumen waterproof sheet (1.5mm),m2,39.1
+238,SBS Modified Waterproof Roll Material (International Polyester Base 35#),m2,37.5
+239,SBC120 Polyethylene and Polypropylene Composite Waterproof Membrane (1.5mm),m2,28.5
+240,Polymer Cement Waterproof Coating (JS),kg,6.3
+241,Cement-based permeable crystalline waterproof coating,kg,7.4
+Pipe Materials,Pipe Materials,Pipe Materials,Pipe Materials
+242,Welded Steel Pipe DN15,t,4047.0
+243,Welded steel pipe DN20,t,4047.0
+244,Welded steel pipe DN25,t,3997.0
+245,Welded steel pipe DN32,t,3997.0
+246,Welded steel pipe DN40,t,3997.0
+247,Welded steel pipe DN50,t,3997.0
+248,Welded steel pipe DN70,t,3997.0
+249,Welded Steel Pipe DN80,t,3997.0
+250,Welded Steel Pipe DN100,t,4097.0
+251,Welded Steel Pipe DN125,t,4147.0
+252,Welded steel pipe DN150,t,4147.0
+253,Galvanized steel pipe DN15 (hot-dip galvanized pipe),t,5227.0
+254,Galvanized steel pipe DN20 (hot-dip galvanized pipe),t,5177.0
+255,Galvanized steel pipe DN25 (hot-dip galvanized pipe),t,5027.0
+256,Galvanized steel pipe DN32 (hot-dip galvanized pipe),t,4977.0
+257,Galvanized steel pipe DN40 (hot-dip galvanized pipe),t,5027.0
+258,Galvanized steel pipe DN50 (hot-dip galvanized pipe),t,4827.0
+259,Galvanized steel pipe DN70 (hot-dip galvanized pipe),t,5027.0
+260,Galvanized steel pipe DN80 (hot-dip galvanized pipe),t,5027.0
+261,Galvanized steel pipe DN100 (hot-dip galvanized pipe),t,5027.0
+262,Galvanized steel pipe DN125 (hot-dip galvanized pipe),t,5027.0
+263,Galvanized steel pipe DN150 (hot-dip galvanized pipe),t,5027.0
+264,Hot-rolled seamless pipe DN22×2,t,5310.0
+265,Hot-rolled seamless pipe DN25×2,t,5310.0
+266,Hot-rolled seamless pipe DN38×2.25,t,5140.0
+267,Hot-rolled seamless pipe DN42.5×3.5,t,4640.0
+268,Hot-rolled seamless pipe DN57×3.5,t,4640.0
+269,Hot-rolled seamless pipe DN89×4,t,4940.0
+270,Hot-rolled seamless pipe DN108×4,t,4640.0
+271,Hot-rolled seamless pipe DN219×6,t,4840.0
+272,Hot-rolled seamless pipe DN273×7,t,5040.0
+273,Hot-rolled seamless pipe DN325×8,t,5040.0
+274,Random copolypropylene pipe (PP-R) (1.25MPa) De20×2.0 (Cold water),m,2.004
+275,Random copolymer polypropylene pipe (PP-R) (1.25MPa) De25×2.3 (Cold water),m,2.926
+276,Random copolypropylene pipe (PP-R) (1.25MPa) De32×2.9 (Cold water),m,4.66
+277,Random copolymer polypropylene pipe (PP-R) (1.25MPa) De40×3.7 (Cold water),m,7.411
+278,Random copolypropylene pipe (PP-R) (1.25MPa) De50×4.6 (Cold water),m,11.496
+279,Random copolymer polypropylene pipe (PP-R) (1.25MPa) De63×5.8 (Cold water),m,18.193
+280,Random copolypropylene pipe (PP-R) (1.25MPa) De75×6.8 (Cold water),m,25.376
+281,Random copolymer polypropylene pipe (PP-R) (1.25MPa) De90×8.2 (Cold water),m,36.8
+282,Random copolypropylene pipe (PP-R) (1.25MPa) De110×10.0 (Cold water),m,54.545
+283,Random copolymer polypropylene pipe (PP-R) (1.6MPa) De25×2.3 (Cold water),m,2.275
+284,Random copolypropylene pipe (PP-R) (1.6MPa) De25×2.8 (Cold water),m,3.445
+285,Random copolymer polypropylene pipe (PP-R) (1.6MPa) De32×3.6 (Cold water),m,5.634
+286,Random copolypropylene pipe (PP-R) (1.6MPa) De40×4.5 (Cold water),m,8.777
+287,Random copolypropylene pipe (PP-R) (1.6MPa) De50×5.6 (Cold water),m,13.642
+288,Random copolypropylene pipe (PP-R) (1.6MPa) De63×7.1 (Cold water),m,21.779
+289,Random copolymer polypropylene pipe (PP-R) (1.6MPa) De75×8.4 (Cold water),m,30.588
+290,Random copolypropylene pipe (PP-R) (1.6MPa) De90×10.1 (Cold water),m,44.154
+291,Random copolymer polypropylene pipe (PP-R) (1.6MPa) De110×12.3 (Cold water),m,65.587
+292,Random copolypropylene pipe (PP-R) (2.0MPa) De20×2.8 (hot water),m,2.655
+293,Random copolypropylene pipe (PP-R) (2.0MPa) De25×3.5 (hot water),m,4.15
+294,Random copolypropylene pipe (PP-R) (2.0MPa) De32×4.4 (hot water),m,6.675
+295,Random copolypropylene pipe (PP-R) (2.0MPa) De40×5.5 (hot water),m,10.391
+296,Random copolypropylene pipe (PP-R) (2.0MPa) De50×6.9 (hot water),m,16.231
+297,Random copolypropylene pipe (PP-R) (2.0MPa) De63×8.6 (hot water),m,25.517
+298,Random copolypropylene pipe (PP-R) (2.0MPa) De75×10.3 (hot water),m,36.342
+299,Random copolymer polypropylene pipe (PP-R) (2.0MPa) De90×12.3 (hot water),m,52.107
+300,Random copolypropylene pipe (PP-R) (2.0MPa) De110×15.1 (hot water),m,78.036
+301,Random copolypropylene pipe (PP-R) (2.5MPa) De20×3.4 (hot water),m,3.11
+302,Random copolypropylene pipe (PP-R) (2.5MPa) De25×4.2 (hot water),m,4.811
+303,Random copolypropylene pipe (PP-R) (2.5MPa) De32×5.4 (hot water),m,7.866
+304,Random copolypropylene pipe (PP-R) (2.5MPa) De40×6.7 (hot water),m,12.157
+305,Random copolypropylene pipe (PP-R) (2.5MPa) De50×8.3 (hot water),m,18.875
+306,Random copolypropylene pipe (PP-R) (2.5MPa) De63×10.5 (hot water),m,29.992
+307,PP-R Steel Plastic Composite Pressure Pipe De32,m,32.497
+308,PP-R Steel Plastic Composite Pressure Pipe De40,m,48.378
+309,PP-R Steel Plastic Composite Pressure Pipe De50,m,73.264
+310,PP-R Steel Plastic Composite Pressure Pipe De63,m,98.264
+311,PP-R Steel Plastic Composite Pressure Pipe De75,m,125.543
+312,PP-R Steel Plastic Composite Pressure Pipe De90,m,177.18
+313,PP-R Steel Plastic Composite Pressure Pipe De110,m,250.0
+314,PP-R Steel Plastic Composite Pressure Pipe De160,m,472.05
+315,PP-R aluminum-plastic composite pipe De20,m,16.262
+316,PP-R aluminum-plastic composite pipe De25,m,23.136
+317,PP-R aluminum-plastic composite pipe De32,m,33.832
+318,PP-R Aluminum-plastic Composite Pipe De40,m,48.421
+319,PP-R aluminum-plastic composite pipe De50,m,70.04
+320,PP-R Aluminum-plastic Composite Pipe De63,m,106.239
+321,PP-R Aluminum-plastic Composite Pipe De75,m,161.967
+322,PP-R Aluminum-plastic Composite Pipe De90,m,227.162
+323,PP-R aluminum-plastic composite pipe De110,m,315.821
+324,Ductile Iron Pipe DN100×3,m,91.971
+325,Ductile Iron Pipe DN200×3,m,168.165
+326,Ductile Iron Pipe DN300×3,m,279.986
+327,Ductile Iron Pipe DN400×5,m,417.812
+328,Ductile Iron Pipe DN500×5,m,579.909
+329,Ductile Iron Pipe DN600×5,m,764.544
+330,Ductile Iron Pipe DN700×6,m,973.45
+331,Ductile Iron Pipe DN800×6,m,1208.361
+332,Ductile Iron Pipe DN1000×6,m,1748.4
+333,Polyethylene Pipe for Water Supply (PE100) DN90,m,23.466
+334,Polyethylene Pipe for Water Supply (PE100) DN110,m,35.15
+335,Polyethylene Pipe for Water Supply (PE100) DN125,m,45.362
+336,Polyethylene Pipe for Water Supply (PE100) DN140,m,56.604
+337,Polyethylene Pipe for Water Supply (PE100) DN160,m,74.166
+338,Polyethylene Pipe for Water Supply (PE100) DN180,m,93.323
+339,Polyethylene Pipe for Water Supply (PE100) DN200,m,115.635
+340,Polyethylene Pipe for Water Supply (PE100) DN225,m,146.321
+341,Polyethylene Pipe for Water Supply (PE100) DN250,m,179.114
+342,Polyethylene Pipe for Water Supply (PE100) DN280,m,225.549
+343,Polyethylene Pipe for Water Supply (PE100) DN315,m,284.424
+344,Polyethylene Pipe for Water Supply (PE100) DN355,m,362.136
+345,Polyethylene Pipe for Water Supply (PE100) DN400,m,459.229
+346,Polyethylene Pipe for Water Supply (PE100) DN450,m,579.193
+347,Polyethylene Pipe for Water Supply (PE100) DN500,m,723.3
+348,Polyethylene Pipe for Water Supply (PE100) DN560,m,904.901
+349,Polyethylene Pipe for Water Supply (PE100) DN630,m,1144.112
+Plumbing and Heating,Plumbing and Heating,Plumbing and Heating,Plumbing and Heating
+350,Steel-aluminum composite radiator 670×50×100,Sheet,18.033
+351,Steel-aluminum composite radiator 650×70×80,Sheet,16.316
+352,Steel-aluminum composite radiator 650×50×80,Sheet,16.316
+353,Steel-aluminum composite radiator 640×68×30,Sheet,9.704
+354,Steel-aluminum composite radiator 650×80×50,Sheet,12.881
+355,Steel-aluminum composite radiator 650×78×38,Sheet,11.593
+356,Steel-aluminum composite radiator 650×65×45,Sheet,9.017
+Paint,Paint,Paint,Paint
+357,C03-1 Alkyd Enamel 12×1,kg,13.452
+358,C03-1 Alkyd Enamel 2.8×4,kg,14.635
+359,C03-1 Alkyd Enamel 1×18,kg,15.281
+360,C03-1 Alkyd Enamel 0.4×32,kg,17.218
+Wires and Cables,Wires and Cables,Wires and Cables,Wires and Cables
+361,Copper-core rubber insulated wire BX1.5,m,1.107
+362,Copper-core rubber insulated wire BX2.5,m,1.762
+363,Copper-core rubber insulated wire BX4,m,2.9
+364,Copper-core rubber insulated wire BX6,m,4.287
+365,Copper-core rubber insulated wire BX10,m,7.081
+366,Copper-core rubber insulated wire BX16,m,10.799
+367,Copper-core rubber insulated wire BX25,m,17.428
+368,Copper-core rubber insulated wire BX35,m,22.693
+369,Copper-core rubber insulated wire BX50,m,32.277
+370,Aluminum-core rubber insulated wire BLX2.5,m,0.655
+371,Aluminum-core rubber insulated wire BLX4,m,0.924
+372,Aluminum-core rubber insulated wire BLX6,m,1.214
+373,Aluminum-core rubber insulated wire BLX10,m,2.224
+374,Aluminum-core rubber insulated wire BLX16,m,3.095
+375,Aluminum-core rubber insulated wire BLX25,m,4.846
+376,Aluminum-core rubber insulated wire BLX35,m,6.114
+377,Aluminum-core rubber insulated wire BLX50,m,8.005
+378,Aluminum-core rubber-insulated wire BLX70,m,11.067
+379,Aluminum-core rubber insulated wire BLX95,m,14.677
+380,Aluminum-core rubber insulated wire BLX120,m,17.45
+381,Copper-core PVC insulated wire BV1.5,m,0.967
+382,Copper-core PVC insulated wire BV2.5,m,1.547
+383,Copper-core polyvinyl chloride insulated wire BV4,m,2.525
+384,Copper-core PVC insulated wire BV6,m,3.728
+385,Copper-core polyvinyl chloride insulated wire BV10,m,6.157
+386,Copper-core PVC insulated wire BV16,m,9.391
+387,Copper-core polyvinyl chloride insulated wire BV25,m,15.161
+388,Copper-core polyvinyl chloride insulated wire BV35,m,19.728
+389,Copper-core polyvinyl chloride insulated wire BV50,m,28.066
+390,Copper-core polyvinyl chloride insulated wire BV70,m,39.122
+391,Copper-core polyvinyl chloride insulated wire BV95,m,53.09
+392,Aluminum-core plastic insulated wire BLV2.5,m,0.484
+393,Aluminum-core plastic insulated wire BLV4,m,0.655
+394,Aluminum-core plastic insulated wire BLV6,m,0.956
+395,Flame-retardant copper core polyvinyl chloride insulated wire ZRBV-1.5,m,0.999
+396,Flame-retardant copper core polyvinyl chloride insulated wire ZRBV-2.5,m,1.569
+397,Flame-retardant copper core polyvinyl chloride insulated wire ZRBV-4,m,2.579
+398,Flame-retardant copper core polyvinyl chloride insulated wire ZRBV-6,m,3.793
+399,Flame-retardant copper core polyvinyl chloride insulated wire ZRBV-10,m,6.264
+400,Flame-retardant copper core polyvinyl chloride insulated wire ZRBV-16,m,9.574
+401,Flame-retardant copper core polyvinyl chloride insulated wire ZRBV-25,m,15.451
+402,Flame-retardant copper core polyvinyl chloride insulated wire ZRBV-35,m,20.114
+403,Flame-retardant copper core polyvinyl chloride insulated wire ZRBV-50,m,28.613
+404,Flame-retardant copper core polyvinyl chloride insulated wire ZRBV-70,m,39.906
+405,Flame-retardant copper core polyvinyl chloride insulated wire ZRBV-95,m,54.132
+406,Fire-resistant copper core PVC insulated wire NH-BV-1.5,m,1.074
+407,Fire-resistant copper core PVC insulated wire NH-BV-2.5,m,1.676
+408,Fire-resistant copper core PVC insulated wire NH-BV-4,m,2.751
+409,Fire-resistant copper core PVC insulated wire NH-BV-6,m,4.094
+410,Fire-resistant copper core PVC insulated wire NH-BV-10,m,6.769
+411,Fire-resistant copper core PVC insulated wire NH-BV-16,m,10.347
+412,Fire-resistant copper core PVC insulated wire NH-BV-25,m,16.676
+413,Fire-resistant copper core PVC insulated wire NH-BV-35,m,21.694
+414,Fire-resistant copper core PVC insulated wire NH-BV-50,m,30.87
+415,Fire-resistant copper core PVC insulated wire NH-BV-70,m,43.055
+416,Fire-resistant copper core PVC insulated wire NH-BV-95,m,58.387
+417,Halogen-free copper core polyvinyl chloride insulated wire WL-BV-1.5,m,1.128
+418,Halogen-free copper core polyvinyl chloride insulated wire WL-BV-2.5,m,1.719
+419,Halogen-free copper core polyvinyl chloride insulated wire WL-BV-4,m,2.772
+420,Halogen-free copper core polyvinyl chloride insulated wire WL-BV-6,m,4.051
+421,Halogen-free copper core polyvinyl chloride insulated wire WL-BV-10,m,6.522
+422,Halogen-free copper core polyvinyl chloride insulated wire WL-BV-16,m,9.821
+423,Halogen-free copper core polyvinyl chloride insulated wire WL-BV-25,m,15.763
+424,Halogen-free copper core polyvinyl chloride insulated wire WL-BV-35,m,20.458
+425,Halogen-free copper core polyvinyl chloride insulated wire WL-BV-50,m,28.925
+426,Halogen-free copper core polyvinyl chloride insulated wire WL-BV-70,m,40.046
+427,Halogen-free copper core polyvinyl chloride insulated wire WL-BV-95,m,54.347
+428,Irradiated plastic copper core wire BYJ(F)-1.5,m,1.16
+429,Irradiated plastic copper core wire BYJ(F)-2.5,m,1.923
+430,Irradiated plastic copper core wire BYJ(F)-4,m,3.073
+431,Irradiated plastic copper core wire BYJ(F)-6,m,4.448
+432,Irradiated plastic copper core wire BYJ(F)-10,m,7.285
+433,Irradiated plastic copper core wire BYJ(F)-16,m,10.294
+434,Irradiated plastic copper core wire BYJ(F)-25,m,16.547
+435,Irradiated plastic copper core wire BYJ(F)-35,m,21.457
+436,Irradiated plastic copper core wire BYJ(F)-50,m,30.376
+437,Irradiated plastic copper core wire BYJ(F)-70,m,42.045
+438,Irradiated plastic copper core wire BYJ(F)-95,m,57.055
+439,Cross-linked polyethylene power cable YJV 3*35+2*16,m,86.174
+440,Cross-linked polyethylene power cable YJV 3*50+2*25,m,125.5
+441,Cross-linked polyethylene power cable YJV 3*70+2*35,m,171.917
+442,Cross-linked polyethylene power cable YJV 3*25+1*16,m,60.816
+443,Cross-linked polyethylene power cable YJV 3*185+2*95,m,452.357
+444,Low Smoke Halogen-Free (Cross-linked) Power Cable WDZ YJE 3*50+2*25,m,131.087
+445,Low Smoke Halogen-Free (Cross-linked) Power Cable WDZ YJE 5*16,m,54.799
+446,Low Smoke Halogen-Free (Cross-linked) Power Cable WDZ YJE 4*95+50,m,272.919
+447,Low Smoke Halogen-Free (Cross-linked) Power Cable WDZ YJE 4*50+25,m,146.13
+"Water, electricity, oil","Water, electricity, oil","Water, electricity, oil","Water, electricity, oil"
+448,Water,m3,2.13
+449,Electricity,kwh,0.55
+450,Diesel 0#,kg,7.943
+451,-10# Diesel,kg,8.42
+452,Diesel -20#,kg,8.817
+453,Diesel -35#,kg,9.136
+454,Gasoline 90#,kg,8.653
+455,93# Gasoline,kg,9.172
+456,97# Gasoline,kg,9.692
+457,Petroleum Asphalt 90#,t,5810.0
+"Note: 1. The main materials for plastic-steel doors and windows: triethylene ethylene rubber strips; profile wall thickness is 2.5mm; galvanized steel subframe 1.5mm; 4mm float glass (vacuum glass); hardware accessories are medium-grade or above. It includes installation, foaming agent, and auxiliary materials (connectors, screws, packaging, nails, springs, etc.).  
+   2. The main materials for aluminum alloy doors and windows: profile wall thickness 1.4mm, steel supplementary frame wall thickness 1.8mm; hardware accessories are domestic medium-grade or above; 5mm float glass (vacuum glass). Profiles are YT65 domestic powder-coated heat-insulating profiles. It includes installation, foaming agent, and auxiliary materials (connectors, screws, packaging, nails, springs, etc.).  
+   3. All materials in this guidance price information are products with complete three certificates.  
+   4. The ""price information"" in this appendix is the difference between the budget price and the budget price within the quota; the price difference is taxed only.  
+   5. The ""price information"" in this appendix requires conversion if the actual unit price is needed; the conversion density is determined through negotiation between the parties.","Note: 1. The main materials for plastic-steel doors and windows: triethylene ethylene rubber strips; profile wall thickness is 2.5mm; galvanized steel subframe 1.5mm; 4mm float glass (vacuum glass); hardware accessories are medium-grade or above. It includes installation, foaming agent, and auxiliary materials (connectors, screws, packaging, nails, springs, etc.).  
+   2. The main materials for aluminum alloy doors and windows: profile wall thickness 1.4mm, steel supplementary frame wall thickness 1.8mm; hardware accessories are domestic medium-grade or above; 5mm float glass (vacuum glass). Profiles are YT65 domestic powder-coated heat-insulating profiles. It includes installation, foaming agent, and auxiliary materials (connectors, screws, packaging, nails, springs, etc.).  
+   3. All materials in this guidance price information are products with complete three certificates.  
+   4. The ""price information"" in this appendix is the difference between the budget price and the budget price within the quota; the price difference is taxed only.  
+   5. The ""price information"" in this appendix requires conversion if the actual unit price is needed; the conversion density is determined through negotiation between the parties.","Note: 1. The main materials for plastic-steel doors and windows: triethylene ethylene rubber strips; profile wall thickness is 2.5mm; galvanized steel subframe 1.5mm; 4mm float glass (vacuum glass); hardware accessories are medium-grade or above. It includes installation, foaming agent, and auxiliary materials (connectors, screws, packaging, nails, springs, etc.).  
+   2. The main materials for aluminum alloy doors and windows: profile wall thickness 1.4mm, steel supplementary frame wall thickness 1.8mm; hardware accessories are domestic medium-grade or above; 5mm float glass (vacuum glass). Profiles are YT65 domestic powder-coated heat-insulating profiles. It includes installation, foaming agent, and auxiliary materials (connectors, screws, packaging, nails, springs, etc.).  
+   3. All materials in this guidance price information are products with complete three certificates.  
+   4. The ""price information"" in this appendix is the difference between the budget price and the budget price within the quota; the price difference is taxed only.  
+   5. The ""price information"" in this appendix requires conversion if the actual unit price is needed; the conversion density is determined through negotiation between the parties.","Note: 1. The main materials for plastic-steel doors and windows: triethylene ethylene rubber strips; profile wall thickness is 2.5mm; galvanized steel subframe 1.5mm; 4mm float glass (vacuum glass); hardware accessories are medium-grade or above. It includes installation, foaming agent, and auxiliary materials (connectors, screws, packaging, nails, springs, etc.).  
+   2. The main materials for aluminum alloy doors and windows: profile wall thickness 1.4mm, steel supplementary frame wall thickness 1.8mm; hardware accessories are domestic medium-grade or above; 5mm float glass (vacuum glass). Profiles are YT65 domestic powder-coated heat-insulating profiles. It includes installation, foaming agent, and auxiliary materials (connectors, screws, packaging, nails, springs, etc.).  
+   3. All materials in this guidance price information are products with complete three certificates.  
+   4. The ""price information"" in this appendix is the difference between the budget price and the budget price within the quota; the price difference is taxed only.  
+   5. The ""price information"" in this appendix requires conversion if the actual unit price is needed; the conversion density is determined through negotiation between the parties."

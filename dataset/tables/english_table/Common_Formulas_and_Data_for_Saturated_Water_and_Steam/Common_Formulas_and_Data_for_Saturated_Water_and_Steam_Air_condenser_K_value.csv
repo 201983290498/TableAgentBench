@@ -1,0 +1,11 @@
+RecommendedtotalheattransfercoefficientKvaluesforaircoolers(basedonsmoothtubes)-Condensation,RecommendedtotalheattransfercoefficientKvaluesforaircoolers(basedonsmoothtubes)-K,RecommendedtotalheattransfercoefficientKvaluesforaircoolers(basedonsmoothtubes)-Liquidcooling,RecommendedtotalheattransfercoefficientKvaluesforaircoolers(basedonsmoothtubes)-K.1,RecommendedtotalheattransfercoefficientKvaluesforaircoolers(basedonsmoothtubes)-Gascooling,RecommendedtotalheattransfercoefficientKvaluesforaircoolers(basedonsmoothtubes)-Operatingpressure,RecommendedtotalheattransfercoefficientKvaluesforaircoolers(basedonsmoothtubes)-Pressuredrop,RecommendedtotalheattransfercoefficientKvaluesforaircoolers(basedonsmoothtubes)-K.2
+Condensation,W/(m2℃),Liquid cooling,W/(m2℃),Gas cooling,kPa(g),Pressure drop,W/(m2℃)
+Ammonia,625,machine jacket water,710,air or flue gas,345,0.7~3.5,57
+Freon-12,400,Diesel,140,,690,14,110
+gasoline,460,Light gas oil,370,,690,34,170
+Light hydrocarbons,510,Light hydrocarbons,480,Hydrocarbon gas,241,7,200
+Light naphtha,430,Light naphtha,400,,862,21,200
+Heavy naphtha,370,Reforming furnace liquid flow,400,,6900,34,460
+Reforming reactor waste gas,400,Residual oil,85,Ammonia reactor fluid,-,-,480
+Low-pressure steam,770,Tar,40,,,,
+Tower top vapor,370,,,,,,

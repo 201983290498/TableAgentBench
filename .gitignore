@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project specific
+images/main.tex
+.lock
+kernel_meta/
+models/
+tmp/
+traces_output/
+*.pkl

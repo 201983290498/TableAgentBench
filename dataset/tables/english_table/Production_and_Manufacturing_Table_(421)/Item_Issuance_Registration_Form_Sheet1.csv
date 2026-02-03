@@ -1,0 +1,11 @@
+Registrationformofpossessionofarticles-Registrationformofpossessionofarticles-SerialNumber,Registrationformofpossessionofarticles-Registrationformofpossessionofarticles-Date,Registrationformofpossessionofarticles-Registrationformofpossessionofarticles-ItemCode,Registrationformofpossessionofarticles-Registrationformofpossessionofarticles-PossessionItems,Registrationformofpossessionofarticles-Registrationformofpossessionofarticles-Unit,Registrationformofpossessionofarticles-Registrationformofpossessionofarticles-Quantityissued,Purchasedquantity,Department1-Remainingquantity,Department2-UnitPrice,Department3-Amount,Department4-Departmentforreceivingitems,Department5-Recipient,Department6-PurposeDescription
+1,2/5/2021,10101,Item 1,individual,5,30,10,12,,Department 1,Rice husk 1,xxxxxx
+2,2/5/2021,10102,Item 2,individual,4,30,10,15,,Department 2,Rice husk 2,xxxxxx
+3,2/5/2021,10103,Item 3,individual,3,30,10,22,,Department 3,Rice husk 3,xxxxxx
+4,2/5/2021,10104,Item 4,individual,2,30,10,20,,Department 4,Rice husk 4,xxxxxx
+5,2/5/2021,10105,Item 5,individual,5,30,10,15,,Department 5,Rice husk 5,xxxxxx
+6,2/5/2021,10106,Item 6,individual,5,30,10,12,,Department 6,Rice husk 6,xxxxxx
+7,2/5/2021,10107,Item 7,individual,4,30,10,10,,Department 1,Rice husk 7,xxxxxx
+8,2/5/2021,10108,Item 8,individual,3,30,10,8,,Department 2,Rice husk 8,xxxxxx
+9,2/5/2021,10109,Item 9,individual,2,30,10,8,,Department 3,Rice husk 9,xxxxxx
+10,2/5/2021,10110,Item 10,individual,5,30,10,9,,Department 4,Rice husk 10,xxxxxx

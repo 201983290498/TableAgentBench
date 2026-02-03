@@ -1,0 +1,39 @@
+FluidName-SaturatedSteam(MainPipe),FlowVelocity(m/s)-30~40,"FluidName-Waterandliquidswithsimilarviscosity(0.10~0.29,glass)",FlowVelocity(m/s)-0.5~2.0
+Saturated Steam (Branch Pipe),20~30,"Water and liquids with similar viscosity (≤0.98MPa, glass)",0.5~3.0
+"Low-pressure steam (<0.98MPa, abs)",15~20,"Water and liquids with similar viscosity (≤7.84MPa, glass)",2.0~3.0
+"Medium-pressure steam (0.98~3.92MPa, abs)",20~40,"Water and liquids with similar viscosity (19.6~29.4MPa, glass)",2.0~3.5
+"High-pressure steam (3.92~11.77MPa,abs)",40~60,"Hot network circulating water, cooling water",0.5~1.0
+Superheated Steam (Main Pipe),40~60,Pressure Return Water,0.5~2.0
+Superheated Steam (Branch Pipe),35~60,Unpressurized Return Water,0.5~1.2
+General gas (atmospheric pressure),10~20,"Boiler feed water (≥0.78MPa, glass)",>3.0
+High-pressure exhaust gas,80~100,Steam condensate,0.5~1.5
+"Oxygen (0~0.05MPa, glass)",5~10,Condensate (Gravity Flow),0.2~0.5
+"Oxygen (0.05~0.59MPa, glass)",7~8,Superheated water,2
+"Oxygen (0.59~0.98MPa, glass)",4~6,"Seawater, slightly alkaline water (<0.59MPa, glass)",1.5~2.5
+"Oxygen (0.98~1.96MPa, glass)",4~5,Oil and viscous liquids,0.5~2.0
+"Oxygen (1.96~2.94MPa, glass)",3~4,Viscosity 50 mPa·s liquid (pipe Φ25 and below),0.5~0.9
+"Nitrogen (4.9~9.8MPa,abs)",2~5,Viscosity 50 mPa·s liquid (Pipe Φ25~50),0.7~1.0
+Hydrogen,≤8.0,Viscosity 50mPa·s liquid (Pipe Φ50~100),1.0~1.6
+"Compressed air (0.10~0.20MPa, glass)",10~15,Viscosity 100 mPa·s liquid (pipe Φ25 and below),0.3~0.6
+Compressed gas (vacuum),5~10,Viscosity 100mPa·s liquid (Pipe Φ25~50),0.5~0.7
+"Compressed gas (0.1~0.2MPa, glass)",8~12,Viscosity 100mPa·s liquid (Pipe Φ50~100),0.7~1.0
+"Compressed gas (0.1~0.59MPa, glass)",10~20,Viscosity 1000mPa·s liquid (Pipe Φ25 and below),0.1~0.2
+"Compressed gas (0.59~0.98MPa, glass)",10~15,Viscosity 1000mPa·s liquid (Pipe Φ25~50),0.16~0.25
+"Compressed gas (0.98~1.96MPa, glass)",8~10,Viscosity 1000mPa·s liquid (Pipe Φ50~100),0.25~0.35
+"Compressed gas (1.96~2.94MPa, glass)",3~6,Viscosity 1000mPa·s liquid (Pipe Φ100~200),0.35~0.55
+"Compressed gas (2.94~24.5MPa, glass)",0.5~3.0,Centrifugal Pump (Suction Inlet),1.0~2.0
+Gas coal,8~10,Centrifugal Pump (Discharge Outlet),1.5~2.5
+Semi-water gas (0.10~0.15MPa),10~15,Reciprocating Vacuum Pump (Suction Inlet),13~16
+Flue gas (in flue),3.0~6.0,Oil-sealed vacuum pump (suction port),10~13
+Flue gas (in pipe),3.0~4.0,Air Compressor (Suction Inlet),<10~15
+Industrial Chimney (Natural Ventilation),2.0~8.0,Air Compressor (Discharge Port),15~20
+Workshop ventilation (main pipe),4.5~15,Ventilator (Suction Inlet),10~15
+Branch Pipe Ventilation for Workshop Air Exchange,2.0~8.0,Ventilator (Discharge Outlet),15~20
+Duct distance from fan (farthest point),1.0~4.0,Gear Pump (Suction Inlet),<1.0
+Duct distance from fan (nearest point),8~12,Gear Pump (Discharge Outlet),1.0~2.0
+Exhaust gas (low pressure),20~30,Reciprocating Pump (Water-like Liquid) Suction Inlet,0.7~1.0
+High-pressure waste gas,80~100,Reciprocating Pump (Water-like Liquid) Discharge Outlet,1.0~2.0
+Chemical equipment exhaust pipe,20~25,Cyclone Separator (Inlet Gas),15~25
+"Municipal water (main pipe, 0.29MPa, glass)",1.5~3.5,Cyclone Separator (Outlet Gas),4.0~15
+"Municipal water (branch line, 0.29MPa, glass)",1.0~1.5,"Industrial water supply (0.78MPa, glass)",1.5~3.5
+Flammable and explosive liquids,<1,,

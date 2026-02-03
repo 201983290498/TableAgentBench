@@ -1,0 +1,40 @@
+OrderAnalysisTable-Date,OrderAnalysisTable-Numberofboxes,OrderAnalysisTable-NumberofOrders,OrderAnalysisTable-BoxesperOrder,OrderAnalysisTable-TotalProductQuantity,OrderAnalysisTable-ProductsperOrder,OrderAnalysisTable-SKU,OrderAnalysisTable-People/Day,OrderAnalysisTable-NumberofCompletedOrdersperPerson,OrderAnalysisTable-OvertimeHoursH,OrderAnalysisTable-Shippingweight(kg),OrderAnalysisTable-Remarks
+Daily Average,,,,,,,,,,,
+Monthly Total,,,,,,,,,,,
+6/1/2016,175.0,152.0,,1343.0,,80.0,3,,1,443.0,
+6/2/2016,77.0,74.0,,538.0,,69.0,2,,,134.0,
+6/3/2016,54.0,52.0,,320.0,,64.0,1,,1,89.4,319 incoming items.
+6/4/2016,45.0,44.0,,274.0,,55.0,1,,,72.6,
+6/5/2016,40.0,36.0,,214.0,,54.0,2,,,75.0,Stocking
+6/6/2016,68.0,64.0,,362.0,,54.0,2,,,111.0,Stocking
+6/7/2016,62.0,61.0,,109.0,,29.0,2,,,95.0,
+6/8/2016,54.0,54.0,,225.0,,56.0,1,,,68.0,
+6/9/2016,24.0,22.0,,139.0,,37.0,1,,,46.0,
+6/10/2016,102.0,99.0,,496.0,,84.0,2,,,220.0,
+6/11/2016,93.0,87.0,,514.0,,68.0,2,,,262.0,
+6/12/2016,79.0,76.0,,662.0,,88.0,2,,,192.0,
+6/13/2016,81.0,76.0,,410.0,,66.0,2,,,148.0,
+6/14/2016,114.0,97.0,,758.0,,79.0,2,,,131.0,
+6/15/2016,84.0,78.0,,434.0,,71.0,2,,,332.0,
+6/16/2016,61.0,56.0,,338.0,,66.0,2,,,114.0,
+6/17/2016,61.0,53.0,,306.0,,55.0,2,,,123.0,
+6/18/2016,51.0,48.0,,272.0,,60.0,2,,,90.0,
+6/19/2016,49.0,43.0,,486.0,,64.0,1,,,152.0,
+6/20/2016,186.0,145.0,,1653.0,,93.0,3,,,589.0,
+6/21/2016,187.0,147.0,,1818.0,,95.0,3,,,589.0,
+6/22/2016,153.0,132.0,,1001.0,,88.0,3,,,630.0,
+6/23/2016,59.0,54.0,,278.0,,58.0,2,,,117.7,
+6/24/2016,,,,,,,,,,,
+6/25/2016,,,,,,,,,,,
+6/26/2016,,,,,,,,,,,
+6/27/2016,,,,,,,,,,,
+6/28/2016,,,,,,,,,,,
+6/29/2016,,,,,,,,,,,
+6/30/2016,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,More than one box,,The set meal count is 1.,,"1. Order quantity > 40;  
+2. Total product quantity > 300 pcs, meeting either condition requires 2 people.",,"1. Many sets;  
+2. Many beverages;  
+3. Receiving goods/other affairs",,
+,,,Hold Orders / Not Shipped,,,,,,,,

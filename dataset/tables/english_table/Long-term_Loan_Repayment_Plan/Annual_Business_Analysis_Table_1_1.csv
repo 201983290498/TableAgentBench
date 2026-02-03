@@ -1,0 +1,15 @@
+AnnualBusinessAnalysisTable-20XX,AnnualBusinessAnalysisTable-Yearly,AnnualBusinessAnalysisTable-Yearly.1,AnnualBusinessAnalysisTable-SalesStatistics,AnnualBusinessAnalysisTable-SalesStatistics.1,AnnualBusinessAnalysisTable-ProcurementStatistics,AnnualBusinessAnalysisTable-ProcurementStatistics.1,AnnualBusinessAnalysisTable-LaborStatistics,AnnualBusinessAnalysisTable-LaborStatistics.1,AnnualBusinessAnalysisTable-Operatingexpenses,AnnualBusinessAnalysisTable-Operatingexpenses.1,AnnualBusinessAnalysisTable-Managementexpenses,AnnualBusinessAnalysisTable-Managementexpenses.1,AnnualBusinessAnalysisTable-Taxes,AnnualBusinessAnalysisTable-Taxes.1,AnnualBusinessAnalysisTable-ProfitStatistics,AnnualBusinessAnalysisTable-ProfitStatistics.1
+20XX,Amount,proportion,Amount,proportion,Amount,proportion,Amount,proportion,Amount,proportion,Amount,proportion,Amount,proportion,Amount,proportion
+1,,,200,,55,,33,,11,,68,,21,,,
+,,,300,,66,,44,,22,,99,,31,,,
+,,,400,,77,,55,,33,,10,,41,,,
+,,,500,,88,,66,,44,,11,,51,,,
+,,,600,,99,,77,,55,,13,,61,,,
+,,,700,,110,,88,,66,,14,,71,,,
+,,,500,,120,,99,,77,,15,,81,,,
+,,,200,,55,,33,,11,,68,,21,,,
+,,,300,,66,,44,,22,,99,,31,,,
+,,,400,,77,,55,,33,,10,,41,,,
+,,,500,,88,,66,,44,,11,,51,,,
+,,,500,,120,,99,,77,,15,,81,,,
+Total,,,,,,,,,,,,,,,,

@@ -1,0 +1,172 @@
+﻿"Refer to Workers' Compensation Law 15(8) and Board Subject Number 046-1063R for the applicable law, rules and regulations.  For more information, visit our webpage at http://www.wcb.ny.gov/content/main/special-disability-fund/#sdf-reimbursement. ",Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4
+,,,,
+,,,,
+"To be paid, make sure information is updated in the Statewide Financial System and an email has been sent to SpecialFunds@wcb.ny.gov with the payment information.",,,,
+"
+The form allows up to 1,000 entries. If the reimbursement request for a claim will not fit in a single entry (i.e.; multiple beneficiaries and/or multiple payment rates) then multiple entries should be made for the claim.  ",,,,
+"Submissions must be emailed to SpecialFunds@wcb.ny.gov on the proper C-251 form with ""Indemnity Reimbursement"" in the subject line. All supporting documentation must be included as attachments and may not be submitted separately. Submissions must be sent according to the Submission Schedule. The submission may be rejected and no reimbursement issued if these instructions are not followed or if alterations are made to the reimbursement form.  To ensure timely submission and to avoid rejection of reimbursement requests, the following fields must be accurate: WCB #, W#, insurer name, claim administrator, and program type (e.g., 14(6) or 15(8)). ",,,,
+"INDEMNITY ONLY SETTLEMENTS: Submit one stand-alone C-251 form with the last indemnity reimbursement request on the first line with all the required fields completed. On the second line, complete all the required fields. For the “begin date” and the “end date,” input the date of the notice of approval if there was a settlement hearing and if there was a desk decision, input the date indicated in the proposed decision. In the “other” column, input the indemnity settlement reimbursement amount (with the attorney fee if applicable) and in the “comments” column, input IND32 without any spacing. ",,,,
+"FULL AND FINAL SETTLEMENTS (INDEMNITY AND MEDICAL): Submit one stand-alone C-251 form with the last indemnity reimbursement request on the first line with all required fields completed. On the second line, complete all the required fields. For the “begin date” and the “end date,” input the date of the notice of approval if there was a settlement hearing and if there was a desk decision, input the date indicated in the proposed decision. In the “other” column, input the indemnity settlement reimbursement amount (with the attorney fee if applicable) and in the “comments” column, input IND32 without any spacing. 
+On the third line, complete all the required fields. For the “begin date” and the “end date,” input the date of the notice of approval if there was a settlement hearing and if there was a desk decision, input the date indicated in the proposed decision. In the “other” column, input the medical settlement reimbursement amount and in the “comments” column, input MED32 without any spacing. ",,,,
+"REIMBURSEMENT OF ""MEDICAL ONLY"" SETTLEMENTS: Submit one stand-alone C-251 form and complete all the required fields. For the “begin date” and the “end date,” input the date of the notice of approval if there was a settlement hearing and if there was a desk decision, input the date indicated in the proposed decision. In the ""other"" column, input the medical settlement reimbursement amount and in the “comments” column, input MED32 without any spacing.   If there is an attorney fee, complete all the required fields. For the “begin date” and the “end date,” input the date of the notice of approval if there was a settlement hearing and if there was a desk decision, input the date indicated in the proposed decision. In the “other” column, input the attorney fee and in the “comments” column, input IND32 without any spacing.",,,,
+"All blue fields are required and the white fields will autopopulate based on data entered in the blue fields.
+  
+N/A is not accepted in any field
+
+For date fields, use the format: mm/dd/yy
+",,,,
+,,,,
+SUBMISSION INFORMATION,,,,
+The following form header information applies to all claims within the submission:,,,,
+Program – Select either 14(6) Concurrent Employment or 15(8) Second Injury [REQUIRED],,,,
+"Insurer ID – Enter or select the WCB-assigned Insurer Code (""W Number"") for the insurer that is responsible for the claims and seeking reimbursement; this entity must be identified as a Party of Interest (POI) on each claim in the WCB case folder [REQUIRED]",,,,
+Insurer Name – Will autopopulate based on the insurer code,,,,
+"Claim Administrator – Enter the name of the entity that is administering the claims and will receive the reimbursement; this entity must be identified as a POI on each claim in eCase. If self-administered, enter the name of the insurer.  Payment will be directed to the address provided to the Special Funds Group [REQUIRED]",,,,
+Contact Name – Enter the name of the person that the Special Funds Group may contact with any issues [REQUIRED],,,,
+Phone Number – Enter the professional phone number for the contact [REQUIRED],,,,
+Email Address – Enter the professional email address for the contact [REQUIRED],,,,
+Submit Date – Enter the date the form is being submitted [REQUIRED],,,,
+Begin Date – The form will autopopulate the earliest date on the submission,,,,
+End Date – The form will autopopulate the latest day on the submission,,,,
+Count – The form will calculate the number of entries in the submission,,,,
+Total – The form will calculate the total dollar amount requested in the submission,,,,
+,,,,
+CLAIM INFORMATION,,,,
+WCB Case Number – Enter the claim number assigned by the WCB.  This number should be entered as it appears in eCase with no spaces or extra characters [REQUIRED],,,,
+Claim Admin Claim Number – Enter the claim number assigned by the insurer [OPTIONAL],,,,
+Claimant Name – Enter the name of the claimant corresponding to the WCB Case Number [REQUIRED],,,,
+Beneficiary Name – Enter the name of the person receiving the indemnity benefits (if someone other than the claimant) [OPTIONAL],,,,
+Gender – Select the gender of the person receiving the indemnity benefits [REQUIRED],,,,
+Date of Birth – Enter the date of birth of the person receiving the indemnity benefits [REQUIRED],,,,
+"Date of Death – If the claimant or beneficiary passed away, enter the date of death.  If not applicable, leave field blank but do not enter N/A",,,,
+Age – The form will calculate the age based on the end date of the submission and date of birth.,,,,
+"Life Expectancy (LE) – The form will calculate the life expectancy based on age, gender and the LE Table (United States Life Tables, 2018. NVSR Volume 69, Number 12. 45pp. (PHS) 2020-1120) below:",,,,
+,Age,Male,Female,X
+,30,48.4,48.4,49.8
+,31,47.5,47.5,48.9
+,32,46.6,46.6,48
+,33,45.6,45.6,47.1
+,34,44.7,44.7,46.1
+,35,43.8,43.8,45.2
+,36,42.9,42.9,44.3
+,37,42,42,43.4
+,38,41.1,41.1,42.5
+,39,40.2,40.2,41.6
+,40,39.2,39.2,40.7
+,41,38.4,38.4,39.8
+,42,37.5,37.5,38.9
+,43,36.6,36.6,38
+,44,35.7,35.7,37.1
+,45,34.8,34.8,36.2
+,46,33.9,33.9,35.3
+,47,33,33,34.4
+,48,32.1,32.1,33.5
+,49,31.3,31.3,32.6
+,50,30.4,30.4,31.8
+,51,29.5,29.5,30.9
+,52,28.7,28.7,30
+,53,27.8,27.8,29.2
+,54,27,27,28.3
+,55,26.2,26.2,27.5
+,56,25.4,25.4,26.6
+,57,24.6,24.6,25.8
+,58,23.8,23.8,25
+,59,23,23,24.2
+,60,22.2,22.2,23.4
+,61,21.4,21.4,22.6
+,62,20.7,20.7,21.8
+,63,19.9,19.9,21
+,64,19.2,19.2,20.3
+,65,18.5,18.5,19.5
+,66,17.7,17.7,18.8
+,67,17,17,18
+,68,16.3,16.3,17.3
+,69,15.6,15.6,16.6
+,70,14.9,14.9,15.9
+,71,14.2,14.2,15.1
+,72,13.5,13.5,14.4
+,73,12.9,12.9,13.8
+,74,12.2,12.2,13.1
+,75,11.6,11.6,11.7
+,76,10.9,10.9,11.7
+,77,10.3,10.3,11.1
+,78,9.7,9.7,10.5
+,79,9.2,9.2,9.9
+,80,8.6,8.6,9.3
+,81,8.1,8.1,8.7
+,82,7.5,7.5,8.2
+,83,7,7,7.6
+,84,6.6,6.6,7.1
+,85,6.1,6.1,6.7
+,86,5.7,5.7,6.2
+,87,5.3,5.3,5.7
+,88,4.9,4.9,5.3
+,89,4.5,4.5,4.9
+,90,4.2,4.2,4.6
+,91,3.8,3.8,4.2
+,92,3.6,3.6,3.9
+,93,3.3,3.3,3.6
+,94,3,3,3.4
+,95,2.8,2.8,3.1
+,96,2.6,2.6,2.9
+,97,2.4,2.4,2.7
+,98,2.3,2.3,2.5
+,99,2.1,2.1,2.4
+,100,2,2,2.2
+,,,,
+Date Of Injury – Enter the date of accident/date of disablement for the claim [REQUIRED],,,,
+Capped Case – Select Yes or No to indicate whether there is a cap on the indemnity benefits for the claim [REQUIRED],,,,
+REIMBURSEMENT RATE,,,,
+The following information is required for all claims:,,,,
+Overall CCP Rate – Enter the weekly CCP rate that is currently being paid prior to apportionment and SDF liability [REQUIRED],,,,
+CCP Type – Select the type of CCP from the options listed below [REQUIRED]:,,,,
+,ARE,Actual Reduced Earnings,,
+,DBF,Death Benefits,,
+,ILT,Intermittent Lost Time,,
+,MPA,Modification Prior Award,,
+,PPD,Perm Partial,,
+,PTD,Perm Total,,
+,RE,Reduced Earnings,,
+,TP,Temp Partial,,
+,TT,Temp Total,,
+,,,,
+"Apportionment % – Enter the percentage of the weekly CCP rate that is currently being paid by the insurer on this claim. If the claim is not apportioned, enter 100%; 0% is not valid [REQUIRED]",,,,
+"SDF Liability % – Enter the percentage of the weekly CCP rate that is reimbursable from the SDF; enter 100% if the SDF reimburses the amount that is paid to the claimant; for 14(6), enter the percentage of the overall CCP that is reimburseable from the SDF; if the entire CCP is reimburseable, enter 100%; 0% is not valid [REQUIRED]",,,,
+"SDF Rate – The form will calculate the weekly rate of reimbursement based on the Overall CCP Rate, Apportionment % and SDF Liability %",,,,
+REIMBURSEMENT PERIOD,,,,
+The following information is required for all claims and should generally be the same for all entries within a submission:,,,,
+Begin Date – Enter the first date of the period for which reimbursement is being claimed. This date must fall within the months identified in the submission schedule and should be the same as the end date of the last period for which reimbursement was requested unless the circumstances of the claim dictate otherwise [REQUIRED],,,,
+End Date – Enter the last date of the period for which reimbursement is being claimed. This date should be approximately 26 weeks from the Begin Date unless the circumstances of the claim dictate otherwise.  An end date that extends beyond the date that the submission was received will not be processed as future dates are not reimbursable [REQUIRED],,,,
+Weeks – The form will calculate the number of weeks based on the Begin Date and End Date.,,,,
+,,,,
+REIMBURSEMENT AMOUNT,,,,
+Period – The form will calculate the reimbursement amount being claimed for the period based on the SDF rate and number of weeks,,,,
+"Other – Enter the reimbursable amount of a settlement or the amount of a credit. Enter a negative for a credit. An entry in this field requires an entry in the ""Comments"" field [REQUIRED FOR SETTLEMENTS AND CREDITS]",,,,
+Total  – The form will calculate the total reimbursement being claimed as the sum of the Period and Other Reimbursement Amounts.,,,,
+Projected Life Indemnity – The form will calculate the total projected remaining indemnity payout based on Life Expectancy and SDF Rate,,,,
+,,,,
+CLAIM ADMINISTRATION,,,,
+"Last Status Check – Enter the date of the most recent attempt of a claimant status check. Date ranges will not be accepted.  This check may include an in person ""alive and well check"", an affidavit received from the claimant, an appearance at a hearing, a review of medical bills and other documentation that indicates the claimant has been receiving medical treatment, or phone contact with the claimant. This is not an exhaustive list. Claimant status check is a component of proper claims management and reimbursement may be withheld if proper status check is not completed and confirmed [REQUIRED]",,,,
+Third Party Action – Select the status of any Third Party Action related to the claim from the options listed below [REQUIRED]:,,,,
+,P,Pending,,
+,D,Dismissed,,
+,S,Settled,,
+,N,Not Applicable,,
+,,,,
+"Comments - Must be completed if there is an entry in the ""Other"" column. For settlements, indicate the amount of the settlement that is reimbursable along with the date of the Notice of Approval if there was a settlement hearing or if the settlement was approved by desk decision, indicate the date noted in the Proposed Decision that the agreement became final and conclusive. Also indicate the type of settlement. If a rate is changing or is not continuing please provide an explanation and refer to the date of the Decision directing the new rate.",,,,
+,,,,
+SUBMISSION SCHEDULE: Refer to Groups tab for assigned group,,,,
+Group,First Submission Period,,,Second Submission Period
+,(26 Weeks Beginning In),,,(26 Weeks Beginning In)
+A,January,,,July
+B,February,,,August
+C,March,,,September
+D,October,,,April
+E,November,,,May
+F,December,,,June
+,,,,
+Additional information can be found on the WCB website: www.wcb.ny.gov ,,,,
+,,,,
+,,,,
+,,,,
+  ,,,,

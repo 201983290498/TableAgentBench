@@ -1,0 +1,149 @@
+﻿Change Log,Unnamed: 1,Unnamed: 2,Unnamed: 3
+Version,Test Case Tab ,Description of Changes,Date 
+5,Windows 10,Removed all specific build related tabs and audit files and replaced them all with the latest CIS Microsoft Windows 10 Enterprise Benchmark v2.0.0,2023-09-30 00:00:00
+6,Windows 10,Added Impact Statement Column,2024-08-12 00:00:00
+6,Win10-060,Removed to realign with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-137,Removed to realign with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-145,Removed to realign with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-153,Removed to realign with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-191,Removed to realign with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-192,Removed to realign with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-193,Removed to realign with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-194,Removed to realign with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-195,Removed to realign with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-196,Removed to realign with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-297,Removed to realign with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-331,Removed to realign with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-332,Removed to realign with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-339,Removed to realign with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-340,Removed to realign with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-357,Removed to realign with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-358,Removed to realign with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-359,Removed to realign with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-138,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-139,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-140,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-141,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-142,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-146,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-147,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-148,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-149,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-150,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-154,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-155,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-156,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-157,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-158,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-159,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-160,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-201,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-202,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-203,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-204,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-241,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-242,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-245,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-246,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-247,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-248,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-249,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-250,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-251,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-252,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-253,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-254,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-255,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-256,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-257,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-258,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-259,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-260,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-286,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-287,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-288,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-289,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-290,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-291,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-292,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-293,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-294,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-295,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-296,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-298,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-299,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-300,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-301,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-302,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-303,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-304,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-305,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-306,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-307,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-308,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-309,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-310,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-311,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-312,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-313,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-314,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-315,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-316,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-317,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-318,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-319,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-320,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-321,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-322,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-323,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-324,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-325,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-326,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-327,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-328,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-329,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-330,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-331,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-332,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-333,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-341,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-342,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-343,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-344,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-345,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-346,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-347,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-348,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-349,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-350,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-351,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-352,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-353,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-354,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-355,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-356,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-361,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-362,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-363,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-364,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-365,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-366,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-367,CIS Recommendation Reference Changed for realignment with CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-368,Added new test based on CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-369,Added new test based on CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-370,Added new test based on CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-371,Added new test based on CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-372,Added new test based on CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-373,Added new test based on CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-374,Added new test based on CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-375,Added new test based on CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-376,Added new test based on CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-377,Added new test based on CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-378,Added new test based on CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-379,Added new test based on CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-380,Added new test based on CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-381,Added new test based on CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-382,Added new test based on CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-383,Added new test based on CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-384,Added new test based on CIS Benchmark v3.0,2024-08-12 00:00:00
+6,Win10-385,Added new test based on CIS Benchmark v3.0,2024-08-12 00:00:00

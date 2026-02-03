@@ -1,0 +1,41 @@
+Order Analysis Table,Order Analysis Table.1,Order Analysis Table.2,Order Analysis Table.3,Order Analysis Table.4,Order Analysis Table.5,Order Analysis Table.6,Order Analysis Table.7,Order Analysis Table.8,Order Analysis Table.9,Order Analysis Table.10
+Date,Number of boxes,Number of Orders,Boxes per Order,Total Product Quantity,Products per Order,SKU,People/Day,Number of Completed Orders per Person,Overtime Hours H,Remarks
+Daily Average,,,,,,,,,,
+Monthly Total,,,,,,,,,,
+4/1/2016,185,122,,793,,62,2,,4,G3 bottled packaging time-consuming
+4/2/2016,107,66,,539,,89,2,,1,G3 bottled packaging time-consuming
+4/3/2016,75,52,,376,,67,2,,1.5,G3 bottled packaging time-consuming
+4/4/2016,57,48,,320,,69,2,,1,G3 bottled packaging time-consuming
+4/5/2016,83,57,,596,,88,2,,1,G3 bottled packaging time-consuming
+4/6/2016,103,68,,468,,73,2,,2,G3 bottled packaging time-consuming
+4/7/2016,66,50,,304,,80,2,,,
+4/8/2016,67,56,,250,,53,2,,,
+4/9/2016,72,63,,484,,68,2,,,
+4/10/2016,73,54,,462,,65,2,,,
+4/11/2016,69,53,,474,,77,2,,,
+4/12/2016,60,52,,293,,62,2,,,
+4/13/2016,58,48,,387,,84,1.5,,1,
+4/14/2016,48,43,,337,,60,1.5,,1,
+4/15/2016,64,48,,398,,66,2,,,
+4/16/2016,48,39,,323,,63,1,,1,
+4/17/2016,42,37,,284,,60,1,,1,
+4/18/2016,44,37,,218,,56,2,,,
+4/19/2016,89,63,,474,,72,2,,,"Received 428 items, 5 items damaged."
+4/20/2016,157,104,,1355,,94,2,,3.5,
+4/21/2016,171,109,,1423,,93,2,,3.5,Stocking
+4/22/2016,63,51,,259,,72,2,,,Receiving packaging materials 248 pieces
+4/23/2016,42,37,,178,,56,2,,,Stocking
+4/24/2016,40,30,,145,,52,1,,,
+4/25/2016,44,31,,197,,52,2,,,
+4/26/2016,76,61,,249,,62,2,,,"Incoming goods, 13 pieces of carry-on luggage are damp, moldy, and damaged."
+4/27/2016,77,61,,305,,59,2,,,Hold single order
+4/28/2016,61,52,,389,,56,2,,,
+4/29/2016,36,31,,142,,51,1,,,
+4/30/2016,83,57,,433,,67,2,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,More than one box,,The set meal count is 1.,,"1. Order quantity > 40;  
+2. Total product quantity > 300 pcs, meeting either condition requires 2 people.",,"1. Many sets;  
+2. Many beverages;  
+3. Receiving goods/other affairs",
+,,,Hold Orders / Not Shipped,,,,,,,

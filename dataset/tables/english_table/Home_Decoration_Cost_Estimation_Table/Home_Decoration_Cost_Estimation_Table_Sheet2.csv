@@ -1,0 +1,67 @@
+IndoorRenovationQuotationTable-SerialNumber,IndoorRenovationQuotationTable-Content,IndoorRenovationQuotationTable-Quantity,IndoorRenovationQuotationTable-UnitPrice,IndoorRenovationQuotationTable-TotalPrice
+1,Sand,3 cubic meters,80,240
+2,Cement,28 bags,18,504
+3,Floor Tiles,80cm x 80cm  64 pieces,80,5120
+4,Toilet floor tiles,30cmx30cm  40 pieces,8,320
+5,Toilet Wall Tiles,30cmx60cm 138 pieces,15,2070
+6,Kitchen Wall Tiles,30cmx60cm 110 pieces,15,1650
+7,Threshold Tile,80cm x 80cm  2 pieces,80,160
+8,Tile Edge Strip,8 pieces,12,96
+9,Drainage outlet,3 pieces,15,45
+10,grout additive,2 bags,15,30
+11,Baseboard,64 pieces,6,228
+12,"Tile installation, cabinet installation labor cost",Whole set,3850,3850
+13,"Renovation of water and electricity, waterproofing, labor and materials",Whole set,2800,2800
+14,Material handling and floor delivery charge,Whole batch,800,800
+15,Total: 17913,Total: 17913,Total: 17913,Total: 17913
+16,Living room,,,
+17,Entry Door Frame,5m,100,500
+18,Shoe Cabinet (Including Hardware),1.2mx0.8m,600,600
+19,Clothes wall (including clothes hooks),Whole set,350,350
+20,Window Molding (Including Artificial Stone),1 set,1000,1000
+21,Ceiling (excluding lighting),Living room,800,800
+22,TV Wall (Including TV Background Paper),1 set,1200,1200
+23,TV cabinet,1 unit,600,600
+24,Roman rod,3.6m,15,54
+25,Total: 5054,Total: 5054,Total: 5054,Total: 5054
+26,Master bedroom,,,
+27,Package Door (including locks and hardware),1 door,1200,1200
+28,Window Molding (Including Artificial Stone),1 set,800,800
+29,Closet (including hardware),4.94㎡,600,2964
+30,Roman rod,2.7m,15,40
+31,Total: 5004.00,Total: 5004.00,Total: 5004.00,Total: 5004.00
+32,small bedroom,,,
+33,Package Door (including locks and hardware),1 door,1200,1200
+34,Window Molding (Including Artificial Stone),1 set,800,800
+35,Closet (including hardware),3.9㎡,600,2340
+36,Tatami mat,4.32㎡,180,777
+37,Wall Skirt,6m,120,720
+38,Roman rod,2.4m,15,36
+39,Total: 5873.00,Total: 5873.00,Total: 5873.00,Total: 5873.00
+40,Bathroom,,,
+41,Bathroom Ceiling (excluding lighting),1 set,200,200
+42,Waterproof door,,600,600
+43,Integrated ceiling for bathroom (excluding electric heater),3.5㎡,110,385
+44,Total: 1185.00,Total: 1185.00,Total: 1185.00,Total: 1185.00
+45,Kitchen,,,
+46,door frame molding,5m,120,600
+47,Sliding door panel,1 door,480,480
+48,Cabinets,4.2m,800,3360
+49,Cantilever Cabinet,2.4m,320,768
+50,Plumbing pipe packaging,1 root,300,300
+51,Integrated Ceiling Panel,4.5㎡,110,495
+52,,,,
+53,Ceiling of the refrigerator passage (excluding lights),1 set,200,200
+54,Latex paint,50㎡,30,1500
+55,Wallpaper,90㎡,58,5220
+Total: 12923.00,Total: 12923.00,Total: 12923.00,Total: 12923.00,Total: 12923.00
+Total: 47900.00,Total: 47900.00,Total: 47900.00,Total: 47900.00,Total: 47900.00
+,,,,
+"Add-on 1: Add 5,000 yuan (FIVE THOUSAND YUAN WHOLE) on top of the base renovation, including all indoor lighting fixtures, sanitary ware, bathroom facilities, network equipment, switches, sockets, and face plates.","Add-on 1: Add 5,000 yuan (FIVE THOUSAND YUAN WHOLE) on top of the base renovation, including all indoor lighting fixtures, sanitary ware, bathroom facilities, network equipment, switches, sockets, and face plates.","Add-on 1: Add 5,000 yuan (FIVE THOUSAND YUAN WHOLE) on top of the base renovation, including all indoor lighting fixtures, sanitary ware, bathroom facilities, network equipment, switches, sockets, and face plates.","Add-on 1: Add 5,000 yuan (FIVE THOUSAND YUAN WHOLE) on top of the base renovation, including all indoor lighting fixtures, sanitary ware, bathroom facilities, network equipment, switches, sockets, and face plates.","Add-on 1: Add 5,000 yuan (FIVE THOUSAND YUAN WHOLE) on top of the base renovation, including all indoor lighting fixtures, sanitary ware, bathroom facilities, network equipment, switches, sockets, and face plates."
+"Add-on 1: Add 5,000 yuan (FIVE THOUSAND YUAN WHOLE) on top of the base renovation, including all indoor lighting fixtures, sanitary ware, bathroom facilities, network equipment, switches, sockets, and face plates.","Add-on 1: Add 5,000 yuan (FIVE THOUSAND YUAN WHOLE) on top of the base renovation, including all indoor lighting fixtures, sanitary ware, bathroom facilities, network equipment, switches, sockets, and face plates.","Add-on 1: Add 5,000 yuan (FIVE THOUSAND YUAN WHOLE) on top of the base renovation, including all indoor lighting fixtures, sanitary ware, bathroom facilities, network equipment, switches, sockets, and face plates.","Add-on 1: Add 5,000 yuan (FIVE THOUSAND YUAN WHOLE) on top of the base renovation, including all indoor lighting fixtures, sanitary ware, bathroom facilities, network equipment, switches, sockets, and face plates.","Add-on 1: Add 5,000 yuan (FIVE THOUSAND YUAN WHOLE) on top of the base renovation, including all indoor lighting fixtures, sanitary ware, bathroom facilities, network equipment, switches, sockets, and face plates."
+Total: 5000.00,Total: 5000.00,Total: 5000.00,Total: 5000.00,Total: 5000.00
+"Add-on 2: Total cumulative amount of 4,000 yuan (FOUR THOUSAND YUAN WHOLE) includes mid-to-high-end electric water heater, range hood, and gas stove. With the same materials and configuration, it is approximately equivalent to the total price of first-tier brands on the market, which is 10,000 yuan, and about 7,000 yuan for second-tier brands. If there is a product on the market with higher cost-performance ratio than our German UKS product, we will refund the price difference twice.","Add-on 2: Total cumulative amount of 4,000 yuan (FOUR THOUSAND YUAN WHOLE) includes mid-to-high-end electric water heater, range hood, and gas stove. With the same materials and configuration, it is approximately equivalent to the total price of first-tier brands on the market, which is 10,000 yuan, and about 7,000 yuan for second-tier brands. If there is a product on the market with higher cost-performance ratio than our German UKS product, we will refund the price difference twice.","Add-on 2: Total cumulative amount of 4,000 yuan (FOUR THOUSAND YUAN WHOLE) includes mid-to-high-end electric water heater, range hood, and gas stove. With the same materials and configuration, it is approximately equivalent to the total price of first-tier brands on the market, which is 10,000 yuan, and about 7,000 yuan for second-tier brands. If there is a product on the market with higher cost-performance ratio than our German UKS product, we will refund the price difference twice.","Add-on 2: Total cumulative amount of 4,000 yuan (FOUR THOUSAND YUAN WHOLE) includes mid-to-high-end electric water heater, range hood, and gas stove. With the same materials and configuration, it is approximately equivalent to the total price of first-tier brands on the market, which is 10,000 yuan, and about 7,000 yuan for second-tier brands. If there is a product on the market with higher cost-performance ratio than our German UKS product, we will refund the price difference twice.","Add-on 2: Total cumulative amount of 4,000 yuan (FOUR THOUSAND YUAN WHOLE) includes mid-to-high-end electric water heater, range hood, and gas stove. With the same materials and configuration, it is approximately equivalent to the total price of first-tier brands on the market, which is 10,000 yuan, and about 7,000 yuan for second-tier brands. If there is a product on the market with higher cost-performance ratio than our German UKS product, we will refund the price difference twice."
+"Add-on 2: Total cumulative amount of 4,000 yuan (FOUR THOUSAND YUAN WHOLE) includes mid-to-high-end electric water heater, range hood, and gas stove. With the same materials and configuration, it is approximately equivalent to the total price of first-tier brands on the market, which is 10,000 yuan, and about 7,000 yuan for second-tier brands. If there is a product on the market with higher cost-performance ratio than our German UKS product, we will refund the price difference twice.","Add-on 2: Total cumulative amount of 4,000 yuan (FOUR THOUSAND YUAN WHOLE) includes mid-to-high-end electric water heater, range hood, and gas stove. With the same materials and configuration, it is approximately equivalent to the total price of first-tier brands on the market, which is 10,000 yuan, and about 7,000 yuan for second-tier brands. If there is a product on the market with higher cost-performance ratio than our German UKS product, we will refund the price difference twice.","Add-on 2: Total cumulative amount of 4,000 yuan (FOUR THOUSAND YUAN WHOLE) includes mid-to-high-end electric water heater, range hood, and gas stove. With the same materials and configuration, it is approximately equivalent to the total price of first-tier brands on the market, which is 10,000 yuan, and about 7,000 yuan for second-tier brands. If there is a product on the market with higher cost-performance ratio than our German UKS product, we will refund the price difference twice.","Add-on 2: Total cumulative amount of 4,000 yuan (FOUR THOUSAND YUAN WHOLE) includes mid-to-high-end electric water heater, range hood, and gas stove. With the same materials and configuration, it is approximately equivalent to the total price of first-tier brands on the market, which is 10,000 yuan, and about 7,000 yuan for second-tier brands. If there is a product on the market with higher cost-performance ratio than our German UKS product, we will refund the price difference twice.","Add-on 2: Total cumulative amount of 4,000 yuan (FOUR THOUSAND YUAN WHOLE) includes mid-to-high-end electric water heater, range hood, and gas stove. With the same materials and configuration, it is approximately equivalent to the total price of first-tier brands on the market, which is 10,000 yuan, and about 7,000 yuan for second-tier brands. If there is a product on the market with higher cost-performance ratio than our German UKS product, we will refund the price difference twice."
+Total: 4000.00,Total: 4000.00,Total: 4000.00,Total: 4000.00,Total: 4000.00
+Total quotation for interior decoration and facilities: 56900.00 (Fifty-six thousand nine hundred yuan whole),Total quotation for interior decoration and facilities: 56900.00 (Fifty-six thousand nine hundred yuan whole),Total quotation for interior decoration and facilities: 56900.00 (Fifty-six thousand nine hundred yuan whole),Total quotation for interior decoration and facilities: 56900.00 (Fifty-six thousand nine hundred yuan whole),Total quotation for interior decoration and facilities: 56900.00 (Fifty-six thousand nine hundred yuan whole)
+Note: The above quotation includes air pollutant testing and purification in the later stage of renovation.,Note: The above quotation includes air pollutant testing and purification in the later stage of renovation.,Note: The above quotation includes air pollutant testing and purification in the later stage of renovation.,Note: The above quotation includes air pollutant testing and purification in the later stage of renovation.,Note: The above quotation includes air pollutant testing and purification in the later stage of renovation.

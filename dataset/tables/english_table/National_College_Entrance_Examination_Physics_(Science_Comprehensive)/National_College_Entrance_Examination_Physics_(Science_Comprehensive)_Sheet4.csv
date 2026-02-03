@@ -1,0 +1,27 @@
+Unnamed: 0,KnowledgeContent-Mandatory1,KnowledgeContent-MandatoryCourse2,KnowledgeContent-Elective3-1,KnowledgeContent-Elective3-2,KnowledgeContent-Elective3-3,KnowledgeContent-Elective3-4,KnowledgeContent-Elective3-5,KnowledgeContent,KnowledgeContent.1,AbilityRequirements,AbilityRequirements.1,AbilityRequirements.2,AbilityRequirements.3,DifficultyRequirement-DifficultyRequirement,DifficultyRequirements-UnderstandingAbility,DifficultyRequirements-ReasoningAbility,DifficultyRequirements-AnalysisComprehensive,DifficultyRequirements-MathematicalApplication,DifficultyRequirements-Experiment,DifficultyRequirements-Prediction,DifficultyRequirements-Statistics
+,Mandatory 1,Mandatory Course 2,Elective 3-1,Elective 3-2,Elective 3-3,Elective 3-4,Elective 3-5,,,,,,,"Difficulty
+Requirement","Understanding  
+Ability","Reasoning  
+Ability","Analysis  
+Comprehensive","Mathematical
+Application",Experiment,Prediction,Statistics
+6,Newton's Second Law,,,,,,,,,,,,,,,√,√,,,Mid,
+6,Force Analysis of Balanced Objects,,,,,,,,,,,,,,,√,,,,Mid,
+6,,,,v-t graph in electromagnetic induction phenomenon,,,,,,,,,,,√,,√,,,Mid,
+6,,,Circular motion of charged particles in a uniform magnetic field,,,,,,,,,,,,,√,√,√,,Easy,
+6,,,Particle Force Balance in Electrostatic Field,,,,,,,,,,,,,,,√,,Mid,
+6,,,,History of Electricity Development,,,,,,,,,,,√,,,,,Easy,
+6,,Celestial Motion (Work-Energy Theorem),,,,,,,,,,,,,,√,√,,,Mid,
+6,,Circular Motion (Critical Condition Analysis),,,,,,,,,,,,,,√,,,,Mid,
+8,,Investigating Elastic Potential Energy Using Projectile Motion,,,,,,,,,,,,,,,√,√,√,Mid,
+7,,,Basic Principles of Multimeters (Modification of Electrical Meters),,,,,,,,,,,,,,,,√,Easy,
+14,,,Circular motion of charged particles in a uniform electric field,,,,,,,,,,,,,,,√,,Mid,
+18,"v-t graph, linear motion, and Newton's laws of motion  
+(Plate, block model)",,,,,,,,,,,,,,,,√,√,,Difficult,
+6,,,,,"Molecular motion, the first law of thermodynamics, and isobaric changes",,,,,,,,,,√,√,,,,Easy,
+9,,,,,Boyle's Law,,,,,,,,,,,,,√,,Mid,
+6,,,,,,Spring Oscillator,,,,,,,,,,√,√,,,Mid,
+9,,,,,,"Total internal reflection, critical angle",,,,,,,,,,,√,√,,Mid,
+6,,,,,,,Binding energy,,,,,,,,√,,,,,Easy,
+9,,,,,,,Momentum Conservation and Energy Conservation in Collisions,,,,,,,,,,,√,,Mid,
+110 points,30,20,33,12,15,15,15,,,,,,,,,,,,,,

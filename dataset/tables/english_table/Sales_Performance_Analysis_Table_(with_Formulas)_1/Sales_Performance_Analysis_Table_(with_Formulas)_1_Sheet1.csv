@@ -1,0 +1,17 @@
+Sales Performance Analysis Table,Sales Performance Analysis Table.1,Sales Performance Analysis Table.2,Sales Performance Analysis Table.3,Sales Performance Analysis Table.4,Sales Performance Analysis Table.5,Sales Performance Analysis Table.6,Sales Performance Analysis Table.7,Sales Performance Analysis Table.8,Sales Performance Analysis Table.9,Sales Performance Analysis Table.10
+Serial Number,Product,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday,Product,Total Sales This Week
+1,A Product,8,9,5,3,2,5,4,A,
+2,B Product,5,6,7,8,9,5,1,B,
+3,C Product,2,3,4,5,6,7,5,C,
+4,D Product,6,7,8,2,7,9,2,D,
+5,E product,8,9,3,1,8,6,5,E,
+6,F product,7,8,9,2,5,6,6,F,
+7,G product,2,3,4,5,6,7,8,G,
+8,H product,1,2,3,4,5,6,3,H,
+9,I Product,3,4,5,6,7,8,9,I,
+10,J product,5,6,7,8,9,3,3,J,
+11,K product,9,7,8,7,2,2,7,K,
+12,L product,5,6,7,8,9,3,8,L,
+,,,,,,,,,,
+Total Daily Sales,Total Daily Sales,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday,Remarks,Remarks
+Total Daily Sales,Total Daily Sales,,,,,,,,"The above units are all in ""pieces""","The above units are all in ""pieces"""

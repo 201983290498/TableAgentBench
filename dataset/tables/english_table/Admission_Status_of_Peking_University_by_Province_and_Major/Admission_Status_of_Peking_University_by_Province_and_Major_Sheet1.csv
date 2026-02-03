@@ -1,0 +1,508 @@
+Home Province,Subject Category (Admission Batch),Major,Average Score,Highest Score,Control line,Admission Line Difference
+Anhui,Sci (1),Biological Science,654,654,490,164
+Anhui,Sci (1),Physics and Engineering Sciences,650,660,490,160
+Anhui,Sci (1),Business Administration and Management,647,649,490,157
+Anhui,Sci (1),Mathematics,645,645,490,155
+Anhui,Sci (1),Economics and Business Administration,644,644,490,154
+Anhui,Sci (1),Chemistry,644,647,490,154
+Anhui,Sci (1),Geology,641,641,490,151
+Anhui,Art(1),Business Administration and Management,647,649,540,107
+Anhui,Art(1),Economics and Business Administration,643,643,540,103
+Anhui,Art(1),International Politics,635,636,540,95
+Anhui,Art(1),Law,634,635,540,94
+Anhui,Art(1),Sociology,634,635,540,94
+Anhui,Art(1),Chinese Language and Literature,634,635,540,94
+Anhui,Art(1),English,634,634,540,94
+Beijing,Sci (1),Business Administration and Management,708,717,550,158
+Beijing,Sci (1),Physics and Engineering Sciences,704,712,550,154
+Beijing,Sci (1),Mathematics,701,708,550,151
+Beijing,Sci (1),Economics and Business Administration,699,705,550,149
+Beijing,Sci (1),Astronomy,698,704,550,148
+Beijing,Sci (1),Law,694,697,550,144
+Beijing,Sci (1),Chemistry,694,701,550,144
+Beijing,Sci (1),Geophysics,694,694,550,144
+Beijing,Sci (1),Psychology,694,720,550,144
+Beijing,Sci (1),Environmental Science,694,705,550,144
+Beijing,Sci (1),Biological Science,693,702,550,143
+Beijing,Sci (1),Geology,693,705,550,143
+Beijing,Sci (1),Electronics and Information Engineering,688,699,550,138
+Beijing,Sci (1),International Politics,686,688,550,136
+Beijing,Sci (1),Public Administration,684,693,550,134
+Beijing,Sci (1),Chinese Language and Literature,684,694,550,134
+Beijing,Sci (1),Journalism and Communication Studies,684,689,550,134
+Beijing,Sci (1),Mechanical Engineering,684,698,550,134
+Beijing,Sci (1),Information Management and Information System,676,678,550,126
+Beijing,Sci (1),Environmental Science and Engineering,676,676,550,126
+Beijing,Sci (1),Archaeology,675,683,550,125
+Beijing,Sci (1),Philosophy and Related Disciplines,666,666,550,116
+Beijing,Sci (1),Business Administration and Management,708,717,550,158
+Beijing,Sci (1),Physics and Engineering Sciences,704,712,550,154
+Beijing,Sci (1),Mathematics,701,708,550,151
+Beijing,Sci (1),Economics and Business Administration,699,705,550,149
+Beijing,Sci (1),Astronomy,698,704,550,148
+Beijing,Sci (1),Law,694,697,550,144
+Beijing,Sci (1),Chemistry,694,701,550,144
+Beijing,Sci (1),Geophysics,694,694,550,144
+Beijing,Sci (1),Psychology,694,720,550,144
+Beijing,Sci (1),Environmental Science,694,705,550,144
+Beijing,Art(1),Business Administration and Management,677,685,549,128
+Beijing,Art(1),Philosophy and Related Disciplines,669,681,549,120
+Beijing,Art(1),Economics and Business Administration,666,669,549,117
+Beijing,Art(1),Law,666,678,549,117
+Beijing,Art(1),Chinese Language and Literature,664,678,549,115
+Beijing,Art(1),International Politics,659,669,549,110
+Beijing,Art(1),Public Administration,655,658,549,106
+Beijing,Art(1),Sociology,654,657,549,105
+Beijing,Art(1),English,652,663,549,103
+Beijing,Art(1),Art Theory,651,651,549,102
+Beijing,Art(1),Archaeology,651,661,549,102
+Beijing,Art(1),Journalism and Communication Studies,650,669,549,101
+Beijing,Art(1),Information Management and Information System,648,660,549,99
+Beijing,Art(1),History and Science Class,645,655,549,96
+Beijing,Art(1),Business Administration and Management,677,685,549,128
+Beijing,Art(1),Philosophy and Related Disciplines,669,681,549,120
+Beijing,Art(1),Economics and Business Administration,666,669,549,117
+Beijing,Art(1),Law,666,678,549,117
+Beijing,Art(1),Chinese Language and Literature,664,678,549,115
+Beijing,Art(1),International Politics,659,669,549,110
+Beijing,Art(1),Public Administration,655,658,549,106
+Beijing,Art(1),Sociology,654,657,549,105
+Beijing,Art(1),English,652,663,549,103
+Beijing,Art(1),Art Theory,651,651,549,102
+Fujian,Sci (1),Economics and Business Administration,674,675,501,173
+Fujian,Sci (1),Business Administration and Management,668,688,501,167
+Fujian,Sci (1),Physics and Engineering Sciences,665,671,501,164
+Fujian,Sci (1),Mathematics,663,663,501,162
+Fujian,Sci (1),Chemistry,659,669,501,158
+Fujian,Sci (1),Philosophy and Related Disciplines,655,656,501,154
+Fujian,Sci (1),Biological Science,655,666,501,154
+Fujian,Sci (1),Environmental Science,647,662,501,146
+Fujian,Sci (1),Mechanical Engineering,642,652,501,141
+Fujian,Sci (1),Electronics and Information Engineering,642,662,501,141
+Fujian,Sci (1),International Politics,640,640,501,139
+Fujian,Art(1),Business Administration and Management,638,638,513,125
+Fujian,Art(1),Economics and Business Administration,637,637,513,124
+Fujian,Art(1),Law,637,637,513,124
+Fujian,Art(1),International Politics,635,635,513,122
+Fujian,Art(1),Chinese Language and Literature,634,634,513,121
+Fujian,Art(1),Public Administration,633,634,513,120
+Fujian,Art(1),Philosophy and Related Disciplines,631,631,513,118
+Fujian,Art(1),Art Theory,627,628,513,114
+Fujian,Art(1),History and Science Class,623,627,513,110
+Fujian,Art(1),English,606,630,513,93
+Gansu,Sci (1),Business Administration and Management,665,665,489,176
+Gansu,Sci (1),Environmental Science,656,657,489,167
+Gansu,Sci (1),Chemistry,654,654,489,165
+Gansu,Sci (1),Economics and Business Administration,646,646,489,157
+Gansu,Sci (1),Electronics and Information Engineering,645,645,489,156
+Gansu,Sci (1),Mechanical Engineering,642,645,489,153
+Gansu,Art(1),Business Administration and Management,622,622,503,119
+Gansu,Art(1),Economics and Business Administration,622,622,503,119
+Gansu,Art(1),International Politics,615,615,503,112
+Gansu,Art(1),Chinese Language and Literature,615,617,503,112
+Gansu,Art(1),English,614,614,503,111
+Gansu,Art(1),Law,613,615,503,110
+Gansu,Art(1),Journalism and Communication Studies,613,613,503,110
+Gansu,Art(1),Public Administration,610,610,503,107
+Guangdong,Sci (1),Economics and Business Administration,688,688,574,114
+Guangdong,Sci (1),Chemistry,680,684,574,106
+Guangdong,Sci (1),Public Administration,677,681,574,103
+Guangdong,Sci (1),Physics and Engineering Sciences,677,677,574,103
+Guangdong,Sci (1),Psychology,675,684,574,101
+Guangdong,Sci (1),Environmental Science and Engineering,674,674,574,100
+Guangdong,Sci (1),Mathematics,672,672,574,98
+Guangdong,Sci (1),Biological Science,672,683,574,98
+Guangdong,Sci (1),Electronics and Information Engineering,668,683,574,94
+Guangdong,Sci (1),Mechanical Engineering,661,661,574,87
+Guangdong,Art(1),Business Administration and Management,681,681,594,87
+Guangdong,Art(1),Philosophy and Related Disciplines,672,672,594,78
+Guangdong,Art(1),Chinese Language and Literature,671,672,594,77
+Guangdong,Art(1),Economics and Business Administration,667,678,594,73
+Guangdong,Art(1),Law,659,671,594,65
+Guangdong,Art(1),Sociology,653,659,594,59
+Guangdong,Art(1),International Politics,652,653,594,58
+Guangdong,Art(1),History and Science Class,652,652,594,58
+Guangdong,Art(1),Public Administration,651,651,594,57
+Guangdong,Art(1),Journalism and Communication Studies,649,649,594,55
+Guangdong,Art(1),Information Management and Information System,648,648,594,54
+Guangxi,Sci (1),Mathematics,666,666,510,156
+Guangxi,Sci (1),Economics and Business Administration,660,663,510,150
+Guangxi,Sci (1),Chemistry,659,672,510,149
+Guangxi,Sci (1),Biological Science,658,658,510,148
+Guangxi,Sci (1),Business Administration and Management,657,657,510,147
+Guangxi,Sci (1),Electronics and Information Engineering,656,658,510,146
+Guangxi,Sci (1),Physics and Engineering Sciences,652,660,510,142
+Guangxi,Sci (1),Environmental Science,646,646,510,136
+Guangxi,Art(1),Business Administration and Management,644,644,541,103
+Guangxi,Art(1),Economics and Business Administration,640,640,541,99
+Guangxi,Art(1),Philosophy and Related Disciplines,634,634,541,93
+Guangxi,Art(1),Public Administration,633,639,541,92
+Guangxi,Art(1),Chinese Language and Literature,630,639,541,89
+Guangxi,Art(1),Law,628,632,541,87
+Guangxi,Art(1),International Politics,628,632,541,87
+Guangxi,Art(1),Journalism and Communication Studies,624,624,541,83
+Guangxi,Art(1),Information Management and Information System,620,620,541,79
+Guangxi,Art(1),Sociology,620,620,541,79
+Guizhou,Sci (1),Mechanical Engineering,675,675,449,226
+Guizhou,Sci(3),Biological Science,666,666,——,
+Guizhou,Sci(3),Business Administration and Management,661,664,——,
+Guizhou,Sci(3),Economics and Business Administration,656,656,——,
+Guizhou,Sci (1),Business Administration and Management,652,653,449,203
+Guizhou,Sci(3),Electronics and Information Engineering,651,658,——,
+Guizhou,Sci (1),Economics and Business Administration,649,649,449,200
+Guizhou,Sci (1),Chemistry,647,651,449,198
+Guizhou,Sci (1),Physics and Engineering Sciences,643,648,449,194
+Guizhou,Sci (1),Biological Science,641,651,449,192
+Guizhou,Sci (1),Electronics and Information Engineering,634,636,449,185
+Guizhou,Sci(3),Chemistry,631,634,——,
+Guizhou,Sci(3),Environmental Science,628,628,——,
+Guizhou,Sci(3),Mechanical Engineering,608,608,——,
+Guizhou,Art(1),Business Administration and Management,673,678,522,151
+Guizhou,Art(1),Economics and Business Administration,660,668,522,138
+Guizhou,Art(1),Chinese Language and Literature,657,670,522,135
+Guizhou,Art(1),Law,655,661,522,133
+Guizhou,Art(3),Law,653,653,——,
+Guizhou,Art(1),International Politics,649,650,522,127
+Guizhou,Art(1),Information Management and Information System,648,648,522,126
+Guizhou,Art(1),English,647,651,522,125
+Guizhou,Art(1),Sociology,644,644,522,122
+,,,,,,
+Home Province,Subject Category (Admission Batch),Major,Average Score,Highest Score,Control line,Admission Line Difference
+Hainan,Sci (1),Business Administration and Management,938,938,608,330
+Hainan,Sci (1),Electronics and Information Engineering,879,915,608,271
+Hainan,Sci (1),Information Management and Information System,867,867,608,259
+Hainan,Sci (1),Economics and Business Administration,859,859,608,251
+Hainan,Sci (1),Chemistry,859,859,608,251
+Hainan,Sci (1),Environmental Science,859,863,608,251
+Hainan,Sci (1),Psychology,840,840,608,232
+Hainan,Art(1),Business Administration and Management,912,930,667,245
+Hainan,Art(1),Law,886,903,667,219
+Hainan,Art(1),Economics and Business Administration,875,875,667,208
+Hainan,Art(1),International Politics,873,873,667,206
+Hainan,Art(1),Journalism and Communication Studies,871,871,667,204
+Hainan,Art(1),History,816,816,667,149
+Hainan,Art(1),Public Administration,747,747,667,80
+Hebei,Sci (1),Mathematics,691,691,538,153
+Hebei,Sci (1),Business Administration and Management,686,692,538,148
+Hebei,Sci (1),Economics and Business Administration,683,684,538,145
+Hebei,Sci (1),Physics and Engineering Sciences,683,683,538,145
+Hebei,Sci (1),Chemistry,679,679,538,141
+Hebei,Sci (1),Electronics and Information Engineering,676,682,538,138
+Hebei,Sci (1),Mechanical Engineering,670,670,538,132
+Hebei,Art(1),Business Administration and Management,666,666,561,105
+Hebei,Art(1),Economics and Business Administration,661,663,561,100
+Hebei,Art(1),Public Administration,660,661,561,99
+Hebei,Art(1),International Politics,659,660,561,98
+Hebei,Art(1),Law,658,658,561,97
+Hebei,Art(1),Philosophy and Related Disciplines,657,657,561,96
+Hebei,Art(1),Chinese Language and Literature,657,657,561,96
+Hebei,Art(1),Sociology,656,656,561,95
+Hebei,Art(1),English,655,656,561,94
+Hebei,Art(1),Journalism and Communication Studies,654,656,561,93
+Heilongjiang,Sci (1),Business Administration and Management,697,700,527,170
+Heilongjiang,Sci (1),Electronics and Information Engineering,690,690,527,163
+Heilongjiang,Sci (1),Mathematics,682,690,527,155
+Heilongjiang,Sci (1),Economics and Business Administration,681,697,527,154
+Heilongjiang,Sci (1),Physics and Engineering Sciences,679,697,527,152
+Heilongjiang,Art(1),Chinese Language and Literature,640,640,504,136
+Heilongjiang,Art(1),Business Administration and Management,639,639,504,135
+Heilongjiang,Art(1),Economics and Business Administration,634,634,504,130
+Heilongjiang,Art(1),Sociology,633,633,504,129
+Heilongjiang,Art(1),Journalism and Communication Studies,633,633,504,129
+Heilongjiang,Art(1),Law,631,631,504,127
+Heilongjiang,Art(1),Public Administration,629,629,504,125
+Heilongjiang,Art(1),International Politics,628,628,504,124
+Hubei,Sci (1),Business Administration and Management,673,678,527,146
+Hubei,Sci (1),Physics and Engineering Sciences,672,673,527,145
+Hubei,Sci (1),Biological Science,670,670,527,143
+Hubei,Sci (1),Mechanical Engineering,666,668,527,139
+Hubei,Sci (1),Electronics and Information Engineering,665,667,527,138
+Hubei,Sci (1),Economics and Business Administration,664,669,527,137
+Hubei,Sci (1),Environmental Science,664,664,527,137
+Hubei,Sci (1),Chemistry,663,668,527,136
+Hubei,Art(1),Business Administration and Management,650,651,531,119
+Hubei,Art(1),Law,636,648,531,105
+Hubei,Art(1),Economics and Business Administration,635,641,531,104
+Hubei,Art(1),Sociology,626,626,531,95
+Hubei,Art(1),Journalism and Communication Studies,623,626,531,92
+Hubei,Art(1),International Politics,621,623,531,90
+Hubei,Art(1),Public Administration,620,622,531,89
+Hubei,Art(1),Philosophy and Related Disciplines,619,619,531,88
+Hubei,Art(1),Chinese Language and Literature,619,619,531,88
+Hunan,Sci (1),Chemistry,655,674,495,160
+Hunan,Sci (1),Mathematics,654,654,495,159
+Hunan,Sci (1),Economics and Business Administration,653,653,495,158
+Hunan,Sci (1),Mechanical Engineering,640,654,495,145
+Hunan,Sci (1),Electronics and Information Engineering,640,650,495,145
+Hunan,Sci (1),Physics and Engineering Sciences,638,638,495,143
+Hunan,Sci (1),Biological Science,638,642,495,143
+Hunan,Sci (1),Environmental Science,637,643,495,142
+Hunan,Sci (1),Information Management and Information System,633,633,495,138
+Hunan,Sci (1),Psychology,632,632,495,137
+Hunan,Art(1),Business Administration and Management,655,662,557,98
+Hunan,Art(1),Economics and Business Administration,647,647,557,90
+Hunan,Art(1),Law,643,646,557,86
+Hunan,Art(1),Public Administration,638,638,557,81
+Hunan,Art(1),International Politics,638,642,557,81
+Hunan,Art(1),Chinese Language and Literature,637,638,557,80
+Hunan,Art(1),Journalism and Communication Studies,637,640,557,80
+Hunan,Art(1),Sociology,634,636,557,77
+Hunan,Art(1),Art Theory,632,632,557,75
+Hunan,Art(1),Philosophy and Related Disciplines,630,630,557,73
+Jilin,Sci (1),Business Administration and Management,690,694,535,155
+Jilin,Sci (1),Mathematics,690,690,535,155
+Jilin,Sci (1),Chemistry,690,690,535,155
+Jilin,Sci (1),Economics and Business Administration,686,686,535,151
+Jilin,Sci (1),Biological Science,685,690,535,150
+Jilin,Sci (1),Mechanical Engineering,685,685,535,150
+Jilin,Sci (1),Environmental Science,683,686,535,148
+Jilin,Sci (1),Electronics and Information Engineering,682,685,535,147
+Jilin,Art(1),Business Administration and Management,637,637,510,127
+Jilin,Art(1),Law,635,635,510,125
+Jilin,Art(1),Chinese Language and Literature,628,629,510,118
+Jilin,Art(1),English,627,628,510,117
+Jilin,Art(1),Public Administration,625,632,510,115
+Jilin,Art(1),Sociology,624,624,510,114
+Jilin,Art(1),Journalism and Communication Studies,624,624,510,114
+Jilin,Art(1),International Politics,620,620,510,110
+Jiangxi,Sci (1),Business Administration and Management,673,674,517,156
+Jiangxi,Sci (1),Economics and Business Administration,672,672,517,155
+Jiangxi,Sci (1),Mathematics,671,671,517,154
+Jiangxi,Sci (1),Electronics and Information Engineering,666,668,517,149
+Jiangxi,Sci (1),Physics and Engineering Sciences,664,664,517,147
+Jiangxi,Sci (1),Environmental Science and Engineering,664,664,517,147
+Jiangxi,Sci (1),Biological Science,663,663,517,146
+Jiangxi,Sci (1),Geology,662,662,517,145
+Jiangxi,Sci (1),Astronomy,662,662,517,145
+Jiangxi,Art(1),Business Administration and Management,636,636,532,104
+Jiangxi,Art(1),Economics and Business Administration,634,634,532,102
+Jiangxi,Art(1),Law,628,628,532,96
+Jiangxi,Art(1),International Politics,626,626,532,94
+Jiangxi,Art(1),Journalism and Communication Studies,626,628,532,94
+Jiangxi,Art(1),Public Administration,625,625,532,93
+Jiangxi,Art(1),Chinese Language and Literature,624,624,532,92
+Jiangxi,Art(1),English,622,622,532,90
+Jiangxi,Art(1),Sociology,621,621,532,89
+Jiangxi,Art(1),History and Science Class,620,620,532,88
+Jiangxi,Art(1),Philosophy and Related Disciplines,619,619,532,87
+Liaoning,Sci (1),Business Administration and Management,700,700,538,162
+Liaoning,Sci (1),Economics and Business Administration,689,689,538,151
+Liaoning,Sci (1),Environmental Science,687,688,538,149
+Liaoning,Sci (1),Mathematics,681,681,538,143
+Liaoning,Sci (1),Physics and Engineering Sciences,679,679,538,141
+Liaoning,Sci (1),Chemistry,678,685,538,140
+Liaoning,Sci (1),Geophysics,674,679,538,136
+Liaoning,Sci (1),Electronics and Information Engineering,674,680,538,136
+Liaoning,Sci (1),Mechanical Engineering,673,677,538,135
+Liaoning,Sci (1),Biological Science,667,667,538,129
+Liaoning,Art(1),Chinese Language and Literature,641,641,554,87
+Liaoning,Art(1),Business Administration and Management,639,639,554,85
+Liaoning,Art(1),Public Administration,637,637,554,83
+Liaoning,Art(1),Archaeology,637,637,554,83
+Liaoning,Art(1),Economics and Business Administration,636,636,554,82
+Liaoning,Art(1),English,631,639,554,77
+Liaoning,Art(1),Law,628,632,554,74
+Liaoning,Art(1),International Politics,628,631,554,74
+Liaoning,Art(1),Journalism and Communication Studies,628,629,554,74
+Inner Mongolia,Sci (1),Business Administration and Management,673,673,482,191
+Inner Mongolia,Sci (1),Economics and Business Administration,662,662,482,180
+Inner Mongolia,Sci (1),Electronics and Information Engineering,657,657,482,175
+Inner Mongolia,Sci (1),Biological Science,653,653,482,171
+Inner Mongolia,Sci (1),Chemistry,643,643,482,161
+Inner Mongolia,Sci (1),Physics and Engineering Sciences,640,640,482,158
+Inner Mongolia,Sci (1),Environmental Science,640,640,482,158
+Inner Mongolia,Art(1),Business Administration and Management,615,615,474,141
+Inner Mongolia,Art(1),Chinese Language and Literature,596,596,474,122
+Inner Mongolia,Art(1),Economics and Business Administration,586,586,474,112
+Inner Mongolia,Art(1),Law,584,585,474,110
+Inner Mongolia,Art(1),International Politics,571,571,474,97
+Ningxia,Sci (1),Business Administration and Management,667,670,455,212
+Ningxia,Sci (1),Economics and Business Administration,642,642,455,187
+Ningxia,Sci (1),Physics and Engineering Sciences,641,649,455,186
+Ningxia,Sci (1),Electronics and Information Engineering,636,638,455,181
+Ningxia,Sci (1),Chemistry,634,634,455,179
+Ningxia,Art(1),Economics and Business Administration,634,634,484,150
+Ningxia,Art(1),Business Administration and Management,629,629,484,145
+Ningxia,Art(1),Law,621,621,484,137
+Ningxia,Art(1),International Politics,621,621,484,137
+Ningxia,Art(1),Chinese Language and Literature,613,613,484,129
+Ningxia,Art(1),Sociology,611,611,484,127
+Ningxia,Art(1),Journalism and Communication Studies,609,609,484,125
+Qinghai,Sci (1),Business Administration and Management,652,652,383,269
+Qinghai,Sci (1),Biological Science,652,652,383,269
+Qinghai,Sci (1),Economics and Business Administration,641,641,383,258
+Qinghai,Sci (1),Mechanical Engineering,628,628,383,245
+Qinghai,Sci (1),Geophysics,620,620,383,237
+Qinghai,Sci (1),Electronics and Information Engineering,620,620,383,237
+Qinghai,Sci (1),Environmental Science and Engineering,615,620,383,232
+Qinghai,Art(1),Business Administration and Management,628,628,435,193
+Qinghai,Art(1),Economics and Business Administration,598,598,435,163
+Qinghai,Art(1),Law,587,591,435,152
+Qinghai,Art(1),International Politics,587,587,435,152
+Qinghai,Art(1),Sociology,586,586,435,151
+Qinghai,Art(1),Public Administration,582,582,435,147
+Qinghai,Art(1),Chinese Language and Literature,579,579,435,144
+,,,,,,
+Home Province,Subject Category (Admission Batch),Major,Average Score,Highest Score,Control line,Admission Line Difference
+Shandong,Sci (1),Business Administration and Management,703,705,554,149
+Shandong,Sci (1),Economics and Business Administration,696,699,554,142
+Shandong,Sci (1),Mathematics,693,704,554,139
+Shandong,Sci (1),Chemistry,683,698,554,129
+Shandong,Sci (1),Physics and Engineering Sciences,679,679,554,125
+Shandong,Sci (1),Biological Science,679,696,554,125
+Shandong,Sci (1),Electronics and Information Engineering,678,682,554,124
+Shandong,Sci (1),Law,673,674,554,119
+Shandong,Sci (1),Environmental Science,671,701,554,117
+Shandong,Sci (1),Mechanical Engineering,669,686,554,115
+Shandong,Sci (1),Information Management and Information System,633,639,554,79
+Shandong,Art(1),Business Administration and Management,683,684,570,113
+Shandong,Art(1),Public Administration,671,672,570,101
+Shandong,Art(1),Information Management and Information System,670,670,570,100
+Shandong,Art(1),International Politics,670,670,570,100
+Shandong,Art(1),Journalism and Communication Studies,666,668,570,96
+Shandong,Art(1),Law,665,670,570,95
+Shandong,Art(1),English,665,666,570,95
+Shandong,Art(1),Economics and Business Administration,662,678,570,92
+Shandong,Art(1),Chinese Language and Literature,656,667,570,86
+Shandong,Art(1),Sociology,653,665,570,83
+Shanxi,Sci (1),Mathematics,656,656,493,163
+Shanxi,Sci (1),Biological Science,645,645,493,152
+Shanxi,Sci (1),Business Administration and Management,641,641,493,148
+Shanxi,Sci (1),Physics and Engineering Sciences,641,642,493,148
+Shanxi,Sci (1),Economics and Business Administration,638,640,493,145
+Shanxi,Sci (1),Electronics and Information Engineering,630,636,493,137
+Shanxi,Sci (1),Geophysics,627,627,493,134
+Shanxi,Sci (1),Mechanical Engineering,627,627,493,134
+Shanxi,Sci (1),Environmental Science and Engineering,625,627,493,132
+Shanxi,Art(1),Business Administration and Management,604,609,507,97
+Shanxi,Art(1),Economics and Business Administration,601,602,507,94
+Shanxi,Art(1),Journalism and Communication Studies,599,599,507,92
+Shanxi,Art(1),Public Administration,598,598,507,91
+Shanxi,Art(1),Law,598,601,507,91
+Shanxi,Art(1),International Politics,598,598,507,91
+Shanxi,Art(1),English,594,595,507,87
+Shanxi,Art(1),Sociology,593,593,507,86
+Shanxi,Art(1),Chinese Language and Literature,593,595,507,86
+Shanxi,Art(1),History and Science Class,593,593,507,86
+Shaanxi,Sci (1),Business Administration and Management,696,706,485,211
+Shaanxi,Sci (1),Biological Science,693,693,485,208
+Shaanxi,Sci (1),Mathematics,691,695,485,206
+Shaanxi,Sci (1),Economics and Business Administration,690,697,485,205
+Shaanxi,Sci (1),Electronics and Information Engineering,690,698,485,205
+Shaanxi,Sci (1),Chemistry,687,687,485,202
+Shaanxi,Sci (1),Physics and Engineering Sciences,686,686,485,201
+Shaanxi,Sci (1),Information Management and Information System,681,681,485,196
+Shaanxi,Sci (1),International Politics,681,681,485,196
+Shaanxi,Art(1),Business Administration and Management,667,671,540,127
+Shaanxi,Art(1),Economics and Business Administration,657,657,540,117
+Shaanxi,Art(1),Chinese Language and Literature,655,656,540,115
+Shaanxi,Art(1),Journalism and Communication Studies,654,654,540,114
+Shaanxi,Art(1),Sociology,649,649,540,109
+Shaanxi,Art(1),Law,647,652,540,107
+Shaanxi,Art(1),International Politics,645,646,540,105
+Shaanxi,Art(1),Art Theory,644,644,540,104
+Shaanxi,Art(1),Philosophy and Related Disciplines,642,642,540,102
+Shaanxi,Art(1),Public Administration,641,642,540,101
+Shaanxi,Art(1),English,641,641,540,101
+Shaanxi,Art(1),History and Science Class,641,641,540,101
+Sichuan,Sci (1),Business Administration and Management,692,694,562,130
+Sichuan,Sci (1),Mathematics,685,691,562,123
+Sichuan,Sci (1),Electronics and Information Engineering,677,677,562,115
+Sichuan,Sci (1),Economics and Business Administration,674,674,562,112
+Sichuan,Sci (1),Chemistry,674,675,562,112
+Sichuan,Sci (1),Environmental Science and Engineering,674,675,562,112
+Sichuan,Sci (1),Physics and Engineering Sciences,673,673,562,111
+Sichuan,Sci (1),Mechanical Engineering,672,675,562,110
+Sichuan,Art(1),Business Administration and Management,659,659,567,92
+Sichuan,Art(1),English,640,640,567,73
+Sichuan,Art(1),International Politics,639,639,567,72
+Sichuan,Art(1),Law,638,651,567,71
+Sichuan,Art(1),Chinese Language and Literature,638,644,567,71
+Sichuan,Art(1),Journalism and Communication Studies,638,641,567,71
+Sichuan,Art(1),Sociology,637,645,567,70
+Sichuan,Art(1),History and Science Class,637,645,567,70
+Sichuan,Art(1),Information Management and Information System,635,640,567,68
+Tianjin,Sci (1),Physics and Engineering Sciences,671,676,521,150
+Tianjin,Sci (1),Chemistry,671,675,521,150
+Tianjin,Sci (1),Electronics and Information Engineering,668,674,521,147
+Tianjin,Sci (1),Biological Science,665,667,521,144
+Tianjin,Sci (1),Environmental Science,664,668,521,143
+Tianjin,Sci (1),Science Experimental Program Category,685,695,521,164
+Tianjin,Sci (1),Economics and Business Administration,684,685,521,163
+Tianjin,Sci (1),Mathematics,682,683,521,161
+Tianjin,Sci (1),Journalism and Communication Studies,680,680,521,159
+Tianjin,Sci (1),Business Administration and Management,679,685,521,158
+Tianjin,Sci (1),Law,674,674,521,153
+Tianjin,Sci (1),Mechanical Engineering,660,660,521,139
+Tianjin,Sci (1),Geophysics,641,659,521,120
+Tianjin,Art(1),English,663,663,533,130
+Tianjin,Art(1),International Politics,660,660,533,127
+Tianjin,Art(1),Business Administration and Management,659,659,533,126
+Tianjin,Art(1),Sociology,659,659,533,126
+Tianjin,Art(1),Law,650,654,533,117
+Tianjin,Art(1),Public Administration,646,647,533,113
+Tianjin,Art(1),Archaeology,644,653,533,111
+Tianjin,Art(1),Chinese Language and Literature,639,639,533,106
+Tianjin,Art(1),Art Theory,635,635,533,102
+Tianjin,Art(1),History and Science Class,633,646,533,100
+Tianjin,Art(1),Economics and Business Administration,626,659,533,93
+Tianjin,Art(1),English,663,663,533,130
+Tianjin,Art(1),International Politics,660,660,533,127
+Tianjin,Art(1),Business Administration and Management,659,659,533,126
+Tianjin,Art(1),Sociology,659,659,533,126
+Tianjin,Art(1),Law,650,654,533,117
+Tianjin,Art(1),Public Administration,646,647,533,113
+Tianjin,Art(1),Archaeology,644,653,533,111
+Tianjin,Art(1),Chinese Language and Literature,639,639,533,106
+Tianjin,Art(1),Art Theory,635,635,533,102
+Xinjiang,Sci (1),Business Administration and Management,660,667,443,217
+Xinjiang,Sci (1),Chemistry,658,663,443,215
+Xinjiang,Sci (1),Economics and Business Administration,653,653,443,210
+Xinjiang,Sci (1),Electronics and Information Engineering,651,667,443,208
+Xinjiang,Sci (1),Physics and Engineering Sciences,648,653,443,205
+Xinjiang,Sci (1),Biological Science,641,661,443,198
+Xinjiang,Sci (1),Environmental Science,637,651,443,194
+Xinjiang,Sci (1),Mechanical Engineering,632,648,443,189
+Xinjiang,Sci (1),Information Management and Information System,604,604,443,161
+Xinjiang,Art(1),Business Administration and Management,628,628,460,168
+Xinjiang,Art(1),Economics and Business Administration,624,624,460,164
+Xinjiang,Art(1),International Politics,620,626,460,160
+Xinjiang,Art(1),Chinese Language and Literature,615,619,460,155
+Xinjiang,Art(1),Journalism and Communication Studies,613,617,460,153
+Xinjiang,Art(1),Law,605,614,460,145
+Xinjiang,Art(1),Arabic,604,604,460,144
+Xinjiang,Art(1),English,602,603,460,142
+Xinjiang,Art(1),Public Administration,598,618,460,138
+Xinjiang,Art(1),Archaeology,597,602,460,137
+Yunnan,Sci (1),Mathematics,697,697,495,202
+Yunnan,Sci (1),Business Administration and Management,689,692,495,194
+Yunnan,Sci (1),Economics and Business Administration,686,686,495,191
+Yunnan,Sci (1),Biological Science,685,685,495,190
+Yunnan,Sci (1),Electronics and Information Engineering,683,683,495,188
+Yunnan,Sci (1),Environmental Science,680,681,495,185
+Yunnan,Sci (1),Psychology,675,675,495,180
+Yunnan,Sci (1),Geology,660,669,495,165
+Yunnan,Sci (1),International Politics,658,658,495,163
+Yunnan,Art(1),Public Administration,671,671,520,151
+Yunnan,Art(1),Business Administration and Management,665,665,520,145
+Yunnan,Art(1),Law,655,659,520,135
+Yunnan,Art(1),International Politics,655,656,520,135
+Yunnan,Art(1),Sociology,653,654,520,133
+Yunnan,Art(1),Chinese Language and Literature,653,655,520,133
+Yunnan,Art(1),Journalism and Communication Studies,633,633,520,113
+Chongqing,Sci (1),Business Administration and Management,681,693,520,161
+Chongqing,Sci (1),Mathematics,680,680,520,160
+Chongqing,Sci (1),Psychology,669,669,520,149
+Chongqing,Sci (1),Physics and Engineering Sciences,666,667,520,146
+Chongqing,Sci (1),Economics and Business Administration,664,664,520,144
+Chongqing,Sci (1),Chemistry,662,662,520,142
+Chongqing,Sci (1),Biological Science,660,666,520,140
+Chongqing,Art(1),Business Administration and Management,676,685,556,120
+Chongqing,Art(1),Economics and Business Administration,670,670,556,114
+Chongqing,Art(1),International Politics,670,670,556,114
+Chongqing,Art(1),Public Administration,669,669,556,113
+Chongqing,Art(1),Philosophy and Related Disciplines,668,668,556,112
+Chongqing,Art(1),Chinese Language and Literature,668,668,556,112
+Chongqing,Art(1),Law,666,666,556,110
+Chongqing,Art(1),English,666,666,556,110
+Chongqing,Art(1),Journalism and Communication Studies,663,666,556,107

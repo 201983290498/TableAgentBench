@@ -1,0 +1,548 @@
+﻿Issue Code,Description,Weight
+HAC1,Contractors with unauthorized access to FTI,6
+HAC2,User sessions do not lock after the Publication 1075 required timeframe,4
+HAC3,Agency processes FTI at a contractor-run consolidated data center,1
+HAC4,FTI is not labeled and is commingled with non-FTI,2
+HAC5,FTI is commingled with non-FTI data in the data warehouse,2
+HAC6,Cannot determine who has access to FTI,4
+HAC7,Account management procedures are not in place,2
+HAC8,Accounts are not reviewed periodically for proper privileges,5
+HAC9,Accounts have not been created using user roles,5
+HAC10,Accounts do not expire after the correct period of inactivity,5
+HAC100,Other,2
+HAC11,User access was not established with concept of least privilege,5
+HAC12,Separation of duties is not in place,4
+HAC13,Operating system configuration files have incorrect permissions,4
+HAC14,Warning banner is insufficient,1
+HAC15,User accounts not locked out after 3 unsuccessful login attempts,5
+HAC16,Network device allows telnet connections ,8
+HAC17,Account lockouts do not require administrator action,1
+HAC18,Network device has modems installed,8
+HAC19,Out of Band Management is not utilized in all instances,6
+HAC20,Agency duplicates usernames,7
+HAC21,Agency shares administrative account inappropriately,7
+HAC22,Administrators do not use su or sudo command to access root privileges,7
+HAC23,Unauthorized disclosure to other agencies,5
+HAC24,User roles do not exist within the data warehouse environment,5
+HAC25,Agency employees with inappropriate access to FTI,5
+HAC26,Inappropriate access to FTI from mobile devices,6
+HAC27,Default accounts have not been disabled or renamed,6
+HAC28,Database trace files are not properly protected,4
+HAC29,Access to system functionality without identification and authentication,7
+HAC30,RACF access controls not properly implemented,5
+HAC31,The database public users has improper access to data and/or resources,5
+HAC32,Mainframe access control function does not control access to FTI data,8
+HAC33,FTI is accessible to third parties,1
+HAC34,Improper access to DBMS by non-DBAs,5
+HAC35,Inappropriate public access to FTI,8
+HAC36,Agency allows FTI access from unsecured wireless network,5
+HAC37,Account management procedures are not implemented,5
+HAC38,Warning banner does not exist,2
+HAC39,Access to wireless network exceeds acceptable range,4
+HAC40,The system does not effectively utilize whitelists or ACLs,5
+HAC41,Accounts are not removed or suspended when no longer necessary,5
+HAC42,System configuration files are not stored securely,6
+HAC43,Management sessions are not properly restricted by ACL,5
+HAC44,System does not have a manual log off feature,4
+HAC45,Split tunneling is enabled,5
+HAC46,Access to mainframe product libraries is not adequately controlled,6
+HAC47,Files containing authentication information are not adequately protected ,7
+HAC48,Usernames are not archived and may be re-issued to different users,3
+HAC49,Use of emergency userIDs is not properly controlled,6
+HAC50,Print spoolers do not adequately restrict jobs ,4
+HAC51,Unauthorized access to FTI ,5
+HAC52,Wireless usage policies are not sufficient,2
+HAC53,Mobile device policies are not sufficient,2
+HAC54,FTI is not properly labeled in the cloud environment,5
+HAC55,FTI is not properly isolated in the cloud environment,5
+HAC56,Mobile device does not wipe after the required threshold of passcode failures,5
+HAC57,Mobile devices policies governing access to FTI are not sufficient,5
+HAC58,Access control parameter thresholds are reset ,3
+HAC59,The guest account has improper access to data and/or resources,6
+HAC60,Agency does not centrally manage access to third party environments ,3
+HAC61,User rights and permissions are not adequately configured,4
+HAC62,Host-based firewall is not configured according to industry standard best practice,3
+HAC63,Security profiles have not been established,3
+HAC64,Multi-factor authentication is not required for internal privileged and non-privileged access,6
+HAC65,Multi-factor authentication is not required for internal privileged access,6
+HAC66,Multi-factor authentication is not required for internal non-privileged access,5
+HAT1,Agency does not train employees with FTI access,3
+HAT100,Other,2
+HAT2,Agency does not train contractors with FTI access,3
+HAT3,Agency does not maintain training records,3
+HAT4,Agency does not provide security-specific training,3
+HIA1,Adequate device identification and authentication is not employed,5
+HIA2,Standardized naming convention is not enforced,3
+HIA3,Authentication server is not used for end user authentication,6
+HIA4,Authentication server is not used for device administration,5
+HIA5,System does not properly control authentication process,4
+HIA6,Identity proofing as not been implemented,4
+HIA7,Identity proofing has not been properly implemented,4
+HAU1,No auditing is being performed at the agency,7
+HAU2,No auditing is being performed on the system,6
+HAU3,Audit logs are not being reviewed,5
+HAU4,System does not audit failed attempts to gain access,3
+HAU5,Auditing is not performed on all data tables containing FTI,5
+HAU6,System does not audit changes to access control settings,4
+HAU7,Audit records are not retained per Pub 1075,2
+HAU8,Logs are not maintained on a centralized log server,4
+HAU9,No log reduction system exists,4
+HAU10,Audit logs are not properly protected,4
+HAU100,Other,2
+HAU11,NTP is not properly implemented,3
+HAU12,Audit records are not timestamped,6
+HAU13,Audit records are not archived during VM rollback,3
+HAU14,Remote access is not logged,6
+HAU15,Verbose logging is not being performed on perimeter devices,5
+HAU16,A centralized automated audit log analysis solution is not implemented,5
+HAU17,Audit logs do not capture sufficient auditable events,5
+HAU18,"Audit logs are reviewed, but not per Pub 1075 requirements",3
+HAU19,Audit log anomalies or findings are not reported and tracked,5
+HAU20,Audit log data not sent from a consistently identified source,2
+HAU21,System does not audit all attempts to gain access ,5
+HAU22,Content of audit records is not sufficient,4
+HAU23,Audit storage capacity threshold has not been defined,2
+HAU24,Administrators are not notified when audit storage threshold is reached,2
+HAU25,Audit processing failures are not properly reported and responded to,4
+HAU26,System/service provider is not held accountable to protect and share audit records with the agency ,5
+HAU27,Audit trail does not include access to FTI in pre-production,4
+HCA1,Systems are not formally certified by management to process FTI,4
+HCA100,Other,2
+HCA2,Undocumented system interconnections exist,4
+HCA3,Agency does not conduct routine assessments of security controls,5
+HCA4,No third party verification of security assessments,2
+HCA5,POA&Ms are not used to track and mitigate potential weaknesses,5
+HCA6,The agency's SSR does not address the current FTI environment,6
+HCA7,SSR is not current with Pub 1075 reporting requirements,4
+HCA8,Rules of behavior does not exist,5
+HCA9,Rules of behavior is not sufficient,4
+HCA10,Assessment results are not shared with designated agency officials,2
+HCA11,Interconnection Security Agreements are not sufficient,2
+HCA12,POA&Ms are not reviewed in accordance with Pub 1075,3
+HCA13,System authorizations are not updated in accordance with Pub 1075 ,3
+HCA14,A continuous monitoring program has not been established,5
+HCA15,The continuous monitoring program is not sufficient ,4
+HCA16,Independent control assessments are not conducted at least annually,6
+HCA17,Penetration testing assessments are not performed,6
+HCA18,Penetration testing assessments do not generate corrective action plans,6
+HCA19,Penetration testing assessments are not performed as frequently as required per Publication 1075,5
+HCA20,Scope of penetration testing assessment is not sufficient,5
+HCM1,Information system baseline is insufficient,3
+HCM10,System has unneeded functionality installed,5
+HCM100,Other,2
+HCM11,SNMP is not implemented correctly,4
+HCM12,Offline system configurations are not kept up-to-date,1
+HCM13,System component inventories do not exist,6
+HCM14,System component inventories are outdated,5
+HCM15,Hardware asset inventory is not sufficient,3
+HCM16,Software asset inventory is not sufficient,3
+HCM17,Hardware asset inventory does not exist,4
+HCM18,Software asset inventory does not exist,4
+HCM19,Firewall rules are not reviewed or removed when no longer necessary ,6
+HCM2,FTI is not properly labeled on-screen,3
+HCM20,Application interfaces are not separated from management functionality,5
+HCM21,Permitted services have not been documented and approved,6
+HCM22,Application code is not adequately separated from data sets,4
+HCM23,System is not monitored for changes from baseline,5
+HCM24,Agency network diagram is not complete,4
+HCM25,Zoning has not been configured appropriately,4
+HCM26,Static IP addresses are not used when needed,4
+HCM27,Information system baseline does not exist ,5
+HCM28,Boundary devices are not scanned for open ports and services,6
+HCM29,Application architecture does not properly separate user interface from data repository,5
+HCM3,Operating system does not have vendor support,7
+HCM30,System reset function leaves device in unsecure state ,6
+HCM31,Default SSID has not been changed,1
+HCM32,The device is inappropriately used to serve multiple functions,6
+HCM33,Significant changes are not reviewed for security impacts before being implemented,6
+HCM34,Agency does not control significant changes to systems via an approval process,6
+HCM35,Services are not configured to use the default/standard ports,4
+HCM36,The required benchmark has not been applied ,6
+HCM37,Configuration settings and benchmarks have not been defined ,3
+HCM38,Agency does not adequately govern or control software usage,4
+HCM39,RACF security settings are not properly configured ,5
+HCM4,Routine operational changes are not reviewed for security impacts before being implemented,3
+HCM40,ACF security settings are not properly configured,5
+HCM41,Top Secret security settings are not properly configured,5
+HCM42,UNISYS security settings are not properly configured,5
+HCM43,IBMi security settings are not properly configured,5
+HCM44,Agency does not properly test changes prior to implementation,5
+HCM45,System configuration provides additional attack surface,5
+HCM46,Agency does not centrally manage mobile device configuration,6
+HCM47,System error messages display system configuration information,4
+HCM48,Low-risk operating system settings are not configured securely,3
+HCM49,A tool is not used to block unauthorized software,4
+HCM5,Web portal with FTI does not have three-tier architecture,6
+HCM6,Agency does not control routine operational changes to systems via an approval process,5
+HCM7,Configuration management procedures do not exist,3
+HCM8,The ability to make changes is not properly limited,5
+HCM9,Systems are not deployed using the concept of least privilege,5
+HCP1,No contingency plan exists for FTI data,4
+HCP100,Other,2
+HCP2,Contingency plans are not tested annually,3
+HCP3,Contingency plan does not exist for consolidated data center,3
+HCP4,FTI is not encrypted in transit to the DR site,5
+HCP5,Backup data is not adequately protected,5
+HCP6,Contingency plan is not updated annually,2
+HCP7,Contingency plan is not sufficient,3
+HCP8,Contingency training is not conducted,4
+HCP9,Contingency training is not sufficient ,2
+HCP10,Backup data is located on production systems,2
+HIR1,Incident response program does not exist,5
+HIR100,Other,2
+HIR2,Incident response plan is not sufficient,3
+HIR3,Agency does not perform incident response exercises in accordance with Pub 1075,3
+HIR4,Agency does not provide support resource for assistance in handling and reporting security incidents,3
+HIR5,Incident response plan does not exist,5
+HMA1,External maintenance providers not escorted in the data center,4
+HMA100,Other,2
+HMA2,Maintenance not restricted to local access,1
+HMA3,Maintenance tools are not approved / controlled,4
+HMA4,Maintenance records are not sufficient,3
+HMA5,Non local maintenance is not implemented securely,4
+HMT1,Risk Assessment controls are not implemented properly,4
+HMT2,Planning controls are not implemented properly,4
+HMT3,Program management controls are not implemented properly,2
+HMT4,System acquisition controls are not implemented properly,3
+HMT5,SA&A controls are not implemented properly,4
+HMT6,Contingency planning controls are not implemented properly,2
+HMT7,Configuration management controls are not implemented properly,4
+HMT8,Maintenance controls are not implemented properly,4
+HMT9,System and information integrity controls are not implemented properly,4
+HMT10,Incident response controls are not implemented properly,3
+HMT100,Other,2
+HMT11,Awareness and training controls are not implemented properly,1
+HMT12,Identification and authentication controls are not implemented properly,4
+HMT13,Access controls are not implemented properly,4
+HMT14,Audit and accountability are not implemented properly,4
+HMT15,System and communications protection controls are not implemented properly,4
+HMT16,Documentation does not exist,2
+HMT17,Documentation is sufficient but outdated,1
+HMT18,Documentation exists but is not sufficient,1
+HMT19,Management Operational and Technical controls are not implemented properly,4
+HPW1,No password is required to access an FTI system,7
+HPW2,Password does not expire timely,5
+HPW3,Minimum password length is too short,6
+HPW4,Minimum password age does not exist,5
+HPW5,Passwords are generated and distributed automatically,2
+HPW6,Password history is insufficient,3
+HPW7,Password change notification is not sufficient,1
+HPW8,Passwords are displayed on screen when entered,7
+HPW9,Password management processes are not documented,2
+HPW10,Passwords are allowed to be stored,5
+HPW100,Other,2
+HPW11,Password transmission does not use strong cryptography,6
+HPW12,Passwords do not meet complexity requirements,4
+HPW13,Enabled secret passwords are not implemented correctly,6
+HPW14,Authenticator feedback is labeled inappropriately,4
+HPW15,Passwords are shared inappropriately,6
+HPW16,Swipe-based passwords are allowed on mobile devices,4
+HPW17,Default passwords have not been changed,7
+HPW18,No password is required to remotely access an FTI system ,8
+HPW19,More than one Publication 1075 password requirement is not met,6
+HPW20,User is not required to change password upon first use,5
+HPW21,Passwords are allowed to be stored unencrypted in config files,6
+HPW22,"Administrators cannot override minimum password age for users, when required",1
+HPW23,Passwords cannot be changed by users,4
+HRA1,Risk assessments are not performed,5
+HRA100,Other,2
+HRA2,Vulnerability assessments are not performed,8
+HRA3,Vulnerability assessments do not generate corrective action plans,8
+HRA4,Vulnerability assessments are not performed as frequently as required per Publication 1075,7
+HRA5,Vulnerabilities are not remediated in a timely manner,5
+HRA6,Scope of vulnerability scanning is not sufficient,7
+HRA7,Risk assessments are performed but not in accordance with Pub 1075 parameters,4
+HRA8,Penetration test results are not included in agency POA&Ms,4
+HRA9,Application source code is not assessed for static vulnerabilities,5
+HRM1,Multi-factor authentication is not required for external or remote access,8
+HRM10,Client side cache cleaning utility has not been implemented,4
+HRM100,Other,3
+HRM11,Site to site connection does not terminate outside the firewall,5
+HRM12,An FTI system is directly routable to the internet via unencrypted protocols,8
+HRM13,The agency does not blacklist known malicious IPs ,5
+HRM14,The agency does not update blacklists of known malicious IPs,4
+HRM15,Multi-factor authentication is not enforced for local device management ,4
+HRM16,VPN access points have not been limited,5
+HRM17,SSH is not implemented correctly for device management,6
+HRM18,Remote access policies are not sufficient,5
+HRM19,Agency cannot remotely wipe lost mobile device,6
+HRM2,Multi-factor authentication is not required to access FTI via personal devices,8
+HRM20,Multi-factor authentication is not properly configured for external or remote access,7
+HRM3,FTI access from personal devices,6
+HRM4,FTI access from offshore,8
+HRM5,User sessions do not terminate after the Publication 1075 period of inactivity,4
+HRM6,The mainframe is directly routable to the internet via Port 23,8
+HRM7,The agency does not adequately control remote access to its systems,6
+HRM8,Direct root access is enabled on the system,6
+HRM9,VPN technology does not perform host checking,6
+HSA1,Live FTI data is used in test environments without approval,4
+HSA100,Other,2
+HSA2,Usage restrictions to open source software are not in place,2
+HSA3,No agreement exists with 3rd party provider to host FTI,5
+HSA4,Software installation rights are not limited to the technical staff,5
+HSA5,Configuration changes are not controlled during all phases of the SDLC,4
+HSA6,Security test and evaluations are not performed during system development,4
+HSA7,The external facing system is no longer supported by the vendor,8
+HSA8,The internally hosted operating system's major release is no longer supported by the vendor,7
+HSA9,The internally hosted operating system's minor release is no longer supported by the vendor,6
+HSA10,The internally hosted software's major release is no longer supported by the vendor,8
+HSA11,The internally hosted software's minor release is no longer supported by the vendor,7
+HSA12,Internal networking devices are no longer supported by the vendor,6
+HSA13,IT security is not part of capital planning and the investment control process,4
+HSA14,FTI systems are not included in a SDLC ,4
+HSA15,FTI contracts do not contain all security requirements,5
+HSA16,Documentation is not properly protected,1
+HSA17,Security is not a consideration in system design or upgrade,4
+HSA18,Cloud vendor is not FedRAMP certified,7
+HSC1,FTI is not encrypted in transit,6
+HSC2,FTI is emailed outside of the agency,5
+HSC3,FTI is emailed incorrectly inside the agency,5
+HSC4,VOIP system not implemented correctly,3
+HSC5,No DMZ exists for the network,6
+HSC6,Not all connections to FTI systems are monitored,5
+HSC7,NAT is not implemented for internal IP addresses,5
+HSC8,Network architecture is flat,6
+HSC9,Database listener is not properly configured,5
+HSC10,FTI is not properly deleted / destroyed,5
+HSC100,Other,2
+HSC11,No backup plan exists to remove failed data loads in the data warehouse,1
+HSC12,Original FTI extracts are not protected after ETL process,4
+HSC13,FTI is transmitted incorrectly using an MFD,5
+HSC14,VM to VM communication exists using VMCI,3
+HSC15,Encryption capabilities do not meet FIPS 140-2 requirements,6
+HSC16,System does not meet common criteria requirements,4
+HSC17,Denial of Service protection settings are not configured,5
+HSC18,System communication authenticity is not guaranteed,4
+HSC19,Network perimeter devices do not properly restrict traffic,6
+HSC20,Publicly available systems contain FTI,6
+HSC21,Number of logon sessions are not managed appropriately,4
+HSC22,VPN termination point is not sufficient,6
+HSC23,Site survey has not been performed,3
+HSC24,Digital Signatures or PKI certificates are expired or revoked,5
+HSC25,Network sessions do not timeout per Publication 1075 requirements,4
+HSC26,Email policy is not sufficient,3
+HSC27,Traffic inspection is not sufficient,4
+HSC28,The network is not properly segmented,5
+HSC29,Cryptographic key pairs are not properly managed ,4
+HSC30,VLAN configurations do not utilize networking best practices,5
+HSC31,Collaborative computing devices are not deployed securely,4
+HSC32,PKI certificates are not issued from an approved authority,4
+HSC33,Datawarehouse has insecure connections,5
+HSC34,The production and development environments are not properly separated,6
+HSC35,Procedures stored in the database are not encrypted,5
+HSC36,System is configured to accept unwanted network connections,5
+HSC37,Network connection to third party system is not properly configured,6
+HSC38,SSL inspection has not been implemented,5
+HSC39,The communications protocol is not NIST 800-52 compliant ,5
+HSC40,Unencrypted management sessions over the internal network,6
+HSC41,Data at rest is not encrypted using the latest FIPS approved encryption,6
+HSC42,Encryption capabilities do not meet the latest FIPS 140 requirements,6
+HSC43,The version of TLS is not using the latest NIST 800-52 approved protocols,6
+HSC44,DNSSEC has not been implemented,6
+HSC45,DNSSEC has not been configured securely,5
+HSI1,System configured to load or run removable media automatically,6
+HSI2,System patch level is insufficient,5
+HSI3,System is not monitored for threats,6
+HSI4,No intrusion detection system exists,6
+HSI5,OS files are not hashed to detect inappropriate changes,4
+HSI6,Intrusion detection system not implemented correctly,5
+HSI7,"FTI can move via covert channels (e.g., VM isolation tools)",4
+HSI8,All VM moves are being tracked in the virtual environment,3
+HSI9,Network device configuration files are not kept offline,2
+HSI10,Hash sums of ISO images are not maintained in the virtual environment,3
+HSI100,Other,2
+HSI11,Antivirus is not configured to automatically scan removable media,7
+HSI12,No antivirus is configured on the system,6
+HSI13,Antivirus does not exist on an internet-facing endpoint,7
+HSI14,The system's automatic update feature is not configured appropriately,5
+HSI15,Alerts are not acknowledged and/or logged,5
+HSI16,Agency network not properly protected from spam email,6
+HSI17,Antivirus is not configured appropriately,5
+HSI18,VM rollbacks are conducted while connected to the network,4
+HSI19,Data inputs are not being validated,2
+HSI20,"Agency does not receive security alerts, advisories, or directives ",4
+HSI21,FTI is inappropriately moved and shared with non-FTI virtual machines,4
+HSI22,Data remanence is not properly handled,5
+HSI23,Agency has not defined an authorized list of software,2
+HSI24,Agency does not monitor for unauthorized software on the network,4
+HSI25,Agency does not monitor for unauthorized hosts on the network,4
+HSI26,No host intrusion detection/prevention system exists,5
+HSI27,Critical security patches have not been applied ,8
+HSI28,Security alerts are not disseminated to agency personnel,3
+HSI29,Data inputs are from external sources,4
+HSI30,System output is not secured in accordance with Publication 1075,4
+HSI31,Agency does not properly retire or remove unneeded source code from production,4
+HSI32,Virtual Switch (Vswitch) security parameters are set incorrectly,5
+HSI33,Memory protection mechanisms are not sufficient,5
+HSI34,A file integrity checking mechanism does not exist,5
+HSI35,Failover is not properly configured,4
+HSI36,Malware analysis is not being performed,6
+HTW1,Tumbleweed client is not configured properly,4
+HTW100,Other,2
+HTW2,Tumbleweed certificate is assigned to the wrong person,4
+HTW3,No written procedures for using Tumbleweed,1
+HTW4,FTI is left on the device running the Tumbleweed application,4
+HTW5,Axway does not run on a dedicated platform ,3
+HTW6,The data transfer agreement is not in place,5
+HMP1,Media sanitization is not sufficient,4
+HPE1,Printer does not lock and prevent access to the hard drive,4
+HPM1,A senior information officer does not exist ,5
+HTC1,The Windows 2000 server is unsupported,1
+HTC10,The ASA firewall is not configured securely,1
+HTC100,Other,2
+HTC101,The Palo Alto 7.1 firewall is not configured securely,1
+HTC102,The Palo Alto 8.0 firewall is not configured securely,1
+HTC103,The Palo Alto 8.1 firewall is not configured securely,1
+HTC104,The MacOS 10.12 operating system is not configured securely,1
+HTC105,The MacOS 10.13 operating system is not configured securely,1
+HTC106,The MacOS 10.14 operating system is not configured securely,1
+HTC107,The Windows 2019 Server is not configured securely,1
+HTC108,The SQL Server 2016 database is not configured securely,1
+HTC109,The IBM z/OS version 2.3.x is not configured securely,1
+HTC11,The RACF Mainframe is not configured securely,1
+HTC110,The SQL Server 2017 database is not configured securely,1
+HTC111,The VMware ESXi 6.7 Hypervisor is not configured securely,1
+HTC112,The Google Cloud environment is not configured securely,1
+HTC113,The Azure Cloud environment is not configured securely,1
+HTC114,The AWS Foundations environment is not configured securely,1
+HTC115,The Cisco IOS v16.x is not configured securely,1
+HTC116,The Red Hat Enterprise Linux 8 operating system is not configured securely,1
+HTC117,The Oracle Enterprise Linux 8 operating system is not configured securely,1
+HTC118,The CentOS 8 server is not configured securely,1
+HTC119,The SQL Server 2019 instance is not configured securely,1
+HTC12,The ACF2 Mainframe is not configured securely,1
+HTC120,The IBM z/OS version 2.4.x is not configured securely,1
+HTC121,The Palo Alto 9 firewall is not configured securely,1
+HTC122,The IIS 10 web server is not configured securely,1
+HTC123,The Debian 9 operating system is not configured securely,1
+HTC124,The Debian 10 operating system is not configured securely,1
+HTC125,The MacOS 10.15 operating system is not configured securely,1
+HTC126,The Juniper operating system is not configured securely,1
+HTC127,The IBM i7 operating system is not configured securely,1
+HTC128,The MongoDB 3.6 database is not configured securely,1
+HTC129,The MacOS 11.0 operating system is not configured securely,1
+HTC13,The Top Secret Mainframe is not configured securely,1
+HTC130,The Oracle 18c database is not configured securely,1
+HTC131,The MySQL 8 database is not configured securely,1
+HTC132,The IBM i7.x operating system is not configured securely,1
+HTC133,The VMWare ESXi 7.0 Hypervisor is not configured securely,1
+HTC134,The MongoDB 3.6 database is not configured securely,1
+HTC135,The Palo Alto 9.1 firewall is not configured securely,1
+HTC136,The SuSE 15 server is not configured securely ,1
+HTC137,The NXOS Operating System is not configured securely,1
+HTC138,The Checkpoint R81 firewall is not configured securely,1
+HTC139,The Checkpoint R82 firewall is not configured securely,1
+HTC14,The Unisys Mainframe is not configured securely,1
+HTC15,The i5OS Mainframe is not configured securely,1
+HTC16,The VPN concentrator is not configured securely,1
+HTC17,The Citrix Access Gateway is not configured securely,1
+HTC18,The Windows XP Workstation is not configured securely,1
+HTC19,The Windows 7 Workstation is not configured securely,1
+HTC2,The Windows 2003 Server is not configured securely,1
+HTC20,The Windows 8 Workstation is not configured securely,1
+HTC21,Network protection capabilities are not configured securely,1
+HTC22,The MFD is not configured securely,1
+HTC23,The GenTax application is not configured securely,1
+HTC24,The data warehouse is not configured securely,1
+HTC25,The RSI data warehouse is not configured securely,1
+HTC26,The Teradata data warehouse is not configured securely,1
+HTC27,The DB2 database is not configured securely,1
+HTC28,The Oracle 9g database is not configured securely,1
+HTC29,The Oracle 10g database is not configured securely,1
+HTC3,The Windows 2008 Standard Server is not configured securely,1
+HTC30,The Oracle 11g database is not configured securely,1
+HTC31,The SQL Server 2000 installation is unsupported,1
+HTC32,The SQL Server 2005 installation is not configured securely,1
+HTC33,The SQL Server 2008 installation is not configured securely,1
+HTC34,The SQL Server 2012 installation is not configured securely,1
+HTC35,The VMWare Hypervisor is not configured securely,1
+HTC36,The Tumbleweed client is not configured securely,1
+HTC37,The internet browser is not configured securely,1
+HTC38,The storage area network device is not configured securely,1
+HTC39,The voice-over IP network is not configured securely,1
+HTC4,The Windows 2012 Standard Server is not configured securely,1
+HTC40,The wireless network is not configured securely,1
+HTC41,The custom web application is not configured securely,1
+HTC42,The IVR system is not configured securely,1
+HTC43,The web server is not configured securely,1
+HTC44,The cloud computing environment is not configured securely,1
+HTC45,The Apple iOS device is not configured securely,1
+HTC46,The Google Android device is not configured securely,1
+HTC47,The Blackberry OS device is not configured securely,1
+HTC48,The Microsoft Windows RT device is not configured securely,1
+HTC49,The mobile device is not configured securely,1
+HTC5,The Solaris server is not configured securely,1
+HTC50,Agency has not notified IRS of this technology,5
+HTC51,Technology is not properly sanitized after use,4
+HTC52,The AIX server is not configured securely,1
+HTC53,The custom application is not configured securely,1
+HTC54,The SuSE Linux server is not configured securely,1
+HTC55,The Adabas database is not configured securely,1
+HTC56,The Windows 10 operating system is not configured securely,1
+HTC57,The Oracle 12c database is not configured securely,1
+HTC58,The Red Hat Enterprise Linux 6 operating system is not configured securely,1
+HTC59,The Red Hat Enterprise Linux 7 operating system is not configured securely,1
+HTC60,The Windows 2016 Server is not configured securely,1
+HTC61,The Windows 2012 R2 Server is not configured securely,1
+HTC62,The SQL Server 2014 database is not configured securely,1
+HTC63,The Windows 2008 R2 Server is not configured securely,1
+HTC64,The High Volume Printer is not configured securely,1
+HTC65,The system was not assessed during the onsite review,8
+HTC66,The VMWare ESXi 5.5 Hypervisor is not configured securely,1
+HTC67,The VMWare ESXi 6.0 Hypervisor is not configured securely,1
+HTC68,The IBM z/OS version 1.13.x is not configured securely,1
+HTC69,The IBM z/OS version 2.1.x is not configured securely,1
+HTC70,The IBM z/OS version 2.2.x is not configured securely,1
+HTC71,The Checkpoint R76 firewall is not configured securely,1
+HTC72,The Checkpoint R77 firewall is not configured securely,1
+HTC73,The Checkpoint R80 firewall is not configured securely,1
+HTC74,The Oracle 11.2.0.4 database is not configured securely,1
+HTC75,The Cisco IOS v12.x is not configured securely,1
+HTC76,The Cisco IOS v15.x is not configured securely,1
+HTC77,The AIX 6 server is not configured securely,1
+HTC78,The AIX 7 server is not configured securely,1
+HTC79,The CentOS 6 server is not configured securely ,1
+HTC80,The CentOS 7 server is not configured securely ,1
+HTC81,The OEL 6 server is not configured securely ,1
+HTC82,The OEL 7 server is not configured securely,1
+HTC83,The Solaris 10 server is not configured securely ,1
+HTC84,The Solaris 11 server is not configured securely ,1
+HTC85,The SuSE 11 server is not configured securely ,1
+HTC86,The SuSE 12 server is not configured securely ,1
+HTC87,The VMWare Horizon 6 VDI solution is not configured securely,1
+HTC88,The VMWare Horizon 7 VDI solution is not configured securely ,1
+HTC89,The Apache 2.2 web server is not configured securely,1
+HTC6,The Red Hat Linux server is not configured securely,1
+HTC7,The CentOS server is not configured securely,1
+HTC8,The Cisco networking device is not configured securely,1
+HTC9,The Cisco pix firewall is not configured securely,1
+HTC90,The Apache 2.4 web server is not configured securely,1
+HTC92,The ESXi 6.5 hypervisor is not configured securely,1
+HTC93,The IIS 7.0 web server is not configured securely,1
+HTC94,The IIS 7.5 web server is not configured securely,1
+HTC95,The IIS 8.0 web server is not configured securely,1
+HTC96,The IIS 8.5 web server is not configured securely,1
+HTC97,The IBM DB2 v11 on z/OS is not configured securely,1
+HTC98,The IBM DB2 v12 on z/OS is not configured securely,1
+HTC99,The Cisco ASA 9.x (FW or VPN) is not configured securely,1
+HTC140,The Windows 11 workstation has not been configured securely,1
+HTC141,The Windows 2022 Server has not been configured securely,1
+HTC142,The Kubernetes container has not been configured securely,1
+HTC143,The Red Hat Open Shift container has not been configured securely,1
+HTC144,The Docker container has not been configured securely,1
+HTC145,The containerized technology has not been configured securely ,1
+HTC146,The DB2 v11 for LUW relational database management system (RDBMS) is not configured securely,1
+HTC147,The DB2 v13 for Z/OS database management system is not configured securely,1
+HTC148,The IBM z/OS 2.5 mainframe is not configured securely,1
+HTC149,The Palo Alto Firewall running PanOS 10 is not configured securely,1
+HTC150,The Cisco switch/router running iOS 17 is not configured securely,1
+HTC151,The MacOS 12 operating system is not configured securely,1
+HTC152,The OEL 9.0 Server is not configured securely,1
+HTC153,The RHEL 9.0 Server is not configured securely,1
+HTC154,The Rocky Linux 9 Server is not configured securely,1
+HTC155,The MacOS 13 operating system is not configured securely,1
+HTC156,The Palo Alto 11 firewall is not configured securely,1
+HTC157,The FortiGate Firewall is not configured securely,1
+HTC158,The NGNIX Web Server is not configured securely,1
+HTC159,The SQL Server 2022 database is not configured securely,1
+HTC160,The Debian 11 operating system is not configured securely,1

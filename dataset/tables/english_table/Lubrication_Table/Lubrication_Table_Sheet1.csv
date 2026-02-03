@@ -1,0 +1,86 @@
+EquipmentLubricationOilInjectionCycleTable-Unit:-EquipmentNumberorName,EquipmentLubricationOilInjectionCycleTable-LubricationPointName,EquipmentLubricationOilInjectionCycleTable-Numberofoilingpoints,EquipmentLubricationOilInjectionCycleTable-LubricatingOilGrade,EquipmentLubricationOilInjectionCycleTable-OilInjectionCycle,EquipmentLubricationOilInjectionCycleTable-CheckCycle,EquipmentLubricationOilInjectionCycleTable-OilChangeCycle,EquipmentLubricationOilInjectionCycleTable-Usage,EquipmentLubricationOilInjectionCycleTable-Notes
+Equipment Number or Name,Lubrication Point Name,(pieces/unit),Lubricating Oil Grade,Oil Injection Cycle,Check Cycle,Oil Change Cycle,Usage,Notes
+"Conveyor Belt (Number, Model)",Reducer,,Refer to the manual,Every week,1 week,6 months,Oil level is between the upper and lower lines of the oil gauge.,Check the oil level at any time and add oil in time.
+"Conveyor Belt (Number, Model)",Head main drive roller bearing or bearing housing,,No. 3 or No. 2 lithium-based grease,Every week,Every day,12 months,1/2--2/3 of the interior cavity,"Check at any time, and oil in time."
+"Conveyor Belt (Number, Model)",General roller bearing,,No. 3 or No. 2 lithium-based grease,Every week,Every day,,1/2--2/3 of the interior cavity,"Check at any time, and oil in time."
+"Conveyor Belt (Number, Model)",Hydraulic Station,,Refer to the manual,Every week,Every day,12 months,Oil level is between the upper and lower lines of the oil gauge.,Check the oil level at any time and add oil in time.
+"Conveyor Belt (Number, Model)",Tensioning Winch Reducer,,Refer to the manual,Every week,Every day,12 months,Oil level is between the upper and lower lines of the oil gauge.,"Without oil gauge, fill to 1/2 of the inner cavity."
+"Conveyor Belt (Number, Model)",Belt Conveyor Motor Bearing,,No. 3 or No. 2 lithium-based grease,3 months,Every day,12 months,Oil level is between the upper and lower lines of the oil gauge.,"Check at any time, and oil in time."
+"Conveyor Belt (Number, Model)",Tensioning Winch Motor Bearing,,No. 3 or No. 2 lithium-based grease,3 months,,12 months,1/2--2/3 of the interior cavity,"Check at any time, and oil in time."
+"Conveyor Belt (Number, Model)",Hydraulic Brake,1,25# Transformer Oil,Every week,Every day,,30-40mm below the oil hole above,"Check at any time, and oil in time."
+Scraping Conveyor,Reducer,,Refer to the manual,Every week,1 week,6 months,Oil level is between the upper and lower lines of the oil gauge.,Check the oil level at any time and add oil in time.
+Scraping Conveyor,Reducer First Shaft,,No. 3 or No. 2 lithium-based grease,Every week,Every day,6 months,Inject new oil until the old oil is pushed out.,"Check at any time, and oil in time."
+Scraping Conveyor,Head and tail sprocket shaft assembly of the belt conveyor (equipment number/model),,Refer to the manual,Every week,Every day,6 months,Fill up,"Check at any time, and oil in time."
+Scraping Conveyor,Motor Bearing,,No. 3 or No. 2 lithium-based grease,3 months,Every day,12 months,1/2--2/3 of the interior cavity,"Check at any time, and oil in time."
+Loader (Machine Number/Model),Motor Bearing,2,No. 3 or No. 2 lithium-based grease,3 months,Every day,12 months,1/2--2/3 of the interior cavity,"Check at any time, and oil in time."
+Loader (Machine Number/Model),Reducer,,Refer to the manual,Every week,Every day,6 months,Oil level is between the upper and lower lines of the oil gauge.,Oil level is 1/2-2/3 of the inner cavity where there is no oil mark.
+Loader (Machine Number/Model),All rotating parts and steel wire ropes,,Used waste oil,Every week,Every day,,Apply an appropriate amount of oil for maintenance and care.,
+Winch,Motor Bearing,2,No. 3 or No. 2 lithium-based grease,3 months,Every day,12 months,1/2--2/3 of the interior cavity,"Check at any time, and oil in time."
+Winch,roller drum,1,N320 Medium Load Industrial Gear Oil,1 month,Every day,6 months,,"Check at any time, and oil in time."
+Winch,Brake Oil Pump,1,25# Transformer Oil,7 days,,,30-40mm below the oil hole above,"Check at any time, and oil in time."
+Spray gun machine,Motor Bearing,2,No. 3 or No. 2 lithium-based grease,3 months,Every day,12 months,1/2--2/3 of the interior cavity,"Check at any time, and oil in time."
+Spray gun machine,Gearbox,1,N320 Medium Load Industrial Gear Oil,1 month,Every day,6 months,1/2--2/3 of the interior cavity,"Check at any time, and oil in time."
+Coal cutter,Left and Right Drive Wheel Bearings,2,3# Lithium-based Grease,7 days,,Appropriate amount,,
+Coal cutter,"Left and right coal cutting part hinge shaft, cylinder hinge shaft",4,3# Lithium-based Grease,7 days,,Appropriate amount,,
+Coal cutter,Left and Right Cutting Section (Swing Arm),4,N320# Gear Oil,,Every day,3 months,Raise the bracket to the horizontal position and fill the oil to the middle line of the oil gauge.,"Check at any time, and oil in time."
+Coal cutter,Main Pump Box,1,N100# Hydraulic Oil,,Monthly,3 months,Add up to the middle line of the oil level gauge,"Check at any time, and oil in time."
+Emulsification Pump,Main Reducer Gearbox,2,N68# Full Loss System Oil,,Monthly,3 months,Oil level is between the upper and lower lines of the oil gauge.,"Check at any time, and oil in time."
+Locomotive ZK6-6/250 550-3 Type,Locomotive Motor Bearing,4,3# Industrial Lithium Grease,12 months,,,,
+Locomotive ZK6-6/250 550-3 Type,Collective Bow Pivot Point,1/7,2# Lithium-based Grease,7 days,,,Check the oil level at any time and add oil in time.,
+Locomotive ZK6-6/250 550-3 Type,Cam Controller Cam Disc,1/2,2# Lithium-based Grease,7 days,,,,
+Locomotive ZK6-6/250 550-3 Type,Cam controller bearing rollers,1/4,11# Cylinder Oil,1 day,,,,
+Explosion-proof Battery-powered Locomotive XK5-6/88-KBT CDXT-2.5B Type,Brake Shaft Bearing,2,1# Calcium Grease,1 month,,,,
+Explosion-proof Battery-powered Locomotive XK5-6/88-KBT CDXT-2.5B Type,Brake Nut,1,1# Calcium Grease,7 days,,,Check the oil level at any time and add oil in time.,
+Explosion-proof Battery-powered Locomotive XK5-6/88-KBT CDXT-2.5B Type,Gearbox Bearings,20,2# Calcium Grease,3 months,,,,
+Explosion-proof Battery-powered Locomotive XK5-6/88-KBT CDXT-2.5B Type,Gearbox gears,3,HL-20 Gear Oil,1 month,,,,
+Explosion-proof Battery-powered Locomotive XK5-6/88-KBT CDXT-2.5B Type,Bearing Box and Slider Block,4,1# Calcium Grease,7 days,,,,
+Explosion-proof Battery-powered Locomotive XK5-6/88-KBT CDXT-2.5B Type,Brake Linkage Pin,12,1# Calcium Grease,7 days,,,,
+Explosion-proof Battery-powered Locomotive XK5-6/88-KBT CDXT-2.5B Type,Spring device spring plate,1/4,50# Machine Oil,1 month,,,,
+Explosion-proof Battery-powered Locomotive XK5-6/88-KBT CDXT-2.5B Type,Spring device extreme spring support point,0,2# Calcium Grease,1 month,,,Check the oil level at any time and add oil in time.,
+Explosion-proof Battery-powered Locomotive XK5-6/88-KBT CDXT-2.5B Type,Axle Box Bearing,2/4,2# Calcium Sodium Grease,6 months,,,,
+Explosion-proof Battery-powered Locomotive XK5-6/88-KBT CDXT-2.5B Type,Bearing Box Guide Plate Groove,2/8,2# Calcium Sodium Grease,7 days,,,,
+Explosion-proof Battery-powered Locomotive XK5-6/88-KBT CDXT-2.5B Type,Braking device screw thread,5/3,20# Machine Oil,7 days,,,,
+Explosion-proof Battery-powered Locomotive XK5-6/88-KBT CDXT-2.5B Type,Braking device bearing pin joint,5/13,50# Machine Oil,7 days,,,,
+Explosion-proof Battery-powered Locomotive XK5-6/88-KBT CDXT-2.5B Type,Sanding device pin support point,6/12,50# Machine Oil,7 days,,,,
+"Above and below ground vehicle stopper, above and below ground turnout switch machine","The translation of ""翻矸架各压绳轮转向轮"" is:
+
+**The pressing rope wheels and direction wheels of the rock flipping frame**",10,30# Machine Oil,1 day,,,,
+"Above and below ground vehicle stopper, above and below ground turnout switch machine",Pressing Rope Wheel Steering Wheel,16,Used waste oil,7 days,,,Check the oil level at any time and add oil in time.,
+Mine Cart Maintenance,Mine Cart Wheel Set,4,3# Calcium-based Grease,6 months,,,,
+Main and Auxiliary Shaft Sheave,Bearing,4,3# Lithium-based Grease,3 months,12 months,1/3-1/2 of the interior cavity,,
+Main and Auxiliary Shaft Sheave,Bearing Shell,24,3# Lithium-based Grease,1 week,,,Check the oil level at any time and add oil in time.,
+Main and Auxiliary Shaft Hoists,Bearing,2,3# Lithium-based Grease,3 months,12 months,1/3-1/2 of the interior cavity,,
+Fan,Motor Bearing,2,Jinzhi Lubricating Grease,Run for 3000 hours,12 months,80 g/time,,
+Hydraulic Push Rod,Oil tank,1,N68 Hydraulic Oil,,18 months,3/4 oil tank capacity,Check the oil level at any time and add oil in time.,
+Hydraulic gate valve plate,Oil tank,1,N68 Hydraulic Oil,,18 months,3/4 oil tank capacity,Check the oil level at any time and add oil in time.,
+High-voltage electric motor,Bearing,,3# Lithium-based Grease,3 months,12 months,1/3-1/2 of the interior cavity,,
+Hydraulic Pump Station,Oil tank,1,,,12 months,Oil level is between the upper and lower lines of the oil gauge.,Check the oil level at any time and add oil in time.,
+High-voltage electric motor,,,2# Extreme Pressure Lithium Grease,3 months,12 months,Inside cavity 1/2 - 2/3,,
+Magnetic Separator--xc091501,Motor Bearing,2,2# Extreme Pressure Lithium Grease,3 months,12 months,Inner cavity 1/2 - 2/3,,
+Cooling Tower--XC100102,Motor Bearing,2,2# Extreme Pressure Lithium Grease,3 months,12 months,Inner cavity 1/2 - 2/3,,
+105 Jig -- XC090101,Motor Bearing,2,2# Extreme Pressure Lithium Grease,3 months,12 months,Inner cavity 1/2 - 2/3,,
+Lifting Wheel,Motor Bearing,2,2# Extreme Pressure Lithium Grease,3 months,12 months,Inner cavity 1/2 - 2/3,,
+104 Chain Coal Feeder--XC092401,Motor Bearing,2,2# Extreme Pressure Lithium Grease,3 months,12 months,Inner cavity 1/2 - 2/3,,
+106 Manual Selection Conveyor Belt--XC062602,Motor Bearing,2,2# Extreme Pressure Lithium Grease,3 months,12 months,Inner cavity 1/2 - 2/3,,
+109 Coal Blend Conveyor Belt--XC062603,,,,,,,,
+Bucket Elevator -- XC09130101,Motor Bearing,2,2# Extreme Pressure Lithium Grease,3 months,12 months,Inner cavity 1/2 - 2/3,,
+1001 Gangue Crusher Conveyor -- XC062607,Motor Bearing,2,2# Extreme Pressure Lithium Grease,3 months,12 months,Inner cavity 1/2 - 2/3,,
+Feeder--XC092501,Motor Bearing,2,2# Extreme Pressure Lithium Grease,3 months,12 months,Inner cavity 1/2 - 2/3,,
+Feeder--XC092502,Motor Bearing,2,2# Extreme Pressure Lithium Grease,3 months,12 months,Inner cavity 1/2 - 2/3,,
+Feeder--XC092503,Motor Bearing,2,2# Extreme Pressure Lithium Grease,3 months,12 months,Inner cavity 1/2 - 2/3,,
+Feeder--XC092504,Motor Bearing,2,2# Extreme Pressure Lithium Grease,3 months,12 months,Inner cavity 1/2 - 2/3,,
+Centrifugal Pump--XC070206,Motor Bearing,2,2# Extreme Pressure Lithium Grease,3 months,12 months,Inner cavity 1/2 - 2/3,,
+Centrifugal Pump--XC070207,Motor Bearing,2,2# Extreme Pressure Lithium Grease,3 months,12 months,Inner cavity 1/2 - 2/3,,
+Slurry Pump--XC071201,Motor Bearing,2,2# Extreme Pressure Lithium Grease,3 months,12 months,Inner cavity 1/2 - 2/3,,
+Slurry Pump--XC071202,Motor Bearing,2,2# Extreme Pressure Lithium Grease,3 months,12 months,Inner cavity 1/2 - 2/3,,
+Pressure Pump,Motor Bearing,2,2# Extreme Pressure Lithium Grease,3 months,12 months,Inner cavity 1/2 - 2/3,,
+Inner Circulation Pump,Motor Bearing,2,2# Extreme Pressure Lithium Grease,3 months,12 months,Inner cavity 1/2 - 2/3,,
+Centrifugal Pump--XC070206,Bearing,1,2# Extreme Pressure Lithium Grease,15 days,12 months,Inner cavity 1/2 - 2/3,,
+Centrifugal Pump--XC070207,Bearing,1,2# Extreme Pressure Lithium Grease,15 days,12 months,Inner cavity 1/2 - 2/3,,
+Slurry Pump--XC071201,Bearing,2,2# Extreme Pressure Lithium Grease,15 days,12 months,Inner cavity 1/2 - 2/3,,
+Slurry Pump--XC071202,Bearing,2,2# Extreme Pressure Lithium Grease,15 days,12 months,Inner cavity 1/2 - 2/3,,
+Pressure Pump,Bearing,1,2# Extreme Pressure Lithium Grease,15 days,12 months,Inner cavity 1/2 - 2/3,,
+Inner Circulation Pump,Bearing,2,2# Extreme Pressure Lithium Grease,15 days,12 months,Inner cavity 1/2 - 2/3,,
+Vibrator--XC040901,Bearing,4,2# Extreme Pressure Lithium Grease,1 week,12 months,Inner cavity 1/2 - 2/3,,
+Crusher--XC050402,Feeder Inner Eccentric Pump,1,2# Extreme Pressure Lithium Grease,1 month,12 months,Inner cavity 1/2 - 2/3,,
+Crusher--XC050402,Fixed Jaw Shaft,2,2# Extreme Pressure Lithium Grease,1 month,12 months,Inner cavity 1/2 - 2/3,,

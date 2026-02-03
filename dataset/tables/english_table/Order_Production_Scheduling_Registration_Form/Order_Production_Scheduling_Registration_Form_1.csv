@@ -1,0 +1,10 @@
+OrderProductionSchedulingRegistrationForm-OrderDate,OrderProductionSchedulingRegistrationForm-OrderName,OrderProductionSchedulingRegistrationForm-Salesperson,OrderProductionSchedulingRegistrationForm-ContractNumber,OrderProductionSchedulingRegistrationForm-OrderDeliveryDate,OrderProductionSchedulingRegistrationForm-OrderQuantity,OrderProductionSchedulingRegistrationForm-ProductionOrderNumber,OrderProductionSchedulingRegistrationForm-ProductionDate,OrderProductionSchedulingRegistrationForm-Thistimeproductionquantity,OrderProductionSchedulingRegistrationForm-CompletionDate,OrderProductionSchedulingRegistrationForm-CompletedQuantity,OrderProductionSchedulingRegistrationForm-InboundQuantity,OrderProductionSchedulingRegistrationForm-DeliveryDate,OrderProductionSchedulingRegistrationForm-WhetherDelayed,OrderProductionSchedulingRegistrationForm-DelayDays,OrderProductionSchedulingRegistrationForm-Exception
+9/15/2020,Name 1,Tian Wancheng,LEA1815034,9/27/2020,164,1/0/1900,9/20/2020,250,9/28/2020,250,0,2020/9/30,,,No
+9/16/2020,Name 2,Tian Wancheng,LEA1815036,9/29/2020,100,1/0/1900,9/21/2020,125,9/29/2020,125,0,2020/9/29,,,No
+9/17/2020,Name 3,Bai Jie,LEA1715027,9/30/2020,40,1/0/1900,9/22/2020,82,9/30/2020,82,0,2020/9/29,,,No
+9/18/2020,Name 4,Bai Jie,LEA1715027,9/30/2020,411,1/0/1900,9/23/2020,452,10/1/2020,452,0,2020/10/2,,,No
+9/19/2020,Name 5,Liu Zhaoling,LEA1818037-D,10/2/2020,511,1/0/1900,9/24/2020,511,10/2/2020,511,0,10/2/2020,,,No
+9/20/2020,Name 6,Liu Zhengying,LEA1825006,10/3/2020,144,1/0/1900,9/25/2020,195,10/3/2020,195,0,10/3/2020,,,No
+9/21/2020,Name 7,Liu Zhengying,LEA1825006,9/15/2020,441,1/0/1900,9/26/2020,198,10/4/2020,198,0,9/20/2020,,,No
+9/22/2020,Name 8,Liu Zhengying,LEA1825006,10/5/2020,841,1/0/1900,9/27/2020,950,10/5/2020,950,0,10/5/2020,,,No
+9/23/2020,Name 9,Yu Wenzhou,LEA1629004,10/6/2020,111,1/0/1900,9/28/2020,251,10/6/2020,251,0,10/6/2020,,,No

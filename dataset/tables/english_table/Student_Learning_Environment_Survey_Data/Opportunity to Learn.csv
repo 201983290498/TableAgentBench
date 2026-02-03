@@ -1,0 +1,145 @@
+﻿Grade,Domain,Area,Student Group,State Count,State Domain Score
+4,Opportunity to Learn,Mathematics,All Students,24497,69
+4,Opportunity to Learn,Mathematics,Female,12289,70
+4,Opportunity to Learn,Mathematics,Male,12160,67
+4,Opportunity to Learn,Mathematics,Nonbinary,48,70
+4,Opportunity to Learn,Mathematics,American Indian/Alaska Native,216,67
+4,Opportunity to Learn,Mathematics,Asian,1143,70
+4,Opportunity to Learn,Mathematics,Black/African American,538,68
+4,Opportunity to Learn,Mathematics,Hispanic/Latino/a/x,6082,67
+4,Opportunity to Learn,Mathematics,Multiracial,1982,70
+4,Opportunity to Learn,Mathematics,Native Hawaiian/Pacific Islander,174,65
+4,Opportunity to Learn,Mathematics,White,14362,69
+4,Opportunity to Learn,Mathematics,English Learner,4316,67
+4,Opportunity to Learn,Mathematics,Students With Disabilities,3780,65
+4,Opportunity to Learn,Mathematics,Experiencing Poverty,8034,67
+4,Opportunity to Learn,Mathematics,Experiencing Homelessness,727,65
+4,Opportunity to Learn,Mathematics,In Migrant Education,453,67
+4,Opportunity to Learn,Mathematics,Recent Arriver,534,64
+4,Opportunity to Learn,Mathematics,In Foster Care,123,66
+5,Opportunity to Learn,Science,All Students,26362,57
+5,Opportunity to Learn,Science,Female,13223,58
+5,Opportunity to Learn,Science,Male,13086,56
+5,Opportunity to Learn,Science,Nonbinary,53,59
+5,Opportunity to Learn,Science,American Indian/Alaska Native,218,56
+5,Opportunity to Learn,Science,Asian,1198,61
+5,Opportunity to Learn,Science,Black/African American,589,58
+5,Opportunity to Learn,Science,Hispanic/Latino/a/x,6865,57
+5,Opportunity to Learn,Science,Multiracial,2060,58
+5,Opportunity to Learn,Science,Native Hawaiian/Pacific Islander,212,59
+5,Opportunity to Learn,Science,White,15220,57
+5,Opportunity to Learn,Science,English Learner,5089,57
+5,Opportunity to Learn,Science,Students With Disabilities,3885,54
+5,Opportunity to Learn,Science,Experiencing Poverty,8577,56
+5,Opportunity to Learn,Science,Experiencing Homelessness,779,54
+5,Opportunity to Learn,Science,In Migrant Education,520,56
+5,Opportunity to Learn,Science,Recent Arriver,509,57
+5,Opportunity to Learn,Science,In Foster Care,122,58
+6,Opportunity to Learn,English Language Arts,All Students,21901,78
+6,Opportunity to Learn,English Language Arts,Female,10999,80
+6,Opportunity to Learn,English Language Arts,Male,10831,76
+6,Opportunity to Learn,English Language Arts,Nonbinary,71,80
+6,Opportunity to Learn,English Language Arts,American Indian/Alaska Native,171,74
+6,Opportunity to Learn,English Language Arts,Asian,1064,83
+6,Opportunity to Learn,English Language Arts,Black/African American,460,77
+6,Opportunity to Learn,English Language Arts,Hispanic/Latino/a/x,5721,77
+6,Opportunity to Learn,English Language Arts,Multiracial,1724,78
+6,Opportunity to Learn,English Language Arts,Native Hawaiian/Pacific Islander,208,78
+6,Opportunity to Learn,English Language Arts,White,12553,78
+6,Opportunity to Learn,English Language Arts,English Learner,3629,75
+6,Opportunity to Learn,English Language Arts,Students With Disabilities,2828,71
+6,Opportunity to Learn,English Language Arts,Experiencing Poverty,6734,76
+6,Opportunity to Learn,English Language Arts,Experiencing Homelessness,632,72
+6,Opportunity to Learn,English Language Arts,In Migrant Education,460,75
+6,Opportunity to Learn,English Language Arts,Recent Arriver,422,70
+6,Opportunity to Learn,English Language Arts,In Foster Care,102,74
+7,Opportunity to Learn,Mathematics,All Students,20440,71
+7,Opportunity to Learn,Mathematics,Female,10304,73
+7,Opportunity to Learn,Mathematics,Male,10041,70
+7,Opportunity to Learn,Mathematics,Nonbinary,95,67
+7,Opportunity to Learn,Mathematics,American Indian/Alaska Native,173,67
+7,Opportunity to Learn,Mathematics,Asian,1010,76
+7,Opportunity to Learn,Mathematics,Black/African American,386,70
+7,Opportunity to Learn,Mathematics,Hispanic/Latino/a/x,5206,70
+7,Opportunity to Learn,Mathematics,Multiracial,1553,72
+7,Opportunity to Learn,Mathematics,Native Hawaiian/Pacific Islander,186,70
+7,Opportunity to Learn,Mathematics,White,11926,72
+7,Opportunity to Learn,Mathematics,English Learner,2771,68
+7,Opportunity to Learn,Mathematics,Students With Disabilities,2435,66
+7,Opportunity to Learn,Mathematics,Experiencing Poverty,5990,69
+7,Opportunity to Learn,Mathematics,Experiencing Homelessness,582,67
+7,Opportunity to Learn,Mathematics,In Migrant Education,415,69
+7,Opportunity to Learn,Mathematics,Recent Arriver,397,69
+7,Opportunity to Learn,Mathematics,In Foster Care,69,63
+8,Opportunity to Learn,Science,All Students,19047,70
+8,Opportunity to Learn,Science,Female,9595,71
+8,Opportunity to Learn,Science,Male,9377,68
+8,Opportunity to Learn,Science,Nonbinary,75,71
+8,Opportunity to Learn,Science,American Indian/Alaska Native,144,67
+8,Opportunity to Learn,Science,Asian,959,72
+8,Opportunity to Learn,Science,Black/African American,357,69
+8,Opportunity to Learn,Science,Hispanic/Latino/a/x,4704,68
+8,Opportunity to Learn,Science,Multiracial,1395,70
+8,Opportunity to Learn,Science,Native Hawaiian/Pacific Islander,155,74
+8,Opportunity to Learn,Science,White,11333,70
+8,Opportunity to Learn,Science,English Learner,2308,66
+8,Opportunity to Learn,Science,Students With Disabilities,2235,65
+8,Opportunity to Learn,Science,Experiencing Poverty,5291,68
+8,Opportunity to Learn,Science,Experiencing Homelessness,509,66
+8,Opportunity to Learn,Science,In Migrant Education,369,66
+8,Opportunity to Learn,Science,Recent Arriver,311,64
+8,Opportunity to Learn,Science,In Foster Care,74,66
+9,Opportunity to Learn,English Language Arts,All Students,13307,79
+9,Opportunity to Learn,English Language Arts,Female,6744,82
+9,Opportunity to Learn,English Language Arts,Male,6484,77
+9,Opportunity to Learn,English Language Arts,Nonbinary,79,78
+9,Opportunity to Learn,English Language Arts,American Indian/Alaska Native,110,77
+9,Opportunity to Learn,English Language Arts,Asian,733,83
+9,Opportunity to Learn,English Language Arts,Black/African American,235,80
+9,Opportunity to Learn,English Language Arts,Hispanic/Latino/a/x,3207,78
+9,Opportunity to Learn,English Language Arts,Multiracial,977,79
+9,Opportunity to Learn,English Language Arts,Native Hawaiian/Pacific Islander,92,80
+9,Opportunity to Learn,English Language Arts,White,7953,80
+9,Opportunity to Learn,English Language Arts,English Learner,1281,74
+9,Opportunity to Learn,English Language Arts,Students With Disabilities,1481,72
+9,Opportunity to Learn,English Language Arts,Experiencing Poverty,3393,78
+9,Opportunity to Learn,English Language Arts,Experiencing Homelessness,299,76
+9,Opportunity to Learn,English Language Arts,In Migrant Education,293,77
+9,Opportunity to Learn,English Language Arts,Recent Arriver,215,73
+9,Opportunity to Learn,English Language Arts,In Foster Care,47,77
+10,Opportunity to Learn,Mathematics,All Students,11742,70
+10,Opportunity to Learn,Mathematics,Female,5846,71
+10,Opportunity to Learn,Mathematics,Male,5787,69
+10,Opportunity to Learn,Mathematics,Nonbinary,109,68
+10,Opportunity to Learn,Mathematics,American Indian/Alaska Native,108,66
+10,Opportunity to Learn,Mathematics,Asian,642,76
+10,Opportunity to Learn,Mathematics,Black/African American,197,67
+10,Opportunity to Learn,Mathematics,Hispanic/Latino/a/x,2901,69
+10,Opportunity to Learn,Mathematics,Multiracial,860,69
+10,Opportunity to Learn,Mathematics,Native Hawaiian/Pacific Islander,54,68
+10,Opportunity to Learn,Mathematics,White,6980,70
+10,Opportunity to Learn,Mathematics,English Learner,1025,68
+10,Opportunity to Learn,Mathematics,Students With Disabilities,1272,65
+10,Opportunity to Learn,Mathematics,Experiencing Poverty,2845,67
+10,Opportunity to Learn,Mathematics,Experiencing Homelessness,281,65
+10,Opportunity to Learn,Mathematics,In Migrant Education,219,68
+10,Opportunity to Learn,Mathematics,Recent Arriver,181,72
+10,Opportunity to Learn,Mathematics,In Foster Care,43,72
+11,Opportunity to Learn,Science,All Students,11241,71
+11,Opportunity to Learn,Science,Female,5640,72
+11,Opportunity to Learn,Science,Male,5506,70
+11,Opportunity to Learn,Science,Nonbinary,95,72
+11,Opportunity to Learn,Science,American Indian/Alaska Native,117,69
+11,Opportunity to Learn,Science,Asian,596,74
+11,Opportunity to Learn,Science,Black/African American,205,71
+11,Opportunity to Learn,Science,Hispanic/Latino/a/x,2706,70
+11,Opportunity to Learn,Science,Multiracial,813,72
+11,Opportunity to Learn,Science,Native Hawaiian/Pacific Islander,54,69
+11,Opportunity to Learn,Science,White,6750,71
+11,Opportunity to Learn,Science,English Learner,865,66
+11,Opportunity to Learn,Science,Students With Disabilities,1234,66
+11,Opportunity to Learn,Science,Experiencing Poverty,2666,69
+11,Opportunity to Learn,Science,Experiencing Homelessness,318,67
+11,Opportunity to Learn,Science,In Migrant Education,214,67
+11,Opportunity to Learn,Science,Recent Arriver,171,66
+11,Opportunity to Learn,Science,In Foster Care,44,72

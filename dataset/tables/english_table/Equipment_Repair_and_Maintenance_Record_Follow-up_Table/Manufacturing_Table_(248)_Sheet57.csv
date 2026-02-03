@@ -1,0 +1,8 @@
+InventoryRecordTable-DateStatisticalAmount,InventoryRecordTable-DateStatisticalAmount-StartDate-EndDate,InventoryRecordTable-DateStatisticalAmount-September1st-September15,InventoryRecordTable-DateStatisticalAmount.1,InventoryRecordTable-DateStatisticalAmount.2,InventoryRecordTable-DateStatisticalAmount-TotalInboundAmount-27085,InventoryRecordTable-DateStatisticalAmount.3,InventoryRecordTable-DateStatisticalAmount.4,InventoryRecordTable-DateStatisticalAmount.5,InventoryRecordTable-DateStatisticalAmount.6,InventoryRecordTable-DateStatisticalAmount.7,InventoryRecordTable-DateStatisticalAmount.8
+Inbound Daily Details,Entry Slip Number,Supplier,Name 2,Specification,Quantity,Unit Price,Amount,Freight,Total Amount,Payment Method,Remarks
+2019/9/1,RK28947032,Supplier 1,Name1,Specification 1,1000,2,2000,100,2100,Remittance with Invoice,
+2019/9/2,RK28947033,Supplier 2,Name 2,Specification 2,1001,3,3003,101,3104,Remittance with Invoice,
+2019/9/3,RK28947034,Supplier 3,Name3,Specification 3,1002,4,4008,102,4110,Remittance with Invoice,
+2019/9/4,RK28947035,Supplier4,Name4,Specification 4,1003,5,5015,103,5118,Payment by check,
+2019/9/5,RK28947036,Supplier 5,Name5,Specification 5,1004,6,6024,104,6128,Remittance with Invoice,
+2019/9/6,RK28947037,Supplier6,Name6,Specification 6,1005,7,7035,105,7140,Remittance with Invoice,

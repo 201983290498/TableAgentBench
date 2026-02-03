@@ -1,0 +1,62 @@
+ShellSide-ShellSide-Liquid-LiquidMedium,TubeSide-TubeSide-Liquid-LiquidMedium,OverallHeatTransferCoefficientRange-W/(m2·℃)-Liquid-LiquidMedium,TotalfoulingthermalresistanceincludedinK-(m2·℃)/W-Liquid-LiquidMedium
+Diluted asphalt,Water,57~110,0.0018
+Ethanolamine (Monoethanolamine or Diethanolamine) 10%~25%,Water or diethanolamine or monoethanolamine,800~1100,0.00054
+Softened water,Water,1700~2800,0.00018
+Fuel oil,Water,85~140,0.0012
+Fuel oil,Oil,57~85,0.0014
+gasoline,Water,340~570,0.00054
+Heavy oil,Heavy oil,57~230,0.0007
+Hydrogen-rich reformate oil,Hydrogen-rich reformate oil,510~880,0.00035
+Kerosene or Fuel Oil,Water,140~280,0.00088
+Kerosene or Fuel Oil,Oil,110~200,0.00088
+Kerosene or jet engine fuel,Trichloroethylene,230~280,0.00026
+Jacket Water,Water,1300~1700,0.00035
+Lubricating oil (low viscosity),Water,140~280,0.00035
+Lubricating oil (high viscosity),Water,230~460,0.00054
+Lubricating oil,Oil,60~110,0.0011
+Naphtha,Water,280~400,0.00088
+Naphtha,Oil,140~200,0.00088
+Organic solvent,Water,280~850,0.00054
+Organic solvent,brine,200~510,0.00054
+Organic solvent,Organic solvent,110~340,0.00035
+"Tall oil derivatives, vegetable oil",Water,110~280,0.0007
+Water,Sodium hydroxide solution 10%~30%,570~1450,0.00054
+Water,Water,1100~1420,0.00054
+Wax distillate liquid,Water,85~140,0.00088
+Wax distillate liquid,Oil,74~130,0.00088
+Condensing Steam——Liquid Medium,Condensing Steam——Liquid Medium,Condensing Steam——Liquid Medium,Condensing Steam——Liquid Medium
+Alcohol vapor,Water,570~1100,0.00035
+Asphalt (232°C),Thermcon Steam,230~340,0.0011
+Thermcon Steam,Tall oil and its derivatives,340~460,0.0007
+Thermcon Steam,Thermfluid,460~680,0.00026
+Coal Tar from Gas Plant,Water Steam,230~280,0.00097
+High-boiling-point hydrocarbons (vacuum),Water,110~280,0.00054
+Low-boiling-point hydrocarbons (atmospheric pressure),Water,460~1100,0.00054
+Hydrocarbon Vapors (Fractionating Condenser),Oil,140~230,0.0007
+Condensing Steam——Liquid Medium,Condensing Steam——Liquid Medium,Condensing Steam——Liquid Medium,Condensing Steam——Liquid Medium
+Organic vapor,Water,570~1100,0.00054
+Organic steam with high non-condensable gas content (atmospheric pressure),Water or brine,110~340,0.00054
+Organic steam (vacuum) with low non-condensable gas content,Water or brine,280~680,0.00054
+kerosene,Water,170~340,0.0007
+kerosene,Oil,110~170,0.00088
+Naphtha,Water,280~430,0.00088
+Naphtha,Oil,110~170,0.00088
+Reflux Steam of the Stabilizer,Water,460~680,0.00054
+Water Steam,Drinking water,2300~5700,0.00088
+Water Steam,6# Fuel Oil,85~140,0.00097
+Water Steam,2# Fuel Oil,340~510,0.00044
+Sulfur dioxide,Water,850~1100,0.00054
+"Tall oil derivatives, vegetable oil (steam)",,110~280,0.0007
+Water,Aromatic Steam Azeotrope,230~460,0.00088
+Gas—Liquid Medium,Gas—Liquid Medium,Gas—Liquid Medium,Gas—Liquid Medium
+"Air, N2, etc. (compressed)",Water or compressed,230~460,0.00088
+"Air, N2, etc. (atmospheric pressure)",Water or compressed,57~280,0.00088
+Water or compressed,"Air, N2, etc. (compressed)",110~230,0.00088
+Water or compressed,"Air, N2, etc. (atmospheric pressure)",30~110,0.00088
+Water,Hydrogen containing natural gas mixtures,460~710,0.00054
+Vaporizer,Vaporizer,Vaporizer,Vaporizer
+Water-free oxygen,Condensation of water vapor,850~1700,0.00026
+Chlorine gas,Condensation of water vapor,850~1700,0.00026
+Chlorine gas,Light oil for heat transfer,230~340,0.00026
+"Propane, butane, etc.",Condensation of water vapor,1100~1700,0.00026
+Water,Condensation of water vapor,1420~2300,0.00026

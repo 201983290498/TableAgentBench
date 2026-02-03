@@ -1,0 +1,17 @@
+InventoryIn/OutProductStatisticsTable-Date,InventoryIn/OutProductStatisticsTable-ProductName,InventoryIn/OutProductStatisticsTable-Specification,InventoryIn/OutProductStatisticsTable-InitialInventory,InventoryIn/OutProductStatisticsTable-InitialInventory.1,InventoryIn/OutProductStatisticsTable-Inboundsituation,InventoryIn/OutProductStatisticsTable-Inboundsituation.1,InventoryIn/OutProductStatisticsTable-OutboundSituation,InventoryIn/OutProductStatisticsTable-OutboundSituation.1,InventoryIn/OutProductStatisticsTable-Currentremaininginventory,InventoryIn/OutProductStatisticsTable-Currentremaininginventory.1
+Date,Product Name,Specification,Quantity   Unit,Quantity   Unit,Inbound Quantity  Unit,Inbound Quantity  Unit,Outbound Quantity   Unit,Outbound Quantity   Unit,Stock Quantity   Unit,Stock Quantity   Unit
+2019/12/5,Guangxi Tainong Mango,5-pound package,18,Box,25,Box,30,Box,13,Box
+2019/12/6,Product Name 1,XXX,38,Box,57,Box,36,Box,59,Box
+2019/12/7,Product Name 2,XXX,37,Box,50,Box,34,Box,53,Box
+2019/12/8,Product Name 3,XXX,39,Box,47,Box,44,Box,42,Box
+2019/12/9,Product Name 4,XXX,55,Box,0,Box,47,Box,8,Box
+2019/12/10,Product Name 5,XXX,32,Box,37,Box,50,Box,19,Box
+2019/12/11,Product Name 6,XXX,55,Box,50,Box,46,Box,59,Box
+2019/12/12,Product Name 7,XXX,45,Box,56,Box,39,Box,62,Box
+2019/12/13,Product Name 8,XXX,35,Box,60,Box,47,Box,48,Box
+2019/12/14,Product Name 9,XXX,50,Box,30,Box,32,Box,48,Box
+2019/12/15,Product Name 10,XXX,54,Box,60,Box,36,Box,78,Box
+2019/12/16,Product Name 11,XXX,40,Box,57,Box,60,Box,37,Box
+2019/12/17,Product Name 12,XXX,48,Box,34,Box,60,Box,22,Box
+2019/12/18,Product Name 13,XXX,38,Box,48,Box,47,Box,39,Box
+2019/12/19,Product Name 14,XXX,42,Box,60,Box,60,Box,42,Box

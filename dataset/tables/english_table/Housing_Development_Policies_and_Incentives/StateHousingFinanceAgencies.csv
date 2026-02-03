@@ -1,0 +1,62 @@
+﻿FROM NATIONAL COUNCIL OF STATE HOUSING AUTHORITIES,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7
+State,Housing Agency,Own Rural,Federal Rural,No Rural,Rural Program Type,URL,Notes:
+Alabama,Alabama Housing Finance Authority,0,1,0,"Ownership, Rental",http://www.ahfa.com,Housing Trust amendment to focus on underserved rural areas
+Alaska,Alaska Housing Finance Corporation,1,0,0,Ownership,http://www.ahfc.us,-
+Arizona,Arizona Department of Housing,0,1,0,General,http://www.azhousing.gov,Links to government organizations that provide rural housing assistance
+Arkansas,Arkansas Development Finance Authority,1,1,0,"Ownership, Rental",http://www.arkansas.gov/adfa,-
+California,California Housing Finance Agency,0,1,0,Ownership,http://www.calhfa.ca.gov,-
+Colorado,Colorado Housing and Finance Authority,1,0,0,Counseling,http://www.chfainfo.com,-
+Connecticut,Connecticut Housing Finance Authority,1,1,0,"Ownership, Technical Assistance",http://www.chfa.org,-
+Delaware,Delaware State Housing Authority,0,1,0,"Ownership, Rental",http://www.destatehousing.com,Note: Tax credit from larger policy has specific amount set aside for rural development (http://destatehousing.com/Developers/lihtc/2005/LIHTC_FR2005_1_QAP-_Final.pdf)
+Florida,Florida Housing Finance Corporation,0,1,0,"Ownership, Rental",http://www.floridahousing.org,-
+Georgia,Georgia Department of Community Affairs,0,0,1,,http://www.dca.ga.gov,-
+Hawaii,Hawaii Housing Finance and Development Corporation,0,1,0,Rental,http://www.hawaii.gov/dbedt/hhfdc,-
+Idaho,Idaho Housing and Finance Association,0,1,0,"Ownership, General",http://www.idahohousing.com,Combined service
+Illinois,Illinois Housing Development Authority,0,0,1,,http://www.ihda.org,-
+Indiana,Indiana Housing and Community Development Authority,0,0,1,,http://www.ihcda.in.gov,-
+Iowa,Iowa Finance Authority,0,1,0,Ownership,http://www.iowafinanceauthority.gov,-
+Kansas,Kansas Housing Resources Corporation,1,1,0,General,http://www.kshousingcorp.org,-
+Kentucky,Kentucky Housing Corporation,0,1,0,Ownership,http://www.kyhousing.org,Combined service
+Louisiana,Louisiana Housing Corporation,0,0,1,,http://www.lhc.la.gov,One mention of USDA RD in FAQs sheet not mentioned on the website at all
+Maine,Maine State Housing Authority,0,1,0,Ownership,http://www.mainehousing.org,-
+Maryland,Maryland Department of Housing and Community Development,0,1,0,Ownership,http://www.dhcd.maryland.gov,"Only a few mentions of USDA RD, no links"
+Massachusetts,MassHousing,0,0,1,,http://www.masshousing.com,-
+Michigan,Michigan State Housing Development Authority,0,1,0,"Ownership, Rental",http://www.michigan.gov/mshda,-
+Minnesota,Minnesota Housing Finance Agency,1,1,0,"Ownership, Rental",http://www.mnhousing.gov,Combined service
+Mississippi,Mississippi Home Corporation,0,1,0,Ownership,http://www.mshomecorp.com,"Only a few mentions of USDA RD, no links"
+Missouri,Missouri Housing Development Commission,0,1,0,Ownership,http://www.mhdc.com,"Only a few mentions of USDA RD, no links"
+Montana,"Montana Department of Commerce, Housing Division",0,1,0,"Ownership, Rental",http://www.housing.mt.gov,"Combined service; Note: All of Montana except 5 cities (Billings, Bozeman, Great Falls, Helena, Missoula) is considered rural"
+Nebraska,Nebraska investment Finance Authority,0,1,0,"Ownership, Rental",http://www.nifa.org,Combined service
+Nevada,Nevada Housing Division,1,1,0,"Ownership, Rental",http://www.housing.nv.gov,"Rural development and housing services provided at a ""rural"" regional level."
+New Hampshire,New Hampshire Housing,0,1,0,Ownership,http://www.nhhfa.org,Combined service
+New Jersey,New Jersey Housing and Mortgage Finance Agency,0,0,1,,http://www.nj-hmfa.com,"Only a few mentions of USDA RD, no links; more urban focus - have Urban Target Areas"
+New Mexico,New Mexico Mortgage Finance Authority,1,1,0,Ownership,http://www.housingnm.org,Combined service
+New York,Homes and Community Renewal,1,1,0,"Ownership, Rental, Development",http://www.nyshcr.org,"Only a few mentions of USDA RD, no links"
+North Carolina,North Carolina Housing Finance Agency,0,1,0,Ownership,http://www.nchfa.com,"Combined service; Only a few mentions of USDA RD, no links"
+North Dakota,North Dakota Housing Finance Agency,1,1,0,"Ownership, Rental, Development",http://www.ndhfa.org,-
+Ohio,Ohio Housing Finance Agency,0,1,0,"Ownership, Rental",http://www.ohiohome.org,Combined service
+Oklahoma,Oklahoma Housing Finance Agency,0,0,1,,http://www.ohfa.org,"Only a few mentions of USDA RD in buried documents, no links; Rural focus mentioned in purpose of some development programs, not in requirements"
+Oregon,Oregon Housing and Community Services,1,1,0,"Ownership, Rental",http://www.ohcs.oregon.gov,Combined service
+Pennsylvania,Pennsylvania Housing Finance Agency,0,1,0,"Ownership, Rental",http://www.phfa.org,Combined service
+Rhode Island,Rhode Island Housing,0,0,1,,http://www.rhodeislandhousing.org,"RD mentioned in mortgage rates, no links or other mentions"
+South Carolina,South Carolina State Housing Finance and Development Authority,0,1,0,"Ownership, Rental",http://www.schousing.com,Combined service
+South Dakota,South Dakota Housing Development Authority,0,1,0,"Ownership, Rental, Development",http://www.sdhda.org,"Combined service, links to additional USDA RD funding sources"
+Tennessee,Tennessee Housing Development Agency,0,1,0,Ownership,http://www.thda.org,Combined service
+Texas,Texas Department of Housing and Community Affairs,0,1,0,Ownership,http://www.tdhca.state.tx.us,"Combined service; Only a few mentions of USDA RD as financing option, no links"
+Utah,Utah Housing Corporation,0,1,0,General,http://www.utahhousingcorp.org,Links to government organizations that provide rural housing assistance
+Vermont,Vermont Housing Finance Agency,0,1,0,Ownership,http://www.vhfa.org,"Combined service; Only a few mentions of USDA RD as financing option, no links; focus on VT as rural state, but not rural-specific programs"
+Virginia,Virginia Housing Development Authority,0,1,0,Ownership,http://www.vhda.com,Combined service
+Washington,Washington State Housing Finance Commission,0,1,0,Ownership,http://www.wshfc.org,"Combined service; Only a few mentions of USDA RD as financing option, no links"
+West Virginia,West Virginia Housing Development Fund,0,1,0,Ownership,http://www.wvhdf.com,-
+Wisconsin,Wisconsin Housing and Economic Development Authority,0,0,0,,http://www.wheda.com,-
+Wyoming,Wyoming Community Development Authority,0,1,0,Ownership,http://www.wyomingcda.com,Combined service
+,,,,,,,
+Total,,11,39,8,,,
+Proportion,,0.22,0.78,0.16,,,
+,,,,,,,
+"Search criteria: ""rural""",,,,,,,
+"Did not search for farmers/ranchers because these loans are for the business, not farmworker homes.",,,,,,,
+Most states combine additional assistance for down payments or closing costs with government loans.,,,,,,,
+"Most states focus on income level, rather than house location. These types of financial assistance can be applied in both urban and rural areas and are not rural specific",,,,,,,
+Some states produce documentation and research about the rural housing stock or rural homelessness but do not have specific programs in place to improve rural housing.,,,,,,,
+Most financing and funding for rural housing comes from or through USDA RD.,,,,,,,

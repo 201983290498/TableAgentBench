@@ -1,0 +1,12 @@
+MaterialProcessCostCalculationTable-IndirectCostAllocation-DetailedAccountTitle,MaterialProcessCostCalculationTable-IndirectCostAllocation-MaterialCategory,MaterialProcessCostCalculationTable-IndirectCostAllocation-ProcessStep,MaterialProcessCostCalculationTable-IndirectCostAllocation-Specifications,MaterialProcessCostCalculationTable-IndirectCostAllocation-Productionvolume(area),MaterialProcessCostCalculationTable-IndirectCostAllocation-Directlabor,MaterialProcessCostCalculationTable-IndirectCostAllocation-Directdepreciation,MaterialProcessCostCalculationTable-IndirectCostAllocation-Otherauxiliarymaterials,MaterialProcessCostCalculationTable-IndirectCostAllocation-Subtotal,MaterialProcessCostCalculationTable-Directmaterials-AluminumBasePlate,MaterialProcessCostCalculationTable-Directmaterials-Fiberglassboard,MaterialProcessCostCalculationTable-Directmaterials-Self-madeboards,MaterialProcessCostCalculationTable-Directmaterials-Subtotal
+Detailed Account Title,Material Category,Process Step,Specifications,Production volume (area),Direct labor,Direct depreciation,Other auxiliary materials,Subtotal,Aluminum Base Plate,Fiberglass board,Self-made boards,Subtotal
+YP-U356A,Low-value Consumables,Big Panel Testing,1.5*7.0 Green Ring Set,252,728,1293,570,,144,659,53,
+YP-U357A,Low-value Consumables,Big Panel Testing,1.5*7.0 Green Ring Set,631,1293,862,1330,,144,923,53,
+YP-U358A,Cutter,CNC Forming,0.71*1.185*0.98,126,1293,1293,190,,144,1121,35,
+YP-U385A,Cutter,CNC Forming,0.65*1.185*0.98,126,862,2155,91,,151,1121,35,
+YP-U390A,Cutter,CNC Forming,M6*35mm [Half Thread],388,2155,862,168,,101,4,70,
+YP-U428A,Machine Repair Parts,Inbound warehouse,Upper half,87,4310,1293,181,,101,40,18,
+YP-U431A,Machine Repair Parts,Inbound warehouse,Upper half,146,1293,862,297,,38,40,35,
+YP-U453A,Low-value Consumables,Big Panel Testing,0.65*1.185*0.98,728,1293,2155,,,63,1121,35,
+YP-U456A,Low-value Consumables,Final Inspection (FQC),M6*35mm [Half Thread],582,4310,1293,181,,303,4,70,
+YP-U457A,Low-value Consumables,Final Inspection (FQC),1.5*7.0 Green Ring Set,291,1293,862,297,,63,1121,35,

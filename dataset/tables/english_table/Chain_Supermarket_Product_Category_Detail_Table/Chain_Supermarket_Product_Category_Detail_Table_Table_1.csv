@@ -1,0 +1,18 @@
+ChainSupermarketProductCategoryDetailTable-SerialNumber,ChainSupermarketProductCategoryDetailTable-Code,ChainSupermarketProductCategoryDetailTable-MerchandiseName,ChainSupermarketProductCategoryDetailTable-Unit,ChainSupermarketProductCategoryDetailTable-LastMonth'sInventory,ChainSupermarketProductCategoryDetailTable-shelfcounterstockbalance,ChainSupermarketProductCategoryDetailTable-Giftinventory,ChainSupermarketProductCategoryDetailTable-ThisMonth'sInboundInventory,ChainSupermarketProductCategoryDetailTable-ThisMonth'sInboundInventory.1,ChainSupermarketProductCategoryDetailTable-ThisMonth'sInboundInventory.2
+Serial Number,Code,Merchandise Name,Unit,Last Month's Inventory,shelf counter stock balance,Gift inventory,Order Quantity,Transfer Quantity,Return Quantity
+1,10001,Golden Dragon Edible Oil,Bottle,50,15,17,100,10,0
+2,10002,Master Kong Instant Noodles,Box,51,16,18,101,11,0
+3,10003,Gold Classic Pure Milk,Box,52,17,19,102,12,0
+4,10004,TereNiu Pure Milk,Carton Carton,53,18,20,103,13,0
+5,10005,Shuhua Pure Milk,Box,54,19,21,104,14,0
+6,10006,Kiwi fruit,KG,55,20,22,105,15,0
+7,10007,Luochuan Apple,KG,56,21,23,106,16,0
+8,10008,Strawberry,KG,57,22,24,107,17,0
+9,10009,Pineapple,KG,58,23,25,108,18,0
+10,10010,Papaya,KG,59,24,26,109,19,0
+11,10011,Walnut,KG,60,25,27,110,20,0
+12,10012,Red dates,KG,61,26,28,111,21,0
+13,10013,Purple Sweet Potato,KG,62,27,29,112,22,0
+14,10014,Navel Orange,KG,63,28,30,113,23,0
+15,10015,Mandarin orange,KG,64,29,31,114,24,0
+16,10016,Mango,KG,65,30,32,115,25,0

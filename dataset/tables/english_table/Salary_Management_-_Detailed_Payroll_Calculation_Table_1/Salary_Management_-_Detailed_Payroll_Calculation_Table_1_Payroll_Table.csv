@@ -1,0 +1,13 @@
+March2020SalaryCalculationDetailTable-SerialNumber,March2020SalaryCalculationDetailTable-Name,March2020SalaryCalculationDetailTable-Position,March2020SalaryCalculationDetailTable-Attendance,March2020SalaryCalculationDetailTable-Attendance.1,March2020SalaryCalculationDetailTable-Attendance.2,March2020SalaryCalculationDetailTable-Attendance.3,March2020SalaryCalculationDetailTable-SalaryTotal,March2020SalaryCalculationDetailTable-FullAttendanceAllowance,March2020SalaryCalculationDetailTable-BaseSalary,March2020SalaryCalculationDetailTable-BaseSalary.1,March2020SalaryCalculationDetailTable-Allowance,March2020SalaryCalculationDetailTable-Allowance.1,March2020SalaryCalculationDetailTable-Overtime,March2020SalaryCalculationDetailTable-Overtime.1,March2020SalaryCalculationDetailTable-Overtime.2,March2020SalaryCalculationDetailTable-Overtime.3,March2020SalaryCalculationDetailTable-GrossSalary,March2020SalaryCalculationDetailTable-Deduction,March2020SalaryCalculationDetailTable-Deduction.1,March2020SalaryCalculationDetailTable-Deduction.2,March2020SalaryCalculationDetailTable-TotalDeductions,March2020SalaryCalculationDetailTable-NetSalary,March2020SalaryCalculationDetailTable-EmployeeSignature
+Serial Number,Name,Position,Full Attendance Days,Attendance Days,Ordinary day overtime,Holiday Overtime,Salary Total,Full Attendance Allowance,Base Salary,Basic Salary,Position Allowance,Allowance Actual Disbursement,Overtime Unit Price,Regular Overtime Pay,Holiday Unit Price,Holiday Overtime Pay,Gross Salary,Withheld Social Security,Housing Fund,Withholding Individual Income Tax,Total Deductions,Net Salary,Employee Signature
+1,Xiaoming,Operator,21,19,36,45,5000,80,1720,,,,15,,19.77,,,301,,,,,
+2,Xiaohuang,Operator,21,21,46,36,5000,80,1720,,,,15,,19.77,,,301,,,,,
+3,Xiaoluo,Operator,21,21,37,34,3500,80,1720,,,,15,,19.77,,,301,,,,,
+4,Xiaofang,Operator,21,21,48,37,3500,80,1720,,,,15,,19.77,,,301,,,,,
+5,Xiaoyang,Operator,21,21,49,36,3500,80,1720,,,,15,,19.77,,,301,,,,,
+6,Xiaowen,Operator,21,20,56,26,3500,80,1720,,,,15,,19.77,,,301,,,,,
+7,Xiaoling,Operator,21,20,50,20,3500,80,1720,,,,15,,19.77,,,301,,,,,
+8,Xiaoye,Operator,21,20,38,36,3500,0,1720,,,,15,,19.77,,,301,,,,,
+9,Xiao Qiang,Operator,21,21,49,24,3500,80,1720,,,,15,,19.77,,,301,,,,,
+10,Xiaohua,Operator,21,21,36,16,3500,80,1720,,,,15,,19.77,,,301,,,,,
+,Total for this month,,,,,,,,,,,,,,,,,,,,,,

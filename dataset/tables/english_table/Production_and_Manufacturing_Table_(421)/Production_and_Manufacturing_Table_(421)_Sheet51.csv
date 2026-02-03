@@ -1,0 +1,11 @@
+OvertimeWorkHourRecordSheet-SerialNumber,OvertimeWorkHourRecordSheet-EmployeeName,OvertimeWorkHourRecordSheet-Department,OvertimeWorkHourRecordSheet-Position,OvertimeWorkHourRecordSheet-Date,OvertimeWorkHourRecordSheet-OvertimeType,OvertimeWorkHourRecordSheet-StartTime,OvertimeWorkHourRecordSheet-EndTime,OvertimeWorkHourRecordSheet-OvertimeCost,OvertimeWorkHourRecordSheet-Daysofcompensatoryleave
+1,Guo Kaizhu,Testing Department,Test Engineer,2021-01-08,Overtime on regular days,21:33,22:33,"¥4,091.00",14
+2,Kang Lizhen,Administrative Department,Sales Manager,2021-01-09,Weekend Overtime,22:33,23:33,"¥4,062.00",30
+3,Shi Ying,R&D Department,Development Engineer,2021-01-11,Legal holiday,23:33,00:33,"¥1,010.00",12
+4,Zheng Lin,Testing Department,Test Engineer,2021-01-11,Overtime on regular days,00:33,01:33,¥519.00,15
+5,Lithium Wall,Administrative Department,Sales Manager,2021-01-13,Weekend Overtime,01:33,02:33,"¥3,119.00",4
+6,Mao Junhuan,R&D Department,Development Engineer,2021-01-17,Legal holiday,02:33,03:33,¥378.00,0
+7,Kang Shijie,Testing Department,Test Engineer,2021-01-15,Overtime on regular days,03:33,04:33,"¥3,113.00",47
+8,Yu Kexiu,Administrative Department,Sales Manager,2021-01-18,Weekend Overtime,04:33,05:33,"¥2,307.00",36
+9,Yin Hanqi,R&D Department,Development Engineer,2021-01-20,Legal holiday,05:33,06:33,"¥4,715.00",21
+10,Tang Fanhe,Testing Department,Test Engineer,2021-01-17,Overtime on regular days,06:33,07:33,¥964.00,22

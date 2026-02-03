@@ -1,0 +1,31 @@
+﻿Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11
+,Amadeus Sales & Catering Master Class,,,,,,,,,,
+,,,Hours Selected:,"Hours to Purchase:
+(Sold in 4 hour increments)","Location:
+(Onsite available with 16 hours or more)",,,,,Total Hours,0.0
+,,,0,0,Remote,,,,,,
+,,,,,,,,,,,
+,MeetingBroker User Sessions,,,,,,,,,,
+,,Estimated Attendees,Session,Session Content,Time,Users,,Selection,Time,Lesson Selected,
+,,Select Range,MeetingBroker Basic User Training,"Do you want to learn what to do when you receive an RFP?
+- Receive an RFP 
+- Reassign an RFP
+- Respond to an RFP
+- Create Bookings for MeetingBroker RFPs",30 MIN,Sales & Catering,,False,0.5,0,
+,,Select Range,Managing MeetingBroker RFPs & Bookings,"Do you want to learn the next steps in working with RFPs?
+- Link an RFP to an Existing Booking
+- Update Business Data
+- Managing RFPs (List views)",30 MIN,Sales & Catering,,False,0.5,0,
+,,,,,,,,,,,
+,Location and Subscription Administrator Sessions,,,,,,,,,,
+,,Estimated Attendees,Session,Session Content,Time,Users,,Selection,Time,Lesson Selected,
+,,Select Range,MeetingBroker User Management,"Do you want to learn how to create your users?
+- Create Users
+- Manage Roles and Permissions",45 MIN,Location/Subscription Admin,,False,0.75,0,
+,,Select Range,MeetingBroker Property Management,"Do you want to learn how to manage your setup and channels?
+- Location & Subscription Setup
+- Setup Values and Channel Mapping
+- Delphi Property Settings",45 MIN,Location/Subscription Admin,,False,0.75,0,
+,,Select Range,MeetingBroker Assignment and Escalation Rules,"Do you want to learn how to set up rules for automatic processing?
+- Assignment Rules
+- Escalation Rules",30 MIN,Location/Subscription Admin,,False,0.5,0,

@@ -1,0 +1,13 @@
+E-InvoiceRegistrationDetailStatisticsTable-TotalAccumulatedAmount-SerialNumber,E-InvoiceRegistrationDetailStatisticsTable-TotalAccumulatedAmount-IssueDate,E-InvoiceRegistrationDetailStatisticsTable-Totalaccumulatedtaxamount-InvoiceNumber,E-InvoiceRegistrationDetailStatisticsTable-TotalPriceandTaxofAccumulatedInvoices-PurchaserName,E-InvoiceRegistrationDetailStatisticsTable-StartDate-11/1-Buyer'sEmailAddress,E-InvoiceRegistrationDetailStatisticsTable-EndDate-11/8-PriceandTaxTotal,E-InvoiceRegistrationDetailStatisticsTable-EndDate-11/8-TaxRate,E-InvoiceRegistrationDetailStatisticsTable-ElectronicInvoiceType-GeneralElectronicInvoice-TotalAmount,E-InvoiceRegistrationDetailStatisticsTable-TotalAmount-Taxamounttotal,E-InvoiceRegistrationDetailStatisticsTable-Taxamounttotal-ElectronicInvoiceType,E-InvoiceRegistrationDetailStatisticsTable-PriceandTaxTotal-WhetherSendtocustomer,E-InvoiceRegistrationDetailStatisticsTable,E-InvoiceRegistrationDetailStatisticsTable-Unit:Yuan-Unit:Yuan-ElectronicInvoiceType
+1,11/1,152XXXX01,"Kingsoft Office Software Co., Ltd.",255XXXXX25,44809,6%,,,General Electronic Invoice,1,,General Electronic Invoice
+2,11/1,152XXXX02,"Kingsoft Office Software Co., Ltd. 2",255XXXXX26,55802,6%,,,General Electronic Invoice,1,,Special Electronic Invoice
+3,11/1,152XXXX03,"Kingsoft Office Software Co., Ltd. 3",255XXXXX27,23013,6%,,,General Electronic Invoice,1,,Other e-invoices
+4,11/1,152XXXX04,"Kingsoft Office Software Co., Ltd. 4",255XXXXX28,60345,6%,,,Special Electronic Invoice,1,,Other e-invoices
+5,11/1,152XXXX05,"Kingsoft Office Software Co., Ltd. 5",255XXXXX29,46857,6%,,,General Electronic Invoice,0,,
+6,11/2,152XXXX06,"Kingsoft Office Software Co., Ltd.",255XXXXX25,57993,6%,,,Special Electronic Invoice,0,,
+7,11/3,152XXXX07,"Kingsoft Office Software Co., Ltd. 2",255XXXXX26,58033,6%,,,General Electronic Invoice,0,,
+8,11/4,152XXXX08,"Kingsoft Office Software Co., Ltd. 3",255XXXXX27,65030,6%,,,Special Electronic Invoice,0,,
+9,11/5,152XXXX09,"Kingsoft Office Software Co., Ltd. 4",255XXXXX28,64911,6%,,,General Electronic Invoice,0,,
+10,11/6,152XXXX10,"Kingsoft Office Software Co., Ltd. 5",255XXXXX29,10824,6%,,,General Electronic Invoice,0,,
+11,11/7,152XXXX11,"Kingsoft Office Software Co., Ltd. 4",255XXXXX28,7313,6%,,,General Electronic Invoice,0,,
+12,11/8,152XXXX12,"Kingsoft Office Software Co., Ltd. 5",255XXXXX29,68716,6%,,,Special Electronic Invoice,0,,

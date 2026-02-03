@@ -1,0 +1,22 @@
+Some Jacket Heat Transfer Coefficients of Agitated Vessels (Measured Values),Some Jacket Heat Transfer Coefficients of Agitated Vessels (Measured Values).1,Some Jacket Heat Transfer Coefficients of Agitated Vessels (Measured Values).2,Some Jacket Heat Transfer Coefficients of Agitated Vessels (Measured Values).3,Some Jacket Heat Transfer Coefficients of Agitated Vessels (Measured Values).4
+Process,Material,Material,Heat transfer medium,K(W/m2K)
+Cooling refining,Steel,"Crude nitroacetic acid, 5% NaOH",Cooling water,326
+Cooling crystallization,Steel,"Nitroacetic acid, potassium salt, water",Cooling water,164
+Cooling reduction,Steel,"Hydrochloric acid, Bases, Iron powder, Water",Cooling water,151
+Cooling condensation,Steel,"Dibromoethane, Dinitrile",Cooling water,163
+Cooling reaction,Fused quartz-lined steel,"p-Nitrotoluene, sulfuric acid, water",Cooling water,187
+Cooling salting out,Fused quartz-lined steel,Procaine NaCl,Cooling water,135
+Cooling salting out,Fused quartz-lined steel,Procaine NaCl,brine,171
+Cooling crystallization,Fused quartz-lined steel,Potassium bromide solution,brine,199
+Heating reaction,Fused quartz-lined steel,"p-Nitrotoluene, sulfuric acid, water",Condensation of water vapor,249
+Heating dissolution,Fused quartz-lined steel,Crude Procaine,Condensation of water vapor,240
+Heating refining,Fused quartz-lined steel,Potassium bromide solution,Condensation of water vapor,352
+Boiling evaporation,Fused quartz-lined steel,Potassium bromide solution,Condensation of water vapor,170
+Boiling evaporation,Fused quartz-lined steel,Potassium bromide solution,Condensation of water vapor,298
+Boiling evaporation,Cast iron,Dibromoethane,Condensation of water vapor,523
+Boiling evaporation,Steel,Diethylamine,Condensation of water vapor,233
+Heating refining,Steel,"Crude nitroacetic acid, 5% NaOH",Condensation of water vapor,1454
+Heating neutralization,Steel,"Nitroacetic acid, potassium salt, water",Condensation of water vapor,93
+Heating reaction,Steel,"Dibromoethane, nitroacetic acid",Condensation of water vapor,442
+Heating condensation,Steel,"Dibromoethane, double ester",Condensation of water vapor,159
+Heating reduction,Steel,"Hydrochloric acid, Bases, Iron powder, Water",Condensation of water vapor,1256

@@ -1,0 +1,8 @@
+{
+    "deepseek-v3.2": {
+        "model":"deepseek-chat",
+        "api_key": "sk-459eca8427ea4dfe82d9611a6556d1c3",
+        "base_url":"https://api.deepseek.com",
+        "provider":  "openai"
+    }
+}

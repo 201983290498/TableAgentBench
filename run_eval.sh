@@ -1,0 +1,1 @@
+pybug 5678 evaluate.py --mode all --config_key "deepseek-v3.2" --eval_file "dataset/samples.json" --table_path "dataset/tables" --workers 1 --sample 2 --max_steps 70 --max_history_tokens 65534 --auto_parse True --enable_thinking True --eval_config_key "deepseek-v3.2" --unimodel "deepseek-v3.2" --verbose True --trace_save_dir "traces_output"

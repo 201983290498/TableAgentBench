@@ -1,0 +1,347 @@
+School,College,MajorName,06AdmissionRatio,09AdmissionRatio-Numberofapplicants,AdmittedNumber,AdmissionRatio,RecommendedAdmissionNumber
+Peking University,School of Mathematical Sciences,Basic Mathematics,8.84%,161,11,6.83%,12
+Peking University,School of Mathematical Sciences,Computational Mathematics,0.00%,20,1,5.00%,10
+Peking University,School of Mathematical Sciences,Probability Theory and Mathematical Statistics,8.70%,46,2,4.35%,10
+Peking University,School of Mathematical Sciences,Applied Mathematics,6.67%,153,7,4.58%,17
+Peking University,School of Mathematical Sciences,Signal and Information Processing,25.00%,32,7,21.88%,23
+Peking University,School of Engineering,General Mechanics and Fundamental Mechanics,50.00%,0,0,0.00%,5
+Peking University,School of Engineering,Solid Mechanics,100.00%,1,1,100.00%,4
+Peking University,School of Engineering,Fluid Mechanics,111.11%,4,6,150.00%,18
+Peking University,School of Engineering,Engineering Mechanics,0.00%,3,1,33.33%,10
+Peking University,School of Engineering,Control Theory and Control Engineering,12.50%,29,8,27.59%,6
+Peking University,School of Engineering,Environmental Science,0.00%,0,0,0.00%,0
+Peking University,School of Engineering,Biomedical Engineering,13.04%,33,13,39.39%,8
+Peking University,School of Engineering,Management Science and Engineering,0.00%,0,0,0.00%,0
+Peking University,Physics School,Theoretical Physics,9.42%,95,15,15.79%,5
+Peking University,Physics School,Particle Physics and Nuclear Physics,36.84%,23,4,17.39%,4
+Peking University,Physics School,Condensed Matter Physics,21.88%,98,19,19.39%,12
+Peking University,Physics School,Optics,14.81%,43,7,16.28%,4
+Peking University,Physics School,Astrophysics,22.22%,14,1,7.14%,0
+Peking University,Physics School,Meteorology,26.32%,13,8,61.54%,4
+Peking University,Physics School,Atmospheric Physics and Atmospheric Environment,37.50%,16,5,31.25%,5
+Peking University,Physics School,Nuclear Technology and Application,66.67%,10,3,30.00%,6
+Peking University,School of Chemistry and Molecular Engineering,Inorganic Chemistry,17.65%,5,4,80.00%,10
+Peking University,School of Chemistry and Molecular Engineering,Analytical Chemistry,12.50%,13,2,15.38%,6
+Peking University,School of Chemistry and Molecular Engineering,Organic Chemistry,21.43%,39,8,20.51%,10
+Peking University,School of Chemistry and Molecular Engineering,Physical Chemistry,37.50%,20,11,55.00%,13
+Peking University,School of Chemistry and Molecular Engineering,Polymer Chemistry and Physics,33.33%,18,5,27.78%,6
+Peking University,School of Chemistry and Molecular Engineering,Chemistry (Chemical Biology),12.50%,2,1,50.00%,5
+Peking University,School of Chemistry and Molecular Engineering,Chemistry (Applied Chemistry),40.00%,5,1,20.00%,4
+Peking University,School of Chemistry and Molecular Engineering,Applied Chemistry,0.00%,0,0,0.00%,0
+Peking University,School of Life Sciences,Inorganic Chemistry,0.00%,5,4,80.00%,10
+Peking University,School of Life Sciences,Botany,12.50%,26,3,11.54%,6
+Peking University,School of Life Sciences,Zoology,25.00%,4,0,0.00%,2
+Peking University,School of Life Sciences,Physiology,13.04%,10,2,20.00%,4
+Peking University,School of Life Sciences,Microbiology,14.29%,7,0,0.00%,0
+Peking University,School of Life Sciences,Genetics,6.67%,6,2,33.33%,2
+Peking University,School of Life Sciences,Cell Biology,5.92%,143,5,3.50%,9
+Peking University,School of Life Sciences,Biochemistry and Molecular Biology,13.58%,88,14,15.91%,10
+Peking University,School of Life Sciences,Biophysics,50.00%,8,0,0.00%,0
+Peking University,School of Life Sciences,Ecology,7.14%,9,0,0.00%,2
+Peking University,School of Life Sciences,Biology (Bioinformatics),4.65%,39,1,2.56%,3
+Peking University,School of Life Sciences,Biology (Biotechnology),16.67%,29,11,37.93%,8
+Peking University,School of Earth and Space Sciences,Cartography and Geographic Information System,16.98%,51,9,17.65%,4
+Peking University,School of Earth and Space Sciences,Solid Earth Physics,20.00%,9,3,33.33%,7
+Peking University,School of Earth and Space Sciences,Space Physics,150.00%,5,0,0.00%,2
+Peking University,School of Earth and Space Sciences,"Mineralogy, Petrology, Ore Deposits",33.33%,18,5,27.78%,6
+Peking University,School of Earth and Space Sciences,Geochemistry,42.86%,5,3,60.00%,4
+Peking University,School of Earth and Space Sciences,Paleontology and Stratigraphy,27.27%,3,3,100.00%,4
+Peking University,School of Earth and Space Sciences,Structural Geology,51.85%,26,11,42.31%,6
+Peking University,School of Earth and Space Sciences,Geology,75.00%,5,2,40.00%,3
+Peking University,School of Earth and Space Sciences,Photogrammetry and Remote Sensing,21.43%,28,6,21.43%,3
+Peking University,School of Environmental Studies,Environmental and Resource Protection Law,0.00%,0,0,0.00%,0
+Peking University,School of Environmental Studies,History and Geography,0.00%,0,0,0.00%,0
+Peking University,School of Environmental Studies,Physical Geography,7.14%,32,6,18.75%,9
+Peking University,School of Environmental Studies,Human Geography,30.00%,19,3,15.79%,4
+Peking University,School of Environmental Studies,Geography (Historical Geography),20.83%,31,4,12.90%,1
+Peking University,School of Environmental Studies,Geography (Geomorphology and Environmental Change),25.00%,5,2,40.00%,1
+Peking University,School of Environmental Studies,Geography (Urban and Regional Planning),22.92%,102,19,18.63%,13
+Peking University,School of Environmental Studies,Geography (Landscape Architecture),20.00%,96,13,13.54%,17
+Peking University,School of Environmental Studies,Atmospheric Physics and Atmospheric Environment,100.00%,0,0,0.00%,0
+Peking University,School of Environmental Studies,Quaternary Geology,200.00%,4,3,75.00%,1
+Peking University,School of Environmental Studies,Ecology,27.27%,17,8,47.06%,6
+Peking University,School of Environmental Studies,Architectural Design and Its Theory,11.43%,30,4,13.33%,2
+Peking University,School of Environmental Studies,Environmental Science,24.70%,163,32,19.63%,37
+Peking University,School of Environmental Studies,Environmental Engineering,33.33%,10,9,90.00%,10
+Peking University,Department of Psychology,Basic Psychology,4.43%,214,8,3.74%,11
+Peking University,Department of Psychology,Developmental and Educational Psychology,3.08%,34,1,2.94%,2
+Peking University,Department of Psychology,Applied Psychology,11.37%,321,29,9.03%,16
+Peking University,School of Software,Electronics and Communication Engineering,101.04%,109,63,57.80%,1
+Peking University,School of Software,Master of Software Engineering,40.43%,889,275,30.93%,75
+Peking University,School of Journalism and Communication,Journalism,3.23%,76,4,5.26%,7
+Peking University,School of Journalism and Communication,Communication Studies,11.85%,573,66,11.52%,35
+Peking University,Department of Chinese Language and Literature,Comparative Literature and Cultural Studies,13.89%,29,4,13.79%,3
+Peking University,Department of Chinese Language and Literature,Linguistics and Applied Linguistics,11.76%,22,2,9.09%,4
+Peking University,Department of Chinese Language and Literature,Chinese Language and Literature,13.51%,77,10,12.99%,7
+Peking University,Department of Chinese Language and Literature,Chinese Classical Literature,17.95%,46,3,6.52%,4
+Peking University,Department of Chinese Language and Literature,Chinese Ancient Literature,4.02%,217,7,3.23%,5
+Peking University,Department of Chinese Language and Literature,Modern and Contemporary Chinese Literature,5.35%,177,10,5.65%,9
+Peking University,Department of Chinese Language and Literature,Comparative Literature and World Literature,7.14%,57,3,5.26%,3
+Peking University,History Department,History Theory and History of Historiography,33.33%,6,1,16.67%,0
+Peking University,History Department,History and Geography,12.50%,6,0,0.00%,1
+Peking University,History Department,History of Literary Documents,33.33%,7,0,0.00%,0
+Peking University,History Department,Specialized History,15.38%,17,1,5.88%,2
+Peking University,History Department,Ancient Chinese History,5.30%,116,9,7.76%,6
+Peking University,History Department,Modern and Contemporary Chinese History,7.89%,76,6,7.89%,4
+Peking University,History Department,World History,9.88%,81,8,9.88%,7
+Peking University,Archaeology Department,Archaeology and Museum Studies,7.44%,89,7,7.87%,18
+Peking University,Philosophy Department,Philosophy,8.89%,0,0,0.00%,0
+Peking University,Philosophy Department,Marxist Philosophy,12.50%,38,4,10.53%,3
+Peking University,Philosophy Department,Chinese Philosophy,5.33%,89,5,5.62%,3
+Peking University,Philosophy Department,Foreign Philosophy,6.52%,86,5,5.81%,4
+Peking University,Philosophy Department,Logic,8.30%,6,1,16.67%,1
+Peking University,Philosophy Department,Ethics,13.33%,15,3,20.00%,2
+Peking University,Philosophy Department,Aesthetics,6.00%,41,3,7.32%,3
+Peking University,Philosophy Department,Religious Studies,12.50%,43,4,9.30%,2
+Peking University,Philosophy Department,Philosophy of Science and Technology,27.78%,38,7,18.42%,3
+Peking University,Philosophy Department,History of Science and Technology,30.00%,12,1,8.33%,1
+Peking University,School of International Relations,Comparative Political Systems,18.18%,14,2,14.29%,2
+Peking University,School of International Relations,Science Socialism and International Communist Movement,50.00%,10,3,30.00%,3
+Peking University,School of International Relations,History of the Communist Party of China,19.05%,19,3,15.79%,4
+Peking University,School of International Relations,International Politics,5.88%,113,8,7.08%,8
+Peking University,School of International Relations,International Relations,10.69%,287,28,9.76%,8
+Peking University,School of International Relations,International Relations,7.94%,66,6,9.09%,6
+Peking University,School of International Relations,Political Science (International Political Economy),9.52%,20,2,10.00%,2
+Peking University,School of Economics,Political Economy,5.75%,72,7,9.72%,6
+Peking University,School of Economics,History of Economic Thought,43.75%,19,5,26.32%,1
+Peking University,School of Economics,Economic History,14.29%,4,0,0.00%,2
+Peking University,School of Economics,Western Economics,9.57%,111,8,7.21%,3
+Peking University,School of Economics,World Economy,3.05%,111,7,6.31%,8
+Peking University,School of Economics,Public Finance,2.08%,52,5,9.62%,5
+Peking University,School of Economics,Finance,3.35%,737,38,5.16%,16
+Peking University,Guanghua School of Management,National Economics,5.77%,85,8,9.41%,6
+Peking University,Guanghua School of Management,Finance,5.42%,699,28,4.01%,30
+Peking University,Guanghua School of Management,Industrial Economics,3.23%,38,1,2.63%,0
+Peking University,Guanghua School of Management,Statistics,11.94%,26,2,7.69%,4
+Peking University,Guanghua School of Management,Master of Software Engineering,10.03%,0,0,0.00%,0
+Peking University,Guanghua School of Management,Management Science and Engineering,7.64%,109,9,8.26%,8
+Peking University,Guanghua School of Management,Accounting,4.50%,107,4,3.74%,7
+Peking University,Guanghua School of Management,Enterprise Management,1.76%,520,15,2.88%,18
+Peking University,Guanghua School of Management,MBA (Master of Business Administration),17.94%,1566,320,20.43%,0
+Peking University,Law School,Law,27.06%,1338,73,5.46%,0
+Peking University,Law School,Theoretical Jurisprudence,26.02%,0,7,0.00%,1
+Peking University,Law School,Legal History,16.03%,0,2,0.00%,0
+Peking University,Law School,Constitutional Law and Administrative Law,20.33%,0,10,0.00%,3
+Peking University,Law School,Criminal Law,13.33%,0,9,0.00%,7
+Peking University,Law School,Civil and Commercial Law,14.45%,0,12,0.00%,6
+Peking University,Law School,Procedural Law,21.06%,0,5,0.00%,5
+Peking University,Law School,Economic Law,19.07%,0,8,0.00%,6
+Peking University,Law School,Environmental and Resource Protection Law,23.10%,0,0,0.00%,2
+Peking University,Law School,International Law,25.52%,0,8,0.00%,2
+Peking University,Law School,Law (Intellectual Property Law),11.25%,0,2,0.00%,3
+Peking University,Law School,Law (Commercial Law),17.36%,0,3,0.00%,2
+Peking University,Law School,Law (International Economic Law),12.03%,0,7,0.00%,5
+Peking University,Law School,Juris Master's,11.26%,1486,142,9.56%,57
+Peking University,Information Management Department,Library Science,19.23%,22,4,18.18%,6
+Peking University,Information Management Department,Information Science,17.81%,75,9,12.00%,16
+Peking University,Information Management Department,"Library, Information and Archival Management",20.00%,6,1,16.67%,4
+Peking University,Department of Sociology,Sociology,22.63%,159,53,33.33%,15
+Peking University,Department of Sociology,Demography,0.00%,0,0,0.00%,0
+Peking University,Department of Sociology,Anthropology,12.20%,34,5,14.71%,3
+Peking University,Department of Sociology,Social Security,14.81%,26,5,19.23%,4
+Peking University,School of Government Management,Regional Economics,5.62%,48,4,8.33%,7
+Peking University,School of Government Management,Political Theory,10.59%,89,9,10.11%,2
+Peking University,School of Government Management,Comparative Political Systems,11.63%,35,4,11.43%,3
+Peking University,School of Government Management,History of the Communist Party of China,18.18%,27,6,22.22%,1
+Peking University,School of Government Management,Administrative Management,9.93%,312,39,12.50%,14
+Peking University,School of Government Management,Public Administration (Public Policy),30.43%,34,3,8.82%,2
+Peking University,School of Government Management,Public Administration (Development Management),6.41%,65,4,6.15%,4
+Peking University,School of Foreign Languages,Comparative Literature and World Literature,11.43%,36,7,19.44%,2
+Peking University,School of Foreign Languages,English Language and Literature,6.79%,184,16,8.70%,8
+Peking University,School of Foreign Languages,Russian Language and Literature,15.38%,32,7,21.88%,6
+Peking University,School of Foreign Languages,French Language and Literature,10.53%,23,2,8.70%,3
+Peking University,School of Foreign Languages,German Language and Literature,15.00%,26,4,15.38%,2
+Peking University,School of Foreign Languages,Japanese Language and Literature,8.33%,32,5,15.63%,5
+Peking University,School of Foreign Languages,Indian Languages and Literature,83.33%,20,4,20.00%,1
+Peking University,School of Foreign Languages,Spanish Language and Literature,28.57%,6,0,0.00%,0
+Peking University,School of Foreign Languages,Arabic Language and Literature,37.50%,9,0,0.00%,2
+Peking University,School of Foreign Languages,Asian and African Languages and Literatures,18.75%,39,6,15.38%,5
+Peking University,School of Marxism,Marxist Philosophy,30.00%,0,0,0.00%,0
+Peking University,School of Marxism,Political Economy,17.86%,21,4,19.05%,0
+Peking University,School of Marxism,Science Socialism and International Communist Movement,17.24%,37,5,13.51%,3
+Peking University,School of Marxism,History of the Communist Party of China,6.90%,0,0,0.00%,0
+Peking University,School of Marxism,Marxist Theory and Ideological and Political Education,12.50%,0,0,0.00%,0
+Peking University,Center for Science and Society Research,Philosophy of Science and Technology,0.00%,0,0,0.00%,0
+Peking University,Center for Science and Society Research,History of Science and Technology,0.00%,0,0,0.00%,0
+Peking University,Department of Fine Arts,Fine Arts,3.33%,42,2,4.76%,2
+Peking University,Department of Fine Arts,Fine Arts,9.33%,70,7,10.00%,0
+Peking University,Department of Fine Arts,Film Studies,4.92%,55,3,5.45%,6
+Peking University,School of Chinese Language and Culture Education,Chinese Language and Literature,15.08%,223,36,16.14%,4
+Peking University,Shenzhen Graduate School,Western Economics,578.57%,41,66,160.98%,16
+Peking University,School of Information Science and Technology,Acoustics,0.00%,0,0,0.00%,1
+Peking University,School of Information Science and Technology,Radio Physics,25.00%,20,4,20.00%,9
+Peking University,School of Information Science and Technology,Physics Electronics,20.69%,20,5,25.00%,2
+Peking University,School of Information Science and Technology,Circuits and Systems,12.50%,13,3,23.08%,3
+Peking University,School of Information Science and Technology,Microelectronics and Solid State Electronics,23.73%,137,56,40.88%,49
+Peking University,School of Information Science and Technology,Electromagnetic Field and Microwave Technology,33.33%,5,3,60.00%,4
+Peking University,School of Information Science and Technology,Electronics and Communication Engineering,0.00%,0,0,0.00%,0
+Peking University,School of Information Science and Technology,Communication and Information Systems,10.94%,85,11,12.94%,21
+Peking University,School of Information Science and Technology,Signal and Information Processing,16.95%,32,7,21.88%,23
+Peking University,School of Information Science and Technology,Computer Science and Technology,0.00%,0,0,0.00%,0
+Peking University,School of Information Science and Technology,Computer System Architecture,16.05%,70,12,17.14%,27
+Peking University,School of Information Science and Technology,Computer Software and Theory,6.48%,331,22,6.65%,45
+Peking University,School of Information Science and Technology,Computer Application Technology,9.59%,178,19,10.67%,35
+Peking University,"Center for Economic Research, China",Political Economy,0.00%,3,0,0.00%,0
+Peking University,"Center for Economic Research, China",Economic History,0.00%,10,1,10.00%,0
+Peking University,"Center for Economic Research, China",Western Economics,4.76%,204,12,5.88%,10
+Peking University,"Center for Economic Research, China",World Economy,0.00%,22,0,0.00%,0
+Peking University,"Center for Economic Research, China",Theoretical Economics (Development Economics),0.00%,69,3,4.35%,4
+Peking University,"Center for Economic Research, China",National Economics,0.00%,0,0,0.00%,0
+Peking University,"Center for Economic Research, China",Finance,19.47%,149,36,24.16%,5
+Peking University,"Center for Economic Research, China",Enterprise Management,0.00%,14,0,0.00%,1
+Peking University,School of Education,Higher Education Studies,7.41%,62,4,6.45%,8
+Peking University,School of Education,Educational Technology,7.14%,0,0,0.00%,8
+Peking University,School of Education,Education Economics and Management,15.38%,16,4,25.00%,12
+Peking University,Institute of Population Research,Political Economy,16.67%,3,1,33.33%,1
+Peking University,Institute of Population Research,"Demography, Resources, and Environmental Economics",33.33%,7,2,28.57%,2
+Peking University,Institute of Population Research,Demography,26.67%,14,2,14.29%,1
+Peking University,Institute of Population Research,Sociology (Gerontology),100.00%,14,6,42.86%,2
+Peking University,Institute of Molecular Medicine,Physiology,0.00%,4,1,25.00%,2
+Peking University,Institute of Molecular Medicine,Cell Biology,0.00%,4,0,0.00%,2
+Peking University,Institute of Molecular Medicine,Biochemistry and Molecular Biology,0.00%,4,1,25.00%,5
+Peking University,Institute of Molecular Medicine,Biophysics,0.00%,2,1,50.00%,2
+Peking University,Institute of Molecular Medicine,Biology (Biotechnology),0.00%,0,0,0.00%,2
+Peking University,School of Basic Medical Sciences,Physiology,18.42%,4,5,125.00%,0
+Peking University,School of Basic Medical Sciences,Neurobiology,28.57%,19,11,57.89%,0
+Peking University,School of Basic Medical Sciences,Genetics,25.00%,4,2,50.00%,0
+Peking University,School of Basic Medical Sciences,Cell Biology,16.67%,13,7,53.85%,0
+Peking University,School of Basic Medical Sciences,Biochemistry and Molecular Biology,17.86%,44,9,20.45%,0
+Peking University,School of Basic Medical Sciences,Biophysics,133.33%,2,3,150.00%,0
+Peking University,School of Basic Medical Sciences,Human Anatomy and Histology Embryology,33.33%,25,5,20.00%,0
+Peking University,School of Basic Medical Sciences,Immunology,14.63%,111,11,9.91%,3
+Peking University,School of Basic Medical Sciences,Pathogenic Biology,66.67%,31,9,29.03%,1
+Peking University,School of Basic Medical Sciences,Pathology and Pathophysiology,0.00%,0,0,0.00%,0
+Peking University,School of Basic Medical Sciences,Radiation Medicine,100.00%,1,1,100.00%,1
+Peking University,School of Basic Medical Sciences,Pathology,14.29%,67,4,5.97%,1
+Peking University,School of Basic Medical Sciences,Pathophysiology,50.00%,45,3,6.67%,0
+Peking University,School of Basic Medical Sciences,Integrated Traditional Chinese and Western Medicine (Basic),0.00%,3,1,33.33%,0
+Peking University,School of Basic Medical Sciences,Pharmacology,14.29%,11,7,63.64%,1
+Peking University,School of Pharmaceutical Sciences,Inorganic Chemistry,0.00%,0,0,0.00%,0
+Peking University,School of Pharmaceutical Sciences,Pathogenic Biology,0.00%,0,0,0.00%,0
+Peking University,School of Pharmaceutical Sciences,Pathology and Pathophysiology,0.00%,0,0,0.00%,0
+Peking University,School of Pharmaceutical Sciences,Medicinal Chemistry,10.00%,12,1,8.33%,0
+Peking University,School of Pharmaceutical Sciences,Pharmaceutics,6.90%,29,3,10.34%,0
+Peking University,School of Pharmaceutical Sciences,Pharmacognosy,33.33%,45,6,13.33%,0
+Peking University,School of Pharmaceutical Sciences,Drug Analysis,20.00%,6,2,33.33%,0
+Peking University,School of Pharmaceutical Sciences,Microbiology and Biochemical Pharmacy,0.00%,0,0,0.00%,0
+Peking University,School of Pharmaceutical Sciences,Pharmacology,33.33%,5,2,40.00%,0
+Peking University,School of Pharmaceutical Sciences,Chemical Biology,44.44%,9,4,44.44%,0
+Peking University,School of Pharmaceutical Sciences,Clinical Pharmacy,0.00%,0,0,0.00%,0
+Peking University,School of Public Health,Epidemiology and Health Statistics,24.39%,47,8,17.02%,1
+Peking University,School of Public Health,Occupational and Environmental Hygiene,33.33%,26,8,30.77%,0
+Peking University,School of Public Health,Nutrition and Food Hygiene,14.29%,44,5,11.36%,1
+Peking University,School of Public Health,Child and Adolescent Health and Maternal and Child Health Care,27.78%,21,7,33.33%,0
+Peking University,School of Public Health,Hygienic Toxicology,0.00%,0,0,0.00%,1
+Peking University,School of Public Health,Social Medicine and Health Service Management,30.43%,33,6,18.18%,0
+Peking University,School of Nursing,Nursing Science,5.04%,78,4,5.13%,2
+Peking University,Public Teaching Department,Marxist Theory and Ideological and Political Education,33.33%,0,0,0.00%,0
+Peking University,Public Teaching Department,Applied Psychology,0.00%,8,3,37.50%,3
+Peking University,Public Teaching Department,History of Science and Technology,25.00%,8,1,12.50%,3
+Peking University,First Clinical Medicine College,Pathology and Pathophysiology,0.00%,0,0,0.00%,0
+Peking University,First Clinical Medicine College,Pathology,0.00%,0,0,0.00%,0
+Peking University,First Clinical Medicine College,Internal Medicine,9.64%,146,13,8.90%,6
+Peking University,First Clinical Medicine College,Pediatrics,53.85%,27,10,37.04%,1
+Peking University,First Clinical Medicine College,Neurology,9.09%,36,3,8.33%,0
+Peking University,First Clinical Medicine College,Dermatology and Venereology,14.29%,29,3,10.34%,0
+Peking University,First Clinical Medicine College,Medical Imaging and Nuclear Medicine,13.64%,40,4,10.00%,0
+Peking University,First Clinical Medicine College,Clinical Laboratory Diagnosis,11.11%,12,2,16.67%,0
+Peking University,First Clinical Medicine College,Surgery,8.45%,101,8,7.92%,2
+Peking University,First Clinical Medicine College,Obstetrics and Gynecology,25.00%,25,3,12.00%,1
+Peking University,First Clinical Medicine College,Ophthalmology,18.18%,2,1,50.00%,0
+Peking University,First Clinical Medicine College,Otolaryngology,18.75%,3,3,100.00%,0
+Peking University,First Clinical Medicine College,Oncology,0.00%,8,1,12.50%,0
+Peking University,First Clinical Medicine College,Rehabilitation Medicine and Physiotherapy,18.18%,0,0,0.00%,0
+Peking University,First Clinical Medicine College,Anesthesiology,7.69%,21,1,4.76%,0
+Peking University,First Clinical Medicine College,Epidemiology and Health Statistics,66.67%,0,0,0.00%,0
+Peking University,First Clinical Medicine College,Integrated Traditional Chinese and Western Medicine (Basic),0.00%,0,0,0.00%,0
+Peking University,First Clinical Medicine College,Integrated Traditional Chinese and Western Medicine Clinical Practice,0.00%,0,0,0.00%,0
+Peking University,First Clinical Medicine College,Pharmacology,0.00%,0,0,0.00%,0
+Peking University,First Clinical Medicine College,Clinical Pharmacy,0.00%,0,0,0.00%,0
+Peking University,Second Clinical Medicine College,Biochemistry and Molecular Biology,0.00%,0,0,0.00%,0
+Peking University,Second Clinical Medicine College,Pathology and Pathophysiology,0.00%,0,0,0.00%,0
+Peking University,Second Clinical Medicine College,Pathology,0.00%,0,0,0.00%,0
+Peking University,Second Clinical Medicine College,Internal Medicine,13.45%,121,15,12.40%,1
+Peking University,Second Clinical Medicine College,Pediatrics,66.67%,7,2,28.57%,0
+Peking University,Second Clinical Medicine College,Neurology,5.26%,6,2,33.33%,0
+Peking University,Second Clinical Medicine College,Dermatology and Venereology,0.00%,5,1,20.00%,0
+Peking University,Second Clinical Medicine College,Medical Imaging and Nuclear Medicine,66.67%,2,1,50.00%,1
+Peking University,Second Clinical Medicine College,Clinical Laboratory Diagnosis,0.00%,5,1,20.00%,0
+Peking University,Second Clinical Medicine College,Surgery,16.22%,117,9,7.69%,3
+Peking University,Second Clinical Medicine College,Obstetrics and Gynecology,9.09%,34,3,8.82%,1
+Peking University,Second Clinical Medicine College,Ophthalmology,13.33%,15,1,6.67%,0
+Peking University,Second Clinical Medicine College,Otolaryngology,0.00%,2,1,50.00%,0
+Peking University,Second Clinical Medicine College,Anesthesiology,0.00%,0,0,0.00%,1
+Peking University,Second Clinical Medicine College,Emergency Medicine,0.00%,6,1,16.67%,0
+Peking University,Third Clinical Medicine College,Biochemistry and Molecular Biology,0.00%,0,0,0.00%,0
+Peking University,Third Clinical Medicine College,Pathology and Pathophysiology,0.00%,0,0,0.00%,0
+Peking University,Third Clinical Medicine College,Internal Medicine,12.04%,109,8,7.34%,2
+Peking University,Third Clinical Medicine College,Pediatrics,300.00%,5,2,40.00%,0
+Peking University,Third Clinical Medicine College,Neurology,9.09%,9,1,11.11%,0
+Peking University,Third Clinical Medicine College,Dermatology and Venereology,0.00%,0,0,0.00%,0
+Peking University,Third Clinical Medicine College,Medical Imaging and Nuclear Medicine,10.00%,38,4,10.53%,0
+Peking University,Third Clinical Medicine College,Clinical Laboratory Diagnosis,0.00%,6,1,16.67%,0
+Peking University,Third Clinical Medicine College,Surgery,9.32%,103,11,10.68%,2
+Peking University,Third Clinical Medicine College,Obstetrics and Gynecology,19.23%,43,3,6.98%,0
+Peking University,Third Clinical Medicine College,Ophthalmology,8.70%,22,3,13.64%,1
+Peking University,Third Clinical Medicine College,Otolaryngology,50.00%,7,2,28.57%,0
+Peking University,Third Clinical Medicine College,Oncology,10.00%,0,0,0.00%,0
+Peking University,Third Clinical Medicine College,Rehabilitation Medicine and Physiotherapy,10.00%,5,1,20.00%,0
+Peking University,Third Clinical Medicine College,Sports Medicine,0.00%,25,3,12.00%,0
+Peking University,Third Clinical Medicine College,Anesthesiology,16.67%,30,2,6.67%,0
+Peking University,Third Clinical Medicine College,Occupational and Environmental Hygiene,0.00%,0,0,0.00%,0
+Peking University,Third Clinical Medicine College,Pharmaceutics,0.00%,0,0,0.00%,0
+Peking University,Fourth Clinical Medical College,Internal Medicine,11.76%,5,0,2.00%,0
+Peking University,Fourth Clinical Medical College,Medical Imaging and Nuclear Medicine,25.00%,4,0,0.00%,0
+Peking University,Fourth Clinical Medical College,Surgery,14.71%,45,0,4.00%,0
+Peking University,Fourth Clinical Medical College,Obstetrics and Gynecology,0.00%,0,0,0.00%,0
+Peking University,Fourth Clinical Medical College,Oncology,0.00%,3,0,0.00%,0
+Peking University,School of Stomatology,Basic Stomatology,0.00%,0,0,0.00%,0
+Peking University,School of Stomatology,Stomatology Clinical Medicine,0.00%,0,0,0.00%,0
+Peking University,School of Stomatology,Endodontics,0.00%,7,1,14.29%,0
+Peking University,School of Stomatology,Periodontology,0.00%,12,1,8.33%,0
+Peking University,School of Stomatology,Pediatric Dental Medicine,20.00%,8,2,25.00%,0
+Peking University,School of Stomatology,Oral Mucosal Diseases,25.00%,1,0,0.00%,0
+Peking University,School of Stomatology,Oral Preventive Medicine,10.00%,4,1,25.00%,0
+Peking University,School of Stomatology,Oral and Maxillofacial Surgery,42.86%,33,8,24.24%,0
+Peking University,School of Stomatology,Oral and Maxillofacial Medical Imaging,0.00%,0,1,0.00%,0
+Peking University,School of Stomatology,Prosthetic Dentistry,6.67%,27,4,14.81%,0
+Peking University,School of Stomatology,Dental Materials Science,0.00%,0,1,0.00%,0
+Peking University,School of Stomatology,Orthodontics,7.69%,55,3,5.45%,0
+Peking University,School of Stomatology,Oral Histopathology,33.33%,9,3,33.33%,0
+Peking University,Institute of Mental Health,Applied Psychology,0.00%,0,0,0.00%,0
+Peking University,Institute of Mental Health,Psychiatry and Mental Health Science,15.79%,110,16,14.55%,0
+Peking University,School of Clinical Oncology,Cell Biology,150.00%,1,1,100.00%,0
+Peking University,School of Clinical Oncology,Biochemistry and Molecular Biology,27.27%,6,2,33.33%,1
+Peking University,School of Clinical Oncology,Medical Imaging and Nuclear Medicine,5.56%,5,1,20.00%,1
+Peking University,School of Clinical Oncology,Oncology,12.16%,1,0,0.00%,0
+Peking University,School of Clinical Oncology,Epidemiology and Health Statistics,0.00%,136,19,13.97%,3
+Peking University,School of Clinical Oncology,Clinical Pharmacy,0.00%,0,0,0.00%,0
+Peking University,Peking University Hospital,Biochemistry and Molecular Biology,0.00%,0,0,0.00%,0
+Peking University,Peking University Hospital,Internal Medicine,50.00%,18,3,16.67%,1
+Peking University,Peking University Hospital,Neurology,14.29%,15,2,13.33%,0
+Peking University,Peking University Hospital,Medical Imaging and Nuclear Medicine,20.00%,12,3,25.00%,0
+Peking University,Peking University Hospital,Clinical Laboratory Diagnosis,0.00%,0,0,0.00%,0
+Peking University,Peking University Hospital,Surgery,30.00%,15,2,13.33%,2
+Peking University,Peking University Hospital,Ophthalmology,0.00%,4,1,25.00%,0
+Peking University,Peking University Hospital,Otolaryngology,100.00%,0,0,0.00%,0
+Peking University,Peking University Hospital,Oncology,0.00%,0,0,0.00%,0
+Peking University,China-Japan Friendship Hospital,Internal Medicine,6.82%,26,3,11.54%,0
+Peking University,China-Japan Friendship Hospital,Dermatology and Venereology,0.00%,6,1,16.67%,0
+Peking University,China-Japan Friendship Hospital,Surgery,7.46%,67,5,7.46%,0
+Peking University,China-Japan Friendship Hospital,Anesthesiology,0.00%,0,0,0.00%,0
+Peking University,Beijing Railway General Hospital,Pathology,0.00%,7,2,28.57%,0
+Peking University,Beijing Railway General Hospital,Internal Medicine,200.00%,9,6,66.67%,0
+Peking University,Beijing Railway General Hospital,Neurology,0.00%,5,2,40.00%,0
+Peking University,Beijing Railway General Hospital,Clinical Laboratory Diagnosis,0.00%,1,1,100.00%,0
+Peking University,Beijing Railway General Hospital,Surgery,43.75%,12,6,50.00%,0
+Peking University,Beijing Railway General Hospital,Obstetrics and Gynecology,28.57%,5,2,40.00%,0
+Peking University,Beijing Railway General Hospital,Ophthalmology,0.00%,3,0,0.00%,0
+Peking University,Beijing Railway General Hospital,Otolaryngology,200.00%,0,0,0.00%,0
+Peking University,Aerospace Center Hospital,Internal Medicine,25.00%,17,4,23.53%,0
+Peking University,Aerospace Center Hospital,Surgery,28.57%,4,2,50.00%,0
+Peking University,Capital Institute of Pediatrics Affiliated Children's Hospital,Pediatrics,27.27%,6,3,50.00%,2
+Peking University,Civil Aviation General Hospital,Internal Medicine,0.00%,0,1,0.00%,0
+Peking University,Shenzhen Clinical Medical College,Internal Medicine,100.00%,0,0,0.00%,0
+Peking University,Shenzhen Clinical Medical College,Medical Imaging and Nuclear Medicine,0.00%,4,2,50.00%,0
+Peking University,Shenzhen Clinical Medical College,Surgery,33.33%,6,2,33.33%,0
+Peking University,Shenzhen Clinical Medical College,Obstetrics and Gynecology,20.00%,5,2,40.00%,0

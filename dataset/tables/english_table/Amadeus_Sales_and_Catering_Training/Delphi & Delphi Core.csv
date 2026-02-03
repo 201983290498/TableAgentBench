@@ -1,0 +1,236 @@
+﻿Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11
+,Amadeus Sales & Catering Master Class,,,,,,,,,,
+,,,Hours Selected:,"Hours to Purchase:
+(Sold in 4 hour increments)","Location:
+(Onsite available with 16 hours or more)",,,,,Total Hours,0.0
+,,,0,0,Remote,,,,,,
+,,,,,,,,,,,
+,Delphi User Sessions,,,,,,,,,,
+,,Estimated Attendees,Session ,Session Content,Time,Product Type,,Selection,Time,Lesson Selected,
+,,Select Range,Accounts and Contacts,"Do your users need to learn how to create Accounts and Contact?
+- Search for existing accounts
+- Create new accounts and contacts
+- Parent/Child hierarchies
+- Account teams",1 HR,"Delphi
+Delphi Core",,False,1,0,
+,,Select Range,Inquiries and Availability,"Do your users need to learn how to create Inquiries and search Availability?
+- Create new inquiries with or without existing accounts
+- Reassign inquiries
+- Create bookings From inquiries
+- Check availability for guestrooms & function space ",1 HR,"Delphi
+Delphi Core",,False,1,0,
+,,Select Range,"
+Selling Groups & Events","Do your users need to learn how to create and manage Bookings?
+- Create new bookings
+- Create events and guestroom blocks
+- Manage deposits and other income
+- Terms & donditions
+- Merge contracts & proposals
+- Copy/Move bookings",2 HR,"Delphi
+Delphi Core",,False,2,0,
+,,Select Range,Selling Package Groups & Events,"Do you want to start using Booking Packages?
+- Add packages to a booking
+- Manage package attendance
+- Customize packages
+- Package merge documents
+- Copy package bookings",2HR,"Delphi
+Delphi Core",,False,2,0,
+,,Select Range,Activities,"Do you want to improve your activity management?
+- Open activities and activity history
+- My tasks & my appointments on the home tab
+- Automatic tasks
+- Email & email templates
+- Share calendars and viewing public calendars",1 HR,"Delphi
+Delphi Core",,False,1,0,
+,,Select Range,Volume Contracts,"Do you want to learn how to manage your business travel or negotiated rate business?
+- Create volume contracts
+- Volume contract periods
+- Forecast & actuals
+- Merge volume contract agreements
+- Enter volume contract pickup",1 HR,"Delphi
+Delphi Core",,False,1,0,
+,,Select Range,Managing Bookings,"Do you want to learn how to manage your Bookings after they are definite?
+- Load deposit payments
+- Update room blocks and manage multiple blocks
+- Merge group resumes
+- Enter group pickup & catering actuals",1 HR,"Delphi
+Delphi Core",,False,1,0,
+,,Select Range,Managing Events,"Do you want to learn how to block events and work with menus and items?
+- Selecting existing menus & items
+- Customize menus & items/create new
+- Merge BEOs and banquet checks
+- Communicate BEO changes",2 HR,"Delphi
+Delphi Core",,False,2,0,
+,,Select Range,Advanced BEO Techniques,"Do you want to learn how to manage your events quickly and efficiently?
+- Add/Remove events to existing BEOs
+- Clone menus & items
+- Manage items for multiple events
+- Understand event revenue and marking events ""Done""",1 HR,Delphi,,False,1,0,
+,,Select Range,Banquets & View Only Users,"Does your banquet team update BEOs and enter actuals?   Do your users need to view availability and run reports?
+Banquet Users 
+- Update event items & quantities
+- Print banquet checks
+
+View Only Users
+- Basic navigation
+- View availability 
+- Run reports",1 HR,Delphi ,,False,1,0,
+,,Select Range,Advanced Sales & Catering Techniques,"Do you want to learn more tips and tricks?
+- Manage list view
+- Understand revenue calculations
+- Shortcuts for availability and manage events
+- Outlook integration
+- Salesforce1 mobile app",2 HR,Delphi ,,False,2,0,
+,,Select Range,Alternate Language - User,"Do users need to learn how to generate documents in multiple languages?
+- Menus & Items
+- Merging documents",1 HR,"Delphi
+Delphi Core",,False,1,0,
+,,,,,,,,,,,
+,Delphi Property Administrator Sessions,,,,,,,,,,
+,,Estimated Attendees,Session,Session Content,Time,Users,,True,Time,Lesson Selected,
+,,Select Range,Property Administration,"The year is wrapping up. Do you need to update next year's average checks? Have you modified guestroom availability or function rooms?
+- Property setup functionality 
+- Function rooms and function room setups
+- Event classifications and average checks
+- Guestrooms and guestroom availability details
+- Other Income items
+- Terms & Conditions
+- Date Collections ",3 HR,"Delphi
+Delphi Core",,False,3,0,
+,,Select Range,Loading Booking Packages,"Do you want to learn how to bundle services by creating booking packages?
+- Create new packages
+- Add guestrooms, events, and other income to a package",2HR,"Delphi
+Delphi Core",,False,2,0,
+,,Select Range,Menus & Items,"Do you need to learn how to update your catering/banquet menus?
+- Simple & detailed menus with choices
+- Items for food, beverage, and audio visual
+- Text items for setup and additional instructions
+- Item inventory tracking",2 HR,"Delphi
+Delphi Core",,False,2,0,
+,,Select Range,Merge Documents,"Do you want to learn how to create a new document template that all users can merge?
+- Create new documents and upload to Delphi
+- Add fields and standard merge tables
+- Date & number formatting",2 HR,"Delphi
+Delphi Core",,False,2,0,
+,,Select # of Documents,Merge Documents - Troubleshooting Workshop,"Do you need assistance fixing an existing merge document that is not working?
+- Troubleshoot an existing merge document
+- Date and number formatting within merge documents
+- Review of existing merge documents and recommend updates (to the template, not legal verbiage)",1 HR,"Delphi
+Delphi Core",,False,1,0,
+,,Select Range,Basic Custom Reports,"Do you need to streamline your property’s reporting?
+- Create new reports
+- Add fields, sort, and apply filters
+- Group and add subtotals
+- Charts & graphs
+- Save, print and export report details",2 HR,"Delphi
+Delphi Core",,False,2,0,
+,,Select Range,Advanced Custom Reports,"Do you have something specific and advanced you need to report on?  Do you want to expand your reporting skill set?
+- Matrix & Joined reports
+- Cross filters
+- Formulas
+- Buckets",2 HR,"Delphi
+Delphi Core",,False,2,0,
+,,Select Range,Dashboards,"Would you like to visualize your team's progress toward goals using charts/graphs?
+- What is a dashboard, and how to build them
+- Discuss running user and how that affects what is seen on the dashboard",1 HR,"Delphi
+Delphi Core",,False,1,0,
+,,Select Range,Running Reports,"Do you want to learn how to run basic reports?
+- Access reports and save favorites
+- Standard reports overview
+- Print and export report details",1 HR,"Delphi
+Delphi Core",,False,1,0,
+,,Select Range,Advanced Property Administration,"Concerned about users meeting goals? Do you want to learn how to set goals and create user budget details?
+- Default menus & items
+- Manage taxes, revenue, and service charges
+- Goals & Budgets
+- Manage users",1.5 HR,"Delphi
+Delphi Core",,False,1.5,0,
+,,Select Range,Alternate Language - Admin,"Would you like the ability to merge documents in multiple languages?
+- Adding translations throughout the system
+- Creating merge documents for alternate languages",1 HR,"Delphi
+Delphi Core",,False,1,0,
+,,Select Range,List Views ,"Do you want to streamline your data auditing and reporting process by exploring alternative tools and solutions?
+- Review existing list views and cleanup as needed
+- Create new list views
+- Delve deeper into how list views can help all users achieve ultimate efficiency",1 HR,"Delphi
+Delphi Core",,False,1,0,
+,,Select Range,Email Templates,"Could email templates help standardize your communication and assist your team in working more efficiently?
+- Building email templates
+- Email template recommendations to maximize efficiency (turn down RFPs, send proposals, prospect, account/booking management)",1 HR,"Delphi
+Delphi Core",,False,1,0,
+,,Select Range,BEO Formatting Workshop,"Are you satisfied with the current BEO & Banquet Check Templates, or is there information you want to add?
+- Adding revenue classification to BEO template
+- Changes to formatting
+- Update merge fields
+- Add new sections
+- Rearrange sections",1.5 HR,"Delphi
+Delphi Core",,False,1.5,0,
+,,Select Hours,Property Administration - Workshop,"Do you want additional workshop time to finish up your admin tasks?
+- This session should accompany any of the above sessions and will be used by the property admin to continue working on administrative responsibilities (e.g., load menus & items or create custom reports) with guidance from the trainer.",1 HR,"Delphi
+Delphi Core",,False,1,0,
+,,,,,,,,,,,
+,Corporate Administrator Sessions,,,,,,,,,,
+,,Session,,Session Content,Time,Users,,Selection,Time,Lesson Selected,
+,,Corporate Admin - Part 1 - Managing Users,,"Do you need to create new users or modify access? 
+- Users & Security (profiles & permission sets)
+- Transfer ownership",1 HR,"Delphi
+Delphi Core",,False,1,0,
+,,Corporate Admin - Part 2 - System Customization,,"Do you need to add or edit a lost business reason?  Does the page flow make sense?
+- Manage picklist values
+- Edit page layouts
+- Create custom fields & modify help tips
+- Amadeus settings & availability settings",1.5 HR,"Delphi
+Delphi Core",,False,1.5,0,
+,,Corporate Admin - Part 3 - System Automation,,"Are you receiving too many tasks? 
+Can we include our branding in emails?
+- Managing workflows
+- Email templates & letterheads",1 HR,"Delphi
+Delphi Core",,False,1,0,
+,,Corporate Admin - Part 4 - Database Management,,"Do you need to learn how to manage duplicate accounts?  Do you want to learn how to manage system updates?
+- Data backup, manage duplicate accounts & contacts
+- Transfer ownership of records
+- Data validation
+- View package version & requesting upgrades",1 HR,"Delphi
+Delphi Core",,False,1,0,
+,,Maintaining Your System Standards Guide  ,,"
+Did you recently make some changes in your org? 
+- Update system standards guide and upload to delphi
+",30 Min,"Delphi
+Delphi Core",,False,0.5,0,
+,,Mobile App Configuration,,"Are your users fully utilizing the Salesforce mobile app? Would modifying the app improve its usability and effectiveness for your team?
+- Add link to availability screen
+- Global actions
+- Identify the needs of the sales team (typically the people on the ground) to make the app an easier experience for them and then implement those changes in the app; have an official rollout so users can get the best experience. ",1 HR,"Delphi
+Delphi Core",,False,1,0,
+,,Select Hours,Corporate Administration -  Workshop,"Did you finish up your outstanding admin tasks?
+-This session should accompany any of the above sessions and will be used by the corporate admin to continue working on making essential configuration updates with guidance from the trainer. It can also be used for post-upgrade feature enablement assistance.",1 HR,"Delphi
+Delphi Core",,False,1,0,
+,,,,,,,,,,,
+,Health Check Sessions,,,,,,,,,,
+,,,Session,Session Content,Time,Users,,Selection,Time,Lesson Selected,
+,,Property Health Check,,"Are you a Property Admin that would like to do a Health Check review of your property's data and configuration?
+- Analysis of revenue and reporting data
+- Review of property configuration and setup
+- Recommendations for optimal system utilization",4 HRS,"Delphi
+Delphi Core",,False,4,0,
+,,System Health Check,,"Are you a Corporate Admin that would like to do a Health Check review of your entire system's data and configuration?
+- Analysis of revenue and reporting Data
+- Review of system configuration and setup
+- Recommendations for optimal system utilization",8 HRS,"Delphi
+Delphi Core",,False,8,0,
+,,,,,,,,,,,
+,Property Administrative Tasks,,,,,,,,,,
+,,,Session,Session Content,Time,Users,,Selection,Time,Lesson Selected,
+,,Select # of Documents,"Merge Document Creation by Amadeus
+","Would you like Amadeus to create your Merge Documents?
+- 2 Hours per document
+- Microsoft word version of the documents will be requested before the scheduled day
+- Includes 20 Minute Pre & Post calls to review documents
+- Amadeus resource will create the merge document using standard merge fields and merge tables available in the merge tool
+- Additional edits or troubleshooting beyond the purchased time will require an additional Master Class order",0 HR,Property Admin.,,False,2,0,
+,,Select # of Pages,Menu/Item Upload by Amadeus,"Would you like Amadeus to load your Menus/Items for you?
+- Up to 6 pages per every 4 hours
+- Microsoft Word version of the menus will be requested before the scheduled day
+- Includes 20 Minute Pre & Post calls to review menus
+- Amadeus resource will enter the menus/items within the time purchased
+- Additional edits or troubleshooting beyond the purchased time will require an additional Master Class order",0 HRS,Property Admin.,,False,,0,

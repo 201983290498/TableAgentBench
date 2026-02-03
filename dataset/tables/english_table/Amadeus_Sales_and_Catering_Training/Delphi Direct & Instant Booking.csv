@@ -1,0 +1,40 @@
+﻿Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11
+,Amadeus Sales & Catering Master Class,,,,,,,,,,
+,,,Hours Selected:,"Hours to Purchase:
+(Sold in 4 hour increments)","Location:
+(Onsite available with 16 hours or more)",,,,,Total Hours,0.0
+,,,0,0,Remote,,,,,,
+,,,,,,,,,,,
+,Delphi Direct & Instant Booking User Sessions,,,,,,,,,,
+,,Estimated Attendees,Session,Session Content,Time,Users,,Selection,Time,Lesson Selected,
+,,Select Range,Managing Bookings,"- Booking Notifications & List Views
+- Booking Accounts & Contacts
+- Booking Fields & Packages
+- Channel Policy",1 HR,Sales & Catering,,False,1,0,
+,,Select Range,Managing Events,"- Creating Package BEOs
+- Managing Package Enhancements
+- Managing Package Attendance
+- Working with Build Your Own Packages
+- Printing Booking Checks",1 HR,Sales & Catering,,False,1,0,
+,,Select Range,Entering Catering Actuals,"- Entering Actual Attendance
+- Adding Menus and Items
+- Printing Booking Checks",30 MIN,Sales & Catering,,False,0.5,0,
+,,,,,,,,,,,
+,Administrator Sessions,,,,,,,,,,
+,,Estimated Attendees,Session,Session Content,Time,Users,,Selection,Time,Lesson Selected,
+,,Select Range,Channel Preparation,"- Event Classifications
+- Function Rooms
+- Menus and Items
+- Property Details",30 MIN,Property Admin,,False,0.5,0,
+,,Select Range,Loading Packages,"- Creating New Packages
+- Add Events to a Package
+- Cloning Packages
+Build Your Own Meeting",1.5 HR,Property Admin,,False,1.5,0,
+,,Select Range,Channel Manager,"- Channel Properties
+- Channel Packages
+- Channel Function Rooms
+- Channel Add-on Itmes
+- Channel Blackout Dates
+- Receiving Bookings
+- Reassigning Bookings",1.5 HR,Property Admin,,False,1.5,0,
+,,Select Range,Updating Document Templates,- Adding Package details to existing merge documents,30 MIN,Property Admin,,False,0.5,0,

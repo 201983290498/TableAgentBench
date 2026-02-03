@@ -1,0 +1,61 @@
+﻿Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11
+,Amadeus Sales & Catering Master Class,,,,,,,,,,
+,,,Hours Selected:,"Hours to Purchase:
+(Sold in 4 hour increments)","Location:
+(Onsite available with 16 hours or more)",,,,,Total Hours,0.0
+,,,0,0,Remote,,,,,,
+,,,,,,,,,,,
+,Delphi Select User Sessions,,,,,,,,,,
+,,Estimated Attendees,Session,Session Content,Time,Users,,Selection,Time,Lesson Selected,
+,,Select Range,Accounts and Contact,"Do your users need to learn how to create Account and Contact?
+- Create accounts
+- Create contacts",15 MIN,Sales & Catering,,False,0.25,0,
+,,Select Range,Checking Availability and Creating Bookings,"What are the next steps to convert and manage the process when you have a new lead?
+- Check availability
+- Create inquiries
+- Convert inquiries
+- Create guestrooms and events
+- Activites",30 MIN,Sales & Catering,,False,0.5,0,
+,,Select Range,MeetingBroker Inquires,"Do you need to learn how to manage your MeetingBroker Inquiries?
+- Receive Meetingbroker inquiries
+- Confirm receipt of RFP inquires
+- Convert inquires
+- Send proposals",15 MIN,Sales & Catering,,False,0.25,0,
+,,Select Range,Managing Bookings,"Do you need to learn how to create and manage your bookings?
+- Creating Bookings from Account and Contact
+- Add Deposits
+- Print Documents
+- Change Booking Status",15 MIN,Sales & Catering,,False,0.25,0,
+,,Select Range,Creating BEOs,"Do you want to learn how to work with your items and create BEOs?
+- Add guaranteed attendance
+- Created BEOs
+- Create new items
+- Mark BEOs done
+- Print BEOs",30 MIN,Sales & Catering,,False,0.5,0,
+,,Select Range,Reports,"Do you need to learn how to run basic reports?
+- Run reports
+- Generate and print reports",15 MIN,Sales & Catering,,False,0.25,0,
+,,,,,,,,,,,
+,Delphi Select Administrator Sessions,,,,,,,,,,
+,,Estimated Attendees,Session,Session Content,Time,Users,,Selection,Time,Lesson Selected,
+,,Select Range,Property Setup and Taxes,"Are the property details accurate, and if not, how can you modify them?
+- Property details
+- Guestroom setup
+- Revenue classifications
+- Creating tax sets
+- Event classifications and default average checks
+- Function room setup",45 MIN,Admin,,False,0.75,0,
+,,Select Range,Document Options,"Do you have the documents you want and do they display the information you need?
+- Document template Options
+- Custom text",30 MIN,Admin,,False,0.5,0,
+,,Select Range,Item Setup,"Do you need to learn how to add new items?
+- Create & copy items",30 MIN,Admin,,False,0.5,0,
+,,,,,,,,,,,
+,Property Administrative Tasks,,,,,,,,,,
+,,# of pages,Session,Session Content,Time,Users,,Selection,Time,Lesson Selected,
+,,Select # of Pages,Item Upload by Amadeus,"Would you like Amadeus to load your Menus/Items for you?
+- Up to 6 pages per every 4 hours
+- Microsoft Word version of the menus will be requested before the scheduled day
+- Includes 20 Minute Pre & Post calls to review menus
+- Amadeus resource will enter the menus/items within the time purchased
+- Additional edits or troubleshooting beyond the purchased time will require an additional Master Class order",0 HRS,Admin,,False,,0,

@@ -1,0 +1,42 @@
+﻿Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11
+,Amadeus Sales & Catering Master Class,,,,,,,,,,
+,,,Hours Selected:,"Hours to Purchase:
+(Sold in 4 hour increments)","Location:
+(Onsite available with 16 hours or more)",,,,,Total Hours,0.0
+,,,0,0,Remote,,,,,,
+,,,,,,,,,,,
+,Delphi Diagramming User Sessions,,,,,,,,,,
+,,Estimated Attendees,Session,Session Content,Time,Users,,Selection,Time,Lesson Selected,
+,,Select Range,Creating Basic Diagrams,"Do you want to learn how to create a diagram?
+- Basic & Custom Diagrams
+- Delphi Integration (if applicable)
+- Print, Save, and Share
+- 3D Viewing",1 HR,Sales & Catering,,False,1,0,
+,,Select Range,Advanced Diagraming Tools,"Do you want to learn how to further enhance your diagrams?
+- Measuring Tools
+- 3D View Points
+- Enhanced Text and Numbering
+- Batch Print and Inventory Sheets",30 MIN,Sales & Catering,,False,0.5,0,
+,,Select Range, Diagram Templates,"Do you want to learn how to create quick templates for common scenarios?
+- Create Groupings
+- Creating Standard Configurations
+- Renaming and Reuse Room Plans
+- Save and Print",30 MIN,Sales & Catering,,False,0.5,0,
+,,,,,,,,,,,
+,Administrator Sessions,,,,,,,,,,
+,,Estimated Attendees,Session,Session Content,Time,Users,,Selection,Time,Lesson Selected,
+,,Select Range,Administrator Basics,"Do you want to learn how to manage your property?
+- Property Details
+- Meeting Space capacities",45 MIN,Property Admin,,False,0.75,0,
+,,Select Range,Managing Users,"Do you need to learn how to create users?
+- Create & Manage Users
+- Manage Permissions
+- ""What's New"" Notifications",15 MIN,Property Admin,,False,0.25,0,
+,,Select Range,Managing Resources,"Do you want to learn how to manage the tables, chairs, and other room components?
+- Manage resources
+- Creating custom resources ",15 MIN,Property Admin,,False,0.25,0,
+,,Select Range,Managing Meeting Space & Floor Plans,"Do you need to update an existing space or create a new one?
+- Meeting Space Editor
+- Floorplan Editor
+- Layout Editor
+- Map Function Space and Setups (Integrations Only)",45 MIN,Property Admin,,False,0.75,0,

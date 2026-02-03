@@ -1,0 +1,62 @@
+Name,Model,Unit,Value
+Hot-rolled I-beam,I-beam No.10(100×68×4.5),kg/m,11.26
+Hot-rolled I-beam,I-beam No.12.6(126×74×5.0),kg/m,14.223
+Hot-rolled I-beam,I-beam No.14(140×80×5.5),kg/m,16.89
+Hot-rolled I-beam,I-beam No.16 (160×88×6.0),kg/m,20.513
+Hot-rolled I-beam,I-beam No.18 (180×94×6.5),kg/m,21.113
+Hot-rolled I-beam,I-beam No.20a (200×100×7.0),kg/m,27.928
+Hot-rolled I-beam,I20b(200×102×9.0),kg/m,31.068
+Hot-rolled I-beam,I-beam No.22a (220×110×7.5),kg/m,33.07
+Hot-rolled I-beam,I-beam 22b(220×112×9.5),kg/m,36.524
+Hot-rolled I-beam,I-beam No.25a (250×116×8.0),kg/m,38.105
+Hot-rolled I-beam,I-beam 25b (250×118×10.0),kg/m,42.03
+Hot-rolled I-beam,I-beam No.28a (280×122×8.5),kg/m,43.491
+Hot-rolled I-beam,I-beam 28b (280×121×10.5),kg/m,47.887
+Hot-rolled I-beam,I-beam No.32a (320×130×9.5),kg/m,52.716
+Hot-rolled I-beam,I-beam 32b (320×132×11.5),kg/m,57.741
+Hot-rolled I-beam,I-beam No.32c (320×134×13.5),kg/m,62.765
+Hot-rolled I-beam,I-beam No.36a (360×136×10.0),kg/m,60.036
+Hot-rolled I-beam,I-beam 36b(360×138×12.0),kg/m,65.688
+Hot-rolled I-beam,I-beam No.36c (360×140×14.0),kg/m,71.34
+Hot-rolled I-beam,I-beam No.40a (400×142×10.5),kg/m,67.597
+Hot-rolled I-beam,I-beam 40b(400×144×12.5),kg/m,73.878
+Hot-rolled I-beam,I-beam No.40c (400×146×14.5),kg/m,80.158
+Hot-rolled I-beam,I45a(450×150×11.5),kg/m,80.42
+Hot-rolled I-beam,I45b(450×152×12.0),kg/m,87.185
+Hot-rolled I-beam,I-beam 45c (450×154×15.5),kg/m,91.549
+Hot-rolled I-beam,I-beam No.50a (500×158×12.0),kg/m,93.653
+Hot-rolled I-beam,I-beam 50b(500×160×14.0),kg/m,101.5
+Hot-rolled I-beam,I-beam 50c(500×162×16.0),kg/m,109.35
+Hot-rolled I-beam,I-beam No.56a (560×166×12.5),kg/m,106.31
+Hot-rolled I-beam,I-beam 56b(560×168×14.5),kg/m,115.1
+Hot-rolled I-beam,I-beam No.56c (560×170×16.5),kg/m,123.9
+Hot-rolled I-beam,I-beam No. 63a (630×176×13.0),kg/m,121.1
+Hot-rolled I-beam,I-beam 63b(630×178×15.0),kg/m,131.29
+Hot-rolled I-beam,I-beam No. 63C (630×180×17.0),kg/m,141.18
+Hot-rolled I-beam,I-beam No.12(120×74×5.0),kg/m,13.987
+Hot-rolled I-beam,I-beam No.24a (240×116×8.0),kg/m,37.476
+Hot-rolled I-beam,I-beam No.24b (240×118×10.0),kg/m,41.244
+Hot-rolled I-beam,I-beam No.27a (270×122×8.5),kg/m,42.825
+Hot-rolled I-beam,I-beam 27b (270×124×10.5),kg/m,47.064
+Hot-rolled I-beam,I-beam No.30a (300×126×9.0),kg/m,48.084
+Hot-rolled I-beam,I30b(300×128×11.0),kg/m,52.793
+Hot-rolled I-beam,I30c(300×130×13.0),kg/m,57.503
+Hot-rolled I-beam,I-beam No.55a (550×166×12.5),kg/m,105.33
+Hot-rolled I-beam,I-beam 55b(550×168×14.5),kg/m,113.97
+Hot-rolled I-beam,I-beam 55c(550×170×16.5),kg/m,122.6
+Hot-rolled I-beam,I10(100×55×4.2),kg/m,8.95
+Hot-rolled I-beam,I-beam No.12(120×56×4.4),kg/m,11.15
+Hot-rolled I-beam,I-beam No.14(140×75×4.6),kg/m,13.5
+Hot-rolled I-beam,I-beam No.16(160×80×4.8),kg/m,15.39
+Hot-rolled I-beam,I-beam No.18 (180×85×5.0),kg/m,17.43
+Hot-rolled I-beam,I-beam No.20(200×90×5.2),kg/m,20.25
+Hot-rolled I-beam,I-beam No.22(220×100×5.5),kg/m,23.859
+Hot-rolled I-beam,I-beam No.25 (250×110×6.0),kg/m,28.89
+Hot-rolled I-beam,I-beam No.28(280×120×6.5),kg/m,34.46
+Hot-rolled I-beam,I32(320×130×7.0),kg/m,41.369
+Hot-rolled I-beam,I-beam No.36(360×140×7.5),kg/m,48.59
+Hot-rolled I-beam,I-beam No.40(400×150×8.0),kg/m,56.28
+Hot-rolled I-beam,I45(450×160×8.5),kg/m,65.469
+Hot-rolled I-beam,I-beam No.50 (500×170×9.0),kg/m,74.969
+Hot-rolled I-beam,I-beam No.56 (560×180×10.0),kg/m,90.59
+Hot-rolled I-beam,I-beam No.63(630×190×11.0),kg/m,108.56

@@ -1,0 +1,109 @@
+﻿Grade,Domain,Area,Student Group,State Count,State Domain Score
+3-5,Sense of Belonging,General Belonging,All Students,75085,74
+3-5,Sense of Belonging,General Belonging,Female,37785,74
+3-5,Sense of Belonging,General Belonging,Male,37159,73
+3-5,Sense of Belonging,General Belonging,Nonbinary,141,71
+3-5,Sense of Belonging,General Belonging,American Indian/Alaska Native,659,71
+3-5,Sense of Belonging,General Belonging,Asian,3370,77
+3-5,Sense of Belonging,General Belonging,Black/African American,1634,71
+3-5,Sense of Belonging,General Belonging,Hispanic/Latino/a/x,19063,72
+3-5,Sense of Belonging,General Belonging,Multiracial,6001,74
+3-5,Sense of Belonging,General Belonging,Native Hawaiian/Pacific Islander,566,72
+3-5,Sense of Belonging,General Belonging,White,43792,74
+3-5,Sense of Belonging,General Belonging,English Learner,13563,72
+3-5,Sense of Belonging,General Belonging,Students With Disabilities,11334,70
+3-5,Sense of Belonging,General Belonging,Experiencing Poverty,24867,71
+3-5,Sense of Belonging,General Belonging,Experiencing Homelessness,2249,69
+3-5,Sense of Belonging,General Belonging,In Migrant Education,1371,71
+3-5,Sense of Belonging,General Belonging,Recent Arriver,1577,71
+3-5,Sense of Belonging,General Belonging,In Foster Care,389,70
+3-5,Sense of Belonging,Representation,All Students,73530,43
+3-5,Sense of Belonging,Representation,Female,37012,44
+3-5,Sense of Belonging,Representation,Male,36381,41
+3-5,Sense of Belonging,Representation,Nonbinary,137,39
+3-5,Sense of Belonging,Representation,American Indian/Alaska Native,645,42
+3-5,Sense of Belonging,Representation,Asian,3269,44
+3-5,Sense of Belonging,Representation,Black/African American,1625,44
+3-5,Sense of Belonging,Representation,Hispanic/Latino/a/x,18809,45
+3-5,Sense of Belonging,Representation,Multiracial,5873,42
+3-5,Sense of Belonging,Representation,Native Hawaiian/Pacific Islander,563,45
+3-5,Sense of Belonging,Representation,White,42746,42
+3-5,Sense of Belonging,Representation,English Learner,13350,46
+3-5,Sense of Belonging,Representation,Students With Disabilities,11112,43
+3-5,Sense of Belonging,Representation,Experiencing Poverty,24507,43
+3-5,Sense of Belonging,Representation,Experiencing Homelessness,2222,44
+3-5,Sense of Belonging,Representation,In Migrant Education,1352,47
+3-5,Sense of Belonging,Representation,Recent Arriver,1544,48
+3-5,Sense of Belonging,Representation,In Foster Care,381,41
+6-8,Sense of Belonging,General Belonging,All Students,61736,68
+6-8,Sense of Belonging,General Belonging,Female,31087,67
+6-8,Sense of Belonging,General Belonging,Male,30405,69
+6-8,Sense of Belonging,General Belonging,Nonbinary,244,60
+6-8,Sense of Belonging,General Belonging,American Indian/Alaska Native,487,63
+6-8,Sense of Belonging,General Belonging,Asian,3044,74
+6-8,Sense of Belonging,General Belonging,Black/African American,1221,65
+6-8,Sense of Belonging,General Belonging,Hispanic/Latino/a/x,15747,67
+6-8,Sense of Belonging,General Belonging,Multiracial,4696,68
+6-8,Sense of Belonging,General Belonging,Native Hawaiian/Pacific Islander,553,68
+6-8,Sense of Belonging,General Belonging,White,35988,68
+6-8,Sense of Belonging,General Belonging,English Learner,8796,68
+6-8,Sense of Belonging,General Belonging,Students With Disabilities,7613,66
+6-8,Sense of Belonging,General Belonging,Experiencing Poverty,18153,65
+6-8,Sense of Belonging,General Belonging,Experiencing Homelessness,1725,64
+6-8,Sense of Belonging,General Belonging,In Migrant Education,1247,67
+6-8,Sense of Belonging,General Belonging,Recent Arriver,1134,70
+6-8,Sense of Belonging,General Belonging,In Foster Care,247,63
+6-8,Sense of Belonging,Representation,All Students,59773,41
+6-8,Sense of Belonging,Representation,Female,30069,44
+6-8,Sense of Belonging,Representation,Male,29481,37
+6-8,Sense of Belonging,Representation,Nonbinary,223,47
+6-8,Sense of Belonging,Representation,American Indian/Alaska Native,479,39
+6-8,Sense of Belonging,Representation,Asian,2943,40
+6-8,Sense of Belonging,Representation,Black/African American,1221,42
+6-8,Sense of Belonging,Representation,Hispanic/Latino/a/x,15434,41
+6-8,Sense of Belonging,Representation,Multiracial,4550,39
+6-8,Sense of Belonging,Representation,Native Hawaiian/Pacific Islander,540,40
+6-8,Sense of Belonging,Representation,White,34606,41
+6-8,Sense of Belonging,Representation,English Learner,8649,43
+6-8,Sense of Belonging,Representation,Students With Disabilities,7364,40
+6-8,Sense of Belonging,Representation,Experiencing Poverty,17676,39
+6-8,Sense of Belonging,Representation,Experiencing Homelessness,1685,39
+6-8,Sense of Belonging,Representation,In Migrant Education,1228,41
+6-8,Sense of Belonging,Representation,Recent Arriver,1123,47
+6-8,Sense of Belonging,Representation,In Foster Care,238,36
+9-11,Sense of Belonging,General Belonging,All Students,36586,69
+9-11,Sense of Belonging,General Belonging,Female,18404,68
+9-11,Sense of Belonging,General Belonging,Male,17899,70
+9-11,Sense of Belonging,General Belonging,Nonbinary,283,65
+9-11,Sense of Belonging,General Belonging,American Indian/Alaska Native,337,65
+9-11,Sense of Belonging,General Belonging,Asian,1988,74
+9-11,Sense of Belonging,General Belonging,Black/African American,639,67
+9-11,Sense of Belonging,General Belonging,Hispanic/Latino/a/x,8905,68
+9-11,Sense of Belonging,General Belonging,Multiracial,2660,68
+9-11,Sense of Belonging,General Belonging,Native Hawaiian/Pacific Islander,204,69
+9-11,Sense of Belonging,General Belonging,White,21853,69
+9-11,Sense of Belonging,General Belonging,English Learner,3234,69
+9-11,Sense of Belonging,General Belonging,Students With Disabilities,4057,66
+9-11,Sense of Belonging,General Belonging,Experiencing Poverty,8990,66
+9-11,Sense of Belonging,General Belonging,Experiencing Homelessness,909,65
+9-11,Sense of Belonging,General Belonging,In Migrant Education,727,69
+9-11,Sense of Belonging,General Belonging,Recent Arriver,586,71
+9-11,Sense of Belonging,General Belonging,In Foster Care,133,64
+9-11,Sense of Belonging,Representation,All Students,35383,46
+9-11,Sense of Belonging,Representation,Female,17790,50
+9-11,Sense of Belonging,Representation,Male,17322,42
+9-11,Sense of Belonging,Representation,Nonbinary,271,52
+9-11,Sense of Belonging,Representation,American Indian/Alaska Native,336,38
+9-11,Sense of Belonging,Representation,Asian,1946,44
+9-11,Sense of Belonging,Representation,Black/African American,639,45
+9-11,Sense of Belonging,Representation,Hispanic/Latino/a/x,8711,43
+9-11,Sense of Belonging,Representation,Multiracial,2586,43
+9-11,Sense of Belonging,Representation,Native Hawaiian/Pacific Islander,203,38
+9-11,Sense of Belonging,Representation,White,20962,48
+9-11,Sense of Belonging,Representation,English Learner,3190,44
+9-11,Sense of Belonging,Representation,Students With Disabilities,3932,41
+9-11,Sense of Belonging,Representation,Experiencing Poverty,8718,40
+9-11,Sense of Belonging,Representation,Experiencing Homelessness,894,40
+9-11,Sense of Belonging,Representation,In Migrant Education,723,42
+9-11,Sense of Belonging,Representation,Recent Arriver,572,46
+9-11,Sense of Belonging,Representation,In Foster Care,128,35

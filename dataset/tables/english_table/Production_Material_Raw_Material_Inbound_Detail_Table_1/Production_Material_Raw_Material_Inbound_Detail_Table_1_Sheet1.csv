@@ -1,0 +1,15 @@
+ProductionMaterials/RawMaterialsInboundDetailTable-RegistrationDate,ProductionMaterials/RawMaterialsInboundDetailTable-EntryBatchNumber,ProductionMaterials/RawMaterialsInboundDetailTable-ProductCode,ProductionMaterials/RawMaterialsInboundDetailTable-Category,ProductionMaterials/RawMaterialsInboundDetailTable-ProductName,ProductionMaterials/RawMaterialsInboundDetailTable-ProductSpecification,ProductionMaterials/RawMaterialsInboundDetailTable-Quantity,ProductionMaterials/RawMaterialsInboundDetailTable-Supplier,ProductionMaterials/RawMaterialsInboundDetailTable-SupplierContactPerson,ProductionMaterials/RawMaterialsInboundDetailTable-Purchaser,ProductionMaterials/RawMaterialsInboundDetailTable-Inspector,ProductionMaterials/RawMaterialsInboundDetailTable-EntryHandler
+2016/1/1,20160101001,A0005,Raw materials,Alpha,20*30,23,Company A,Zhang San,***,***,***
+2016/1/2,20160102001,A0003,Auxiliary materials,Yi,20*31,24,Company C,Li Si,***,***,***
+2016/2/3,20160203001,B0001,Parts,C1,20*32,25,Self-produced,Wang Wu,***,***,***
+2016/3/4,20160304001,B0002,Parts,"丙2 translates to ""C-2"".",20*33,26,Company C,Zhao Liu,***,***,***
+2016/3/5,20160305001,B0003,Parts,"丙3 translates to ""C3"" in English.",20*34,27,Company D,Han Qi,***,***,***
+2016/4/27,20160427001,A0005,Raw materials,Alpha,20*30,28,Company A,Zhang San,***,***,***
+2016/5/4,20160504001,A0003,Auxiliary materials,Yi,20*31,29,Company C,Li Si,***,***,***
+2016/6/6,20160606001,B0002,Parts,"丙2 translates to ""C-2"".",20*33,30,Company E,Tao Shi,***,***,***
+2016/9/7,20160907001,B0003,Parts,"丙3 translates to ""C3"" in English.",20*34,31,Company D,Han Qi,***,***,***
+2016/12/9,20161209001,B0003,Parts,"丙3 translates to ""C3"" in English.",20*34,32,Company D,Han Qi,***,***,***
+2016/12/9,20161209002,A0005,Raw materials,Alpha,20*30,33,Company B,Genius,***,***,***
+2016/8/17,20160817001,A0005,Raw materials,Alpha,20*30,33,Company B,Genius,***,***,***
+2016/10/18,20161018001,A0005,Raw materials,Alpha,20*30,33,Company B,Genius,***,***,***
+2016/12/12,20161212002,A005,Raw materials,Alpha,20*30,33,Company B,Genius,***,***,***

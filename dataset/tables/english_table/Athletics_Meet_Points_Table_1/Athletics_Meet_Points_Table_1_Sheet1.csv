@@ -1,0 +1,9 @@
+TrackandFieldGamesPointsTable-TrackandFieldGamesPointsTable-NameoftheSportsMeet-SerialNumber-SerialNumber,TrackandFieldGamesPointsTable-TrackandFieldGamesPointsTable-NameoftheSportsMeet-ClassName-ClassName,TrackandFieldGamesPointsTable-TrackandFieldGamesPointsTable-ClassAdvisor-ClassAdvisor,TrackandFieldGamesPointsTable-TrackandFieldGamesPointsTable-Numberofparticipants-Numberofparticipants,TrackandFieldGamesPointsTable-TrackandFieldGamesPointsTable-EventPointsDetails-50meters,TrackandFieldGamesPointsTable-TrackandFieldGamesPointsTable-AthleticMeetDate-EventPointsDetails-200meters,TrackandFieldGamesPointsTable-TrackandFieldGamesPointsTable-AthleticMeetDate-EventPointsDetails-400meters,EventPointsDetails-800meters,EventPointsDetails-1000meters,EventPointsDetails-Longjump,VenueoftheSportsMeet-EventPointsDetails-Highjump,Numberofclasses统计-VenueoftheSportsMeet-EventPointsDetails-StandingLongJump,Numberofclasses统计-EventPointsDetails-ShotPut,EventPointsDetails-Sit-ups,Inputclassname-xGradexClass1-EventPointsDetails-JumpRope,Inputclassname-xGradexClass1-MeetingsResponsiblePerson-EventPointsDetails-RelayRace,Querytotalpoints-MeetingsResponsiblePerson-EventPointsDetails-Other,Querytotalpoints-TotalPoints-TotalPoints,Queryclasspointsranking-ClassPointsRanking-ClassPointsRanking
+1,x Grade x Class 1,Donna,18,3,4,1,2,3,4,0,3,2,2,1,0,4,,
+2,x Grade x Class 2,Han Lei,15,4,3,0,1,2,3,2,1,0,1,2,1,2,,
+3,x Grade x Class 3,Xu Ming,17,3,3,3,2,2,2,0,0,1,2,1,1,1,,
+4,x Grade x Class 4,Jiang Tao,14,2,2,2,2,1,3,2,0,2,2,1,0,0,,
+5,x Grade x Class 5,Shen Xue,17,2,3,3,1,2,2,1,1,1,0,1,1,0,,
+6,x Grade x Class 6,Luo Rui,16,3,2,2,2,1,1,1,1,1,1,0,1,0,,
+7,x Grade x Class 7,Guo Hai,15,2,3,1,2,2,2,1,1,1,1,1,1,0,,
+8,x Grade x Class 8,Still,17,3,2,2,1,2,2,0,2,1,2,0,0,2,,

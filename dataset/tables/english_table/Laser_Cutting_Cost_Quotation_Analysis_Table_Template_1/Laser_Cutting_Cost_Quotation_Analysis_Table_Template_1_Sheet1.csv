@@ -1,0 +1,33 @@
+LaserCuttingQuotationCostAnalysisTableTemplate-Material,LaserCuttingQuotationCostAnalysisTableTemplate-Thickness,LaserCuttingQuotationCostAnalysisTableTemplate-Averagecuttingspeedmm/min,LaserCuttingQuotationCostAnalysisTableTemplate-Auxiliarygasforcutting,LaserCuttingQuotationCostAnalysisTableTemplate-Auxiliarygascostperminute(RMB),LaserCuttingQuotationCostAnalysisTableTemplate-Lasergascostperminute(RMB),LaserCuttingQuotationCostAnalysisTableTemplate-Power(KW),LaserCuttingQuotationCostAnalysisTableTemplate-Electricitycostperminute(RMB),LaserCuttingQuotationCostAnalysisTableTemplate-TotalCostperMinute(RMB),LaserCuttingQuotationCostAnalysisTableTemplate-Cuttingcostpermeter(RMB),LaserCuttingQuotationCostAnalysisTableTemplate-Lensreplacementtimeandcost
+SPCC,1.0MM,9000,O2,,,26,,,,0.04
+SPCC,1.0MM,9500,N2,,,36,,,,
+SPCC,3.0MM,4200,O2,,,26,,,,0.04
+,3.0MM,3800,N2,,,37,,,,0.04
+SPCC,6.0MM,2800,O2,,,34,,,,0.04
+SPCC,9.0MM,2000,O2,,,35,,,,0.04
+SPCC,12.0MM,1400,O2,,,36,,,,0.04
+AL,1.2MM,10000,O2,,,30,,,,0.04
+AL,1.2MM,9000,N2,,,36,,,,0.04
+AL,4MM,2600,N2,,0,37,0,,,0.04
+AL,5MM,2000,N2,,0,37,0,,,0.04
+SUS,1.0MM,9500,N2,,,36,,,,0.04
+SUS,1.0MM,10000,O2,,,30,,,,0.04
+SUS,2.0MM,6500,N2,,,37,,,,0.04
+SUS,2.0MM,7900,O2,,,31,,,,0.04
+SUS,3.0MM,4200,N2,,,37,,,,0.04
+SUS,3.0MM,5800,O2,,,33,,,,0.04
+,,,,,,,,,,
+,,Laser gas,Co2,,,,Co2: 400 per bottle,,,
+,,,N2,,,N2: 70 per bottle,,,,
+,,,He,,,He: 700 per bottle,,,,
+,,Cutting gas,O2,,per M3,,"RMB20 per bottle, 6 m3 per bottle",,,
+,,,N2,,per M3,,"RMB20 per bottle, 6 m3 per bottle",,,
+,,,,,,,,,,
+,,Electricity cost,1,100 cents per KW,,,,,,
+,,,,,,,,,,
+,,Lens,5000,2000,hours per lens,,,,,
+,,,,,,,,,,
+Service Charge,,260 RMB/hour,"Annual maintenance contract 35,000 RMB, including the full year's maintenance costs and engineer transportation and accommodation expenses, excluding spare parts.",,,,,,,
+Gas charge,,N2,300 RMB/125KG,2.5 RMB/KG,,,,,,
+,,O2,390 RMB/180KG,2.2 RMB/KG,,,,,,
+,,"Including gas pipeline installation cost of 20,000 RMB, small cylinder provided",,,,,,,,

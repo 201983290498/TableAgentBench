@@ -1,0 +1,71 @@
+SerialNumber-SerialNumber,EngineeringProjectName-EngineeringProjectName,Unit-Unit,QuantityofWork-QuantityofWork,UnitPrice-UnitPrice,UnitPriceComposition-MainMaterials,UnitPriceComposition-LaborCost,UnitPriceComposition-MaterialCost,TotalPrice-TotalPrice,Remark-Remark
+I.,Ceiling Project,,,,,,,,
+1、,"Ceiling Latex Paint for Living Room, Dining Room, and Passage",M2,0.0,16.0,4.0,10.0,2.0,0.0,"Environmentally friendly latex paint, Leshan GaoYu putty, cleaning the base layer, applying putty, leveling, sanding, hand-brushing one coat of primer, and two coats of finish paint."
+2、,Aluminum Composite Panel for Secondary Toilet Ceiling,M2,0.0,80.0,60.0,15.0,5.0,0.0,"Light gauge steel keel, square aluminum panel, aluminum corner line"
+3、,Kitchen ceiling aluminum panel,M2,0.0,80.0,60.0,15.0,5.0,0.0,"Light gauge steel keel, square aluminum panel, aluminum corner line"
+4、,Ceiling Latex Paint for Garden Balcony,M2,0.0,16.0,4.0,10.0,2.0,0.0,"Environmentally friendly latex paint, Leshan GaoYu putty, cleaning the base layer, applying putty, leveling, sanding, hand-brushing one coat of primer, and two coats of finish paint."
+5、,Ceiling Latex Paint for Living Room Balcony,M2,0.0,16.0,4.0,10.0,2.0,0.0,"Environmentally friendly latex paint, Leshan GaoYu putty, cleaning the base layer, applying putty, leveling, sanding, hand-brushing one coat of primer, and two coats of finish paint."
+6、,Main bathroom ceiling aluminum panel,M2,0.0,80.0,60.0,15.0,5.0,0.0,"Light gauge steel keel, square aluminum panel, aluminum corner line"
+7、,Ceiling Latex Paint for Master Bedroom,M2,0.0,16.0,4.0,10.0,2.0,0.0,"Environmentally friendly latex paint, Leshan GaoYu putty, cleaning the base layer, applying putty, leveling, sanding, hand-brushing one coat of primer, and two coats of finish paint."
+8、,Ceiling Latex Paint for the Secondary Bedroom,M2,0.0,16.0,4.0,10.0,2.0,0.0,"Environmentally friendly latex paint, Leshan GaoYu putty, cleaning the base layer, applying putty, leveling, sanding, hand-brushing one coat of primer, and two coats of finish paint."
+9、,Ceiling Latex Paint for Study Room,M2,0.0,16.0,4.0,10.0,2.0,0.0,"Environmentally friendly latex paint, Leshan GaoYu putty, cleaning the base layer, applying putty, leveling, sanding, hand-brushing one coat of primer, and two coats of finish paint."
+10、,Ceiling Latex Paint for the Cloakroom,M2,0.0,16.0,4.0,10.0,2.0,0.0,"Environmentally friendly latex paint, Leshan GaoYu putty, cleaning the base layer, applying putty, leveling, sanding, hand-brushing one coat of primer, and two coats of finish paint."
+"Two,",Wall Engineering,,,,,,,,
+1、,"Ceiling Paint for Living Room, Dining Room, and Passage Walls",M2,0.0,16.0,4.0,10.0,2.0,0.0,"Environmentally friendly latex paint, Leshan GaoYu putty, cleaning the base layer, applying putty, leveling, sanding, hand-brushing one coat of primer, and two coats of finish paint."
+2、,Master bedroom wall latex paint,M2,0.0,16.0,4.0,10.0,2.0,0.0,"Environmentally friendly latex paint, Leshan GaoYu putty, cleaning the base layer, applying putty, leveling, sanding, hand-brushing one coat of primer, and two coats of finish paint."
+3、,Bedroom Wall Latex Paint,M2,0.0,16.0,4.0,10.0,2.0,0.0,"Environmentally friendly latex paint, Leshan GaoYu putty, cleaning the base layer, applying putty, leveling, sanding, hand-brushing one coat of primer, and two coats of finish paint."
+4、,Study Wall Latex Paint,M2,0.0,16.0,4.0,10.0,2.0,0.0,"Environmentally friendly latex paint, Leshan GaoYu putty, cleaning the base layer, applying putty, leveling, sanding, hand-brushing one coat of primer, and two coats of finish paint."
+5、,Wall Latex Paint for the Cloakroom,M2,0.0,16.0,4.0,10.0,2.0,0.0,"Environmentally friendly latex paint, Leshan GaoYu putty, cleaning the base layer, applying putty, leveling, sanding, hand-brushing one coat of primer, and two coats of finish paint."
+6、,Kitchen Wall Tile Adhesion,M2,0.0,35.0,0.0,25.0,10.0,0.0,"Emei Cement 325#, medium sand, manual labor"
+7、,Wall Tile Adhesive for Living Room Balcony,M2,0.0,35.0,0.0,25.0,10.0,0.0,"Emei Cement 325#, medium sand, manual labor"
+8、,Entrance garden balcony wall tile installation,M2,0.0,35.0,0.0,25.0,10.0,0.0,"Emei Cement 325#, medium sand, manual labor"
+9、,Main bathroom wall tile installation,M2,0.0,35.0,0.0,25.0,10.0,0.0,"Emei Cement 325#, medium sand, manual labor"
+10、,Secondary bathroom wall tile installation,M2,0.0,35.0,0.0,25.0,10.0,0.0,"Emei Cement 325#, medium sand, manual labor"
+"Three,",Flooring Project,,,,,,,,
+1、,"Living room, dining room, and corridor floor tile laying",M2,0.0,35.0,0.0,25.0,10.0,0.0,"Emei Cement 325#, medium sand, manual labor"
+2、,Main and secondary bedroom and study floor base layer,M2,0.0,30.0,0.0,13.0,17.0,0.0,"Emei Cement 325#, medium sand, manual labor"
+3、,Kitchen floor tile installation,M2,0.0,35.0,0.0,25.0,10.0,0.0,"Emei Cement 325#, medium sand, manual labor"
+4、,Entryway garden balcony floor tile installation,M2,0.0,35.0,0.0,25.0,10.0,0.0,"Emei Cement 325#, medium sand, manual labor"
+5、,Living balcony floor tile installation,M2,0.0,35.0,0.0,25.0,10.0,0.0,"Emei Cement 325#, medium sand, manual labor"
+6、,Main bathroom floor tile installation,M2,0.0,35.0,0.0,25.0,10.0,0.0,"Emei Cement 325#, medium sand, manual labor"
+7、,Secondary bathroom floor tile installation,M2,0.0,35.0,0.0,25.0,10.0,0.0,"Emei Cement 325#, medium sand, manual labor"
+"Four,","Building renovation, water, electricity, and circuit renovation, and others",,,,,,,,
+1、,"Water, electricity, and circuit renovation and installation",M2,0.0,35.0,10.0,20.0,5.0,0.0,
+2、,"Kitchen, Balcony, and Bathroom Waterproofing",M2,0.0,30.0,0.0,0.0,0.0,0.0,Dego waterproofing materials
+3、,Demolition and Chiseling,item,0.0,800.0,0.0,0.0,0.0,0.0,"Demolish the partition between the entrance garden and dining area, the partition wall of the secondary bathroom, etc."
+4、,Wall sealing and repair renovation,item,0.0,1800.0,0.0,0.0,0.0,0.0,"Enclosed entrance garden balcony pillars and upper edges, pipeline wrapping for main and secondary bathrooms, smoothing the base of the pavilion, and bathroom backfilling"
+5、,Material transportation and handling fees,M2,0.0,8.0,0.0,0.0,0.0,0.0,
+6、,Garbage and debris removal and transportation fee,M2,0.0,10.0,0.0,0.0,0.0,0.0,
+7、,Daily Site Hygiene Fee,M2,0.0,4.0,0.0,0.0,0.0,0.0,
+"Five,",Direct Cost,,,,,,,0.0,
+,,,,,,,,,
+Main Material Items,Main Material Items,Main Material Items,Main Material Items,Main Material Items,Main Material Items,Main Material Items,Main Material Items,Main Material Items,
+1、,Cabinets,m,0.0,1500.0,,,,0.0,"Solid wood panel, granite countertop and water guard rail"
+2、,Lighting Fixtures and Switches and Outlets,item,1.0,3000.0,,,,3000.0,"Estimated, subject to actual conditions"
+3、,Toilet bowl,individual,0.0,800.0,,,,0.0,"Estimated, subject to actual conditions"
+4、,Sink,individual,0.0,450.0,,,,0.0,"Matte stainless steel sink, double basin"
+5、,Showerhead,individual,0.0,400.0,,,,0.0,Shanghai-made Kristin
+6、,Other hardware and hangers,item,0.0,2000.0,,,,0.0,"Washing machine faucet, angle valve, floor drain, flexible hose, sink faucet, towel rod, bath towel rack, paper holder, etc."
+7、,Passageway Storage Cabinet,M,0.0,800.0,,,,0.0,
+8、,Entry Door Frame,Set,0.0,600.0,,,,0.0,
+9、,Master bedroom door and frame,Set,0.0,1360.0,,,,0.0,
+10、,Bedroom Door and Frame,Set,0.0,1360.0,,,,0.0,
+11、,Study door and frame,Set,0.0,1360.0,,,,0.0,
+12、,Closet Door and Frame,Set,0.0,1360.0,,,,0.0,
+13、,Kitchen Door and Frame,Set,0.0,1360.0,,,,0.0,
+14、,Main bathroom door and frame,Set,0.0,1360.0,,,,0.0,
+15、,Secondary bathroom door and frame,Set,0.0,1360.0,,,,0.0,
+16、,Entrance Garden Balcony Door Frame,M,0.0,90.0,,,,0.0,
+17、,Window Sill Trim,M,0.0,80.0,,,,0.0,
+18、,Window Sill Marble Top Panel,M,0.0,120.0,,,,0.0,
+19、,Window seat marble slab,M2,0.0,220.0,,,,0.0,
+20、,Balustrade of Marble for Pavilion,M,0.0,160.0,,,,0.0,
+21、,"Living room, dining room, and corridor floor tiles",M2,0.0,60.0,,,,0.0,Guangdong brick 800X800
+22、,Kitchen and living balcony floor tiles,M2,0.0,60.0,,,,0.0,Guangdong brick 330X330
+23、,Kitchen and living room balcony wall tiles,M2,0.0,60.0,,,,0.0,Guangdong brick 330X450
+24、,Garden Balcony Floor Tiles,M2,0.0,60.0,,,,0.0,Guangdong brick 330X330
+25、,Main bathroom floor tiles,M2,0.0,60.0,,,,0.0,
+26、,Main bathroom wall tiles,M2,0.0,60.0,,,,0.0,
+27、,Secondary bathroom floor tiles,M2,0.0,60.0,,,,0.0,
+28、,Secondary bathroom wall tiles,M2,0.0,60.0,,,,0.0,
+29、,Total of main materials,Total of main materials,Total of main materials,Total of main materials,,,,3000.0,

@@ -1,0 +1,163 @@
+﻿Grade,Domain,Area,Student Group,State Count,State Domain Score
+3,Self-Efficacy,English Language Arts,All Students,23447,63
+3,Self-Efficacy,English Language Arts,Female,11866,63
+3,Self-Efficacy,English Language Arts,Male,11541,63
+3,Self-Efficacy,English Language Arts,Nonbinary,40,75
+3,Self-Efficacy,English Language Arts,American Indian/Alaska Native,218,60
+3,Self-Efficacy,English Language Arts,Asian,1005,63
+3,Self-Efficacy,English Language Arts,Black/African American,482,61
+3,Self-Efficacy,English Language Arts,Hispanic/Latino/a/x,5902,57
+3,Self-Efficacy,English Language Arts,Multiracial,1908,66
+3,Self-Efficacy,English Language Arts,Native Hawaiian/Pacific Islander,172,53
+3,Self-Efficacy,English Language Arts,White,13760,66
+3,Self-Efficacy,English Language Arts,English Learner,3999,55
+3,Self-Efficacy,English Language Arts,Students With Disabilities,3484,55
+3,Self-Efficacy,English Language Arts,Experiencing Poverty,7902,58
+3,Self-Efficacy,English Language Arts,Experiencing Homelessness,710,56
+3,Self-Efficacy,English Language Arts,In Migrant Education,385,52
+3,Self-Efficacy,English Language Arts,Recent Arriver,508,54
+3,Self-Efficacy,English Language Arts,In Foster Care,143,56
+4,Self-Efficacy,Mathematics,All Students,23757,65
+4,Self-Efficacy,Mathematics,Female,11936,62
+4,Self-Efficacy,Mathematics,Male,11774,68
+4,Self-Efficacy,Mathematics,Nonbinary,47,75
+4,Self-Efficacy,Mathematics,American Indian/Alaska Native,212,59
+4,Self-Efficacy,Mathematics,Asian,1120,75
+4,Self-Efficacy,Mathematics,Black/African American,507,57
+4,Self-Efficacy,Mathematics,Hispanic/Latino/a/x,5849,57
+4,Self-Efficacy,Mathematics,Multiracial,1920,67
+4,Self-Efficacy,Mathematics,Native Hawaiian/Pacific Islander,166,51
+4,Self-Efficacy,Mathematics,White,13983,68
+4,Self-Efficacy,Mathematics,English Learner,4140,57
+4,Self-Efficacy,Mathematics,Students With Disabilities,3614,56
+4,Self-Efficacy,Mathematics,Experiencing Poverty,7711,57
+4,Self-Efficacy,Mathematics,Experiencing Homelessness,697,53
+4,Self-Efficacy,Mathematics,In Migrant Education,433,54
+4,Self-Efficacy,Mathematics,Recent Arriver,509,59
+4,Self-Efficacy,Mathematics,In Foster Care,118,58
+5,Self-Efficacy,Science,All Students,25431,54
+5,Self-Efficacy,Science,Female,12786,53
+5,Self-Efficacy,Science,Male,12593,55
+5,Self-Efficacy,Science,Nonbinary,52,60
+5,Self-Efficacy,Science,American Indian/Alaska Native,209,50
+5,Self-Efficacy,Science,Asian,1162,59
+5,Self-Efficacy,Science,Black/African American,558,54
+5,Self-Efficacy,Science,Hispanic/Latino/a/x,6559,50
+5,Self-Efficacy,Science,Multiracial,1979,56
+5,Self-Efficacy,Science,Native Hawaiian/Pacific Islander,204,48
+5,Self-Efficacy,Science,White,14760,55
+5,Self-Efficacy,Science,English Learner,4842,50
+5,Self-Efficacy,Science,Students With Disabilities,3693,51
+5,Self-Efficacy,Science,Experiencing Poverty,8195,50
+5,Self-Efficacy,Science,Experiencing Homelessness,744,49
+5,Self-Efficacy,Science,In Migrant Education,493,48
+5,Self-Efficacy,Science,Recent Arriver,490,50
+5,Self-Efficacy,Science,In Foster Care,115,54
+6,Self-Efficacy,English Language Arts,All Students,20678,68
+6,Self-Efficacy,English Language Arts,Female,10489,67
+6,Self-Efficacy,English Language Arts,Male,10117,69
+6,Self-Efficacy,English Language Arts,Nonbinary,72,69
+6,Self-Efficacy,English Language Arts,American Indian/Alaska Native,147,61
+6,Self-Efficacy,English Language Arts,Asian,1033,74
+6,Self-Efficacy,English Language Arts,Black/African American,421,64
+6,Self-Efficacy,English Language Arts,Hispanic/Latino/a/x,5333,62
+6,Self-Efficacy,English Language Arts,Multiracial,1632,69
+6,Self-Efficacy,English Language Arts,Native Hawaiian/Pacific Islander,195,62
+6,Self-Efficacy,English Language Arts,White,11917,70
+6,Self-Efficacy,English Language Arts,English Learner,3361,59
+6,Self-Efficacy,English Language Arts,Students With Disabilities,2596,59
+6,Self-Efficacy,English Language Arts,Experiencing Poverty,6294,62
+6,Self-Efficacy,English Language Arts,Experiencing Homelessness,593,57
+6,Self-Efficacy,English Language Arts,In Migrant Education,433,60
+6,Self-Efficacy,English Language Arts,Recent Arriver,387,59
+6,Self-Efficacy,English Language Arts,In Foster Care,93,62
+7,Self-Efficacy,Mathematics,All Students,19180,63
+7,Self-Efficacy,Mathematics,Female,9724,61
+7,Self-Efficacy,Mathematics,Male,9367,66
+7,Self-Efficacy,Mathematics,Nonbinary,89,57
+7,Self-Efficacy,Mathematics,American Indian/Alaska Native,161,52
+7,Self-Efficacy,Mathematics,Asian,961,76
+7,Self-Efficacy,Mathematics,Black/African American,356,57
+7,Self-Efficacy,Mathematics,Hispanic/Latino/a/x,4795,54
+7,Self-Efficacy,Mathematics,Multiracial,1451,67
+7,Self-Efficacy,Mathematics,Native Hawaiian/Pacific Islander,171,52
+7,Self-Efficacy,Mathematics,White,11285,66
+7,Self-Efficacy,Mathematics,English Learner,2503,51
+7,Self-Efficacy,Mathematics,Students With Disabilities,2248,50
+7,Self-Efficacy,Mathematics,Experiencing Poverty,5517,54
+7,Self-Efficacy,Mathematics,Experiencing Homelessness,530,50
+7,Self-Efficacy,Mathematics,In Migrant Education,380,53
+7,Self-Efficacy,Mathematics,Recent Arriver,353,60
+7,Self-Efficacy,Mathematics,In Foster Care,65,46
+8,Self-Efficacy,Science,All Students,17605,52
+8,Self-Efficacy,Science,Female,8945,49
+8,Self-Efficacy,Science,Male,8589,55
+8,Self-Efficacy,Science,Nonbinary,71,52
+8,Self-Efficacy,Science,American Indian/Alaska Native,133,47
+8,Self-Efficacy,Science,Asian,907,59
+8,Self-Efficacy,Science,Black/African American,310,50
+8,Self-Efficacy,Science,Hispanic/Latino/a/x,4278,47
+8,Self-Efficacy,Science,Multiracial,1283,53
+8,Self-Efficacy,Science,Native Hawaiian/Pacific Islander,143,48
+8,Self-Efficacy,Science,White,10551,53
+8,Self-Efficacy,Science,English Learner,2033,46
+8,Self-Efficacy,Science,Students With Disabilities,1977,48
+8,Self-Efficacy,Science,Experiencing Poverty,4775,47
+8,Self-Efficacy,Science,Experiencing Homelessness,456,43
+8,Self-Efficacy,Science,In Migrant Education,336,44
+8,Self-Efficacy,Science,Recent Arriver,276,48
+8,Self-Efficacy,Science,In Foster Care,66,51
+9,Self-Efficacy,English Language Arts,All Students,12523,73
+9,Self-Efficacy,English Language Arts,Female,6394,74
+9,Self-Efficacy,English Language Arts,Male,6052,72
+9,Self-Efficacy,English Language Arts,Nonbinary,77,78
+9,Self-Efficacy,English Language Arts,American Indian/Alaska Native,99,67
+9,Self-Efficacy,English Language Arts,Asian,701,76
+9,Self-Efficacy,English Language Arts,Black/African American,214,70
+9,Self-Efficacy,English Language Arts,Hispanic/Latino/a/x,2952,66
+9,Self-Efficacy,English Language Arts,Multiracial,923,74
+9,Self-Efficacy,English Language Arts,Native Hawaiian/Pacific Islander,87,66
+9,Self-Efficacy,English Language Arts,White,7547,75
+9,Self-Efficacy,English Language Arts,English Learner,1166,60
+9,Self-Efficacy,English Language Arts,Students With Disabilities,1364,60
+9,Self-Efficacy,English Language Arts,Experiencing Poverty,3141,66
+9,Self-Efficacy,English Language Arts,Experiencing Homelessness,281,61
+9,Self-Efficacy,English Language Arts,In Migrant Education,262,65
+9,Self-Efficacy,English Language Arts,Recent Arriver,195,65
+9,Self-Efficacy,English Language Arts,In Foster Care,46,70
+10,Self-Efficacy,Mathematics,All Students,10924,65
+10,Self-Efficacy,Mathematics,Female,5503,63
+10,Self-Efficacy,Mathematics,Male,5319,67
+10,Self-Efficacy,Mathematics,Nonbinary,102,70
+10,Self-Efficacy,Mathematics,American Indian/Alaska Native,100,56
+10,Self-Efficacy,Mathematics,Asian,612,77
+10,Self-Efficacy,Mathematics,Black/African American,181,60
+10,Self-Efficacy,Mathematics,Hispanic/Latino/a/x,2660,58
+10,Self-Efficacy,Mathematics,Multiracial,809,66
+10,Self-Efficacy,Mathematics,Native Hawaiian/Pacific Islander,50,54
+10,Self-Efficacy,Mathematics,White,6512,67
+10,Self-Efficacy,Mathematics,English Learner,931,54
+10,Self-Efficacy,Mathematics,Students With Disabilities,1169,50
+10,Self-Efficacy,Mathematics,Experiencing Poverty,2598,56
+10,Self-Efficacy,Mathematics,Experiencing Homelessness,258,50
+10,Self-Efficacy,Mathematics,In Migrant Education,201,56
+10,Self-Efficacy,Mathematics,Recent Arriver,161,64
+10,Self-Efficacy,Mathematics,In Foster Care,38,59
+11,Self-Efficacy,Science,All Students,10595,55
+11,Self-Efficacy,Science,Female,5381,54
+11,Self-Efficacy,Science,Male,5122,57
+11,Self-Efficacy,Science,Nonbinary,92,61
+11,Self-Efficacy,Science,American Indian/Alaska Native,111,47
+11,Self-Efficacy,Science,Asian,570,62
+11,Self-Efficacy,Science,Black/African American,189,55
+11,Self-Efficacy,Science,Hispanic/Latino/a/x,2515,50
+11,Self-Efficacy,Science,Multiracial,762,59
+11,Self-Efficacy,Science,Native Hawaiian/Pacific Islander,51,51
+11,Self-Efficacy,Science,White,6397,57
+11,Self-Efficacy,Science,English Learner,771,46
+11,Self-Efficacy,Science,Students With Disabilities,1119,46
+11,Self-Efficacy,Science,Experiencing Poverty,2477,50
+11,Self-Efficacy,Science,Experiencing Homelessness,298,46
+11,Self-Efficacy,Science,In Migrant Education,200,48
+11,Self-Efficacy,Science,Recent Arriver,152,49
+11,Self-Efficacy,Science,In Foster Care,37,55
