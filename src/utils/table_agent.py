@@ -23,22 +23,14 @@ def validate_response_format(response: str) -> tuple[bool, Optional[str]]:
     elif think_open != think_close:
         warnings.append(f"<think> tags mismatch: {think_open} open, {think_close} closed")
         
-    # 2. Remove all <think>...</think> content, only validate external tags
-    # Use non-greedy matching to remove all complete think blocks
     think_pattern = re.compile(r'<think>.*?</think>', re.DOTALL)
     content_without_think = think_pattern.sub('', response_norm)
     
-    # If the think tag is not closed, the regex might fail to remove it.
-    # In this case, if a tag mismatch was detected above, try to handle the remaining part here.
     if think_open > think_close:
-        # Try to remove everything after the last <think> (assume it's an unclosed thought)
-        # Or for safety, only process the already closed parts.
-        # Given LLM output is usually streaming, if truncated, we may have only received <think>
         pass 
     
     # 3. Check action tags in the content after removing think tags
     
-    # Check if tool_call or answer is present (required)
     has_tool_call = '<tool_call>' in content_without_think
     has_answer = '<answer>' in content_without_think
     

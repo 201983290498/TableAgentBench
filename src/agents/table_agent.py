@@ -11,12 +11,11 @@ import os
 from datetime import datetime
 from src.agents.context.context_manager import ContextManager
 from src.agents.env_manager import EnvManager
-from src.tools import get_tool, get_all_tools, get_tools_schema
+from src.tools import get_tool, get_tools_schema
 from src.tools.base import ToolResult
 from src.prompts.agent_prompts import AGENT_SYSTEM_PROMPT_SIMPLE_FINAL
 from src.utils.chat_api import ChatClient
 from src.function_llm import ConversationSummaryLLM
-from src.utils.table_agent import validate_response_format
 from src.utils.global_config import GLOBAL_CONFIG
 
 class AgentState(Enum):
@@ -58,16 +57,13 @@ class TableAgent:
     THINK_PATTERN = re.compile(r'<think>(.*?)</think>', re.DOTALL)
     TOOL_CALL_PATTERN = re.compile(r'<tool_call>(.*?)</tool_call>', re.DOTALL)
     ANSWER_PATTERN = re.compile(r'<answer>(.*?)</answer>', re.DOTALL)
-    CURRENT_STEP_PATTERN = re.compile(r'<current_step>(\d+)</current_step>', re.DOTALL)  # Step transition marker, extract target step number
     
     def __init__(
         self,
         llm_client: Optional[ChatClient] = None,
         planning_llm: Optional[Any] = None,
         verbose: bool = True,
-        auto_generate_planning: bool = True,
         max_steps: int = 70,
-        enable_summary: bool = False,
         max_context_messages: int = 800,
         min_context_messages: int = 10,
         max_history_tokens: int = 16384,
@@ -76,44 +72,31 @@ class TableAgent:
         trace_save_dir: Optional[str] = None,
         multi_turn_mode: bool = False,  # Multi-turn mode: accumulate trace, delay save
         reset_env: bool = False,  # Whether to reset environment after each session
-        auto_parse: bool = True,  # Whether to auto parse LLM response
-        dynamic_mode: bool = False,
-        prompt_mode: str = "default",
         include_tools: Optional[List[str]] = None,
+        save_sft: bool = False, # 是否保存用于sft的数据
     ):
         self.llm_client = llm_client
         self.planning_llm = planning_llm
         self.verbose = verbose
-        self.auto_generate_planning = auto_generate_planning
         self.max_steps = max_steps
         self.enable_thinking = enable_thinking
-        self.dynamic_mode = dynamic_mode
-        self.prompt_mode = "final"
         self.include_tools = include_tools
-        
-        # Force using 'final' mode prompt
-        system_prompt_template = AGENT_SYSTEM_PROMPT_SIMPLE_FINAL
-        
-        # Multi-turn mode
+        self.save_sft = save_sft
+        self.sft_data = []  # 用于保存SFT数据的列表
         self.multi_turn_mode = multi_turn_mode
         self._is_first_turn = True  # Flag for first turn of session
         self.step_count = 0
-        # Environment management
         self.env_manager = EnvManager() if reset_env else None
-        # Conversation trace save configuration
         self.trace_save_dir = trace_save_dir
         self.conversation_trace: List[Dict[str, Any]] = []  # Multi-turn conversation trace for SFT
-        # Context management
         self.context = ContextManager(
             max_messages=max_context_messages,
             min_messages=min_context_messages,
             max_tokens=max_history_tokens,
-            enable_summary=enable_summary,
             summarizer=summarizer,
-            system_prompt_template=system_prompt_template,
+            system_prompt_template=AGENT_SYSTEM_PROMPT_SIMPLE_FINAL,
         )
         self._reset_execution_state()
-        self.llm_auto_parse = auto_parse
     
     def _log(self, message: str):
         if self.verbose:
@@ -131,7 +114,6 @@ class TableAgent:
 
     def run(
         self, query: str, table_path: str = "",
-        planning_steps: Optional[List[str]] = None,
         continue_mode: bool = False,
         keep_summary: bool = False
     ) -> AgentOutput:
@@ -141,7 +123,6 @@ class TableAgent:
         Args:
             query: User question
             table_path: Table path
-            planning_steps: Custom planning steps
             continue_mode: Follow-up mode (keep full conversation history, reset Planning)
             keep_summary: Keep history summary mode (only keep summary, reset Planning and conversation)
         """
@@ -162,7 +143,6 @@ class TableAgent:
         self._init_session(
             query=query, 
             table_path=table_path, 
-            planning_steps=planning_steps, 
             continue_mode=continue_mode,
             keep_summary=keep_summary
         )
@@ -173,7 +153,6 @@ class TableAgent:
         self, 
         query: str, 
         table_path: str,
-        planning_steps: Optional[List[str]],
         continue_mode: bool = False,
         keep_summary: bool = False
     ):
@@ -183,7 +162,6 @@ class TableAgent:
         Args:
             query: User question
             table_path: Table path
-            planning_steps: Custom planning steps
             continue_mode: Follow-up mode - keep full conversation history
             keep_summary: Summary mode - only keep summary
         """
@@ -222,14 +200,6 @@ class TableAgent:
             # Get and parse response
             response = self._get_llm_response()
             self._log(f"[LLM] Response: {response}")
-            if not self.llm_auto_parse:
-                is_valid, error_msg = validate_response_format(response)
-            else:
-                is_valid = True
-            if not is_valid:
-                self._log(f"[Validation] Format error: {error_msg}")
-                self.context.add_message("user", error_msg)
-                continue
             actions = self._parse_response(response)
             # Execute actions
             for action in actions:
@@ -268,14 +238,9 @@ class TableAgent:
     
     def _get_llm_response(self,) -> str:
         """Get LLM response"""
-        messages = self.context.build_messages(auto_parse=self.llm_auto_parse, dynamic_mode=self.dynamic_mode)
-        
+        messages = self.context.build_messages()
         current_tools_schema = get_tools_schema(include_tools=self.include_tools)
-
-        if self.llm_auto_parse:
-            response_dict = self.llm_client.chat(message=messages, enable_thinking=self.enable_thinking, tools=current_tools_schema, temperature=0.0, seed=42)  
-        else:
-            response_dict = self.llm_client.chat(message=messages, enable_thinking=self.enable_thinking, temperature=0.0, seed=42)     
+        response_dict = self.llm_client.chat(message=messages, enable_thinking=self.enable_thinking, tools=current_tools_schema, temperature=0.0, seed=42)  
         
         content = response_dict['content']
         # 1. Unify tags: <thinking> -> <think>; remove isolated closing tags (when reasoning_content exists, content shouldn't have </think>); remove isolated </think> (without corresponding <think>)
@@ -288,7 +253,7 @@ class TableAgent:
         raw = ""
         if response_dict['reasoning_content']:
             raw += f"<think>\n{response_dict['reasoning_content'] or ''}\n</think>\n\n"
-        if self.llm_auto_parse and response_dict['tool_calls'] in [[], None]:
+        if response_dict['tool_calls'] in [[], None]:
             raw += f"<answer> {content or ''}</answer>"
         else:
             raw += content or ""
@@ -299,10 +264,7 @@ class TableAgent:
                                         "params": tool_call['function']['arguments'],
                                         "call_id": tool_call['id']}, ensure_ascii=False) 
                 raw += "<tool_call>" + tool_info + "</tool_call>\n"    
-        if self.llm_auto_parse:
-            self.context.add_message("assistant", response_dict)
-        else:
-            self.context.add_message("assistant", raw)
+        self.context.add_message("assistant", response_dict)
         self._record_turn(messages, response_dict)
         self._log(f"total: {response_dict['usage']['total_tokens']}; input: {response_dict['usage']['prompt_tokens']}; output: {response_dict['usage']['completion_tokens']}")
         return raw
@@ -322,9 +284,7 @@ class TableAgent:
         thinking = think_match.group(1).strip() if think_match else None
         
         # 3. Remove all thinking content, only parse actions in remaining content
-        # This prevents tags referenced inside think from being parsed incorrectly
         content_without_think = self.THINK_PATTERN.sub('', response_norm)
-        
         
         # 5. Prioritize checking answer
         answer_match = self.ANSWER_PATTERN.search(content_without_think)
@@ -417,6 +377,8 @@ class TableAgent:
             "tool_calls": response_dict.get("tool_calls", []),
             "finish_reason": response_dict.get("finish_reason", None)
         }
+        if self.save_sft:
+            self.generate_sft_data(messages, response_dict)
         if last_trace is None:
             self.conversation_trace.append({
                 "turn": self.step_count,
@@ -427,7 +389,8 @@ class TableAgent:
         else:
             idx = -1
             for i, msg in enumerate(messages):
-                if msg['content'] == last_trace['messages'][-1]['content']:
+                if json.dumps({"content": msg['content'], "tool_calls": msg.get("tool_calls", [])}, ensure_ascii=False) == \
+                    json.dumps({"content": last_trace['messages'][-1]['content'], "tool_calls": last_trace['messages'][-1].get("tool_calls", [])}, ensure_ascii=False):
                     idx = i
                     break
             if idx == -1:
@@ -478,7 +441,8 @@ class TableAgent:
                 "timestamp": datetime.now().isoformat(),
                 "success": self.state == AgentState.COMPLETED
             },
-            "conversation_trace": self.conversation_trace
+            "conversation_trace": self.conversation_trace,
+            "sft_data": self.sft_data if self.save_sft else None
         }
         def default_serializer(obj):
             if isinstance(obj, bytes):
@@ -491,23 +455,6 @@ class TableAgent:
         except Exception as e:
             self._log(f"[Save] Save failed: {e}")
 
-    
-    def _generate_planning(self, query: str) -> Optional[Dict[str, Any]]:
-        """Generate planning"""
-        if self.planning_llm is None:
-            from src.function_llm import PlanningGeneratorLLM
-            self.planning_llm = PlanningGeneratorLLM()
-        
-        # Only provide allowed tools during Planning as well
-        tools_info = [{"name": t.name, "description": t.description} for t in get_all_tools(include_tools=self.include_tools)]
-        result = self.planning_llm({
-            "question": query,
-            "table_info": "",
-            "available_tools": tools_info
-        })
-        return result if isinstance(result, dict) else None
-
-    
     def _reset_execution_state(self):
         """
         Reset execution state (internal method, called at the start of each run())
@@ -547,11 +494,18 @@ class TableAgent:
         self._is_first_turn = True
         self.conversation_trace = []
         self.context.clear()
-    
-    def get_stats(self) -> Dict[str, Any]:
-        """Get statistics"""
-        return self.context.get_session_summary()
 
+    def generate_sft_data(self, messages: List[Dict[str, str]], response_dict: Dict[str, Any]):
+        """Generate SFT data from the current turn and append to sft_data list"""
+        new_messages = messages.copy() + [{"role": "assistant", **response_dict}]
+        
+        # When existing messages are a prefix of new_essages, remove existing messages
+        self.sft_data = [
+            exist_messages for exist_messages in self.sft_data
+            if not (len(exist_messages) <= len(new_messages) and 
+                    new_messages[:len(exist_messages)] == exist_messages)
+        ]
+        self.sft_data.append(new_messages)
 
 def create_table_agent(**kwargs) -> TableAgent:
     """Create TableAgent"""

@@ -103,21 +103,18 @@ def run_single_eval(args_tuple):
             else:
                 llm_client = ChatClient(config_key=args.config_key)
             table_agent = create_table_agent(
-                llm_client=llm_client or ChatClient(config_key=args.config_key),
+                llm_client=llm_client,
                 enable_thinking=args.enable_thinking,
-                auto_parse=args.auto_parse,
                 max_steps=args.max_steps,
                 verbose=args.verbose,
-                auto_generate_planning=False,
                 trace_save_dir=args.trace_save_dir,
                 multi_turn_mode=True,
+                save_sft=args.save_sft,
                 reset_env=True,
                 max_history_tokens=args.max_history_tokens,
                 include_tools=args.include_tools.split(",") if args.include_tools else None,
             )
-            
             orchestrator = MultiTurnOrchestrator(user_agent, table_agent)
-            
             # 5. Run evaluation
             print(f"[Task {task_id}] Start running sample: {sample.get('id')}")
             result = orchestrator.run_eval(sample, args.trace_save_dir)
@@ -183,12 +180,12 @@ def main():
     parser.add_argument("--eval_config_key", default=None, help="Evaluation config key, used to select different evaluation models")
     parser.add_argument("--table_path", default="dataset/T2R", help="Original table data directory")
     parser.add_argument("--max_steps", type=int, default=30, help="Max steps")
-    parser.add_argument("--auto_parse", type=str2bool, default=True, help="Whether to auto parse")
     parser.add_argument('--enable_thinking', type=str2bool, default=False, help="Whether to enable thinking mode")
     parser.add_argument('--max_history_tokens', type=int, default=127000, help="Max history tokens")
     parser.add_argument("--sample", type=int, default=0, help="Limit running sample count, 0 for unlimited")
     parser.add_argument("--verbose", type=str2bool, default=True, help="Whether to show verbose logs")
     parser.add_argument("--workers", type=int, default=5, help="Parallel worker count")
+    parser.add_argument("--save_sft", type=str2bool, default=False, help="Whether to save SFT data")
     parser.add_argument("--include_tools", type=str, default=None, help="Comma-separated tool name list")
     parser.add_argument('--remove_duplicates', type=str2bool, default=True, help="Whether to enable evaluation deduplication")
     parser.add_argument("--unimodel", type=str, default="deepseek-v3.2", help="Unified model config key, overrides all config_key if not empty")

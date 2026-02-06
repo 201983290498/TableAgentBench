@@ -1,13 +1,13 @@
 """
 Conversation History Management - Simplified version
 """
-from typing import List, Dict, Any, Optional, TYPE_CHECKING
+from typing import List, Dict, Any, TYPE_CHECKING
 
 if TYPE_CHECKING:
     from src.function_llm import ConversationSummaryLLM
 from src.utils.chat_api import ChatClient
 
-class ConversationManager:
+class ConversationManager: # 上下文工程核心类。
     """
     Conversation History Manager - Simplified version
     Responsibility: Store conversations, manage context length, generate summaries.
@@ -15,10 +15,9 @@ class ConversationManager:
     
     def __init__(
         self, 
-        max_messages: int = 40,
+        max_messages: int = 800,
         min_messages: int = 10,
-        max_tokens: int = 4000,
-        enable_summary: bool = False,
+        max_tokens: int = 128000,
         summarizer: "ConversationSummaryLLM" = None,
     ):
         """
@@ -26,13 +25,11 @@ class ConversationManager:
             max_messages: Maximum number of messages to trigger trimming.
             min_messages: Number of messages to retain after trimming.
             max_tokens: Maximum number of tokens to trigger trimming.
-            enable_summary: Whether to enable summary.
             summarizer: Summary generator.
         """
         self.max_messages = max_messages
         self.min_messages = min_messages
         self.max_tokens = max_tokens
-        self.enable_summary = enable_summary
         self.summarizer = summarizer
         
         # State
@@ -126,7 +123,7 @@ class ConversationManager:
         msg_count = len(self.messages)
         
         if msg_count >= self.max_messages or tokens >= self.max_tokens:
-            if self.enable_summary and self.summarizer:
+            if self.summarizer:
                 self._summarize_and_trim()
             else:
                 self._simple_trim()
@@ -219,11 +216,3 @@ class ConversationManager:
         """Reset for a new question."""
         self.clear(keep_summary=keep_summary)
         self.question = question
-    
-    def get_stats(self) -> Dict[str, Any]:
-        """Get statistics."""
-        return {
-            "message_count": len(self.messages),
-            "has_summary": bool(self.summary),
-            "estimated_tokens": self._estimate_tokens()
-        }

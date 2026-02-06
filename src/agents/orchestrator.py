@@ -1,6 +1,4 @@
-from typing import Dict, List, Any, Optional
-import os
-import json
+from typing import Dict, Any
 import time
 from src.agents.table_agent import TableAgent
 from src.agents.user_agent import UserAgent
@@ -51,7 +49,6 @@ class MultiTurnOrchestrator:
         self.user_agent.reset(sample)
         task_id = sample.get("id", f"sample_{int(time.time())}")
         table_path = sample.get("file_path", "")
-        trajectory, conversation_history = [], []
         print(f"Starting evaluation task: {sample.get('question', '')}...")
         
         try:
@@ -59,95 +56,44 @@ class MultiTurnOrchestrator:
             question = self.user_agent.generate_question(last_answer=None)
             if not question:
                 return {"error": "No question generated"}
-            
+
+            # TableAgent runs the first turn            
             print(f"\n[Turn 1]")
-            print(f"User: {question}")
-            conversation_history.append({"role": "user", "content": question})
-        
-            # TableAgent runs the first turn
+            print(f"User: {question}")        
             start_time = time.time()
-            agent_output = self.table_agent.run(
-                query=question,
-                table_path=table_path
-                # table_path="./dataset/T2R"
-            )
+            agent_output = self.table_agent.run(query=question, table_path=table_path)
             duration = time.time() - start_time
-            
             answer = agent_output.answer
-            print(f"Assistant: {answer}")
             print(f"  (Duration: {duration:.2f}s, Steps: {agent_output.total_steps})")
-            conversation_history.append({"role": "assistant", "content": answer})
-            
-            turn_record = {
-                "turn": 1,
-                "question": question,
-                "answer": answer,
-                "success": agent_output.success,
-                "steps": agent_output.total_steps,
-                "latency": duration,
-                "conversation_trace": agent_output.conversation_trace,
-                "conversation_stats": self.table_agent.get_stats()
-            }
-            trajectory.append(turn_record)
             
             # --- Subsequent Turns ---
             turn_idx = 2
             while not self.user_agent.is_finished():
-                # User generates new question based on previous answer
                 question = self.user_agent.generate_question(last_answer=answer)
-                
                 if not question:
                     break
-                
                 print(f"\n[Turn {turn_idx}]")
                 print(f"User: {question}")
-                conversation_history.append({"role": "user", "content": question})
-                
                 # TableAgent automatically determines continue_mode in multi-turn mode
                 start_time = time.time()
-                agent_output = self.table_agent.run(
-                    query=question,
-                    table_path=table_path
-                    # table_path="./dataset/T2R"
-                )
+                agent_output = self.table_agent.run(query=question, table_path=table_path)
                 duration = time.time() - start_time
-                
                 answer = agent_output.answer
-                print(f"Assistant: {answer}")
                 print(f"  (Duration: {duration:.2f}s, Steps: {agent_output.total_steps})")
-                conversation_history.append({"role": "assistant", "content": answer})
-                
-                turn_record = {
-                    "turn": turn_idx,
-                    "question": question,
-                    "answer": answer,
-                    "success": agent_output.success,
-                    "steps": agent_output.total_steps,
-                    "latency": duration,
-                    "conversation_trace": agent_output.conversation_trace,
-                    "conversation_stats": self.table_agent.get_stats()
-                }
-                trajectory.append(turn_record)
-                turn_idx += 1
             
             # Save complete session trace for TableAgent (accumulated in multi-turn mode)
-            if self.table_agent.multi_turn_mode:
+            if self.table_agent.multi_turn_mode: # 多轮对话结束保存完整的轨迹
                 self.table_agent.save_session_trace(task=sample.get('task', None))
                 
             # Construct result (using TableAgent's trace)
             result = {
                 "sample_id": task_id,
                 "original_sample": sample,
-                "conversation_history": conversation_history,
-                "trajectory": trajectory,
-                "total_turns": len(trajectory),
                 "full_trace": self.table_agent.conversation_trace  # Complete LLM interaction trace
             }
             return result
-            
         except KeyboardInterrupt:
             print("\n[Interrupt] Termination signal received, cleaning up environment...")
-            raise  # Re-throw for outer handling
+            raise
         finally:
-            # Always reset session (including environment cleanup) whether finished normally or interrupted
             self.table_agent.reset_session()

@@ -174,19 +174,19 @@
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 max-w-4xl mx-auto">
                 <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-white">
                     <div class="text-3xl font-bold">1,310</div>
-                    <div class="text-sm opacity-80">多轮对话</div>
+                    <div class="text-sm opacity-80" data-i18n="hero_stat_dialogues">多轮对话</div>
                 </div>
                 <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-white">
                     <div class="text-3xl font-bold">2,275</div>
-                    <div class="text-sm opacity-80">工业表格</div>
+                    <div class="text-sm opacity-80" data-i18n="hero_stat_tables">工业表格</div>
                 </div>
                 <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-white">
                     <div class="text-3xl font-bold">25</div>
-                    <div class="text-sm opacity-80">测试模型</div>
+                    <div class="text-sm opacity-80" data-i18n="hero_stat_models">测试模型</div>
                 </div>
                 <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-white">
                     <div class="text-3xl font-bold">53.4%</div>
-                    <div class="text-sm opacity-80">最佳IC得分</div>
+                    <div class="text-sm opacity-80" data-i18n="hero_stat_ic">最佳IC得分</div>
                 </div>
             </div>
         </div>
@@ -373,32 +373,32 @@
                     <div class="grid grid-cols-3 md:grid-cols-6 gap-4">
                         <div class="text-center">
                             <div class="topology-icon bg-blue-500 mx-auto mb-2">⛓️</div>
-                            <div class="font-medium text-sm">Chain</div>
+                            <div class="font-medium text-sm" data-i18n="topo_chain">Chain</div>
                             <div class="text-xs text-gray-500">24.58%</div>
                         </div>
                         <div class="text-center">
                             <div class="topology-icon bg-green-500 mx-auto mb-2">🌳</div>
-                            <div class="font-medium text-sm">Tree</div>
+                            <div class="font-medium text-sm" data-i18n="topo_tree">Tree</div>
                             <div class="text-xs text-gray-500">32.88%</div>
                         </div>
                         <div class="text-center">
                             <div class="topology-icon bg-purple-500 mx-auto mb-2">🔀</div>
-                            <div class="font-medium text-sm">Fork-Join</div>
+                            <div class="font-medium text-sm" data-i18n="topo_fork">Fork-Join</div>
                             <div class="text-xs text-gray-500">27.63%</div>
                         </div>
                         <div class="text-center">
                             <div class="topology-icon bg-orange-500 mx-auto mb-2">⭐</div>
-                            <div class="font-medium text-sm">Star</div>
+                            <div class="font-medium text-sm" data-i18n="topo_star">Star</div>
                             <div class="text-xs text-gray-500">13.05%</div>
                         </div>
                         <div class="text-center">
                             <div class="topology-icon bg-red-500 mx-auto mb-2">🔄</div>
-                            <div class="font-medium text-sm">Loop-back</div>
+                            <div class="font-medium text-sm" data-i18n="topo_loop">Loop-back</div>
                             <div class="text-xs text-gray-500">-</div>
                         </div>
                         <div class="text-center">
                             <div class="topology-icon bg-indigo-500 mx-auto mb-2">🕸️</div>
-                            <div class="font-medium text-sm">Mesh</div>
+                            <div class="font-medium text-sm" data-i18n="topo_mesh">Mesh</div>
                             <div class="text-xs text-gray-500">-</div>
                         </div>
                     </div>
@@ -521,7 +521,7 @@
                             <span class="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center text-xl">📊</span>
                             <div>
                                 <h4 class="text-lg font-bold text-gray-900" data-i18n="bad_case_1_title">表格理解错误 & 累积传播错误</h4>
-                                <p class="text-sm text-gray-500">Code Error Caused by Table Comprehension | Cumulative Propagation Errors</p>
+                                <p class="text-sm text-gray-500" data-i18n="bad_case_1_subtitle">Code Error Caused by Table Comprehension | Cumulative Propagation Errors</p>
                             </div>
                         </div>
                         <div class="bg-gray-50 rounded-xl p-4 overflow-x-auto">
@@ -545,7 +545,7 @@
                             <span class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-xl">🎯</span>
                             <div>
                                 <h4 class="text-lg font-bold text-gray-900" data-i18n="bad_case_2_title">表格定位错误 & 问题理解偏差</h4>
-                                <p class="text-sm text-gray-500">Table Localization Error | Question Understanding Deviations</p>
+                                <p class="text-sm text-gray-500" data-i18n="bad_case_2_subtitle">Table Localization Error | Question Understanding Deviations</p>
                             </div>
                         </div>
                         <div class="bg-gray-50 rounded-xl p-4 overflow-x-auto">
@@ -910,8 +910,8 @@
                             <td class="px-4 py-3 text-center">19</td>
                         </tr>
                         <tr class="bg-purple-50 font-bold">
-                            <td class="px-4 py-3 text-purple-700">TableAgent-Bench (Ours)</td>
-                            <td class="px-4 py-3 text-center">TableQA (Multi-turn)</td>
+                            <td class="px-4 py-3 text-purple-700" data-i18n="comp_ours_name">TableAgent-Bench (Ours)</td>
+                            <td class="px-4 py-3 text-center" data-i18n="comp_ours_task">TableQA (Multi-turn)</td>
                             <td class="px-4 py-3 text-center text-green-600">✓</td>
                             <td class="px-4 py-3 text-center text-green-600">✓</td>
                             <td class="px-4 py-3 text-center text-green-600">✓</td>
@@ -1288,6 +1288,18 @@
                 hero_badge: "ICML 2026 投稿论文",
                 hero_subtitle: "多轮表格问答智能体基准测试",
                 hero_desc: "评估LLM智能体在复杂工业场景下的自主推理与表格理解能力",
+                hero_stat_dialogues: "多轮对话",
+                hero_stat_tables: "工业表格",
+                hero_stat_models: "测试模型",
+                hero_stat_ic: "最佳IC得分",
+                topo_chain: "Chain (链式)",
+                topo_tree: "Tree (树状)",
+                topo_fork: "Fork-Join (分汇)",
+                topo_star: "Star (星型)",
+                topo_loop: "Loop-back (回环)",
+                topo_mesh: "Mesh (网状)",
+                bad_case_1_subtitle: "表格理解错误导致的代码错误 | 累积传播错误",
+                bad_case_2_subtitle: "表格定位错误 | 问题理解偏差",
                 btn_leaderboard: "查看榜单",
                 btn_details: "了解详情",
                 leaderboard_title: "🏆 模型排行榜",
@@ -1440,6 +1452,8 @@
                 comp_tables: "表格数",
                 comp_dialogues: "多轮对话数",
                 comp_domains: "领域",
+                comp_ours_name: "TableAgent-Bench (本工作)",
+                comp_ours_task: "TableQA (多轮)",
                 comp_desc: "<strong class=\"text-purple-700\">TableAgent-Bench</strong> 是首个专注于<strong>多轮对话场景</strong>的表格问答基准测试，填补了现有基准在评估智能体行为方面的空白。",
                 conclusion_title: "🚀 结论与展望",
                 conclusion_desc: "TableAgent-Bench为评估LLM智能体在真实工业场景下的表格推理能力提供了一个严格的测试平台。实验结果表明，<strong>当前智能体在处理复杂多表环境、长程工具调用轨迹和多轮意图演进方面仍存在显著挑战</strong>。",
@@ -1461,6 +1475,18 @@
                 hero_badge: "ICML 2026 Submission",
                 hero_subtitle: "Multi-turn Table Question Answering Agent Benchmark",
                 hero_desc: "Evaluating LLM agents' autonomous reasoning and table understanding in complex industrial scenarios",
+                hero_stat_dialogues: "Multi-turn Dialogues",
+                hero_stat_tables: "Industrial Tables",
+                hero_stat_models: "Evaluated Models",
+                hero_stat_ic: "Best IC Score",
+                topo_chain: "Chain",
+                topo_tree: "Tree",
+                topo_fork: "Fork-Join",
+                topo_star: "Star",
+                topo_loop: "Loop-back",
+                topo_mesh: "Mesh",
+                bad_case_1_subtitle: "Code Error Caused by Table Comprehension | Cumulative Propagation Errors",
+                bad_case_2_subtitle: "Table Localization Error | Question Understanding Deviations",
                 btn_leaderboard: "View Leaderboard",
                 btn_details: "Learn More",
                 leaderboard_title: "🏆 Model Leaderboard",
@@ -1611,6 +1637,8 @@
                 comp_bilingual: "Bilingual",
                 comp_tables: "Tables",
                 comp_dialogues: "Multi-turn Dialogues",
+                comp_ours_name: "TableAgent-Bench (Ours)",
+                comp_ours_task: "TableQA (Multi-turn)",
                 comp_desc: "<strong class=\"text-purple-700\">TableAgent-Bench</strong> is the first TableQA benchmark focused on <strong>multi-turn dialogue scenarios</strong>, filling the gap in existing benchmarks for evaluating agent behavior.",
                 conclusion_title: "🚀 Conclusion & Future Work",
                 conclusion_desc: "TableAgent-Bench provides a rigorous testbed for evaluating LLM agents' table reasoning capabilities in real-world industrial scenarios. Experimental results show that <strong>current agents still face significant challenges in handling complex multi-table environments, long-range tool invocation trajectories, and multi-turn intent evolution</strong>.",
