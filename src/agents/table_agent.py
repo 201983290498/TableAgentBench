@@ -17,6 +17,7 @@ from src.prompts.agent_prompts import AGENT_SYSTEM_PROMPT_SIMPLE_FINAL
 from src.utils.chat_api import ChatClient
 from src.function_llm import ConversationSummaryLLM
 from src.utils.global_config import GLOBAL_CONFIG
+from src.utils.openai_msg_utils import parse_assistant_message
 
 class AgentState(Enum):
     """Agent State"""
@@ -240,7 +241,7 @@ class TableAgent:
         """Get LLM response"""
         messages = self.context.build_messages()
         current_tools_schema = get_tools_schema(include_tools=self.include_tools)
-        response_dict = self.llm_client.chat(message=messages, enable_thinking=self.enable_thinking, tools=current_tools_schema, temperature=0.0, seed=42)  
+        response_dict = self.llm_client.chat(message=messages[:], enable_thinking=self.enable_thinking, tools=current_tools_schema, temperature=0.0, seed=42)  
         
         content = response_dict['content']
         # 1. Unify tags: <thinking> -> <think>; remove isolated closing tags (when reasoning_content exists, content shouldn't have </think>); remove isolated </think> (without corresponding <think>)
@@ -378,7 +379,7 @@ class TableAgent:
             "finish_reason": response_dict.get("finish_reason", None)
         }
         if self.save_sft:
-            self.generate_sft_data(messages, response_dict)
+            self.generate_sft_data(response_dict) # 实际训练时的message会进行一定的过滤，但是为了展示的清楚，所以我们保存了完整的message和response_dict。
         if last_trace is None:
             self.conversation_trace.append({
                 "turn": self.step_count,
@@ -439,7 +440,8 @@ class TableAgent:
                 "table_path": self.context.current_table_path,
                 "total_turns": self.step_count,
                 "timestamp": datetime.now().isoformat(),
-                "success": self.state == AgentState.COMPLETED
+                "success": self.state == AgentState.COMPLETED,
+                "tools": self.include_tools, 
             },
             "conversation_trace": self.conversation_trace,
             "sft_data": self.sft_data if self.save_sft else None
@@ -495,10 +497,9 @@ class TableAgent:
         self.conversation_trace = []
         self.context.clear()
 
-    def generate_sft_data(self, messages: List[Dict[str, str]], response_dict: Dict[str, Any]):
+    def generate_sft_data(self, response_dict: Dict[str, Any]):
         """Generate SFT data from the current turn and append to sft_data list"""
-        new_messages = messages.copy() + [{"role": "assistant", **response_dict}]
-        
+        new_messages = response_dict['messages'].copy() + [parse_assistant_message(response_dict)] # 运行时保存数据时
         # When existing messages are a prefix of new_essages, remove existing messages
         self.sft_data = [
             exist_messages for exist_messages in self.sft_data

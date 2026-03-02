@@ -10,6 +10,7 @@ import hashlib
 import time
 import threading
 import uuid
+from src.utils.openai_msg_utils import filter_reasoning
 
 # Suppress tokenizers multi-process warnings
 os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
@@ -150,29 +151,6 @@ class ChatClient:
                 # cache_dir="./"
             )
         return _tokenizer
-    
-    def filter_reasoning(self, messages: list, enable_filter: bool = True) -> list:
-        """
-        Filter reasoning_content from messages if enable_filter is True.
-        Handles both dicts and objects.
-        """
-        if not enable_filter:
-            return messages
-        # 1. Find the last user conversation message
-        last_user_idx = -1
-        for i, msg in enumerate(messages):
-            if msg['role'] == 'user' and msg['content'] and not msg['content'].startswith('[Tool Execution Result'):
-                last_user_idx = i
-
-        sanitized_messages = []
-        import copy
-        for i, msg in enumerate(messages):
-            msg_copy = msg.copy()
-            if i <= last_user_idx and "reasoning_content" in msg_copy:
-                msg_copy['reasoning_content'] = None
-                msg_copy['thought_signature'] = None
-            sanitized_messages.append(msg_copy) 
-        return sanitized_messages
     
     @staticmethod
     def count_tokens(
@@ -338,7 +316,7 @@ class ChatClient:
         else:
             messages = message
         import copy
-        messages = self.filter_reasoning(copy.deepcopy(messages), "mimo" not in self.model)
+        messages = filter_reasoning(copy.deepcopy(messages), "mimo" not in self.model)
         # 2. Build base request parameters
         request_params = {
             "model": self.model, 
@@ -412,7 +390,8 @@ class ChatClient:
             "content": content,
             "tool_calls": tool_calls,
             "finish_reason": finish_reason,
-            "usage": getattr(resp, "usage", None).model_dump() if getattr(resp, "usage", None) else {}
+            "usage": getattr(resp, "usage", None).model_dump() if getattr(resp, "usage", None) else {},
+            "messages": messages
         }
     
     def _load_cache(self):

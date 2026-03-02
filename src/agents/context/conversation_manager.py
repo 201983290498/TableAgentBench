@@ -6,7 +6,7 @@ from typing import List, Dict, Any, TYPE_CHECKING
 if TYPE_CHECKING:
     from src.function_llm import ConversationSummaryLLM
 from src.utils.chat_api import ChatClient
-
+from src.utils.openai_msg_utils import parse_assistant_message, filter_reasoning
 class ConversationManager: # 上下文工程核心类。
     """
     Conversation History Manager - Simplified version
@@ -50,9 +50,10 @@ class ConversationManager: # 上下文工程核心类。
         """Add message."""
         if type(content) == str:
             content = {"content": content}
+        filter_content = {k: v for k, v in content.items() if k in ["role", "content", "reasoning_content", "thought_signature", "tool_calls", "tool_call_id"]}
         self.messages.append({
             "role": role, 
-            **content,
+            **filter_content,
             "is_tool_result": is_tool_result
         })
         self._trim_if_needed()
@@ -97,15 +98,7 @@ class ConversationManager: # 上下文工程核心类。
         for i in range(start_idx, len(self.messages)):
             m = self.messages[i]
             if m['role'] == 'assistant':
-                msg = {
-                    "role": m["role"], 
-                    "content": m["content"], 
-                    "reasoning_content": m.get("reasoning_content", None),
-                    "thought_signature": m.get("thought_signature", None)
-                }
-                if m.get("tool_calls"):
-                    msg["tool_calls"] = m.get("tool_calls")
-                messages.append(msg)
+                messages.append(parse_assistant_message(m))
             elif m['role'] == 'tool':
                 if m.get('tool_call_id'):
                     messages.append({"role": m["role"], "content": m["content"], 'tool_call_id': m['tool_call_id']})
@@ -130,7 +123,7 @@ class ConversationManager: # 上下文工程核心类。
     
     def _estimate_tokens(self) -> int:
         """Estimate token count."""
-        return ChatClient.count_tokens(self.messages)
+        return ChatClient.count_tokens(filter_reasoning(self.messages)) # 实际进去的时候要过滤reasoning_content
     
     def _simple_trim(self):
         """Simple trimming (keep most recent messages)."""
