@@ -215,3 +215,8 @@ tmp/
 traces_output/
 *.pkl
 config/api_key.json
+dataset/
+!dataset/tables
+!dataset/samples.json
+!dataset/README_zh.md
+!dataset/README.md
