@@ -9,6 +9,14 @@
     <title>TableAgent-Bench | 多轮表格问答智能体基准测试</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // EmailJS 初始化
+            emailjs.init("YqzUhGNV5b8xVAnVz");
+        })();
+    </script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -110,6 +118,7 @@
         .metric-pink { background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%); color: #9d174d; }
         .metric-green { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); color: #166534; }
         .metric-orange { background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%); color: #9a3412; }
+        .metric-cyan { background: linear-gradient(135deg, #ecfeff 0%, #cffafe 100%); color: #155e75; }
 
         .btn-primary {
             background: linear-gradient(135deg, #2563eb 0%, #4f46e5 100%);
@@ -278,7 +287,7 @@
         <div class="text-center space-y-8">
             <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 border border-blue-100 text-blue-700 text-sm font-medium animate-float">
                 <span class="w-2 h-2 bg-blue-600 rounded-full animate-pulse"></span>
-                <span data-i18n="hero.badge">大规模双语多轮表格问答基准测试</span>
+                <span data-i18n="hero.badge">真实工业场景 · 双语多轮表格问答 · 长程推理任务的基准测试</span>
             </div>
             
             <h1 class="font-display text-5xl md:text-7xl font-bold leading-tight text-slate-900">
@@ -288,11 +297,11 @@
             </h1>
             
             <p class="text-xl md:text-2xl text-slate-600 font-light" data-i18n="hero.subtitle">
-                评估LLM智能体在复杂工业场景下的自主推理与表格理解能力
+                评估LLM智能体在复杂工业场景下的自主长程推理与表格理解能力
             </p>
 
-            <p class="max-w-2xl mx-auto text-lg text-slate-500 leading-relaxed" data-i18n="hero.desc">
-                包含 <strong>1,310</strong> 个多轮对话，基于 <strong>2,275</strong> 个工业表格，覆盖 <strong>6</strong> 大领域 <strong>28</strong> 个子领域，支持中英文双语评测
+            <p class="max-w-3xl mx-auto text-lg text-slate-500 leading-relaxed" data-i18n="hero.desc">
+                包含 <strong>1,310</strong> 个多轮对话任务，基于 <strong>2,275</strong> 个真实工业表格，平均每任务需 <strong>30+</strong> 次工具调用，覆盖 <strong>6</strong> 大领域 <strong>28</strong> 个子领域，支持中英文双语评测
             </p>
 
             <!-- 关键链接 -->
@@ -312,22 +321,30 @@
             </div>
 
             <!-- 关键指标预览 -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mt-16">
-                <div class="soft-shadow rounded-2xl p-6 text-center metric-blue">
-                    <div class="text-3xl font-bold font-display">1,310</div>
-                    <div class="text-sm font-medium mt-1 opacity-80" data-i18n="stats.dialogues">多轮对话</div>
+            <div class="grid grid-cols-2 md:grid-cols-6 gap-4 max-w-6xl mx-auto mt-16">
+                <div class="soft-shadow rounded-2xl p-5 text-center metric-blue">
+                    <div class="text-2xl font-bold font-display">1,310</div>
+                    <div class="text-xs font-medium mt-1 opacity-80" data-i18n="stats.dialogues">多轮对话任务</div>
                 </div>
-                <div class="soft-shadow rounded-2xl p-6 text-center metric-purple">
-                    <div class="text-3xl font-bold font-display">2,275</div>
-                    <div class="text-sm font-medium mt-1 opacity-80" data-i18n="stats.tables">工业表格</div>
+                <div class="soft-shadow rounded-2xl p-5 text-center metric-purple">
+                    <div class="text-2xl font-bold font-display">2,275</div>
+                    <div class="text-xs font-medium mt-1 opacity-80" data-i18n="stats.tables">真实工业表格</div>
                 </div>
-                <div class="soft-shadow rounded-2xl p-6 text-center metric-pink">
-                    <div class="text-3xl font-bold font-display">25+</div>
-                    <div class="text-sm font-medium mt-1 opacity-80" data-i18n="stats.models">测试模型</div>
+                <div class="soft-shadow rounded-2xl p-5 text-center metric-orange">
+                    <div class="text-2xl font-bold font-display">30+</div>
+                    <div class="text-xs font-medium mt-1 opacity-80" data-i18n="stats.toolCalls">平均工具调用</div>
                 </div>
-                <div class="soft-shadow rounded-2xl p-6 text-center metric-green">
-                    <div class="text-3xl font-bold font-display">6</div>
-                    <div class="text-sm font-medium mt-1 opacity-80" data-i18n="stats.domains">核心领域</div>
+                <div class="soft-shadow rounded-2xl p-5 text-center metric-pink">
+                    <div class="text-2xl font-bold font-display">11</div>
+                    <div class="text-xs font-medium mt-1 opacity-80" data-i18n="stats.tools">专业分析工具</div>
+                </div>
+                <div class="soft-shadow rounded-2xl p-5 text-center metric-green">
+                    <div class="text-2xl font-bold font-display">6</div>
+                    <div class="text-xs font-medium mt-1 opacity-80" data-i18n="stats.domains">核心领域</div>
+                </div>
+                <div class="soft-shadow rounded-2xl p-5 text-center metric-cyan">
+                    <div class="text-2xl font-bold font-display">4.3</div>
+                    <div class="text-xs font-medium mt-1 opacity-80" data-i18n="stats.avgTurns">平均对话轮数</div>
                 </div>
             </div>
         </div>
@@ -386,7 +403,7 @@
         <div class="mt-4 flex flex-wrap gap-4 text-sm text-slate-400 justify-center">
             <span><strong>IC</strong>: <span data-i18n="metric.ic">信息覆盖率</span></span>
             <span>•</span>
-            <span><strong>Avg@3</strong>: <span data-i18n="metric.avg3">解决方案质量</span></span>
+            <span><strong>Avg@3</strong>: <span data-i18n="metric.avg3">任务通过率</span></span>
             <span>•</span>
             <span><strong>TRR</strong>: <span data-i18n="metric.trr">表格相关召回率</span></span>
             <span>•</span>
@@ -535,7 +552,7 @@
                     <div class="flex justify-between items-start mb-2">
                         <h4 class="font-semibold text-emerald-700 flex items-center gap-2">
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
-                            <span data-i18n="dimensions.avg3.title">解决方案质量</span>
+                            <span data-i18n="dimensions.avg3.title">任务通过率</span></span>
                         </h4>
                         <span class="text-xs px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full">Avg@3</span>
                     </div>
@@ -693,8 +710,9 @@
             </div>
         </div>
         
-        <!-- 十种任务模板 -->
+        <!-- 问题类型 -->
         <div class="mt-8 bg-white rounded-2xl p-8 border border-slate-200 soft-shadow">
+            <h3 class="text-xl font-bold text-slate-800 mb-6 text-center" data-i18n="stats.questionTypes.title">十大典型问题类型</h3>
             <div class="grid grid-cols-5 md:grid-cols-10 gap-3">
                 <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-4 text-center soft-shadow">
                     <div class="text-2xl mb-2">📊</div>
@@ -738,13 +756,81 @@
                 </div>
             </div>
         </div>
+        
+        <!-- 工具分类展示 -->
+        <div class="mt-8 bg-white rounded-2xl p-8 border border-slate-200 soft-shadow">
+            <h3 class="text-xl font-bold text-slate-800 mb-6 text-center" data-i18n="stats.tools.title">11专业分析工具 · 3大类别 · 平均30+次调用</h3>
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- 表格检索工具 -->
+                <div class="bg-blue-50 rounded-xl p-5 border border-blue-100">
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="text-2xl">🔍</span>
+                        <h4 class="font-bold text-blue-800" data-i18n="tools.retrieval.title">表格检索工具</h4>
+                        <span class="text-xs px-2 py-1 bg-blue-200 text-blue-800 rounded-full">4个</span>
+                    </div>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex justify-between items-center"><span class="text-slate-700" data-i18n="tools.grep_search">文本搜索</span><span class="text-xs text-slate-500">2.01次</span></div>
+                        <div class="flex justify-between items-center"><span class="text-slate-700" data-i18n="tools.table_selector">表格语义检索器</span><span class="text-xs text-slate-500">2.49次</span></div>
+                        <div class="flex justify-between items-center"><span class="text-slate-700" data-i18n="tools.semantic_row_retriever">语义行检索器</span><span class="text-xs text-slate-500">2.10次</span></div>
+                        <div class="flex justify-between items-center"><span class="text-slate-700" data-i18n="tools.semantic_column_retriever">语义列检索器</span><span class="text-xs text-slate-500">0.77次</span></div>
+                    </div>
+                    <div class="mt-3 pt-3 border-t border-blue-200">
+                        <div class="flex justify-between items-center text-sm">
+                            <span class="text-blue-700 font-medium" data-i18n="tools.avgCalls">平均调用</span>
+                            <span class="font-bold text-blue-800">7.37次</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 表格处理工具 -->
+                <div class="bg-green-50 rounded-xl p-5 border border-green-100">
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="text-2xl">⚙️</span>
+                        <h4 class="font-bold text-green-800" data-i18n="tools.processing.title">表格处理工具</h4>
+                        <span class="text-xs px-2 py-1 bg-green-200 text-green-800 rounded-full">4个</span>
+                    </div>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex justify-between items-center"><span class="text-slate-700" data-i18n="tools.xlsx_to_csv_converter">Excel转CSV工具</span><span class="text-xs text-slate-500">1.54次</span></div>
+                        <div class="flex justify-between items-center"><span class="text-slate-700" data-i18n="tools.table_head_reader">表头读取工具</span><span class="text-xs text-slate-500">4.39次</span></div>
+                        <div class="flex justify-between items-center"><span class="text-slate-700" data-i18n="tools.header_merger">表头合并工具</span><span class="text-xs text-slate-500">0.96次</span></div>
+                        <div class="flex justify-between items-center"><span class="text-slate-700" data-i18n="tools.table_decomposer">表格拆分工具</span><span class="text-xs text-slate-500">0.89次</span></div>
+                    </div>
+                    <div class="mt-3 pt-3 border-t border-green-200">
+                        <div class="flex justify-between items-center text-sm">
+                            <span class="text-green-700 font-medium" data-i18n="tools.avgCalls">平均调用</span>
+                            <span class="font-bold text-green-800">7.78次</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 代码执行工具 -->
+                <div class="bg-purple-50 rounded-xl p-5 border border-purple-100">
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="text-2xl">💻</span>
+                        <h4 class="font-bold text-purple-800" data-i18n="tools.execution.title">代码执行工具</h4>
+                        <span class="text-xs px-2 py-1 bg-purple-200 text-purple-800 rounded-full">2个</span>
+                    </div>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex justify-between items-center"><span class="text-slate-700" data-i18n="tools.python_executor">Python执行器</span><span class="text-xs text-slate-500">17.93次</span></div>
+                        <div class="flex justify-between items-center"><span class="text-slate-700" data-i18n="tools.cmd_executor">命令执行器</span><span class="text-xs text-slate-500">2.48次</span></div>
+                    </div>
+                    <div class="mt-3 pt-3 border-t border-purple-200">
+                        <div class="flex justify-between items-center text-sm">
+                            <span class="text-purple-700 font-medium" data-i18n="tools.avgCalls">平均调用</span>
+                            <span class="font-bold text-purple-800">20.41次</span>
+                        </div>
+                    </div>
+                    <div class="mt-2 text-xs text-purple-600 bg-purple-100 rounded-lg p-2" data-i18n="tools.execution.percentage">占总调用次数57.4%</div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- 错误分析区域 -->
     <section id="examples" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative z-10">
         <div class="text-center mb-12">
-            <h2 class="font-display text-3xl font-bold mb-4 text-slate-800" data-i18n="errorAnalysis.sectionTitle">错误分析</h2>
-            <p class="text-slate-500 max-w-2xl mx-auto" data-i18n="errorAnalysis.sectionSubtitle">通过TAEF框架诊断的主要失败模式与Bad Case分析</p>
+            <h2 class="font-display text-3xl font-bold mb-4 text-slate-800" data-i18n="errorAnalysis.sectionTitle">基准测试的挑战</h2>
+            <p class="text-slate-500 max-w-2xl mx-auto" data-i18n="errorAnalysis.sectionSubtitle">通过TAEF框架诊断的主要失败模式与困难任务分析</p>
         </div>
 
         <!-- 错误分布与类型 -->
@@ -795,7 +881,7 @@
 
         <!-- Bad Case 详细分析 -->
         <div class="bg-white rounded-2xl p-8 border border-slate-200 soft-shadow mb-12">
-            <h3 class="text-2xl font-bold text-slate-800 mb-8 text-center" data-i18n="badCase.title">🔍 Bad Case 详细分析</h3>
+            <h3 class="text-2xl font-bold text-slate-800 mb-8 text-center" data-i18n="badCase.title">🔍 困难任务执行分析</h3>
             
             <!-- Bad Case 1 & 2 -->
             <div class="mb-10">
@@ -807,22 +893,22 @@
                     </div>
                 </div>
                 <div class="bg-slate-50 rounded-xl p-4 overflow-x-auto">
-                    <img src="images/error_analysis1_page1.png" alt="Bad Case 1" class="w-full max-w-4xl mx-auto rounded-lg shadow-sm" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <img src="images/中文样例.png" alt="Bad Case 1" class="w-full max-w-4xl mx-auto rounded-lg shadow-sm" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                     <div class="hidden h-48 bg-slate-100 rounded-lg items-center justify-center text-slate-400">
                         <div class="text-center">
                             <svg class="w-12 h-12 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-                            <p class="text-sm">错误分析图（待添加）</p>
+                            <p class="text-sm" data-i18n="placeholder.errorChart">错误分析图（待添加）</p>
                         </div>
                     </div>
                 </div>
                 <div class="grid md:grid-cols-2 gap-4 mt-4">
                     <div class="bg-red-50 rounded-lg p-4">
-                        <h5 class="font-bold text-red-800 mb-2">❌ 表格理解错误</h5>
-                        <p class="text-sm text-red-700">模型在代码执行块之间未能保持状态，尝试引用之前块中定义的变量(all_data)而未重新加载，导致重复的NameError异常。</p>
+                        <h5 class="font-bold text-red-800 mb-2" data-i18n="badCase.tableErrorTitle">❌ 表格理解错误</h5>
+                        <p class="text-sm text-red-700" data-i18n="badCase.tableErrorDesc">模型在代码执行块之间未能保持状态，尝试引用之前块中定义的变量(all_data)而未重新加载，导致重复的NameError异常。</p>
                     </div>
                     <div class="bg-orange-50 rounded-lg p-4">
-                        <h5 class="font-bold text-orange-800 mb-2">⚠️ 累积传播错误</h5>
-                        <p class="text-sm text-orange-700">最终报告建立在有缺陷的数据提取之上，将中间（错误）结论当作事实，导致分析结果完全偏离。</p>
+                        <h5 class="font-bold text-orange-800 mb-2" data-i18n="badCase.cumulativeTitle">⚠️ 累积传播错误</h5>
+                        <p class="text-sm text-orange-700" data-i18n="badCase.cumulativeDesc">最终报告建立在有缺陷的数据提取之上，将中间（错误）结论当作事实，导致分析结果完全偏离。</p>
                     </div>
                 </div>
             </div>
@@ -841,47 +927,23 @@
                     <div class="hidden h-48 bg-slate-100 rounded-lg items-center justify-center text-slate-400">
                         <div class="text-center">
                             <svg class="w-12 h-12 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-                            <p class="text-sm">错误分析图（待添加）</p>
+                            <p class="text-sm" data-i18n="placeholder.errorChart">错误分析图（待添加）</p>
                         </div>
                     </div>
                 </div>
                 <div class="grid md:grid-cols-2 gap-4 mt-4">
                     <div class="bg-blue-50 rounded-lg p-4">
-                        <h5 class="font-bold text-blue-800 mb-2">🔍 表格定位错误</h5>
-                        <p class="text-sm text-blue-700">模型错误地将两个不同表格的数据合并计算总流量，而正确做法应仅从特定表格提取数值。</p>
+                        <h5 class="font-bold text-blue-800 mb-2" data-i18n="badCase.localizationTitle">🔍 表格定位错误</h5>
+                        <p class="text-sm text-blue-700" data-i18n="badCase.localizationDesc">模型错误地将两个不同表格的数据合并计算总流量，而正确做法应仅从特定表格提取数值。</p>
                     </div>
                     <div class="bg-cyan-50 rounded-lg p-4">
-                        <h5 class="font-bold text-cyan-800 mb-2">💬 问题理解偏差</h5>
-                        <p class="text-sm text-cyan-700">用户要求计算平均会话时长并比较分布，模型却仅提供了会话数量统计表，完全遗漏了时长分析。</p>
+                        <h5 class="font-bold text-cyan-800 mb-2" data-i18n="badCase.questionTitle">💬 问题理解偏差</h5>
+                        <p class="text-sm text-cyan-700" data-i18n="badCase.questionDesc">用户要求计算平均会话时长并比较分布，模型却仅提供了会话数量统计表，完全遗漏了时长分析。</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- 成功案例展示 -->
-        <div class="bg-white rounded-2xl p-8 border border-slate-200 soft-shadow">
-            <h3 class="text-2xl font-bold text-slate-800 mb-6 text-center" data-i18n="successCase.title">✅ 正确案例分析</h3>
-            <div class="flex items-center gap-3 mb-4">
-                <span class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center text-xl">🏗️</span>
-                <div>
-                    <h4 class="text-lg font-bold text-slate-800" data-i18n="successCase.name">超高层建筑成本分析案例</h4>
-                    <p class="text-sm text-slate-500" data-i18n="successCase.subtitle">展示正确的多轮对话流程与工具调用</p>
-                </div>
-            </div>
-            <div class="bg-slate-50 rounded-xl p-4 overflow-x-auto">
-                <img src="images/case_study_page1.png" alt="Success Case" class="w-full max-w-4xl mx-auto rounded-lg shadow-sm" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                <div class="hidden h-48 bg-slate-100 rounded-lg items-center justify-center text-slate-400">
-                    <div class="text-center">
-                        <svg class="w-12 h-12 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-                        <p class="text-sm">成功案例图（待添加）</p>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-green-50 rounded-lg p-4 mt-4">
-                <h5 class="font-bold text-green-800 mb-2">✓ 正确的执行流程</h5>
-                <p class="text-sm text-green-700">模型通过cmd_executor探索环境，使用table_selector语义检索定位相关表格，最终通过python_code_executor正确计算并返回结果。展示了完整的工具调用链和正确的推理过程。</p>
-            </div>
-        </div>
     </section>
 
     <!-- CTA Section -->
@@ -1053,17 +1115,19 @@
                 'nav.statistics': '数据统计',
                 'nav.examples': '样例展示',
                 'nav.submit': '提交模型',
-                'hero.badge': '大规模双语多轮表格问答基准测试',
+                'hero.badge': '真实工业场景 · 双语多轮表格问答 · 长程任务推理的基准测试',
                 'hero.title1': 'TableAgent-Bench',
                 'hero.subtitle': '评估LLM智能体在复杂工业场景下的自主推理与表格理解能力',
                 'hero.desc': '包含 1,310 个多轮对话，基于 2,275 个工业表格，覆盖 6 大领域 28 个子领域，支持中英文双语评测',
                 'hero.cta1': '查看排行榜',
                 'hero.cta2': 'GitHub',
                 'hero.cta3': '数据集',
-                'stats.dialogues': '多轮对话',
-                'stats.tables': '工业表格',
-                'stats.models': '测试模型',
+                'stats.dialogues': '多轮对话任务',
+                'stats.tables': '真实工业表格',
+                'stats.toolCalls': '平均工具调用',
+                'stats.tools': '专业分析工具',
                 'stats.domains': '核心领域',
+                'stats.avgTurns': '平均对话轮数',
                 'task.compare': '对比分析',
                 'task.trend': '趋势分析',
                 'task.dist': '分布分析',
@@ -1084,7 +1148,7 @@
                 'table.tool': '工具成功率',
                 'table.type': '类型',
                 'metric.ic': '信息覆盖率',
-                'metric.avg3': '解决方案质量',
+                'metric.avg3': '任务通过率',
                 'metric.trr': '表格相关召回率',
                 'metric.trp': '表格相关精确率',
                 'capabilities.title': '能力维度分析',
@@ -1096,7 +1160,7 @@
                 'dimensions.ic.desc': '评估模型回答中包含的关键信息占所需信息的比例。这是衡量回答完整性的核心指标，反映模型是否遗漏重要内容。',
                 'dimensions.trr.title': '表格召回率',
                 'dimensions.trr.desc': '衡量模型在多表环境中正确识别和选择相关表格的能力。高召回率表示模型很少遗漏必要的表格。',
-                'dimensions.avg3.title': '解决方案质量',
+                'dimensions.avg3.title': '任务通过率',
                 'dimensions.avg3.desc': '评估模型在多轮对话中维持正确推理链的能力。该指标极低（平均5%），表明模型在避免错误累积和保持上下文一致性方面面临巨大挑战。',
                 'findings.title': '关键发现',
                 'findings.subtitle': '通过TableAgent-Bench评估揭示的模型能力差距与挑战',
@@ -1125,6 +1189,23 @@
                 'difficulty.complex': '复杂多表推理',
                 'stats.avgTurns': '平均对话轮数',
                 'stats.avgTables': '平均每文件夹表格数',
+                'stats.questionTypes.title': '问题类型',
+                'stats.tools.title': '11专业分析工具 · 3大类别 · 平均30+次调用',
+                'tools.retrieval.title': '表格检索工具',
+                'tools.processing.title': '表格处理工具',
+                'tools.execution.title': '代码执行工具',
+                'tools.avgCalls': '平均调用',
+                'tools.execution.percentage': '占总调用次数57.4%',
+                'tools.grep_search': '文本搜索',
+                'tools.table_selector': '表格选择器',
+                'tools.semantic_row_retriever': '语义行检索',
+                'tools.semantic_column_retriever': '语义列检索',
+                'tools.xlsx_to_csv_converter': 'Excel转CSV',
+                'tools.table_head_reader': '表头读取',
+                'tools.header_merger': '表头合并',
+                'tools.table_decomposer': '表格分解',
+                'tools.python_executor': 'Python执行器',
+                'tools.cmd_executor': '命令执行器',
                 'examples.title': '样例展示',
                 'examples.subtitle': '典型数据样例与错误分析',
                 'example1.title': '旗舰店运营分析',
@@ -1141,18 +1222,24 @@
                 'error3.desc': '模型在多表环境中选择了错误的表格，或遗漏了必要的表格',
                 'error4.title': '累积传播错误',
                 'error4.desc': '多轮对话中，前期错误在后续轮次中累积传播，导致最终结果错误',
-                'errorAnalysis.sectionTitle': '错误分析',
-                'errorAnalysis.sectionSubtitle': '通过TAEF框架诊断的主要失败模式与Bad Case分析',
+                'badCase.tableErrorTitle': '❌ 表格理解错误',
+                'badCase.tableErrorDesc': '模型在代码执行块之间未能保持状态，尝试引用之前块中定义的变量(all_data)而未重新加载，导致重复的NameError异常。',
+                'badCase.cumulativeTitle': '⚠️ 累积传播错误',
+                'badCase.cumulativeDesc': '最终报告建立在有缺陷的数据提取之上，将中间（错误）结论当作事实，导致分析结果完全偏离。',
+                'badCase.localizationTitle': '🔍 表格定位错误',
+                'badCase.localizationDesc': '模型错误地将两个不同表格的数据合并计算总流量，而正确做法应仅从特定表格提取数值。',
+                'badCase.questionTitle': '💬 问题理解偏差',
+                'badCase.questionDesc': '用户要求计算平均会话时长并比较分布，模型却仅提供了会话数量统计表，完全遗漏了时长分析。',
+                'placeholder.errorChart': '错误分析图（待添加）',
+                'errorAnalysis.sectionTitle': '基准测试的挑战',
+                'errorAnalysis.sectionSubtitle': '通过TAEF框架诊断的主要失败模式与困难任务分析',
                 'errorAnalysis.chartTitle': '错误类型分布',
                 'errorAnalysis.title': '典型错误分析',
-                'badCase.title': '🔍 Bad Case 详细分析',
+                'badCase.title': '🔍 困难任务执行分析',
                 'badCase.case1.title': '表格理解错误 & 累积传播错误',
                 'badCase.case1.subtitle': 'Code Error Caused by Table Comprehension | Cumulative Propagation Errors',
                 'badCase.case2.title': '表格定位错误 & 问题理解偏差',
                 'badCase.case2.subtitle': 'Table Localization Error | Question Understanding Deviations',
-                'successCase.title': '✅ 正确案例分析',
-                'successCase.name': '超高层建筑成本分析案例',
-                'successCase.subtitle': '展示正确的多轮对话流程与工具调用',
                 'cta.title': '准备好测试你的模型了吗？',
                 'cta.subtitle': '提交你的模型，我们将在测试完成后将结果加入排行榜',
                 'cta.button1': '提交模型',
@@ -1181,17 +1268,29 @@
                 'nav.statistics': 'Statistics',
                 'nav.examples': 'Examples',
                 'nav.submit': 'Submit',
-                'hero.badge': 'Large-scale Bilingual Multi-Turn Table QA Benchmark',
+                'hero.badge': 'Real Industrial Scenarios · Bilingual Multi-Turn Table QA · Long-Horizon Reasoning Benchmark',
                 'hero.title1': 'TableAgent-Bench',
-                'hero.subtitle': 'Evaluating LLM Agents\' Autonomous Reasoning and Table Understanding in Complex Industrial Scenarios',
-                'hero.desc': 'Contains 1,310 multi-turn dialogues based on 2,275 industrial tables, covering 6 domains and 28 sub-domains, supporting bilingual evaluation',
+                'hero.subtitle': 'Evaluating LLM Agents\' Autonomous Reasoning and Multi-Turn Tool Calling in Real-World Data Analysis',
+                'hero.desc': 'Contains 1,310 multi-turn dialogue tasks based on 2,275 real industrial tables, requiring 30+ tool calls per task on average, covering 6 domains and 28 sub-domains, supporting bilingual long-horizon evaluation',
                 'hero.cta1': 'View Leaderboard',
                 'hero.cta2': 'GitHub',
                 'hero.cta3': 'Dataset',
-                'stats.dialogues': 'Dialogues',
-                'stats.tables': 'Tables',
-                'stats.models': 'Models',
+                'stats.dialogues': 'Multi-Turn Tasks',
+                'stats.tables': 'Real Industrial Tables',
+                'stats.toolCalls': 'Avg Tool Calls',
+                'stats.tools': 'Analysis Tools',
                 'stats.domains': 'Domains',
+                'stats.avgTurns': 'Avg Dialogue Turns',
+                'task.compare': 'Compare',
+                'task.trend': 'Trend',
+                'task.dist': 'Distribution',
+                'task.causal': 'Causal',
+                'task.diag': 'Diagnosis',
+                'task.rank': 'Ranking',
+                'task.agg': 'Aggregation',
+                'task.corr': 'Correlation',
+                'task.pred': 'Prediction',
+                'task.report': 'Report',
                 'leaderboard.title': 'Leaderboard',
                 'leaderboard.subtitle': 'Model performance comparison on TableAgent-Bench',
                 'filter.all': 'All Models',
@@ -1202,7 +1301,7 @@
                 'table.tool': 'Tool Success',
                 'table.type': 'Type',
                 'metric.ic': 'Information Coverage',
-                'metric.avg3': 'Solution Quality',
+                'metric.avg3': 'Task Pass Rate',
                 'metric.trr': 'Table Recall',
                 'metric.trp': 'Table Precision',
                 'capabilities.title': 'Capability Analysis',
@@ -1214,7 +1313,7 @@
                 'dimensions.ic.desc': 'Evaluates the proportion of key information in model responses relative to required information. This is a core metric for measuring answer completeness.',
                 'dimensions.trr.title': 'Table Recall Rate',
                 'dimensions.trr.desc': 'Measures the ability to correctly identify and select relevant tables in multi-table environments. High recall means the model rarely misses necessary tables.',
-                'dimensions.avg3.title': 'Solution Quality',
+                'dimensions.avg3.title': 'Task Pass Rate',
                 'dimensions.avg3.desc': 'Evaluates the ability to maintain correct reasoning chains in multi-turn dialogues. This metric is extremely low (avg 5%), indicating models face significant challenges in avoiding error accumulation.',
                 'findings.title': 'Key Findings',
                 'findings.subtitle': 'Model capability gaps and challenges revealed by TableAgent-Bench evaluation',
@@ -1243,6 +1342,23 @@
                 'difficulty.complex': 'Complex Multi-Table',
                 'stats.avgTurns': 'Avg Dialogue Turns',
                 'stats.avgTables': 'Avg Tables per Folder',
+                'stats.questionTypes.title': 'Top 10 Typical Question Types',
+                'stats.tools.title': '11 Professional Tools · 3 Categories · 30+ Avg Calls',
+                'tools.retrieval.title': 'Table Retrieval Tools',
+                'tools.processing.title': 'Table Processing Tools',
+                'tools.execution.title': 'Code Execution Tools',
+                'tools.avgCalls': 'Avg Calls',
+                'tools.execution.percentage': 'Accounts for 57.4% of total calls',
+                'tools.grep_search': 'Text Search',
+                'tools.table_selector': 'Table Selector',
+                'tools.semantic_row_retriever': 'Semantic Row Retriever',
+                'tools.semantic_column_retriever': 'Semantic Column Retriever',
+                'tools.xlsx_to_csv_converter': 'Excel to CSV',
+                'tools.table_head_reader': 'Table Head Reader',
+                'tools.header_merger': 'Header Merger',
+                'tools.table_decomposer': 'Table Decomposer',
+                'tools.python_executor': 'Python Executor',
+                'tools.cmd_executor': 'Command Executor',
                 'examples.title': 'Examples',
                 'examples.subtitle': 'Typical data samples and error analysis',
                 'example1.title': 'Store Operation Analysis',
@@ -1257,18 +1373,23 @@
                 'error3.desc': 'Model selects wrong tables or misses necessary tables in multi-table environments',
                 'error4.title': 'Cumulative Error Propagation',
                 'error4.desc': 'Early errors accumulate and propagate in subsequent dialogue turns',
-                'errorAnalysis.sectionTitle': 'Error Analysis',
+                'badCase.tableErrorTitle': '❌ Table Understanding Error',
+                'badCase.tableErrorDesc': 'Model failed to maintain state between code execution blocks, attempting to reference variables (all_data) defined in previous blocks without reloading, causing repeated NameError exceptions.',
+                'badCase.cumulativeTitle': '⚠️ Cumulative Propagation Error',
+                'badCase.cumulativeDesc': 'The final report was built upon flawed data extraction, treating intermediate (incorrect) conclusions as facts, resulting in completely deviated analysis results.',
+                'badCase.localizationTitle': '🔍 Table Localization Error',
+                'badCase.localizationDesc': 'Model incorrectly merged data from two different tables to calculate total traffic, while the correct approach should extract values only from specific tables.',
+                'badCase.questionTitle': '💬 Question Understanding Deviation',
+                'badCase.questionDesc': 'User requested calculation of average session duration and comparison of distributions, but the model only provided session count statistics, completely missing the duration analysis.',
+                'errorAnalysis.sectionTitle': 'Benchmark Challenges',
                 'errorAnalysis.sectionSubtitle': 'Main failure modes and Bad Case analysis diagnosed through TAEF framework',
                 'errorAnalysis.chartTitle': 'Error Type Distribution',
                 'errorAnalysis.title': 'Typical Error Analysis',
-                'badCase.title': '🔍 Bad Case Detailed Analysis',
+                'badCase.title': '🔍 Execution Analysis of Hard Case',
                 'badCase.case1.title': 'Table Understanding & Cumulative Propagation Errors',
                 'badCase.case1.subtitle': 'Code Error Caused by Table Comprehension | Cumulative Propagation Errors',
                 'badCase.case2.title': 'Table Localization & Question Understanding Errors',
                 'badCase.case2.subtitle': 'Table Localization Error | Question Understanding Deviations',
-                'successCase.title': '✅ Success Case Analysis',
-                'successCase.name': 'High-rise Building Cost Analysis Case',
-                'successCase.subtitle': 'Demonstrating correct multi-turn dialogue flow and tool calling',
                 'cta.title': 'Ready to evaluate your model?',
                 'cta.subtitle': 'Submit your model and we will add results to the leaderboard after testing',
                 'cta.button1': 'Submit Model',
@@ -1312,20 +1433,21 @@
             { rank: 9, name: 'Claude-Haiku-4-5', org: 'Anthropic', type: 'non-thinking', ic: 41.00, avg3: 0.00, trr: 72.20, trp: 73.00, tool: 43.72 },
             { rank: 10, name: 'Qwen3-Coder-Plus', org: 'Alibaba', type: 'non-thinking', ic: 39.70, avg3: 2.84, trr: 76.90, trp: 79.80, tool: 86.85 },
             { rank: 11, name: 'GLM-4.7-Flash', org: 'Zhipu', type: 'thinking', ic: 39.30, avg3: 0.00, trr: 73.40, trp: 71.40, tool: 90.46 },
-            { rank: 12, name: 'Qwen3-235B', org: 'Alibaba', type: 'thinking', ic: 36.50, avg3: 1.25, trr: 68.85, trp: 75.90, tool: 82.56 },
-            { rank: 13, name: 'Kimi-K2-Preview', org: 'Moonshot', type: 'non-thinking', ic: 35.70, avg3: 1.35, trr: 69.55, trp: 72.50, tool: 64.82 },
-            { rank: 14, name: 'Mimo-V2-Flash', org: 'Xiaomi', type: 'non-thinking', ic: 34.90, avg3: 0.00, trr: 62.20, trp: 62.20, tool: 73.42 },
-            { rank: 15, name: 'Qwen3-Max', org: 'Alibaba', type: 'non-thinking', ic: 31.37, avg3: 1.23, trr: 68.90, trp: 73.23, tool: 93.70 },
-            { rank: 16, name: 'DeepSeek-V3.2', org: 'DeepSeek', type: 'non-thinking', ic: 27.50, avg3: 0.00, trr: 34.40, trp: 32.30, tool: 91.54 },
-            { rank: 17, name: 'Qwen3-235B', org: 'Alibaba', type: 'non-thinking', ic: 17.70, avg3: 0.00, trr: 50.70, trp: 58.40, tool: 79.23 },
-            { rank: 18, name: 'Tongyi-DeepResearch', org: 'Alibaba', type: 'non-thinking', ic: 15.50, avg3: 0.00, trr: 36.50, trp: 20.30, tool: 88.20 },
-            { rank: 19, name: 'Qwen3-32B', org: 'Alibaba', type: 'thinking', ic: 5.30, avg3: 0.00, trr: 54.50, trp: 57.30, tool: 67.20 },
-            { rank: 20, name: 'Qwen3-14B', org: 'Alibaba', type: 'thinking', ic: 5.15, avg3: 0.00, trr: 52.90, trp: 60.70, tool: 22.17 },
-            { rank: 21, name: 'MiroThinker', org: 'Miro', type: 'non-thinking', ic: 3.85, avg3: 0.00, trr: 26.65, trp: 29.05, tool: 87.60 },
-            { rank: 22, name: 'Qwen3-32B', org: 'Alibaba', type: 'non-thinking', ic: 3.50, avg3: 0.00, trr: 46.90, trp: 59.30, tool: 69.28 },
-            { rank: 23, name: 'Qwen3-14B', org: 'Alibaba', type: 'non-thinking', ic: 3.30, avg3: 0.00, trr: 44.35, trp: 56.60, tool: 80.50 },
-            { rank: 24, name: 'Qwen3-8B', org: 'Alibaba', type: 'non-thinking', ic: 2.80, avg3: 0.00, trr: 51.00, trp: 53.00, tool: 80.80 },
-            { rank: 25, name: 'Qwen3-8B', org: 'Alibaba', type: 'thinking', ic: 2.75, avg3: 0.00, trr: 48.80, trp: 55.50, tool: 38.38 }
+            { rank: 12, name: 'TeleChat3-Coder-36B-Thinking', org: 'TeleAI', type: 'thinking', ic: 37.10, avg3: 1.35, trr: 72.00, trp: 74.00, tool: 88.00 },
+            { rank: 13, name: 'Qwen3-235B', org: 'Alibaba', type: 'thinking', ic: 36.50, avg3: 1.25, trr: 68.85, trp: 75.90, tool: 82.56 },
+            { rank: 14, name: 'Kimi-K2-Preview', org: 'Moonshot', type: 'non-thinking', ic: 35.70, avg3: 1.35, trr: 69.55, trp: 72.50, tool: 64.82 },
+            { rank: 15, name: 'Mimo-V2-Flash', org: 'Xiaomi', type: 'non-thinking', ic: 34.90, avg3: 0.00, trr: 62.20, trp: 62.20, tool: 73.42 },
+            { rank: 16, name: 'Qwen3-Max', org: 'Alibaba', type: 'non-thinking', ic: 31.37, avg3: 1.23, trr: 68.90, trp: 73.23, tool: 93.70 },
+            { rank: 17, name: 'DeepSeek-V3.2', org: 'DeepSeek', type: 'non-thinking', ic: 27.50, avg3: 0.00, trr: 34.40, trp: 32.30, tool: 91.54 },
+            { rank: 18, name: 'Qwen3-235B', org: 'Alibaba', type: 'non-thinking', ic: 17.70, avg3: 0.00, trr: 50.70, trp: 58.40, tool: 79.23 },
+            { rank: 19, name: 'Tongyi-DeepResearch', org: 'Alibaba', type: 'non-thinking', ic: 15.50, avg3: 0.00, trr: 36.50, trp: 20.30, tool: 88.20 },
+            { rank: 20, name: 'Qwen3-32B', org: 'Alibaba', type: 'thinking', ic: 5.30, avg3: 0.00, trr: 54.50, trp: 57.30, tool: 67.20 },
+            { rank: 21, name: 'Qwen3-14B', org: 'Alibaba', type: 'thinking', ic: 5.15, avg3: 0.00, trr: 52.90, trp: 60.70, tool: 22.17 },
+            { rank: 22, name: 'MiroThinker', org: 'Miro', type: 'non-thinking', ic: 3.85, avg3: 0.00, trr: 26.65, trp: 29.05, tool: 87.60 },
+            { rank: 23, name: 'Qwen3-32B', org: 'Alibaba', type: 'non-thinking', ic: 3.50, avg3: 0.00, trr: 46.90, trp: 59.30, tool: 69.28 },
+            { rank: 24, name: 'Qwen3-14B', org: 'Alibaba', type: 'non-thinking', ic: 3.30, avg3: 0.00, trr: 44.35, trp: 56.60, tool: 80.50 },
+            { rank: 25, name: 'Qwen3-8B', org: 'Alibaba', type: 'non-thinking', ic: 2.80, avg3: 0.00, trr: 51.00, trp: 53.00, tool: 80.80 },
+            { rank: 26, name: 'Qwen3-8B', org: 'Alibaba', type: 'thinking', ic: 2.75, avg3: 0.00, trr: 48.80, trp: 55.50, tool: 38.38 }
         ];
 
         // ==================== 语言切换 ====================
@@ -1502,7 +1624,7 @@
                         currentLang === 'zh' ? '工具调用成功率' : 'Tool Success',
                         currentLang === 'zh' ? '信息覆盖率' : 'Info Coverage',
                         currentLang === 'zh' ? '表格召回率' : 'Table Recall',
-                        currentLang === 'zh' ? '解决方案质量 (×10)' : 'Solution Quality (×10)'
+                        currentLang === 'zh' ? '任务通过率 (×10)' : 'Task Pass Rate (×10)'
                     ],
                     datasets: datasets
                 },
@@ -1678,12 +1800,55 @@
             }
         }
 
-        // 表单提交
+        // 表单提交 - 使用 EmailJS 发送邮件
         document.getElementById('submitForm').addEventListener('submit', function(e) {
             e.preventDefault();
-            alert(currentLang === 'zh' ? '感谢您的提交！我们会尽快进行测试。' : 'Thank you for your submission! We will test soon.');
-            closeSubmitModal();
-            this.reset();
+            
+            const formData = new FormData(this);
+            const submitType = formData.get('submit_type');
+            
+            // 准备邮件模板参数
+            const templateParams = {
+                to_email: 'huangjingwang470@gmail.com',
+                model_name: formData.get('model_name'),
+                submit_type: submitType === 'api' ? 'API模型' : '开源模型',
+                email: formData.get('email'),
+                organization: formData.get('organization') || '未填写',
+                submit_time: new Date().toLocaleString('zh-CN'),
+                user_agent: navigator.userAgent
+            };
+            
+            // 根据提交类型添加不同字段
+            if (submitType === 'api') {
+                templateParams.api_details = `
+Base URL: ${formData.get('base_url') || '未填写'}
+Model ID: ${formData.get('model_id') || '未填写'}
+API Key: ${formData.get('api_key') ? '已提供' : '未填写'}
+                `.trim();
+                templateParams.opensource_details = 'N/A';
+            } else {
+                templateParams.api_details = 'N/A';
+                templateParams.opensource_details = `
+模型地址: ${formData.get('model_url') || '未填写'}
+模型描述: ${formData.get('model_desc') || '未填写'}
+                `.trim();
+            }
+            
+            // 发送邮件
+            emailjs.send('service_g87e4lv', 'template_wgha441', templateParams)
+                .then(function(response) {
+                    console.log('邮件发送成功:', response);
+                    alert(currentLang === 'zh' ? 
+                        '提交成功！我们会尽快进行测试。' : 
+                        'Submission successful! We will test soon.');
+                    closeSubmitModal();
+                    document.getElementById('submitForm').reset();
+                }, function(error) {
+                    console.error('邮件发送失败:', error);
+                    alert(currentLang === 'zh' ? 
+                        '提交失败，请稍后重试或直接联系管理员。' : 
+                        'Submission failed, please try again later or contact admin.');
+                });
         });
 
         // 点击弹窗外部关闭
