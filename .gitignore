@@ -218,3 +218,4 @@ config/api_key.json
 dataset/通用/
 dataset/项目/
 *.log
+index_ori.html
