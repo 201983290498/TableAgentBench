@@ -481,12 +481,12 @@
         
         <div class="grid md:grid-cols-2 gap-8">
             <!-- 雷达图 -->
-            <div class="bg-white rounded-2xl p-6 border border-slate-200 soft-shadow">
+            <div class="bg-white rounded-2xl p-6 border border-slate-200 soft-shadow flex flex-col">
                 <h3 class="text-lg font-semibold mb-4 flex items-center gap-2 text-slate-800">
                     <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
                     <span data-i18n="capabilities.chartTitle">顶级模型能力对比</span>
                 </h3>
-                <div class="relative" style="height: 350px;">
+                <div class="relative flex-1 flex items-center justify-center" style="height: 400px;">
                     <canvas id="radarChart"></canvas>
                 </div>
             </div>
@@ -1609,7 +1609,7 @@
             
             // 为Avg@3创建归一化数据（放大显示）
             const datasets = top10Models.map((model, index) => ({
-                label: `${index + 1}. ${model.name}`,
+                label: model.name,
                 data: [
                     model.data[0], // Tool Success (0-100)
                     model.data[1], // IC (0-100)
