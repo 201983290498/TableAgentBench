@@ -824,6 +824,23 @@
                 </div>
             </div>
         </div>
+
+        <!-- CTA Section -->
+        <div class="mt-8 bg-gradient-to-br from-blue-50/50 to-indigo-50/50 rounded-2xl p-8 border border-blue-100 soft-shadow">
+            <div class="text-center">
+                <h3 class="font-display text-2xl font-bold mb-3 text-slate-800" data-i18n="cta.title">准备好测试你的模型了吗？</h3>
+                <p class="text-slate-500 mb-6 max-w-xl mx-auto" data-i18n="cta.subtitle">提交你的模型，我们将在测试完成后将结果加入排行榜</p>
+                <div class="flex flex-col sm:flex-row gap-3 justify-center">
+                    <button onclick="openSubmitModal()" class="px-6 py-2.5 btn-primary rounded-full font-semibold shadow-md text-sm" data-i18n="cta.button1">
+                        提交模型
+                    </button>
+                    <a href="https://github.com/201983290498/TableAgentBench/raw/main/dataset/samples.json" download class="px-6 py-2.5 border border-slate-300 hover:border-blue-400 hover:text-blue-600 rounded-full font-semibold text-slate-600 transition-all bg-white inline-flex items-center justify-center gap-2 text-sm">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                        <span data-i18n="cta.button2">下载样本数据</span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- 错误分析区域 -->
@@ -946,26 +963,6 @@
 
     </section>
 
-    <!-- CTA Section -->
-    <section class="py-20 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto text-center relative z-10">
-        <div class="bg-white rounded-3xl p-12 border border-slate-200 relative overflow-hidden soft-shadow">
-            <div class="absolute inset-0 bg-gradient-to-br from-blue-50/50 to-indigo-50/50"></div>
-            <div class="relative z-10">
-                <h2 class="font-display text-3xl md:text-4xl font-bold mb-4 text-slate-800" data-i18n="cta.title">准备好测试你的模型了吗？</h2>
-                <p class="text-slate-500 mb-8 max-w-xl mx-auto" data-i18n="cta.subtitle">提交你的模型，我们将在测试完成后将结果加入排行榜</p>
-                <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <button onclick="openSubmitModal()" class="px-8 py-3 btn-primary rounded-full font-semibold shadow-lg" data-i18n="cta.button1">
-                        提交模型
-                    </button>
-                    <a href="https://github.com/201983290498/TableAgentBench/raw/main/dataset/samples.json" download class="px-8 py-3 border border-slate-300 hover:border-blue-400 hover:text-blue-600 rounded-full font-semibold text-slate-600 transition-all bg-white inline-flex items-center justify-center gap-2">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-                        <span data-i18n="cta.button2">下载样本数据</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Footer -->
     <footer class="border-t border-slate-200 py-12 px-4 sm:px-6 lg:px-8 mt-20 bg-white">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
@@ -999,10 +996,10 @@
                 <div class="bg-blue-50 border border-blue-200 rounded-xl p-4 mb-6">
                     <h4 class="font-semibold text-blue-800 mb-2 text-sm" data-i18n="modal.instructions">提交说明</h4>
                     <ul class="text-sm text-blue-700 space-y-1">
-                        <li>• <strong>API模型</strong>：请提供base_url、api_key和model_id</li>
-                        <li>• <strong>开源模型</strong>：请提供模型开源地址（HuggingFace/GitHub）</li>
-                        <li>• 测试完成后，我们会将结果更新到排行榜</li>
-                        <li>• 每个模型将进行3次重复测试取平均值</li>
+                        <li>• <strong data-i18n="modal.apiModel">API模型</strong>：<span data-i18n="modal.instruction1">请提供base_url、api_key和model_id</span></li>
+                        <li>• <strong data-i18n="modal.openSourceModel">开源模型</strong>：<span data-i18n="modal.instruction2">请提供模型开源地址（HuggingFace/GitHub）</span></li>
+                        <li data-i18n="modal.instruction3">• 测试完成后，我们会将结果更新到排行榜</li>
+                        <li data-i18n="modal.instruction4">• 每个模型将进行3次重复测试取平均值</li>
                     </ul>
                 </div>
 
@@ -1189,7 +1186,7 @@
                 'difficulty.complex': '复杂多表推理',
                 'stats.avgTurns': '平均对话轮数',
                 'stats.avgTables': '平均每文件夹表格数',
-                'stats.questionTypes.title': '问题类型',
+                'stats.questionTypes.title': '十大典型问题类型',
                 'stats.tools.title': '11专业分析工具 · 3大类别 · 平均30+次调用',
                 'tools.retrieval.title': '表格检索工具',
                 'tools.processing.title': '表格处理工具',
@@ -1249,6 +1246,12 @@
                 'footer.license': '许可协议',
                 'modal.title': '提交模型',
                 'modal.instructions': '提交说明',
+                'modal.apiModel': 'API模型',
+                'modal.openSourceModel': '开源模型',
+                'modal.instruction1': '请提供base_url、api_key和model_id',
+                'modal.instruction2': '请提供模型开源地址（HuggingFace/GitHub）',
+                'modal.instruction3': '• 测试完成后，我们会将结果更新到排行榜',
+                'modal.instruction4': '• 每个模型将进行3次重复测试取平均值',
                 'form.modelName': '模型名称',
                 'form.submitType': '提交类型',
                 'form.api': 'API 模型',
@@ -1399,6 +1402,12 @@
                 'footer.license': 'License',
                 'modal.title': 'Submit Model',
                 'modal.instructions': 'Submission Instructions',
+                'modal.apiModel': 'API Model',
+                'modal.openSourceModel': 'Open Source Model',
+                'modal.instruction1': 'Please provide base_url, api_key and model_id',
+                'modal.instruction2': 'Please provide model URL (HuggingFace/GitHub)',
+                'modal.instruction3': '• After testing, we will update the results to the leaderboard',
+                'modal.instruction4': '• Each model will be tested 3 times and averaged',
                 'form.modelName': 'Model Name',
                 'form.submitType': 'Submission Type',
                 'form.api': 'API Model',
@@ -1464,7 +1473,7 @@
             // 更新所有带有 data-i18n 属性的元素
             document.querySelectorAll('[data-i18n]').forEach(element => {
                 const key = element.getAttribute('data-i18n');
-                if (i18n[lang][key]) {
+                if (i18n[lang] && i18n[lang][key]) {
                     element.classList.add('lang-fade');
                     element.textContent = i18n[lang][key];
                     setTimeout(() => element.classList.remove('lang-fade'), 300);
