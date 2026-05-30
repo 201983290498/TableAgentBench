@@ -1459,8 +1459,6 @@
 
         // ==================== 语言切换 ====================
         function switchLanguage(lang) {
-            if (lang === currentLang) return;
-            
             currentLang = lang;
             localStorage.setItem('tabagent-lang', lang);
             
