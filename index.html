@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -270,8 +270,8 @@
                     
                     <!-- 语言切换器 -->
                     <div class="flex items-center gap-1 ml-4 pl-4 border-l border-slate-200">
-                        <button onclick="switchLanguage('zh')" id="btn-zh" class="lang-btn active">中</button>
-                        <button onclick="switchLanguage('en')" id="btn-en" class="lang-btn">EN</button>
+                        <button onclick="switchLanguage('zh')" id="btn-zh" class="lang-btn">中</button>
+                        <button onclick="switchLanguage('en')" id="btn-en" class="lang-btn active">EN</button>
                     </div>
                     
                     <button onclick="openSubmitModal()" class="px-5 py-2 btn-primary rounded-full text-sm font-semibold shadow-md" data-i18n="nav.submit">
@@ -1421,7 +1421,7 @@
         };
 
         // ==================== 全局状态 ====================
-        let currentLang = localStorage.getItem('tabagent-lang') || 'zh';
+        let currentLang = localStorage.getItem('tabagent-lang') || 'en';
         let radarChart = null;
         let topologyChart = null;
         let currentFilter = 'all';

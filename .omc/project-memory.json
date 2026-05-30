@@ -1,0 +1,108 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1780136234605,
+  "projectRoot": "/Users/zhanglingling/Desktop/coding/TableAgentBench",
+  "techStack": {
+    "languages": [
+      {
+        "name": "Python",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "requirements.txt"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "pip",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "src"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "config": {
+      "path": "config",
+      "purpose": "Configuration files",
+      "fileCount": 1,
+      "lastAccessed": 1780136234592,
+      "keyFiles": []
+    },
+    "dataset": {
+      "path": "dataset",
+      "purpose": null,
+      "fileCount": 4,
+      "lastAccessed": 1780136234592,
+      "keyFiles": [
+        "README.md",
+        "README_zh.md",
+        "samples.json",
+        "val.json"
+      ]
+    },
+    "images": {
+      "path": "images",
+      "purpose": null,
+      "fileCount": 9,
+      "lastAccessed": 1780136234593,
+      "keyFiles": [
+        "ICML_table_agent.pdf",
+        "case_study_page1.png",
+        "context_analysis_final.png",
+        "error_analysis1_page1.png",
+        "error_analysis2_page1.png"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 1,
+      "lastAccessed": 1780136234593,
+      "keyFiles": [
+        "__init__.py"
+      ]
+    },
+    "src/utils": {
+      "path": "src/utils",
+      "purpose": "Utility functions",
+      "fileCount": 8,
+      "lastAccessed": 1780136234594,
+      "keyFiles": [
+        "__init__.py",
+        "chat_api.py",
+        "claude_client.py"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "index.html",
+      "accessCount": 4,
+      "lastAccessed": 1780136419252,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
